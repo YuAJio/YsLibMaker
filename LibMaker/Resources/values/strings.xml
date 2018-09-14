@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LibMaker</string>
+    <string name="action_settings">Settings</string>
+  <string name="bttext_Next">下一位</string>
+</resources>
