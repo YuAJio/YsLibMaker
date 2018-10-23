@@ -53,6 +53,7 @@ namespace Ys.BeLazy
                 this.SetContentView(A_GetContentViewId());
 
             B_BeforeInitView();
+            G_SomethingElse();
             C_InitView();
             D_BindEvent();
             E_InitData();
@@ -97,6 +98,7 @@ namespace Ys.BeLazy
         /// <param name="v"></param>
         /// <param name="e"></param>
         public abstract void F_OnClickListener(View v, EventArgs e);
+        public abstract void G_SomethingElse();
         #endregion
 
         #region 封装方法
@@ -276,14 +278,9 @@ namespace Ys.BeLazy
         /// </summary>
         protected void HideTheSoftKeybow(EditText et = null)
         {
-            var inputMethodManager = (InputMethodManager)this.GetSystemService(InputMethodService);
-            if (et != null)
-            {
-                if (inputMethodManager.InvokeIsActive(et))
-                    inputMethodManager.ToggleSoftInput(0, HideSoftInputFlags.NotAlways);
-            }
-            else
-                inputMethodManager.ToggleSoftInput(0, HideSoftInputFlags.NotAlways);
+            var inputMethodManager = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
+            if (inputMethodManager.IsActive)
+                inputMethodManager.HideSoftInputFromWindow(et.WindowToken, 0);
         }
         #endregion
 

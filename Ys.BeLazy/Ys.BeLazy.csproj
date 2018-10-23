@@ -39,7 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="IMAS_YsDialog">
-      <HintPath>..\..\CODE\Z_第三方DLL\IMAS_YsDialog.dll</HintPath>
+      <HintPath>..\..\..\CODE\Z_第三方DLL\IMAS_YsDialog.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Mono.Android" />
@@ -76,6 +76,7 @@
   <ItemGroup>
     <AndroidResource Include="Resources\anim\slide_in_right.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
