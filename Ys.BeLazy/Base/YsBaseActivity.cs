@@ -45,19 +45,15 @@ namespace Ys.BeLazy
             OverridePendingTransition(activityCloseEnterAnimation, activityCloseExitAnimaiton);
             #endregion
 
-            InitYsDialog();
-
             if (A_GetContentViewId() <= 0)
                 this.SetContentView(new LinearLayout(this));
             else
                 this.SetContentView(A_GetContentViewId());
 
             B_BeforeInitView();
-            G_SomethingElse();
             C_InitView();
             D_BindEvent();
             E_InitData();
-
         }
 
         #region 初始化相关
@@ -98,7 +94,6 @@ namespace Ys.BeLazy
         /// <param name="v"></param>
         /// <param name="e"></param>
         public abstract void F_OnClickListener(View v, EventArgs e);
-        public abstract void G_SomethingElse();
         #endregion
 
         #region 封装方法
@@ -145,6 +140,7 @@ namespace Ys.BeLazy
         /// <param name="cancelText">取消文字</param>
         protected void ShowIOSAndroidPromptBos(string title, string msg, Action onSureClick, Action onCancelClick, string sureText = "确定", string cancelText = "取消")
         {
+
             YsDialogManager.BuildIosAlert(title, msg, new YsMyDialogListener(onSureClick, onCancelClick)).SetBtnText(sureText, cancelText).Show();
         }
 
@@ -157,14 +153,20 @@ namespace Ys.BeLazy
         /// <param name="msg">等待信息</param>
         /// <param name="isCanCancel">是否可取消</param>
         /// <param name="isOutSideTouch">是否可外部点击取消</param>
-        protected void ShowWaitDialog_Samll(string msg, bool isCanCancel = false, bool isOutSideTouch = false)
+        protected void ShowWaitDialog_Samll(string msg, bool isCanCancel = false, bool isOutSideTouch = false, bool isretry = true)
         {
             try
             {
                 ysDialogHost = YsDialogManager.BuildLoading(msg).SetCancelable(isCanCancel, isOutSideTouch).Show();
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                if (isretry)
+                {
+                    InitYsDialog();
+                    ShowWaitDialog_Samll(msg, isCanCancel, isOutSideTouch, isretry: false);
+                }
+
             }
         }
 
@@ -197,9 +199,17 @@ namespace Ys.BeLazy
         /// <param name="onItemSelectAct"></param>
         protected void ShowIOSSingleSelectDialog(List<string> strings, Action<string, int> onItemSelectAct)
         {
-            var jk = YsDialogManager.BuildIosSingleChoose(strings, new YsMyItemDialogListener(onItemSelectAct));
-            jk.ItemTxtSize = 48;
-            jk.Show();
+            try
+            {
+                var jk = YsDialogManager.BuildIosSingleChoose(strings, new YsMyItemDialogListener(onItemSelectAct));
+                jk.ItemTxtSize = 48;
+                jk.Show();
+            }
+            catch (Exception e)
+            {
+                ShowIOSSingleSelectDialog(strings, onItemSelectAct);
+            }
+
         }
 
         #endregion
@@ -314,6 +324,14 @@ namespace Ys.BeLazy
 
         #endregion
 
+        #endregion
+
+        #region 生命周期
+        protected override void OnResume()
+        {
+            base.OnResume();
+            InitYsDialog();
+        }
         #endregion
     }
 }

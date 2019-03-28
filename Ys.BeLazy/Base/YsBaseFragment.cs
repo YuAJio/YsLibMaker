@@ -62,7 +62,7 @@ namespace Ys.BeLazy
         /// </summary>
         /// <param name="view"></param>
         /// <returns></returns>
-        public abstract int B_BeforeInitFragmentView();
+        public abstract void B_BeforeInitFragmentView();
         /// <summary>
         /// 初始化布局
         /// </summary>
@@ -90,6 +90,18 @@ namespace Ys.BeLazy
             var v = sender as View;
             E_SetOnFragmentClick(v, e);
         }
+
+        #region 工具方法
+        /// <summary>
+        /// 省去view.FInd....懒惰才是最好的! 吊·不懒惰!
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="id"></param>
+        protected T FindViewById<T>(int id) where T : View
+        {
+            return rootView?.FindViewById<T>(id);
+        }
+        #endregion
 
         #region 弹出框相关
         /// <summary>
