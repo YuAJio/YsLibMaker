@@ -14,7 +14,7 @@ namespace Ys.QuartzStuff
             schedudler.Start();
         }
 
-        public void AddJob<T>(int second) where T : QS_JobBase
+        public void AddJob<T>(int second, int repeatCount = -1) where T : QS_JobBase
         {
             var jk = Activator.CreateInstance<T>();
             IDictionary<string, object> jdData = new Dictionary<string, object>
@@ -22,11 +22,17 @@ namespace Ys.QuartzStuff
                 { "name", jk }
             };
             var job1 = JobBuilder.Create<QS_JobInstance>().SetJobData(new JobDataMap(jdData)).Build();
-            var trigger1 = TriggerBuilder.Create()
-                .StartNow()
-                .WithSimpleSchedule(x => x.WithIntervalInSeconds(second).RepeatForever()).Build();
 
-            schedudler.ScheduleJob(job1, trigger1);
+            var trigger = TriggerBuilder.Create().StartNow();
+
+            if (repeatCount > 0)
+                trigger.WithSimpleSchedule(x => x.WithIntervalInSeconds(second).WithRepeatCount(repeatCount));
+            else
+                trigger.WithSimpleSchedule(x => x.WithIntervalInSeconds(second).RepeatForever());
+
+            var deveilTrigger = trigger.Build();
+
+            schedudler.ScheduleJob(job1, deveilTrigger);
 
         }
 
