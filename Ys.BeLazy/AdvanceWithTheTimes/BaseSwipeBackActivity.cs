@@ -15,7 +15,7 @@ using Android.Widget;
 
 namespace Ys.BeLazy.AdvanceWithTheTimes
 {
-    public abstract class BaseSwipeBackActivity : AppCompatActivity, SlidingPaneLayout.IPanelSlideListener
+    public abstract class BaseSwipeBackActivity : YsBaseActivity, SlidingPaneLayout.IPanelSlideListener
     {
         public static string TAG = Java.Lang.Class.FromType(typeof(BaseSwipeBackActivity)).CanonicalName;
 
@@ -25,6 +25,8 @@ namespace Ys.BeLazy.AdvanceWithTheTimes
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            base.OnCreate(savedInstanceState);
+
             #region 滑动关闭准备工作
             //通过反射来改变SlidingPaneLayout的值
             try
@@ -44,7 +46,6 @@ namespace Ys.BeLazy.AdvanceWithTheTimes
                 Console.WriteLine("反射设置SlidingPaneLayout的值时出错 具体错误为:" + e.ToString());
 #endif
             }
-            base.OnCreate(savedInstanceState);
 
             //加入两个View,这是左侧菜单.由于Activity是透明的.这里就不用设置了
             mSlidingPaneLayout.AddView(new View(this)

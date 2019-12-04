@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.BeLazy", "Ys.BeLazy\Ys.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.Dialog", "Ys.Dialog\Ys.Dialog.csproj", "{8923CD0A-B050-4299-B2E8-E4C7066EA5FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys_QuartzStuff", "Ys_QuartzStuff\Ys_QuartzStuff.csproj", "{70D6A3F3-1273-4F30-9F46-88C62F1A0E77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ys_QuartzStuff", "Ys_QuartzStuff\Ys_QuartzStuff.csproj", "{70D6A3F3-1273-4F30-9F46-88C62F1A0E77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

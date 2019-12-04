@@ -39,7 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="IMAS_YsDialog">
-      <HintPath>..\..\..\CODE\Z_第三方DLL\IMAS_YsDialog.dll</HintPath>
+      <HintPath>..\..\..\CODE\Z_Third_DLL_File\IMAS_YsDialog.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Mono.Android" />
