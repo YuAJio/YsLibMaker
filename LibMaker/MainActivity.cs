@@ -16,18 +16,38 @@ namespace LibMaker
     [Activity(Label = "@string/app_name", Theme = "@style/JK.SwipeBack.Transparent.Theme", MainLauncher = true)]
     public class MainActivity : BaseSwipeBackActivity
     {
-        protected override void OnCreate(Bundle savedInstanceState)
+        public override int A_GetContentViewId()
         {
-            base.OnCreate(savedInstanceState);
+            return Resource.Layout.activity_main;
+        }
 
-            this.SetContentView(Resource.Layout.activity_main);
+        public override void B_BeforeInitView()
+        {
+          
+        }
 
+        public override void C_InitView()
+        {
             var bt = FindViewById<Button>(Resource.Id.bt_next);
-
             bt.Click += delegate
             {
                 bt.Text = GetSystemVersion();
             };
+        }
+
+        public override void D_BindEvent()
+        {
+          
+        }
+
+        public override void E_InitData()
+        {
+          
+        }
+
+        public override void F_OnClickListener(View v, EventArgs e)
+        {
+          
         }
 
         private string GetSystemVersion()

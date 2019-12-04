@@ -25,8 +25,6 @@ namespace Ys.BeLazy.AdvanceWithTheTimes
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState);
-
             #region 滑动关闭准备工作
             //通过反射来改变SlidingPaneLayout的值
             try
@@ -65,6 +63,7 @@ namespace Ys.BeLazy.AdvanceWithTheTimes
             mSlidingPaneLayout.AddView(mContainerFl, 1);
             #endregion
 
+            base.OnCreate(savedInstanceState);
         }
 
         #region 重写设置页面布局逻辑
