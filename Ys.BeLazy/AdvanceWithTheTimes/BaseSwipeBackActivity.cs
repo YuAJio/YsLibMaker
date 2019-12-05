@@ -12,6 +12,7 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using Ys.BeLazy.Views;
 
 namespace Ys.BeLazy.AdvanceWithTheTimes
 {
@@ -22,14 +23,16 @@ namespace Ys.BeLazy.AdvanceWithTheTimes
         SlidingPaneLayout mSlidingPaneLayout;
         FrameLayout mContainerFl;
 
+        protected bool IsAllowSlidClose { private get; set; } = true;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+
             #region 滑动关闭准备工作
             //通过反射来改变SlidingPaneLayout的值
             try
             {
-                mSlidingPaneLayout = new SlidingPaneLayout(this);
+                mSlidingPaneLayout = new Ys_SlidingPaneLayout(this) { IsSlideEnable = IsAllowSlidClose };
                 //mOverhangSize属性,意思就是做菜单离右边屏幕边缘的距离;
                 var f_overHang = Java.Lang.Class.FromType(typeof(SlidingPaneLayout)).GetDeclaredField("mOverhangSize");
                 f_overHang.Accessible = true;

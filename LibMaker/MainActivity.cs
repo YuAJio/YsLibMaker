@@ -16,6 +16,12 @@ namespace LibMaker
     [Activity(Label = "@string/app_name", Theme = "@style/JK.SwipeBack.Transparent.Theme", MainLauncher = true)]
     public class MainActivity : BaseSwipeBackActivity
     {
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            this.IsAllowSlidClose = true;
+            base.OnCreate(savedInstanceState);
+        }
+
         public override int A_GetContentViewId()
         {
             return Resource.Layout.activity_main;
@@ -23,7 +29,7 @@ namespace LibMaker
 
         public override void B_BeforeInitView()
         {
-          
+
         }
 
         public override void C_InitView()
@@ -37,17 +43,17 @@ namespace LibMaker
 
         public override void D_BindEvent()
         {
-          
+
         }
 
         public override void E_InitData()
         {
-          
+
         }
 
         public override void F_OnClickListener(View v, EventArgs e)
         {
-          
+
         }
 
         private string GetSystemVersion()

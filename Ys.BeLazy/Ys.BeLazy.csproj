@@ -58,6 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Base\YsBaseActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Views\Ys_SlidingPaneLayout .cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Karamunting.Android.Liaoinstan.SpringView">
