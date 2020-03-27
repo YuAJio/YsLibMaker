@@ -283,15 +283,56 @@ namespace Ys.BeLazy
         #endregion
 
         #region 隐藏软键盘
-        /// <summary>
-        /// 隐藏软键盘
-        /// </summary>
-        protected void HideTheSoftKeybow(EditText et = null)
+
+        private bool IsShouldHideKeyBoard(View v, MotionEvent ev)
         {
-            var inputMethodManager = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
-            if (inputMethodManager.IsActive)
-                inputMethodManager.HideSoftInputFromWindow(et.WindowToken, 0);
+            if (v != null && v is EditText)
+            {
+                int[] l = { 0, 0 };
+                v.GetLocationInWindow(l);
+                var left = l[0];
+                var top = l[1];
+                var bottom = top + v.Height;
+                var right = left + v.Width;
+                if (ev.GetX() > left && ev.GetX() < right && ev.GetY() > top && ev.GetY() < bottom)
+                    return false;
+                else
+                    return true;
+            }
+            return false;
         }
+
+        private void HideKeyBorad(IBinder token)
+        {
+            if (token != null)
+            {
+                var inputMethodManager = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
+                inputMethodManager.HideSoftInputFromWindow(token, HideSoftInputFlags.NotAlways);
+            }
+        }
+
+        public override bool DispatchTouchEvent(MotionEvent ev)
+        {
+            if (ev.Action == MotionEventActions.Down)
+            {
+                var v = CurrentFocus;
+                if (IsShouldHideKeyBoard(v, ev))
+                    this.HideKeyBorad(v.WindowToken);
+            }
+
+            return base.DispatchTouchEvent(ev);
+        }
+        ///// <summary>
+        ///// 隐藏软键盘
+        ///// </summary>
+        //protected void HideTheSoftKeybow(EditText et = null)
+        //{
+        //    var inputMethodManager = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
+        //    if (inputMethodManager != null)
+        //        if (inputMethodManager.IsActive)
+        //            inputMethodManager.HideSoftInputFromWindow(et.WindowToken, 0);
+
+        //}
         #endregion
 
         #region 权限相关

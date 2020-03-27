@@ -109,7 +109,7 @@ namespace Ys.BeLazy
         /// <param name="onCancelClick">取消事件</param>
         /// <param name="sureText">确定文字</param>
         /// <param name="cancelText">取消文字</param>
-        protected void ShowAndroidPromptBox(string title, string msg, Action onSureClick, Action onCancelClick, string sureText = "确定", string cancelText = "取消")
+        public void ShowAndroidPromptBox(string title, string msg, Action onSureClick, Action onCancelClick, string sureText = "确定", string cancelText = "取消")
         {
             YsDialogManager.BuildMdAlert(title, msg, new YsMyDialogListener(onSureClick, onCancelClick)).SetBtnText(sureText, cancelText).Show();
         }
@@ -123,7 +123,7 @@ namespace Ys.BeLazy
         /// <param name="onCancelClick">取消事件</param>
         /// <param name="sureText">确定文字</param>
         /// <param name="cancelText">取消文字</param>
-        protected void ShowIOSAndroidPromptBos(string title, string msg, Action onSureClick, Action onCancelClick, string sureText = "确定", string cancelText = "取消")
+        public void ShowIOSAndroidPromptBos(string title, string msg, Action onSureClick, Action onCancelClick, string sureText = "确定", string cancelText = "取消")
         {
             YsDialogManager.BuildIosAlert(title, msg, new YsMyDialogListener(onSureClick, onCancelClick)).SetBtnText(sureText, cancelText).Show();
         }
@@ -137,7 +137,7 @@ namespace Ys.BeLazy
         /// <param name="msg">等待信息</param>
         /// <param name="isCanCancel">是否可取消</param>
         /// <param name="isOutSideTouch">是否可外部点击取消</param>
-        protected void ShowWaitDialog_Samll(string msg, bool isCanCancel = false, bool isOutSideTouch = false)
+        public void ShowWaitDialog_Samll(string msg, bool isCanCancel = false, bool isOutSideTouch = false)
         {
             ysDialogHost = YsDialogManager.BuildLoading(msg).SetCancelable(isCanCancel, isOutSideTouch).Show();
         }
@@ -149,14 +149,14 @@ namespace Ys.BeLazy
         /// <param name="colorRes">提示字体颜色资源</param>
         /// <param name="isCanCancel">是否可取消</param>
         /// <param name="isOutSideTouch">是否可外部点击取消</param>
-        protected void ShowWaitDialog_Normal(string msg, int colorRes = -1, bool isCanCancel = false, bool isOutSideTouch = false)
+        public void ShowWaitDialog_Normal(string msg, int colorRes = -1, bool isCanCancel = false, bool isOutSideTouch = false)
         {
             if (colorRes > 0)
                 ysDialogHost = YsDialogManager.BuildMdLoading(msg).SetCancelable(isCanCancel, isOutSideTouch).SetMsgColor(colorRes).Show();
             else
                 ysDialogHost = YsDialogManager.BuildMdLoading(msg).SetCancelable(isCanCancel, isOutSideTouch).Show();
         }
-        protected void HideWaitDiaLog()
+        public void HideWaitDiaLog()
         {
             YsDialogManager.Dismiss(ysDialogHost);
         }
