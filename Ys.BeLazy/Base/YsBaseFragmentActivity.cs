@@ -231,20 +231,45 @@ namespace Ys.BeLazy
         #endregion
 
         #region 隐藏软键盘
-        /// <summary>
-        /// 隐藏软键盘
-        /// </summary>
-        protected void HideTheSoftKeybow(EditText et = null)
+        private bool IsShouldHideKeyBoard(View v, MotionEvent ev)
         {
-            var inputMethodManager = (InputMethodManager)this.GetSystemService(InputMethodService);
-            if (et != null)
+            if (v != null && v is EditText)
             {
-                if (inputMethodManager.InvokeIsActive(et))
-                    inputMethodManager.ToggleSoftInput(0, HideSoftInputFlags.NotAlways);
+                int[] l = { 0, 0 };
+                v.GetLocationInWindow(l);
+                var left = l[0];
+                var top = l[1];
+                var bottom = top + v.Height;
+                var right = left + v.Width;
+                if (ev.GetX() > left && ev.GetX() < right && ev.GetY() > top && ev.GetY() < bottom)
+                    return false;
+                else
+                    return true;
             }
-            else
-                inputMethodManager.ToggleSoftInput(0, HideSoftInputFlags.NotAlways);
+            return false;
         }
+
+        private void HideKeyBorad(IBinder token)
+        {
+            if (token != null)
+            {
+                var inputMethodManager = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
+                inputMethodManager.HideSoftInputFromWindow(token, HideSoftInputFlags.NotAlways);
+            }
+        }
+
+        public override bool DispatchTouchEvent(MotionEvent ev)
+        {
+            if (ev.Action == MotionEventActions.Down)
+            {
+                var v = CurrentFocus;
+                if (IsShouldHideKeyBoard(v, ev))
+                    this.HideKeyBorad(v.WindowToken);
+            }
+
+            return base.DispatchTouchEvent(ev);
+        }
+
         #endregion
 
         #region 权限相关

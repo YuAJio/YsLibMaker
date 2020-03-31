@@ -34,6 +34,9 @@ namespace LibMaker
             this.IsAllowSlidClose = true;
             base.OnCreate(savedInstanceState);
 
+            var intent = new Intent(this, typeof(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion));
+            intent.PutExtra(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion.TAG_BROADCASTACTION,UpdateReciver.TAG_BROADCAST_IF);
+            StartService(intent);
         }
 
         public override int A_GetContentViewId()

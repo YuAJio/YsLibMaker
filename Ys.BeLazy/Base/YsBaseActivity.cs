@@ -197,12 +197,14 @@ namespace Ys.BeLazy
         /// <param name="title"></param>
         /// <param name="strings"></param>
         /// <param name="onItemSelectAct"></param>
-        protected void ShowIOSSingleSelectDialog(List<string> strings, Action<string, int> onItemSelectAct)
+        protected void ShowIOSSingleSelectDialog(List<string> strings, Action<string, int> onItemSelectAct, bool isCancelable = false, bool outsideTouchable = false)
         {
             try
             {
                 var jk = YsDialogManager.BuildIosSingleChoose(strings, new YsMyItemDialogListener(onItemSelectAct));
                 jk.ItemTxtSize = 48;
+                jk.Cancelable = isCancelable;
+                jk.OutsideTouchable = outsideTouchable;
                 jk.Show();
             }
             catch (Exception e)
