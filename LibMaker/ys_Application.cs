@@ -5,6 +5,7 @@
 
 //using Android.App;
 //using Android.Content;
+//using Android.Net;
 //using Android.OS;
 //using Android.Runtime;
 //using Android.Views;
@@ -16,7 +17,7 @@
 //namespace LibMaker
 //{
 //    [Application]
-//    public class Ys_Application : Application, IPlatformInitializer
+//    public class Ys_Application : Application
 //    {
 //        public Ys_Application()
 //        {
@@ -26,11 +27,7 @@
 //        {
 //            base.OnCreate();
 
-//        }
+         
 
-//        public void RegisterTypes(IContainerRegistry containerRegistry)
-//        {
-//            containerRegistry.RegisterInstance<IBluetoothService>(new BluetoothService());
-//        }
 //    }
 //}

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="LibMaker.LibMaker" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="19" />
-	<application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="s" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+	<application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="LibMaker" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
 		<service android:name="net.posprinter.service.PosprinterService" />
 	</application>
 	<uses-feature android:name="android.hardware.usb.host" android:required="true" />
@@ -12,6 +12,8 @@
 	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-  <uses-permission android:name="android.permission.BROADCAST_STICKY" />
-  <uses-permission android:name="android.hardware.usb.UsbAccessory" />
+	<uses-permission android:name="android.permission.BROADCAST_STICKY" />
+	<uses-permission android:name="android.hardware.usb.UsbAccessory" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>

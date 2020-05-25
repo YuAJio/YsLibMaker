@@ -14,12 +14,13 @@ namespace LibMaker
 {
     [BroadcastReceiver(Enabled = true)]
     [IntentFilter(new[] { TAG_BROADCAST_IF })]
-    public class UpdateReciver :BroadcastReceiver
+    public class UpdateReciver : BroadcastReceiver
     {
         public const string TAG_BROADCAST_IF = "com.yurishi.belazy.AUAVBC";
         public override void OnReceive(Context context, Intent intent)
         {
-
+            var state = intent.GetStringExtra("state");
+            var result = intent.GetStringExtra("result");
         }
     }
 }

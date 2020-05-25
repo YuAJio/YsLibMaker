@@ -21,6 +21,8 @@ using Android.Runtime;
 using Prism;
 using Prism.Ioc;
 using YS_BTPrint;
+using Android.Net;
+using Plugin.Connectivity;
 
 namespace LibMaker
 {
@@ -34,9 +36,18 @@ namespace LibMaker
             this.IsAllowSlidClose = true;
             base.OnCreate(savedInstanceState);
 
-            var intent = new Intent(this, typeof(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion));
-            intent.PutExtra(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion.TAG_BROADCASTACTION,UpdateReciver.TAG_BROADCAST_IF);
-            StartService(intent);
+            //var intent = new Intent(this, typeof(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion));
+            //intent.PutExtra(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion.TAG_BROADCASTACTION,UpdateReciver.TAG_BROADCAST_IF);
+            //StartService(intent);
+            CrossConnectivity.Current.ConnectivityTypeChanged -= Current_ConnectivityTypeChanged;
+            CrossConnectivity.Current.ConnectivityTypeChanged += Current_ConnectivityTypeChanged;
+        }
+
+        private void Current_ConnectivityTypeChanged(object sender, Plugin.Connectivity.Abstractions.ConnectivityTypeChangedEventArgs e)
+        {
+            var jk = e.IsConnected;
+            var js = e.ConnectionTypes.ToList();
+
         }
 
         public override int A_GetContentViewId()
@@ -89,6 +100,18 @@ namespace LibMaker
         }
 
 
+        private NetWorkStateReceiver netWorkStateReceiver;
+        protected override void OnResume()
+        {
+            //if (netWorkStateReceiver == null)
+            //{
+            //    netWorkStateReceiver = new NetWorkStateReceiver();
+            //}
+            //IntentFilter filter = new IntentFilter();
+            //filter.AddAction(ConnectivityManager.ConnectivityAction);
+            //RegisterReceiver(netWorkStateReceiver, filter);
+            base.OnResume();
+        }
 
         #region 打印控件相关
         //private IMyBinder myBinder;

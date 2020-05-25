@@ -21,6 +21,8 @@ namespace Ys.BeLazy.Services
     {
         public const string TAG_ASSFILENAME = "UpdateAppConfig.json";
         public const string TAG_BROADCASTACTION = "KEY_BCACTION";
+        public const string TAG_BROADCAST_INTENT_ISSUCEESS = "KEY_ISSUCEESS";
+        public const string TAG_BROADCAST_INTENT_MESSAGE = "KEY_MESSAGE";
 
         private const string TAG_BELAZYDIRPATH = "LazyBreezy";
         private const string TAG_BELAZYDOWNLOADDIRPATH = "Download";
@@ -37,33 +39,49 @@ namespace Ys.BeLazy.Services
         [return: GeneratedEnum]
         public override StartCommandResult OnStartCommand(Intent intent, [GeneratedEnum] StartCommandFlags flags, int startId)
         {
+            if (intent == null)
+                return base.OnStartCommand(intent, flags, startId);
             BroadcastAction = intent.GetStringExtra(TAG_BROADCASTACTION);
+            if (string.IsNullOrEmpty(BroadcastAction))
+                return base.OnStartCommand(intent, flags, startId);
+            try
+            {
+                CheckUchengUpdate();
+            }
+            catch (Exception ex)
+            {
 
-            CheckUchengUpdate();
+            }
             return base.OnStartCommand(intent, flags, startId);
         }
 
 
-        private string DownLoadLocalPath = "";
+        private static string DownLoadLocalPath = "";
         private void CheckUchengUpdate()
         {
+            var url = "";
+            var apktype = 0;
             Task.Run(async () =>
             {
                 var requestMd = GetDownloadUrlFromAss();
                 if (requestMd == null)
                     return CK_Result<Md_CheckUpdate>.Error<Md_CheckUpdate>();
 
-                DownLoadLocalPath = GetDownloadPath(); ;
-                var url = $"{requestMd.RequestUrl}?apktype={requestMd.ApkType}";
+                DownLoadLocalPath = GetDownloadPathWithDeleteFile();
+                url = $"{requestMd.RequestUrl}?apktype={requestMd.ApkType}";
                 var parmas = new
                 {
                     apktype = requestMd.ApkType
                 };
+                apktype = parmas.apktype;
                 return await YS_PublicMilf_Lite.Stuff_Http.HttpClientProxy.PostAsync<CK_Result<Md_CheckUpdate>>(url, parmas);
             }).ContinueWith(x =>
             {
                 if (x.Exception != null)
+                {
+                    SendBroadcast(false, $"CheckUpdateException :{x.Exception.Message.ToJson()}");
                     return;
+                }
                 if (x.Result.IsSuccess)
                 {//访问成功
                     var data = x.Result.Data;
@@ -72,8 +90,9 @@ namespace Ys.BeLazy.Services
                     {//如果版本号大于当前版本号
                         StartDownload(data.Url);
                     }
-
                 }
+                else
+                    SendBroadcast(false, $"RequestNewVersionFaliled : \n Url:{url}\n ApkType:{apktype}\n Message:{ x.Result.Message}");
 
             });
         }
@@ -95,6 +114,7 @@ namespace Ys.BeLazy.Services
             {
                 if (x.Exception != null)
                 {
+                    SendBroadcast(false, $"StartDownloadException :{x.Exception.Message.ToJson()}");
                     return;
                 }
 
@@ -112,12 +132,7 @@ namespace Ys.BeLazy.Services
                         {
                             if (File.Exists(DownLoadLocalPath))
                             {
-                                var intent_2 = new Intent();
-                                intent_2.SetAction(BroadcastAction);
-                                intent_2.PutExtra("result", true);
-                                if (Build.VERSION.SdkInt > BuildVersionCodes.OMr1)
-                                    intent_2.SetPackage(PackageName);
-                                SendBroadcast(intent_2);
+                                SendBroadcast(true, "DownloadOk");
                                 StopSelf();
                             }
                         }
@@ -175,7 +190,7 @@ namespace Ys.BeLazy.Services
             return packInfo.VersionCode;
         }
 
-        private string GetDownloadPath()
+        private string GetDownloadPathWithDeleteFile()
         {
             var path = Path.Combine(
                 Android.OS.Environment.ExternalStorageDirectory.AbsolutePath,
@@ -191,6 +206,33 @@ namespace Ys.BeLazy.Services
                 File.Delete(path);
 
             return path;
+        }
+
+        private void SendBroadcast(bool isOk, string result)
+        {
+            var intent_2 = new Intent();
+            intent_2.SetAction(BroadcastAction);
+            intent_2.PutExtra(TAG_BROADCAST_INTENT_ISSUCEESS, isOk);
+            intent_2.PutExtra(TAG_BROADCAST_INTENT_MESSAGE, result);
+            if (Build.VERSION.SdkInt > BuildVersionCodes.OMr1)
+                intent_2.SetPackage(PackageName);
+            SendBroadcast(intent_2);
+        }
+
+        public static string DownloadPath
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(DownLoadLocalPath))
+                    return Path.Combine(
+            Android.OS.Environment.ExternalStorageDirectory.AbsolutePath,
+            TAG_BELAZYDIRPATH,
+            TAG_BELAZYDOWNLOADDIRPATH,
+            TAG_BELAZYDOWNLOADFILENAME
+            );
+                else
+                    return DownLoadLocalPath;
+            }
         }
 
 

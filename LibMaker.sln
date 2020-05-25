@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys_XPrinter", "Ys_XPrinter\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YS_BTPrint", "YS_BTPrint\YS_BTPrint.csproj", "{F5849395-C704-4343-A0FE-C6079031FF63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.WeightingSensor_Modbus", "Ys.WeightingSensor\Ys.WeightingSensor_Modbus.csproj", "{45364025-20BE-44D3-B9D2-CC6B6D164856}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{F5849395-C704-4343-A0FE-C6079031FF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5849395-C704-4343-A0FE-C6079031FF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5849395-C704-4343-A0FE-C6079031FF63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45364025-20BE-44D3-B9D2-CC6B6D164856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45364025-20BE-44D3-B9D2-CC6B6D164856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45364025-20BE-44D3-B9D2-CC6B6D164856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45364025-20BE-44D3-B9D2-CC6B6D164856}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{70D6A3F3-1273-4F30-9F46-88C62F1A0E77} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 		{EE0F4151-A525-4CD0-BEEA-14DA65AF2992} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 		{F5849395-C704-4343-A0FE-C6079031FF63} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
+		{45364025-20BE-44D3-B9D2-CC6B6D164856} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFCE389-1A0D-44B9-A474-62ED1F89531A}
