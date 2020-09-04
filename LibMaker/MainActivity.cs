@@ -36,9 +36,18 @@ namespace LibMaker
             this.IsAllowSlidClose = true;
             base.OnCreate(savedInstanceState);
 
-            var intent = new Intent(this, typeof(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion));
-            //intent.PutExtra(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion.TAG_BROADCASTACTION, UpdateReciver.TAG_BROADCAST_IF);
-            StartService(intent);
+            var ip = "192.168.0.146";
+            var borcaseTag = "1212121";
+
+            //var intent = new Intent(this, typeof(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion));
+            //intent.PutExtra(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion.TAG_BROADCASTACTION, borcaseTag);
+            //intent.PutExtra(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion.TAG_DOWNLOAD_PLANTFORM_URL, ip);
+            //StartService(intent);
+            //var intent = new Intent(this, typeof(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion));
+            ////intent.PutExtra(Ys.BeLazy.Services.Ser_AutoUpdateApplicationVersion.TAG_BROADCASTACTION, UpdateReciver.TAG_BROADCAST_IF);
+            //StartService(intent);
+
+            StartActivity(new Intent(this, typeof(Acty_Camera2Test)));
             CrossConnectivity.Current.ConnectivityTypeChanged -= Current_ConnectivityTypeChanged;
             CrossConnectivity.Current.ConnectivityTypeChanged += Current_ConnectivityTypeChanged;
         }

@@ -62,6 +62,7 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acty_Camera2Test.cs" />
     <Compile Include="BluetoothService.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="NetWorkStateReceiver.cs" />
@@ -124,10 +125,15 @@
       <Name>YS_BTPrint</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\acty_camera2test.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties XamarinHotReloadXFormsNugetUpgradeInfoBarLibMakerHideInfoBar="True" assets_4updateappconfig_1json__JsonSchema="http://json.schemastore.org/appsettings" />
+      <UserProperties assets_4updateappconfig_1json__JsonSchema="http://json.schemastore.org/appsettings" XamarinHotReloadXFormsNugetUpgradeInfoBarLibMakerHideInfoBar="True" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

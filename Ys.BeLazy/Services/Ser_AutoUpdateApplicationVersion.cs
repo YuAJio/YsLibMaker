@@ -9,6 +9,7 @@ using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V4.Content;
+using Newtonsoft.Json.Linq;
 using YS_PublicMilf_Lite.Stuff_CupCake;
 
 namespace Ys.BeLazy.Services
@@ -22,7 +23,7 @@ namespace Ys.BeLazy.Services
         public const string TAG_ASSFILENAME = "UpdateAppConfig.json";
         public const string TAG_BROADCASTACTION = "KEY_BCACTION";
         public const string TAG_DOWNLOAD_LOCAL_FILE_NAME = "KEY_LOCALFILENAME";
-        public const string TAG_DOWNLOAD_PLANT_VERSION_CODE = "KEY_PLANTVERSIONCODE";
+        public const string TAG_DOWNLOAD_PLANTFORM_URL = "KEY_PLANTFORM_URL";
         public const string TAG_BROADCAST_INTENT_ISSUCEESS = "KEY_ISSUCEESS";
         public const string TAG_BROADCAST_INTENT_ENUMSTATE = "KEY_STATE";
         public const string TAG_BROADCAST_INTENT_MESSAGE = "KEY_MESSAGE";
@@ -48,7 +49,7 @@ namespace Ys.BeLazy.Services
         private static string TAG_APPOINTDOWNLOADFILENAME = "";
 
         private string BroadcastAction = "";
-        private int PlatCode = 0;
+        private string PlantformUrl = "";
 
 
         public override IBinder OnBind(Intent intent)
@@ -71,7 +72,7 @@ namespace Ys.BeLazy.Services
                 return base.OnStartCommand(intent, flags, startId);
             }
 
-            PlatCode = intent.GetIntExtra(TAG_DOWNLOAD_PLANT_VERSION_CODE, 0);
+            PlantformUrl = intent.GetStringExtra(TAG_DOWNLOAD_PLANTFORM_URL);
 
             var localFileName = intent.GetStringExtra(TAG_DOWNLOAD_LOCAL_FILE_NAME);
             if (!string.IsNullOrEmpty(localFileName))
@@ -106,11 +107,11 @@ namespace Ys.BeLazy.Services
                     return CK_Result<Md_CheckUpdate>.Error<Md_CheckUpdate>();
 
                 DownLoadLocalPath = GetDownloadPathWithDeleteFile();
-                url = $"{requestMd.RequestUrl}?apktype={requestMd.ApkType}&platformId={PlatCode}";
+                url = $"{requestMd.RequestUrl}?apktype={requestMd.ApkType}&platUrl={PlantformUrl}";
                 var parmas = new
                 {
                     apktype = requestMd.ApkType,
-                    platformId = PlatCode
+                    platUrl = PlantformUrl
                 };
                 apktype = parmas.apktype;
                 return await YS_PublicMilf_Lite.Stuff_Http.HttpClientProxy.PostAsync<CK_Result<Md_CheckUpdate>>(url, parmas);
@@ -133,16 +134,15 @@ namespace Ys.BeLazy.Services
                 }
                 else
                 {
-                    SendBroadcast(false, AutoUpdateResultState.RequestNewVersionFaliled, $"RequestNewVersionFaliled : \n Url:{url}\n ApkType:{apktype}\nPlatCode:{PlatCode}\n Message:{ x.Result.Message}");
+                    SendBroadcast(false, AutoUpdateResultState.RequestNewVersionFaliled, $"RequestNewVersionFaliled : \n Url:{url}\n ApkType:{apktype}\n PlantformUrl:{PlantformUrl}\n Message:{ x.Result.Message}");
                     StopSelf();
                 }
-
-            });
+            }, TaskScheduler.FromCurrentSynchronizationContext());
         }
 
         private void StartDownload(string url)
         {
-            Task.Factory.StartNew(async () =>
+            Task.Run(async () =>
             {
                 var fileInfo = new FileInfo(DownLoadLocalPath);
                 if (!fileInfo.Directory.Exists)
@@ -152,7 +152,8 @@ namespace Ys.BeLazy.Services
                     File.Delete(DownLoadLocalPath);
 
                 var downloader = new YS_PublicMilf_Lite.Stuff_Http.DownloadHelper();
-                return await downloader.DownloadFileForResultAsync(url, DownLoadLocalPath);
+                var result = await downloader.DownloadFileForResultAsync(url, DownLoadLocalPath);
+                return result;
             }).ContinueWith(x =>
             {
                 if (x.Exception != null)
@@ -160,8 +161,7 @@ namespace Ys.BeLazy.Services
                     SendBroadcast(false, AutoUpdateResultState.StartDownloadException, $"StartDownloadException :{x.Exception.Message.ToJson()}");
                     return;
                 }
-
-                switch (x.Result.Result)
+                switch (x.Result)
                 {
                     case YS_PublicMilf_Lite.Stuff_Http.DownloadHelper.DownloadState.DownloadUrlIsNull:
                         {
@@ -226,12 +226,8 @@ namespace Ys.BeLazy.Services
                 {
                     try
                     {
-                        var jk = Newtonsoft.Json.JsonConvert.DeserializeObject<Md_DownloadConfig>(content);
-                        //var jk = new Md_DownloadConfig { ApkType = 1, RequestUrl = "asdasdasfasjjfhasjkfda" }.ToJson();
-                        //var js = jk.ToObject<Md_DownloadConfig>();
-                        //var jss = content.Replace("\r\n", "").Replace(" ", "");
-                        //var obj = jss.ToObject<Md_DownloadConfig>();
-                        //return obj;
+                        var js = content.ToObject<JToken>();
+                        var jk = new Md_DownloadConfig { ApkType = js.Value<int>("ApkType"), RequestUrl = js.Value<string>("RequestUrl") };
                         return jk;
                     }
                     catch (System.Exception ex)

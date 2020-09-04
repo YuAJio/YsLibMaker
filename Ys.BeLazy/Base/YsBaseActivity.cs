@@ -50,6 +50,8 @@ namespace Ys.BeLazy
             else
                 this.SetContentView(A_GetContentViewId());
 
+            InitYsDialog();
+
             B_BeforeInitView();
             C_InitView();
             D_BindEvent();
@@ -324,17 +326,17 @@ namespace Ys.BeLazy
 
             return base.DispatchTouchEvent(ev);
         }
-        ///// <summary>
-        ///// 隐藏软键盘
-        ///// </summary>
-        //protected void HideTheSoftKeybow(EditText et = null)
-        //{
-        //    var inputMethodManager = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
-        //    if (inputMethodManager != null)
-        //        if (inputMethodManager.IsActive)
-        //            inputMethodManager.HideSoftInputFromWindow(et.WindowToken, 0);
+        /// <summary>
+        /// 隐藏软键盘
+        /// </summary>
+        protected void HideTheSoftKeybow(EditText et = null)
+        {
+            var inputMethodManager = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
+            if (inputMethodManager != null)
+                if (inputMethodManager.IsActive)
+                    inputMethodManager.HideSoftInputFromWindow(et.WindowToken, 0);
 
-        //}
+        }
         #endregion
 
         #region 权限相关
@@ -369,12 +371,10 @@ namespace Ys.BeLazy
 
         #endregion
 
-        #region 生命周期
         protected override void OnResume()
         {
             base.OnResume();
             InitYsDialog();
         }
-        #endregion
     }
 }

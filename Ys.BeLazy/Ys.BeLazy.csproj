@@ -63,6 +63,7 @@
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Services\Ser_AutoUpdateApplicationVersion.cs" />
     <Compile Include="Views\Ys_SlidingPaneLayout .cs" />
+    <Compile Include="Views\Ys_WonderRecyclerView.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Karamunting.Android.Liaoinstan.SpringView">

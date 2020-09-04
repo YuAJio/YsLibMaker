@@ -270,23 +270,6 @@ namespace Ys.BeLazy
         }
         #endregion
 
-        #region 隐藏软键盘
-        /// <summary>
-        /// 隐藏软键盘
-        /// </summary>
-        protected void HideTheSoftKeybow(EditText et = null)
-        {
-            var inputMethodManager = (InputMethodManager)YsContext.GetSystemService(Context.InputMethodService);
-            if (et != null)
-            {
-                if (inputMethodManager.InvokeIsActive(et))
-                    inputMethodManager.ToggleSoftInput(0, HideSoftInputFlags.NotAlways);
-            }
-            else
-                inputMethodManager.ToggleSoftInput(0, HideSoftInputFlags.NotAlways);
-        }
-        #endregion
-
         #region 权限相关
         /// <summary>
         /// 用特殊办法检查权限
