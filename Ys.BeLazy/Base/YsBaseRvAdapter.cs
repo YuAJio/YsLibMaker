@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Android.Content;
-using Android.Support.V7.Widget;
 using Android.Views;
+using AndroidX.RecyclerView.Widget;
 
 namespace Ys.BeLazy
 {
@@ -112,12 +112,12 @@ namespace Ys.BeLazy
             onItemClickAct?.Invoke(v, (int)v.Tag);
         }
 
-        /// <summary>
-        /// ItemClick方法获取的数据
-        /// </summary>
-        /// <param name="position"></param>
-        /// <returns></returns>
-        public abstract Model this[int position] { get; }
+        ///// <summary>
+        ///// ItemClick方法获取的数据
+        ///// </summary>
+        ///// <param name="position"></param>
+        ///// <returns></returns>
+        //public abstract Model this[int position] { get; }
 
         /// <summary>
         /// 数据列表

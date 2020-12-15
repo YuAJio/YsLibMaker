@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YS_BTPrint", "YS_BTPrint\YS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.WeightingSensor_Modbus", "Ys.WeightingSensor\Ys.WeightingSensor_Modbus.csproj", "{45364025-20BE-44D3-B9D2-CC6B6D164856}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibMaker.Droid", "LibMaker.Droid\LibMaker.Droid.csproj", "{81639655-ED4B-4656-A198-7B0E6CE30CF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,12 @@ Global
 		{45364025-20BE-44D3-B9D2-CC6B6D164856}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45364025-20BE-44D3-B9D2-CC6B6D164856}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45364025-20BE-44D3-B9D2-CC6B6D164856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81639655-ED4B-4656-A198-7B0E6CE30CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81639655-ED4B-4656-A198-7B0E6CE30CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81639655-ED4B-4656-A198-7B0E6CE30CF7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{81639655-ED4B-4656-A198-7B0E6CE30CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81639655-ED4B-4656-A198-7B0E6CE30CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81639655-ED4B-4656-A198-7B0E6CE30CF7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

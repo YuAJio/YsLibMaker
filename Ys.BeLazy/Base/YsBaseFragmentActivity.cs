@@ -8,25 +8,22 @@ using Android.Content;
 using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
-using Android.Support.V4.Content;
 using Android.Views;
 using Android.Views.InputMethods;
 using Android.Widget;
-using Com.Yurishi.Ysdialog;
-using IMAS_YsDialog.Listener;
+using AndroidX.Core.Content;
+using AndroidX.Fragment.App;
 
 namespace Ys.BeLazy
 {
     /// <summary>
     /// FragmentActivity的基类
     /// </summary>
-    public abstract class YsBaseFragmentActivity : Android.Support.V4.App.FragmentActivity
+    public abstract class YsBaseFragmentActivity :FragmentActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            InitYsDialog();
 
             if (A_GetContentViewId() <= 0)
                 SetContentView(new LinearLayout(this));
@@ -39,16 +36,6 @@ namespace Ys.BeLazy
             E_InitData();
 
         }
-
-        #region 初始化相关
-        /// <summary>
-        /// 初始化YsDialog
-        /// </summary>
-        private void InitYsDialog()
-        {
-            YsDialogManager.Init(this);
-        }
-        #endregion
 
         #region 抽象类
         /// <summary>
@@ -111,7 +98,6 @@ namespace Ys.BeLazy
         /// <param name="cancelText">取消文字</param>
         public void ShowAndroidPromptBox(string title, string msg, Action onSureClick, Action onCancelClick, string sureText = "确定", string cancelText = "取消")
         {
-            YsDialogManager.BuildMdAlert(title, msg, new YsMyDialogListener(onSureClick, onCancelClick)).SetBtnText(sureText, cancelText).Show();
         }
 
         /// <summary>
@@ -125,7 +111,6 @@ namespace Ys.BeLazy
         /// <param name="cancelText">取消文字</param>
         public void ShowIOSAndroidPromptBos(string title, string msg, Action onSureClick, Action onCancelClick, string sureText = "确定", string cancelText = "取消")
         {
-            YsDialogManager.BuildIosAlert(title, msg, new YsMyDialogListener(onSureClick, onCancelClick)).SetBtnText(sureText, cancelText).Show();
         }
 
         #endregion
@@ -137,9 +122,8 @@ namespace Ys.BeLazy
         /// <param name="msg">等待信息</param>
         /// <param name="isCanCancel">是否可取消</param>
         /// <param name="isOutSideTouch">是否可外部点击取消</param>
-        public void ShowWaitDialog_Samll(string msg, bool isCanCancel = false, bool isOutSideTouch = false)
+        public void ShowWaitDialog_Samll(string msg, bool isCanCancel = false, bool isOutSideTouch = false, bool isretry = true)
         {
-            ysDialogHost = YsDialogManager.BuildLoading(msg).SetCancelable(isCanCancel, isOutSideTouch).Show();
         }
 
         /// <summary>
@@ -151,14 +135,9 @@ namespace Ys.BeLazy
         /// <param name="isOutSideTouch">是否可外部点击取消</param>
         public void ShowWaitDialog_Normal(string msg, int colorRes = -1, bool isCanCancel = false, bool isOutSideTouch = false)
         {
-            if (colorRes > 0)
-                ysDialogHost = YsDialogManager.BuildMdLoading(msg).SetCancelable(isCanCancel, isOutSideTouch).SetMsgColor(colorRes).Show();
-            else
-                ysDialogHost = YsDialogManager.BuildMdLoading(msg).SetCancelable(isCanCancel, isOutSideTouch).Show();
         }
         public void HideWaitDiaLog()
         {
-            YsDialogManager.Dismiss(ysDialogHost);
         }
         #endregion
 

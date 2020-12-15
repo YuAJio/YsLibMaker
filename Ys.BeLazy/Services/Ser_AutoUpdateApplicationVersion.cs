@@ -8,7 +8,6 @@ using Android.Content;
 using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
-using Android.Support.V4.Content;
 using Newtonsoft.Json.Linq;
 using YS_PublicMilf_Lite.Stuff_CupCake;
 
@@ -214,11 +213,21 @@ namespace Ys.BeLazy.Services
             {
                 var count = 0;
                 var buffer = new byte[1024];
+
+
                 do
                 {
-                    count = stream.Read(buffer, 0, buffer.Length);
-                    if (count != 0)
-                        sb.Append(Encoding.UTF8.GetString(buffer, 0, count));
+                    try
+                    {
+                        count = stream.Read(buffer, 0, buffer.Length);
+                        if (count != 0)
+                            sb.Append(Encoding.UTF8.GetString(buffer, 0, count));
+                    }
+                    catch (Exception ex)
+                    {
+                        sb = new StringBuilder();
+                        break;
+                    }
                 } while (count > 0);
 
                 var content = sb.ToString();

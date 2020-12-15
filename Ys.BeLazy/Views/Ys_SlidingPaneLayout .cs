@@ -7,11 +7,11 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
-using Android.Support.V4.View;
-using Android.Support.V4.Widget;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using AndroidX.Core.View;
+using AndroidX.SlidingPaneLayout.Widget;
 
 namespace Ys.BeLazy.Views
 {
