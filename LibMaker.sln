@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.WeightingSensor_Modbus",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibMaker.Droid", "LibMaker.Droid\LibMaker.Droid.csproj", "{81639655-ED4B-4656-A198-7B0E6CE30CF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.GaoDeMap_Droid", "Ys.GaoDeMap_Droid\Ys.GaoDeMap_Droid.csproj", "{1E99EC9B-F026-4A08-8E72-2030F079CCFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{81639655-ED4B-4656-A198-7B0E6CE30CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81639655-ED4B-4656-A198-7B0E6CE30CF7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81639655-ED4B-4656-A198-7B0E6CE30CF7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1E99EC9B-F026-4A08-8E72-2030F079CCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E99EC9B-F026-4A08-8E72-2030F079CCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E99EC9B-F026-4A08-8E72-2030F079CCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E99EC9B-F026-4A08-8E72-2030F079CCFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{EE0F4151-A525-4CD0-BEEA-14DA65AF2992} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 		{F5849395-C704-4343-A0FE-C6079031FF63} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 		{45364025-20BE-44D3-B9D2-CC6B6D164856} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
+		{1E99EC9B-F026-4A08-8E72-2030F079CCFA} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFCE389-1A0D-44B9-A474-62ED1F89531A}

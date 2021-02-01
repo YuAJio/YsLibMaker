@@ -20,7 +20,6 @@ namespace LibMaker.Droid
 
         public override void B_BeforeInitView()
         {
-
         }
 
         public override void C_InitView()

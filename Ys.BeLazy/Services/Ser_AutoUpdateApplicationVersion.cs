@@ -209,12 +209,10 @@ namespace Ys.BeLazy.Services
         private Md_DownloadConfig GetDownloadUrlFromAss()
         {
             var sb = new StringBuilder();
-            using (var stream = Assets.Open("UpdateAppConfig.json", Android.Content.Res.Access.Buffer))
+            using (var stream = Assets.Open(TAG_ASSFILENAME, Android.Content.Res.Access.Buffer))
             {
                 var count = 0;
                 var buffer = new byte[1024];
-
-
                 do
                 {
                     try

@@ -59,6 +59,9 @@
     <Reference Include="Mono.Android" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
+    <Reference Include="Ys.GaoDeMap_Droid">
+      <HintPath>..\..\Z_THIRD_DLL\Ys.GaoDeMap_Droid.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
