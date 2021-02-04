@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibMaker.Droid", "LibMaker.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.GaoDeMap_Droid", "Ys.GaoDeMap_Droid\Ys.GaoDeMap_Droid.csproj", "{1E99EC9B-F026-4A08-8E72-2030F079CCFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.Camera.Droid", "YSLIBS\Ys.Camera.Droid\Ys.Camera.Droid.csproj", "{A41D9DAB-602C-42AC-957E-204E6362C784}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{1E99EC9B-F026-4A08-8E72-2030F079CCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E99EC9B-F026-4A08-8E72-2030F079CCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E99EC9B-F026-4A08-8E72-2030F079CCFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41D9DAB-602C-42AC-957E-204E6362C784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41D9DAB-602C-42AC-957E-204E6362C784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41D9DAB-602C-42AC-957E-204E6362C784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41D9DAB-602C-42AC-957E-204E6362C784}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{F5849395-C704-4343-A0FE-C6079031FF63} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 		{45364025-20BE-44D3-B9D2-CC6B6D164856} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 		{1E99EC9B-F026-4A08-8E72-2030F079CCFA} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
+		{A41D9DAB-602C-42AC-957E-204E6362C784} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFCE389-1A0D-44B9-A474-62ED1F89531A}

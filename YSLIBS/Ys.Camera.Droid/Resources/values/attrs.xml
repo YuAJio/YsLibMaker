@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<declare-styleable name="YsCameraX">
+  <attr name="CapturePictureSize_Height" format="integer"/>
+  <attr name="CapturePictureSize_Width" format="integer" />
+  <attr name="Camera_Facing" format="enum">
+    <enum name="Front" value="1"/>
+    <enum name="Back" value="0"/>
+  </attr>
+</declare-styleable>
+</resources>
