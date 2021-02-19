@@ -68,19 +68,19 @@
       <Version>12.0.3</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.AppCompat">
-      <Version>1.2.0.5</Version>
+      <Version>1.2.0.6</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.ConstraintLayout">
-      <Version>2.0.4</Version>
+      <Version>2.0.4.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Fragment">
-      <Version>1.2.5.3</Version>
+      <Version>1.2.5.5</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.RecyclerView">
       <Version>1.1.0.5</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.SlidingPaneLayout">
-      <Version>1.1.0</Version>
+      <Version>1.1.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -108,6 +108,16 @@
   <ItemGroup>
     <AndroidResource Include="Resources\values\styles.xml">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Dialog_SingleChose_Droid.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Dialog_SingleChose_Droid_Item.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

@@ -29,7 +29,7 @@ namespace LibMaker.Droid
 
         public override void C_InitView()
         {
-            _CameraX = FindViewById<YsCameraX>(Resource.Id.cx_camera);
+            _CameraX = FindViewById<YsCameraX>(Resource.Id.cxCameraX);
 
             _CameraX.InitAndStartCamera(this);
 
@@ -62,16 +62,17 @@ namespace LibMaker.Droid
 
             FindViewById<Button>(Resource.Id.bt_event).LongClick += delegate (object sender, View.LongClickEventArgs ex)
             {
-                ShowWaitDialog_Samll("新的哦~~ 小的哦~~");
-                Task.Run(async () =>
-                {
-                    await Task.Delay(2 * 1000);
-                }).ContinueWith(x =>
-                {
-                    HideWaitDiaLog();
-                    if (x.Exception != null)
-                        return;
-                }, TaskScheduler.FromCurrentSynchronizationContext());
+                _CameraX.SwitchFacing(this);
+                //ShowWaitDialog_Samll("新的哦~~ 小的哦~~");
+                //Task.Run(async () =>
+                //{
+                //    await Task.Delay(2 * 1000);
+                //}).ContinueWith(x =>
+                //{
+                //    HideWaitDiaLog();
+                //    if (x.Exception != null)
+                //        return;
+                //}, TaskScheduler.FromCurrentSynchronizationContext());
             };
         }
 

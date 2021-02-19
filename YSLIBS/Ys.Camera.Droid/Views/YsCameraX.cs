@@ -52,6 +52,8 @@ namespace Ys.Camera.Droid.Views
         }
         #endregion
 
+        public Action CameraInitFinish;
+
         /// <summary>
         /// 初始化添加CameraView进布局
         /// </summary>
@@ -67,24 +69,23 @@ namespace Ys.Camera.Droid.Views
         #region 定义的自定义属性 
         private int CaptureImageSize_Width = 1280;
         private int CaptureImageSize_Height = 720;
-        private CameraFacing _CameraFacing = CameraFacing.Back;
+        public CameraFacing CameraFacing = CameraFacing.Back;
 
         private void SetDiyParams(Context context, IAttributeSet attrs)
         {
             var a = context.ObtainStyledAttributes(attrs, Resource.Styleable.YsCameraX);
             CaptureImageSize_Width = a.GetInt(Resource.Styleable.YsCameraX_CapturePictureSize_Width, 0);
             CaptureImageSize_Height = a.GetInt(Resource.Styleable.YsCameraX_CapturePictureSize_Height, 0);
-            _CameraFacing = (CameraFacing)a.GetInt(Resource.Styleable.YsCameraX_Camera_Facing, 0);
+            CameraFacing = (CameraFacing)a.GetInt(Resource.Styleable.YsCameraX_Camera_Facing, 0);
             a.Recycle();
         }
 
         #endregion
 
-
         private PreviewView _CameraPreView;
         private ImageCapture _ImageCapture;
-        #region 摄像头创建相关
-
+        private ICameraControl _CameraController;
+        private ICameraInfo _CameraInfo;
         /// <summary>
         /// 初始化并绑定摄像头
         /// </summary>
@@ -122,7 +123,7 @@ namespace Ys.Camera.Droid.Views
                 //    cameraSelector = CameraSelector.DefaultFrontCamera;
                 //else
                 //    throw new System.Exception("Camera not found");
-                switch (_CameraFacing)
+                switch (CameraFacing)
                 {
                     case CameraFacing.Back:
                         if (cameraProvider.HasCamera(CameraSelector.DefaultBackCamera) == true)
@@ -154,9 +155,11 @@ namespace Ys.Camera.Droid.Views
                 {
                     // Unbind use cases before rebinding
                     cameraProvider.UnbindAll();
-
                     // Bind use cases to camera
-                    cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, preview, _ImageCapture, imageAnalyzer);
+                    var camera = cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, preview, _ImageCapture, imageAnalyzer);
+                    _CameraController = camera.CameraControl;
+                    _CameraInfo = camera.CameraInfo;
+                    CameraInitFinish?.Invoke();
                 }
                 catch (Exception exc)
                 {
@@ -167,16 +170,65 @@ namespace Ys.Camera.Droid.Views
 
         }
 
-        ///// <summary>
-        ///// 释放执行器
-        ///// 推荐在Destory中调用
-        ///// </summary>
-        //private void RelaseExcute()
-        //{
-        //    //暂无需要销毁的东西
-        //}
+        /// <summary>
+        /// 切换摄像头的位置
+        /// </summary>
+        public void SwitchFacing(ILifecycleOwner lifecycleOwner)
+        {
+            CameraFacing = CameraFacing == CameraFacing.Back ? CameraFacing.Front : CameraFacing.Back;
+            InitAndStartCamera(lifecycleOwner);
+        }
 
+
+        #region Zoom缩放相关
+        /// <summary>
+        /// 设置缩放
+        /// </summary>
+        /// <param name="zoomPercent"></param>
+        public void SetZoom(int zoomPercent)
+        {
+            try
+            {
+                if (_CameraController != null)
+                {
+                    if (zoomPercent > ZoomState_Max)
+                        _CameraController.SetZoomRatio(ZoomState_Max);
+                    else if (zoomPercent < ZoomState_Min)
+                        _CameraController.SetZoomRatio(ZoomState_Min);
+                    else
+                        _CameraController.SetZoomRatio(zoomPercent);
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+        public float ZoomState_Max
+        {
+            get
+            {
+                if (_CameraInfo == null)
+                    return 0;
+                var zoomState = (IZoomState)_CameraInfo.ZoomState.Value;
+                if (zoomState == null)
+                    return 0;
+                return zoomState.MaxZoomRatio;
+            }
+        }
+        public float ZoomState_Min
+        {
+            get
+            {
+                if (_CameraInfo == null)
+                    return 0;
+                var zoomState = (IZoomState)_CameraInfo.ZoomState.Value;
+                if (zoomState == null)
+                    return 0;
+                return zoomState.MinZoomRatio;
+            }
+        }
         #endregion
+
 
         #region 拍照相关
         /// <summary>
