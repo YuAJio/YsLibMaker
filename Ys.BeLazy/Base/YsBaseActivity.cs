@@ -109,11 +109,12 @@ namespace Ys.BeLazy
         /// <param name="onCancelClick">取消事件</param>
         /// <param name="sureText">确定文字</param>
         /// <param name="cancelText">取消文字</param>
-        protected void ShowAndroidPromptBox(string title, string msg, Action onSureClick, Action onCancelClick, string sureText = "确定", string cancelText = "取消")
+        protected void ShowAndroidPromptBox(string title, string msg, Action onSureClick, Action onCancelClick, bool isCancelable = false, string sureText = "确定", string cancelText = "取消")
         {
             new AndroidX.AppCompat.App.AlertDialog.Builder(this)
                 .SetTitle(title)
                 .SetMessage(msg)
+                .SetCancelable(isCancelable)
                 .SetPositiveButton(sureText, (object sender, DialogClickEventArgs eve) => { onSureClick?.Invoke(); })
                 .SetNegativeButton(cancelText, (object sender, DialogClickEventArgs eve) => { onCancelClick?.Invoke(); })
                 .Show();
@@ -197,70 +198,17 @@ namespace Ys.BeLazy
 
         protected void ShowSingleChoseDialog(string[] items, Action<int> chosePosition, bool isCanCancel = true, bool isOutSideTouch = true)
         {
-            if (dialog_Show == null)
-                InitShowDialog();
-
-            var v = LayoutInflater.From(this).Inflate(Resource.Layout.Dialog_SingleChose_Droid, null);
-            var rv = v.FindViewById<RecyclerView>(Resource.Id.rv_data);
-            rv.SetLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.Vertical, false));
-            rv.SetAdapter(new SingleChoseAdapter(this, chosePosition, items));
-            dialog_Show.SetContentView(v);
+            var builder = new AndroidX.AppCompat.App.AlertDialog.Builder(this, Android.Resource.Style.ThemeDeviceDefaultLightDialogNoActionBarMinWidth);
+            builder.SetItems(items, (object sender, DialogClickEventArgs e) =>
+              {
+                  chosePosition?.Invoke(e.Which);
+              });
+            var dialog_Show = builder.Create();
             dialog_Show.SetCancelable(isCanCancel);
             dialog_Show.SetCanceledOnTouchOutside(isOutSideTouch);
-            var window = dialog_Show.Window;
-            if (window != null)
-            {
-                var attr = window.Attributes;
-                if (attr != null)
-                {
-                    attr.Height = 400;
-                    attr.Width = 200;
-                    attr.Gravity = GravityFlags.Center;
-                    window.Attributes = (attr);
-                }
-            }
             dialog_Show.Show();
         }
 
-        #region 单选框适配器
-        private class SingleChoseAdapter : YsBaseRvAdapter<string>
-        {
-            public SingleChoseAdapter(Context context, Action<int> itemChoseAct, string[] datalist)
-            {
-                this.context = context;
-                this.itemChoseAct = itemChoseAct;
-                this.SetContainerList(datalist);
-            }
-
-            private Action<int> itemChoseAct;
-            protected override void AbOnBindViewHolder(RecyclerView.ViewHolder holder, int position)
-            {
-                var vh = holder as ViewHolder;
-                vh.tvItem.Tag = position;
-                vh.tvItem.Click -= OnChoseImp;
-                vh.tvItem.Click += OnChoseImp;
-                vh.tvItem.Text = list_data[position];
-            }
-
-            private void OnChoseImp(object sender, EventArgs e)
-            {
-                itemChoseAct?.Invoke((int)(sender as View).Tag);
-            }
-
-            protected override RecyclerView.ViewHolder AbOnCreateViewHolder(ViewGroup parent, int viewType)
-            {
-                return new ViewHolder(LayoutInflater.From(context).Inflate(Resource.Layout.Dialog_SingleChose_Droid_Item, parent, false));
-            }
-            private class ViewHolder : RecyclerView.ViewHolder
-            {
-                public AndroidX.AppCompat.Widget.AppCompatTextView tvItem;
-                public ViewHolder(View itemView) : base(itemView)
-                {
-                    tvItem = itemView.FindViewById<AndroidX.AppCompat.Widget.AppCompatTextView>(Resource.Id.tv_item);
-                }
-            }
-        }
-        #endregion
         #endregion
 
         #endregion
@@ -423,12 +371,17 @@ namespace Ys.BeLazy
 
         #region 它类
         private AndroidX.AppCompat.App.AlertDialog dialog_Show;
+        private AndroidX.AppCompat.App.AlertDialog.Builder dialog_ShowBuilder;
         private void InitShowDialog()
         {
-            dialog_Show = new AndroidX.AppCompat.App.AlertDialog.Builder(this, Resource.Style.Theme_Dialog_FullScreen)
-                .Create();
+            dialog_ShowBuilder = new AndroidX.AppCompat.App.AlertDialog.Builder(this, Resource.Style.Theme_Dialog_FullScreen);
+            dialog_Show = dialog_ShowBuilder.Create();
             dialog_Show.Show();
             dialog_Show.Dismiss();
+        }
+        private void InitShowDialogBulider()
+        {
+            dialog_ShowBuilder = new AndroidX.AppCompat.App.AlertDialog.Builder(this, Resource.Style.Theme_Dialog_FullScreen);
         }
         #endregion
 

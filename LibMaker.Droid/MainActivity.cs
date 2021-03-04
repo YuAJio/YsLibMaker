@@ -9,6 +9,7 @@ using System;
 using System.Threading.Tasks;
 using AndroidX.Camera.View;
 using Ys.Camera.Droid.Views;
+using System.Collections.Generic;
 
 namespace LibMaker.Droid
 {
@@ -35,19 +36,24 @@ namespace LibMaker.Droid
 
             FindViewById<Button>(Resource.Id.bt_event).Click += delegate (object sender, EventArgs e)
             {
-                var jk = Android.OS.Environment.GetExternalStoragePublicDirectory(System.IO.Path.Combine(Android.OS.Environment.DirectoryPictures, Resources.GetString(Resource.String.app_name)));
+                var strs = new List<string> { "菜々", "うさぎ", "七歳" };
+                ShowSingleChoseDialog(strs.ToArray(), (int s) =>
+                {
 
-                var path = System.IO.Path.Combine(jk.AbsolutePath, "PIC", $"{Guid.NewGuid()}.jpg");
-                _CameraX.TakePicture(path,
-                    (onError) =>
-                    {
+                });
+                //var jk = Android.OS.Environment.GetExternalStoragePublicDirectory(System.IO.Path.Combine(Android.OS.Environment.DirectoryPictures, Resources.GetString(Resource.String.app_name)));
 
-                    },
-                    (onSaved) =>
-                    {
+                //var path = System.IO.Path.Combine(jk.AbsolutePath, "PIC", $"{Guid.NewGuid()}.jpg");
+                //_CameraX.TakePicture(path,
+                //    (onError) =>
+                //    {
 
-                    }
-                    );
+                //    },
+                //    (onSaved) =>
+                //    {
+
+                //    }
+                //    );
                 //ShowWaitDialog_Normal("新的哦~~  大的哦~~");
                 //Task.Run(async () =>
                 //{
