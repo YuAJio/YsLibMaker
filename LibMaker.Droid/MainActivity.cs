@@ -10,6 +10,11 @@ using System.Threading.Tasks;
 using AndroidX.Camera.View;
 using Ys.Camera.Droid.Views;
 using System.Collections.Generic;
+using AndroidX.Camera.Core;
+using Android.Content;
+using System.IO;
+using Ys.TFLite.Core;
+using System.Linq;
 
 namespace LibMaker.Droid
 {
@@ -17,6 +22,11 @@ namespace LibMaker.Droid
     public class MainActivity : Ys.BeLazy.YsBaseActivity
     {
         private YsCameraX _CameraX;
+        private TextView _Info;
+
+
+        private string SavePicturePath = "";
+        private string ModelFilePath = "";
 
         public override int A_GetContentViewId()
         {
@@ -25,61 +35,33 @@ namespace LibMaker.Droid
 
         public override void B_BeforeInitView()
         {
-
+            ModelFilePath = System.IO.Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", "converted_model-int8.tflite");
+            SavePicturePath = System.IO.Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Picture", "pictureOfTakingsss.jpg");
         }
 
         public override void C_InitView()
         {
             _CameraX = FindViewById<YsCameraX>(Resource.Id.cxCameraX);
+            _Info = FindViewById<TextView>(Resource.Id.tvInfo);
 
             _CameraX.InitAndStartCamera(this);
 
+
+
             FindViewById<Button>(Resource.Id.bt_event).Click += delegate (object sender, EventArgs e)
             {
-                var strs = new List<string> { "菜々", "うさぎ", "七歳" };
-                ShowSingleChoseDialog(strs.ToArray(), (int s) =>
-                {
-
-                });
-                //var jk = Android.OS.Environment.GetExternalStoragePublicDirectory(System.IO.Path.Combine(Android.OS.Environment.DirectoryPictures, Resources.GetString(Resource.String.app_name)));
-
-                //var path = System.IO.Path.Combine(jk.AbsolutePath, "PIC", $"{Guid.NewGuid()}.jpg");
-                //_CameraX.TakePicture(path,
-                //    (onError) =>
-                //    {
-
-                //    },
-                //    (onSaved) =>
-                //    {
-
-                //    }
-                //    );
-                //ShowWaitDialog_Normal("新的哦~~  大的哦~~");
-                //Task.Run(async () =>
-                //{
-                //    await Task.Delay(2 * 1000);
-                //}).ContinueWith(x =>
-                //{
-                //    HideWaitDiaLog();
-                //    if (x.Exception != null)
-                //        return;
-                //}, TaskScheduler.FromCurrentSynchronizationContext());
+                _CameraX.TakePicture(SavePicturePath, TakePicutreResultHandler_Error, TakePicutreResultHandler_Succsses);
             };
 
             FindViewById<Button>(Resource.Id.bt_event).LongClick += delegate (object sender, View.LongClickEventArgs ex)
             {
-                _CameraX.SwitchFacing(this);
-                //ShowWaitDialog_Samll("新的哦~~ 小的哦~~");
-                //Task.Run(async () =>
-                //{
-                //    await Task.Delay(2 * 1000);
-                //}).ContinueWith(x =>
-                //{
-                //    HideWaitDiaLog();
-                //    if (x.Exception != null)
-                //        return;
-                //}, TaskScheduler.FromCurrentSynchronizationContext());
+                var intent = new Intent("android.intent.action.GET_CONTENT");
+                intent.SetType("image/*");
+                intent.SetAction(Intent.ActionGetContent);
+                StartActivityForResult(intent, 0x123);//打开相册
             };
+
+
         }
 
         public override void D_BindEvent()
@@ -94,6 +76,96 @@ namespace LibMaker.Droid
 
         public override void F_OnClickListener(View v, EventArgs e)
         {
+
+        }
+
+        private void TakePicutreResultHandler_Succsses(ImageCapture.OutputFileResults outputFileResults)
+        {
+            RunOnUiThread(() =>
+            {
+                TFLiteClassifyPorcessStart(SavePicturePath);
+            });
+        }
+
+        private void TakePicutreResultHandler_Error(ImageCaptureException imageCaptureException)
+        {
+            RunOnUiThread(() =>
+            {
+                Toast.MakeText(this, "拍照失败", ToastLength.Long).Show();
+            });
+        }
+
+
+        private IClassifier defaultClassifier;
+        private const string ModelName = "converted_model-int8.tflite";
+
+        private void TFLiteClassifyPorcessStart(string picturePath)
+        {
+            ShowWaitDialog_Normal("识别中......");
+
+            var streamByte = File2Byte(picturePath);
+            if (defaultClassifier == null)
+            {
+                var stockPath = Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName);
+                defaultClassifier = new TensorflowClassifier(stockPath);
+            }
+            defaultClassifier.ClassificationCompleted -= DefaultClassifier_ClassificationCompleted;
+            defaultClassifier.ClassificationCompleted += DefaultClassifier_ClassificationCompleted;
+            Task.Run(async () =>
+            {
+                await defaultClassifier.Classify(streamByte);
+            });
+
+        }
+
+        private void DefaultClassifier_ClassificationCompleted(object sender, ClassificationEventArgs e)
+        {
+            RunOnUiThread(() =>
+            {
+                HideWaitDiaLog();
+                _Info.Visibility = (e.Predictions != null && e.Predictions.Any()) ? ViewStates.Visible : ViewStates.Visible;
+                if (e.Predictions != null && e.Predictions.Any())
+                {
+                    var orderResult = e.Predictions.OrderByDescending(x => x.Probability).ToList();
+                    _Info.Text = $"" +
+                    $"识别结果前三为:<{orderResult[0]?.TagName}/{orderResult[1]?.TagName}/{orderResult[2]?.TagName}>" +
+                    $"\n识别精度分别为:<{orderResult[0]?.Probability:N2}/{orderResult[1]?.Probability:N2}/{orderResult[2]?.Probability:N2}>";
+                }
+            });
+        }
+
+        private byte[] File2Byte(string filePath)
+        {
+            var fs = new FileStream(filePath, FileMode.Open, FileAccess.Read);
+            try
+            {
+                var buffur = new byte[fs.Length];
+                fs.Read(buffur, 0, (int)fs.Length);
+                return buffur;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            finally
+            {
+                if (fs != null) fs.Close();
+            }
+        }
+
+
+        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            if (resultCode == Result.Ok)
+            {
+                if (requestCode == 0x123)
+                {//选择图片归来
+                    var jk = Uri2PathUtil.GetRealPathFromUri(this, data.Data);
+                    TFLiteClassifyPorcessStart(jk);
+                }
+
+            }
 
         }
 

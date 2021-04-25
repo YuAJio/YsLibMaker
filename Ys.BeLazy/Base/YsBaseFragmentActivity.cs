@@ -228,7 +228,7 @@ namespace Ys.BeLazy
             return false;
         }
 
-        private void HideKeyBorad(IBinder token)
+        protected void HideKeyBorad(IBinder token)
         {
             if (token != null)
             {

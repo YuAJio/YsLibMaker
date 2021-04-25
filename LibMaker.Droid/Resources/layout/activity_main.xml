@@ -4,42 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <Button
         android:id="@+id/bt_event"
         android:layout_width="0dp"
-        app:layout_constraintHeight_percent="0.1"
-app:layout_constraintWidth_percent="0.1"
+        android:layout_height="0dp"
         android:background="#66CCFF"
-  app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintBottom_toBottomOf="parent"
-    android:layout_height="0dp"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.1" />
 
-        <Ys.Camera.Droid.Views.YsCameraX
+
+    <Ys.Camera.Droid.Views.YsCameraX
         android:id="@+id/cxCameraX"
         android:layout_width="0dp"
         android:layout_height="0dp"
-                app:layout_constraintHeight_percent="1"
-app:layout_constraintWidth_percent="1"
-         app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintBottom_toBottomOf="parent"
-      />
+        
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="1" />
 
- <!-- <Ys.Camera.Droid.Views.YsCameraX
-    android:id="@+id/cx_camera"
-        android:layout_width="0dp"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:CapturePictureSize_Width="1280"
-    app:CapturePictureSize_Height="720"
-    android:layout_height="0dp"/>-->
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF66CCFF"
+        android:textSize="58sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
 
-    <!--<AndroidX.Camera.View.CameraView
-        android:id="@+id/cv_camera"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>-->
 </androidx.constraintlayout.widget.ConstraintLayout>

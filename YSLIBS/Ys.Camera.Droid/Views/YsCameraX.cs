@@ -74,8 +74,8 @@ namespace Ys.Camera.Droid.Views
         private void SetDiyParams(Context context, IAttributeSet attrs)
         {
             var a = context.ObtainStyledAttributes(attrs, Resource.Styleable.YsCameraX);
-            CaptureImageSize_Width = a.GetInt(Resource.Styleable.YsCameraX_CapturePictureSize_Width, 0);
-            CaptureImageSize_Height = a.GetInt(Resource.Styleable.YsCameraX_CapturePictureSize_Height, 0);
+            CaptureImageSize_Width = a.GetInt(Resource.Styleable.YsCameraX_CapturePictureSize_Width, 1280);
+            CaptureImageSize_Height = a.GetInt(Resource.Styleable.YsCameraX_CapturePictureSize_Height, 720);
             CameraFacing = (CameraFacing)a.GetInt(Resource.Styleable.YsCameraX_Camera_Facing, 0);
             a.Recycle();
         }
