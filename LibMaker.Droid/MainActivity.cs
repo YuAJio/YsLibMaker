@@ -15,6 +15,7 @@ using Android.Content;
 using System.IO;
 using Ys.TFLite.Core;
 using System.Linq;
+using System.Threading;
 
 namespace LibMaker.Droid
 {
@@ -45,8 +46,10 @@ namespace LibMaker.Droid
             _Info = FindViewById<TextView>(Resource.Id.tvInfo);
 
             _CameraX.InitAndStartCamera(this);
-
-
+            _CameraX.CameraInitFinish += delegate
+            {
+                StartCheckImageFrameThread();
+            };
 
             FindViewById<Button>(Resource.Id.bt_event).Click += delegate (object sender, EventArgs e)
             {
@@ -71,7 +74,6 @@ namespace LibMaker.Droid
 
         public override void E_InitData()
         {
-
         }
 
         public override void F_OnClickListener(View v, EventArgs e)
@@ -95,6 +97,66 @@ namespace LibMaker.Droid
             });
         }
 
+        #region 线程处理实时处理分类
+        private bool isClassifyDone = true;
+        private bool isAllow2Classify = false;
+        private Thread th_SendClassifyPermission;
+        private void StartCheckImageFrameThread()
+        {
+            if (th_SendClassifyPermission == null)
+            {
+                th_SendClassifyPermission = new Thread(new ThreadStart(() =>
+                {
+                    while (true)
+                    {
+                        if (isClassifyDone)
+                            isAllow2Classify = true;
+                        else
+                            isAllow2Classify = false;
+                        Thread.Sleep(2 * 1000);
+                    }
+                }));
+            }
+            if (_CameraX != null && _CameraX.ImageAnalysisFrameProcess != null)
+            {
+                _CameraX.OpenFrameCapture();
+                _CameraX.ImageAnalysisFrameProcess.ImageFrame2NV21ByteCaptured += ImageAnalysisFrameProcess_ImageFrame2NV21ByteCaptured;
+                th_SendClassifyPermission.Start();
+            }
+        }
+
+        private void StopCheckImageFrameThread()
+        {
+            if (_CameraX != null && _CameraX.ImageAnalysisFrameProcess != null)
+            {
+                _CameraX.CloseFrameCapture();
+                _CameraX.ImageAnalysisFrameProcess.ImageFrame2NV21ByteCaptured -= ImageAnalysisFrameProcess_ImageFrame2NV21ByteCaptured;
+                th_SendClassifyPermission?.Abort();
+            }
+        }
+
+        private void ImageAnalysisFrameProcess_ImageFrame2NV21ByteCaptured(object sender, Ys.Camera.Droid.Implements.ImageFrame2Nv21ByteArgs e)
+        {
+            if (isClassifyDone && isAllow2Classify)
+            {
+                Task.Factory.StartNew(async () =>
+                {
+                    isClassifyDone = false;
+                    await TFLiteClassifyPorcessStart(e.imgaeNv21Bytes);
+                }).ContinueWith(x =>
+                {
+                    if (x.Exception != null)
+                    {
+                    }
+                }/*, TaskScheduler.FromCurrentSynchronizationContext()*/);
+            }
+            else
+                return;
+        }
+
+
+        #endregion
+
 
         private IClassifier defaultClassifier;
         private const string ModelName = "converted_model-int8.tflite";
@@ -115,11 +177,24 @@ namespace LibMaker.Droid
             {
                 await defaultClassifier.Classify(streamByte);
             });
-
         }
+
+        private async Task TFLiteClassifyPorcessStart(byte[] streamByte)
+        {
+            if (defaultClassifier == null)
+            {
+                var stockPath = Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName);
+                defaultClassifier = new TensorflowClassifier(stockPath);
+            }
+            defaultClassifier.ClassificationCompleted -= DefaultClassifier_ClassificationCompleted;
+            defaultClassifier.ClassificationCompleted += DefaultClassifier_ClassificationCompleted;
+            await defaultClassifier.Classify(streamByte);
+        }
+
 
         private void DefaultClassifier_ClassificationCompleted(object sender, ClassificationEventArgs e)
         {
+            isClassifyDone = true;
             RunOnUiThread(() =>
             {
                 HideWaitDiaLog();
@@ -153,6 +228,18 @@ namespace LibMaker.Droid
             }
         }
 
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+            StartCheckImageFrameThread();
+        }
+
+        protected override void OnStop()
+        {
+            base.OnStop();
+            StopCheckImageFrameThread();
+        }
 
         protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
         {

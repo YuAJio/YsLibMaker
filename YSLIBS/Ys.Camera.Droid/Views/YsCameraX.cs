@@ -9,10 +9,12 @@ using AndroidX.Camera.Core;
 using AndroidX.Camera.Lifecycle;
 using AndroidX.Camera.View;
 using AndroidX.Lifecycle;
+using Java.Util.Concurrent;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Ys.Camera.Droid.Implements;
 using static Ys.Camera.Droid.Enums;
 
 namespace Ys.Camera.Droid.Views
@@ -93,6 +95,7 @@ namespace Ys.Camera.Droid.Views
         public void InitAndStartCamera(ILifecycleOwner lifecycleOwner)
         {
             var cameraProviderFuture = ProcessCameraProvider.GetInstance(this.Context);
+            cameraExecutor = Executors.NewSingleThreadExecutor();
 
             cameraProviderFuture.AddListener(new Java.Lang.Runnable(() =>
             {
@@ -111,8 +114,10 @@ namespace Ys.Camera.Droid.Views
 
                 // Frame by frame analyze(Not Use Now)
                 var imageAnalyzer = new ImageAnalysis.Builder().Build();
+                ImageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
+                imageAnalyzer.SetAnalyzer(cameraExecutor, ImageAnalysisFrameProcess);
                 //imageAnalyzer.SetAnalyzer(cameraExecutor, new LuminosityAnalyzer(luma =>
-                //    Log.Debug(TAG, $"Average luminosity: {luma}")
+                //    Log.Debug("", $"Average luminosity: {luma}")
                 //    ));
 
                 #region Select back camera as a default, or front camera otherwise
@@ -180,6 +185,26 @@ namespace Ys.Camera.Droid.Views
         }
 
 
+
+        #region 捕获实时帧相关
+        private IExecutorService cameraExecutor;
+        private ImageAnalysisFrameProcess imageAnalysisFrameProcess;
+        public ImageAnalysisFrameProcess ImageAnalysisFrameProcess { get { return imageAnalysisFrameProcess; } private set { imageAnalysisFrameProcess = value; } }
+
+        public void OpenFrameCapture()
+        {
+            if (ImageAnalysisFrameProcess == null) return;
+            ImageAnalysisFrameProcess.IsOpenFrameCapture = true;
+        }
+
+        public void CloseFrameCapture()
+        {
+            if (ImageAnalysisFrameProcess == null) return;
+            ImageAnalysisFrameProcess.IsOpenFrameCapture = false;
+        }
+
+        #endregion
+
         #region Zoom缩放相关
         /// <summary>
         /// 设置缩放
@@ -228,7 +253,6 @@ namespace Ys.Camera.Droid.Views
             }
         }
         #endregion
-
 
         #region 拍照相关
         /// <summary>
