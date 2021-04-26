@@ -50,7 +50,6 @@
     <Compile Include="Enums.cs" />
     <Compile Include="Implements\ImageAnalysisFrameProcess.cs" />
     <Compile Include="Implements\ImageCaptureSave.cs" />
-    <Compile Include="Implements\LuminosityAnalyzer.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\YsCameraX.cs" />

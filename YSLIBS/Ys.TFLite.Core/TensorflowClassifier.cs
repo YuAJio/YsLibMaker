@@ -104,41 +104,14 @@ namespace Ys.TFLite.Core
                 for (var j = 0; j < height; j++)
                 {
                     var pixelVal = pixels[pixel++];
-
-                    var tfloat1 = (float)(pixelVal >> 16 & 0xFF);
-                    var tfloat2 = (float)(pixelVal >> 8 & 0xFF);
-                    var tfloat3 = (float)(pixelVal >> 0 & 0xFF);
-
-                    var tbt1 = BitConverter.GetBytes(tfloat1);
-                    jkBytre[jkpixel] = tbt1[0];
-                    jkpixel++;
-                    jkBytre[jkpixel] = tbt1[1];
-                    jkpixel++;
-                    jkBytre[jkpixel] = tbt1[2];
-                    jkpixel++;
-                    jkBytre[jkpixel] = tbt1[3];
-                    jkpixel++;
-
-                    var tbt2 = BitConverter.GetBytes(tfloat2);
-                    jkBytre[jkpixel] = tbt2[0];
-                    jkpixel++;
-                    jkBytre[jkpixel] = tbt2[1];
-                    jkpixel++;
-                    jkBytre[jkpixel] = tbt2[2];
-                    jkpixel++;
-                    jkBytre[jkpixel] = tbt2[3];
-                    jkpixel++;
-
-                    var tbt3 = BitConverter.GetBytes(tfloat3);
-                    jkBytre[jkpixel] = tbt3[0];
-                    jkpixel++;
-                    jkBytre[jkpixel] = tbt3[1];
-                    jkpixel++;
-                    jkBytre[jkpixel] = tbt3[2];
-                    jkpixel++;
-                    jkBytre[jkpixel] = tbt3[3];
-                    jkpixel++;
-
+                    foreach (var item_m in new float[] { pixelVal >> 16 & 0xFF, (pixelVal >> 8 & 0xFF), (pixelVal >> 0 & 0xFF) })
+                    {
+                        foreach (var item_s in BitConverter.GetBytes(item_m))
+                        {
+                            jkBytre[jkpixel] = item_s;
+                            jkpixel++;
+                        }
+                    }
                 }
             }
             byteBuffer.Put(jkBytre, 0, jkBytre.Length);
