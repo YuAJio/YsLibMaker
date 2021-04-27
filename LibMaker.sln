@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.Camera.Droid", "YSLIBS\Y
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.TFLite.Droid", "YSLIBS\Ys.TFLite.Core\Ys.TFLite.Droid.csproj", "{AC1F33EA-99A2-4453-B85B-90FBE43F8D19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.ColorfulGirls.Droid", "YSLIBS\Ys.ColorfulGirls.Droid\Ys.ColorfulGirls.Droid.csproj", "{6C50D6B0-54D7-4EFA-9A8B-CCCFC02FEED2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{AC1F33EA-99A2-4453-B85B-90FBE43F8D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC1F33EA-99A2-4453-B85B-90FBE43F8D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC1F33EA-99A2-4453-B85B-90FBE43F8D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C50D6B0-54D7-4EFA-9A8B-CCCFC02FEED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C50D6B0-54D7-4EFA-9A8B-CCCFC02FEED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C50D6B0-54D7-4EFA-9A8B-CCCFC02FEED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C50D6B0-54D7-4EFA-9A8B-CCCFC02FEED2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{1E99EC9B-F026-4A08-8E72-2030F079CCFA} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 		{A41D9DAB-602C-42AC-957E-204E6362C784} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 		{AC1F33EA-99A2-4453-B85B-90FBE43F8D19} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
+		{6C50D6B0-54D7-4EFA-9A8B-CCCFC02FEED2} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFCE389-1A0D-44B9-A474-62ED1F89531A}
