@@ -58,10 +58,11 @@ namespace LibMaker.Droid
 
             FindViewById<Button>(Resource.Id.bt_event).LongClick += delegate (object sender, View.LongClickEventArgs ex)
             {
-                var intent = new Intent("android.intent.action.GET_CONTENT");
-                intent.SetType("image/*");
-                intent.SetAction(Intent.ActionGetContent);
-                StartActivityForResult(intent, 0x123);//打开相册
+                StartActivity(new Intent(this, typeof(Acty_RefreshListView)));
+                //var intent = new Intent("android.intent.action.GET_CONTENT");
+                //intent.SetType("image/*");
+                //intent.SetAction(Intent.ActionGetContent);
+                //StartActivityForResult(intent, 0x123);//打开相册
             };
 
 

@@ -78,7 +78,7 @@ namespace Ys.BeLazy
         /// <param name="holder">RvHolder</param>
         /// <param name="parent">数据坐标</param>
         /// <returns></returns>
-        protected abstract void AbOnBindViewHolder(RecyclerView.ViewHolder holder, int position);
+        protected abstract void AbOnBindViewHolder(RecyclerView.ViewHolder vh, int position);
 
         /// <summary>
         /// 创建ViewHolder

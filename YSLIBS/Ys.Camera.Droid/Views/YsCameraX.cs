@@ -210,7 +210,7 @@ namespace Ys.Camera.Droid.Views
         /// 设置缩放
         /// </summary>
         /// <param name="zoomPercent"></param>
-        public void SetZoom(int zoomPercent)
+        public void SetZoom(float zoomPercent)
         {
             try
             {
