@@ -11481,7 +11481,7 @@ namespace LibMaker.Droid
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int Activity_Main = 2131427356;
+			public const int Activity_CameraX = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
 			public const int Activity_RefreshList = 2131427357;

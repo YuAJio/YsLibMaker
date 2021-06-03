@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LibMaker.Droid
+namespace LibMaker.Droid.Src.Activitys
 {
     [Activity(Label = "Acty_RefreshListView")]
     public class Acty_RefreshListView : AppCompatActivity

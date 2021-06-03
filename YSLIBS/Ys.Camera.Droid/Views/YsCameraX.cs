@@ -114,8 +114,8 @@ namespace Ys.Camera.Droid.Views
 
                 // Frame by frame analyze(Not Use Now)
                 var imageAnalyzer = new ImageAnalysis.Builder().Build();
-                ImageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
-                imageAnalyzer.SetAnalyzer(cameraExecutor, ImageAnalysisFrameProcess);
+                imageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
+                imageAnalyzer.SetAnalyzer(cameraExecutor, imageAnalysisFrameProcess);
                 //imageAnalyzer.SetAnalyzer(cameraExecutor, new LuminosityAnalyzer(luma =>
                 //    Log.Debug("", $"Average luminosity: {luma}")
                 //    ));
