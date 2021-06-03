@@ -7,12 +7,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <Button
+    <TextView
         android:minHeight="@dimen/ViewHeight_GuideMenuButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        local:MvxBind="Click MenuClickEvent; Text MenuName"
+        local:MvxBind="Text MenuName"
         android:layout_width="0dp"
         android:layout_height="0dp"/>
 
