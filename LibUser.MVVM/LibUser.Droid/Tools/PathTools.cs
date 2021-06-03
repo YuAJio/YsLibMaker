@@ -4,9 +4,9 @@ using Android.Net;
 using Android.OS;
 using Android.Provider;
 
-namespace LibMaker.Droid
+namespace LibUser.Droid.Tools
 {
-    public class Uri2PathUtil
+   public class PathTools
     {
         public static string GetRealPathFromUri(Context context, Android.Net.Uri uri)
         {

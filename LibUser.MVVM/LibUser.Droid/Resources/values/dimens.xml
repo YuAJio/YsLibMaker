@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
   <dimen name="ViewHeight_GuideMenuButton">24dp</dimen>
-
-
+  <dimen name="TextSize_GuideMenuMenuTitle">40sp</dimen>
+  <dimen name="ViewPadding_GuideMenuTopAndBottom">12dp</dimen>
+  <dimen name="ViewPadding_BackArrowAround">10dp</dimen>
+  
 </resources>

@@ -14,6 +14,7 @@ namespace LibUser.MVVM.Core.Proxys
 
         public static ObservableCollection<T> AddRange<T>(this ObservableCollection<T> _Base, ICollection<T> _WaitForAdd)
         {
+            if (_Base == null) throw new ArgumentNullException("The list what is watting for add is Null");
             foreach (var item in _WaitForAdd)
             {
                 _Base.Add(item);

@@ -9,16 +9,16 @@
 
     <MvvmCross.DroidX.RecyclerView.MvxRecyclerView
         android:id="@+id/rvMenu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#66CC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:scrollbars="none"
-        android:overScrollMode="never"
-        local:MvxBind="ItemSource List_Menu; ItemClick MenuClickCommand"
+        local:MvxBind="ItemsSource List_Menu; ItemClick MenuClickCommand"
         local:MvxItemTemplate="@layout/listitem_guide"
-        android:layout_width="0dp"
-        android:layout_height="0dp"/>
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

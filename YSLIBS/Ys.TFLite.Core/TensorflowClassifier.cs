@@ -1,14 +1,7 @@
-﻿using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.TensorFlow.Lite;
@@ -39,14 +32,15 @@ namespace Ys.TFLite.Core
         public const int PixelSize = 3;
 
         private readonly string ModelPath;
-        private const string LabelFileName = "lable.txt";
 
         private Interpreter interpreter;
         private Tensor tensor;
+        private List<string> List_Lables;
 
-        public TensorflowClassifier(string modelPath)
+        public TensorflowClassifier(string modelPath, Stream lableStream)
         {
             ModelPath = modelPath;
+            List_Lables = new StreamReader(lableStream).ReadToEnd().Split('\n').Select(s => s.Trim()).Where(s => !string.IsNullOrEmpty(s)).ToList(); ;
         }
 
         public event EventHandler<ClassificationEventArgs> ClassificationCompleted;
@@ -67,16 +61,14 @@ namespace Ys.TFLite.Core
                 var height = shape[3];
 
                 var byteBuffer = await GetByteBufferFromPhoto(bytes, width, height);
-                var sr = new System.IO.StreamReader(Application.Context.Assets.Open(LabelFileName));
-                var labels = sr.ReadToEnd().Split('\n').Select(s => s.Trim()).Where(s => !string.IsNullOrEmpty(s)).ToList();
-                var outputLocations = new float[1][] { new float[labels.Count] };
+                var outputLocations = new float[1][] { new float[List_Lables.Count] };
                 var outputs = Java.Lang.Object.FromArray(outputLocations);
                 interpreter.Run(byteBuffer, outputs);
                 var classificationResult = outputs.ToArray<float[]>();
                 var result = new List<Classification>();
-                for (var i = 0; i < labels.Count; i++)
+                for (var i = 0; i < List_Lables.Count; i++)
                 {
-                    var label = labels[i];
+                    var label = List_Lables[i];
                     result.Add(new Classification { TagName = label, Probability = classificationResult[0][i] });
                 }
                 ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(result));
@@ -160,7 +152,7 @@ namespace Ys.TFLite.Core
             resizedBitmap.GetPixels(pixels, 0, resizedBitmap.Width, 0, 0, resizedBitmap.Width, resizedBitmap.Height);
 
             var pixel = 0;
-            var jkBytre = new float[width * height *3 * 4];
+            var jkBytre = new float[width * height * 3 * 4];
             var jkpixel = 0;
 
             for (var i = 0; i < width; i++)

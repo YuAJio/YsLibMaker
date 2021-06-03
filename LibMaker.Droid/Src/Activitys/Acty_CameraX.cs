@@ -222,6 +222,7 @@ namespace LibMaker.Droid.Src.Activitys
         #endregion
 
         private IClassifier defaultClassifier;
+        private const string LableName = "tfliteLable.txt";
         private const string ModelName = "tf_lite_model.tflite";
         //private const string ModelName = "converted_model-int8.tflite";
 
@@ -231,7 +232,7 @@ namespace LibMaker.Droid.Src.Activitys
             if (defaultClassifier == null)
             {
                 var stockPath = Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName);
-                defaultClassifier = new TensorflowClassifier(stockPath);
+                defaultClassifier = new TensorflowClassifier(stockPath, Application.Context.Assets.Open(LableName));
             }
             defaultClassifier.ClassificationCompleted -= DefaultClassifier_ClassificationCompleted;
             defaultClassifier.ClassificationCompleted += DefaultClassifier_ClassificationCompleted;
@@ -246,7 +247,7 @@ namespace LibMaker.Droid.Src.Activitys
             if (defaultClassifier == null)
             {
                 var stockPath = Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName);
-                defaultClassifier = new TensorflowClassifier(stockPath);
+                defaultClassifier = new TensorflowClassifier(stockPath, Application.Context.Assets.Open(LableName));
             }
             defaultClassifier.ClassificationCompleted -= DefaultClassifier_ClassificationCompleted;
             defaultClassifier.ClassificationCompleted += DefaultClassifier_ClassificationCompleted;
@@ -262,7 +263,7 @@ namespace LibMaker.Droid.Src.Activitys
             {
                 var classifyResult = from j in e.Predictions join k in ListMat2Lable on j.TagName equals k.MatCode select new { j.Probability, k.MatName };
 
-                var orderResult = classifyResult.OrderBy(x => x.Probability).ToList();
+                var orderResult = classifyResult.OrderByDescending(x => x.Probability).ToList();
                 result = $"" +
                 $"识别结果前三为:<{orderResult[0]?.MatName}/{orderResult[1]?.MatName}/{orderResult[2]?.MatName}>" +
                 $"\n识别精度分别为:<{orderResult[0]?.Probability:N2}/{orderResult[1]?.Probability:N2}/{orderResult[2]?.Probability:N2}>";

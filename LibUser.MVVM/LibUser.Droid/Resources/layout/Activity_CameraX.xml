@@ -8,8 +8,56 @@
     android:layout_height="match_parent">
 
     <ImageView
-        local:MvxBind="Click Click_EventTrigger"
-        android:background="#FF66CCFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/ViewPadding_BackArrowAround"
+        android:src="@drawable/ico_vector_backarrwo_purple"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        local:MvxBind="Click ClickEvent_PageFinish"
+        />
+
+    <Button
+        android:id="@+id/bt_event"
         android:layout_width="0dp"
-        android:layout_height="0dp"/>
+        android:layout_height="0dp"
+        android:background="#66CCFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.1"
+        local:MvxBind="Click ClickEvent_EventTrigger; LongClick LongClickEvent_EventTrigger"
+        />
+
+
+    <Ys.Camera.Droid.Views.YsCameraX
+        android:id="@+id/cxCameraX"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="1" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF66CCFF"
+        android:textSize="58sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" 
+        local:MvxBind="Text EventContent"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,6 +23,8 @@ namespace LibUser.MVVM.Core.ViewModels
         {
             get
             {
+                if (_menuList == null)
+                    _menuList = new ObservableCollection<Models.Mod_GuildMenu>();
                 return _menuList;
             }
             set
@@ -50,7 +52,7 @@ namespace LibUser.MVVM.Core.ViewModels
         #region 一般事务
         public void InitAndCreateMenu(List<Models.Mod_GuildMenu> mod_GuildMenus)
         {
-            List_Menu.AddRange(mod_GuildMenus);
+            List_Menu = mod_GuildMenus.ToObservableCollection(); ;
         }
         #endregion
     }
