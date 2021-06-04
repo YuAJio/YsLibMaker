@@ -36,7 +36,7 @@ namespace LibUser.MVVM.Core.ViewModels.MenuContent
         private ICommand _eventTriggerCommand;
         private void EventTriggerClickEvent()
         {
-            LogicLock_AllowClassify = !LogicLock_AllowClassify;
+            LogicLock_AllowFlameClassify = !LogicLock_AllowFlameClassify;
         }
 
         public ICommand LongClickEvent_EventTrigger => _eventTriggerLongClickCommand ??= new MvxCommand(EventTriggerLongClickEvent);
@@ -61,13 +61,13 @@ namespace LibUser.MVVM.Core.ViewModels.MenuContent
         /// </summary>
         private List<Lable2Mat> List_Lable2Mat;
 
-        public  EventHandler<byte[]> EventHandler_Classify;
+        public EventHandler<byte[]> EventHandler_Classify;
         public void SetLable2MatList(string resJson)
         {
             List_Lable2Mat = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Lable2Mat>>(resJson);
         }
 
-        public bool LogicLock_AllowClassify { get; private set; }
+        public bool LogicLock_AllowFlameClassify { get; private set; } = false;
         /// <summary>
         /// 逻辑锁,是否正在执行识别
         /// </summary>
@@ -75,13 +75,13 @@ namespace LibUser.MVVM.Core.ViewModels.MenuContent
 
         public void ClassifycationStart(byte[] picStream)
         {
-            if (LogicLock_IsClassifing && LogicLock_AllowClassify)
+            if (LogicLock_IsClassifing)
+                Console.WriteLine("Classify Thread Is Busy");
+            else
             {
                 LogicLock_IsClassifing = true;
                 EventHandler_Classify?.Invoke(this, picStream);
             }
-            else
-                Console.WriteLine("Classify Thread Is Busy");
         }
         public void ClassificationCompleted(List<ClassifyResult> classifyResults)
         {

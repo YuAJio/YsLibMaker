@@ -22,10 +22,9 @@
         />
 
     <Button
-        android:id="@+id/bt_event"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#66CCFF"
+        android:background="@color/Tianyi_Blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.1"
@@ -47,11 +46,10 @@
         app:layout_constraintWidth_percent="1" />
 
     <TextView
-        android:id="@+id/tvInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#FF66CCFF"
-        android:textSize="58sp"
+        android:textColor="@color/Tianyi_Blue"
+        android:textSize="@dimen/TextSize_CameraXEventContext"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

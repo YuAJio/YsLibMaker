@@ -66,6 +66,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Src\Activitys\Acty_Guide.cs" />
     <Compile Include="Src\Activitys\Acty_Splash.cs" />
+    <Compile Include="Src\Activitys\MenuContent\Acty_BlueTooth.cs" />
     <Compile Include="Src\Activitys\MenuContent\Acty_CameraX.cs" />
     <Compile Include="Src\ZApplication.cs" />
     <Compile Include="Tools\PathTools.cs" />
@@ -99,9 +100,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="MvvmCross">
       <Version>7.1.2</Version>
     </PackageReference>
@@ -109,6 +107,21 @@
       <Version>7.1.2</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.3.0" />
+    <PackageReference Include="Xamarin.AndroidX.Camera.Camera2">
+      <Version>1.0.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Camera.Core">
+      <Version>1.0.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Camera.Lifecycle">
+      <Version>1.0.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Camera.View">
+      <Version>1.0.0.5-alpha20</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Concurrent.Futures">
+      <Version>1.1.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.ConstraintLayout">
       <Version>2.0.4.2</Version>
     </PackageReference>
@@ -167,6 +180,25 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\tfliteLable.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\pres_guidemenu_background.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Activity_BlueTooth.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\listitem_bluetooth.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\shap_background_bluetooth_list.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\shap_background_textblock.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

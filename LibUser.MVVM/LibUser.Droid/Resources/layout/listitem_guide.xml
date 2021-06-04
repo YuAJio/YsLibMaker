@@ -11,6 +11,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textColor="#FF8C8C8C"
+        android:background="@drawable/pres_guidemenu_background"
         android:textSize="@dimen/TextSize_GuideMenuMenuTitle"
         android:paddingTop="@dimen/ViewPadding_GuideMenuTopAndBottom"
         android:paddingBottom="@dimen/ViewPadding_GuideMenuTopAndBottom"

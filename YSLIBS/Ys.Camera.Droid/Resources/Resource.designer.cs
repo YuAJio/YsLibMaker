@@ -66,28 +66,31 @@ namespace Ys.Camera.Droid
 			public static int fontProviderQuery = 2130771980;
 			
 			// aapt resource value: 0x7F01000D
-			public static int fontStyle = 2130771981;
+			public static int fontProviderSystemFontFamily = 2130771981;
 			
 			// aapt resource value: 0x7F01000E
-			public static int fontVariationSettings = 2130771982;
+			public static int fontStyle = 2130771982;
 			
 			// aapt resource value: 0x7F01000F
-			public static int fontWeight = 2130771983;
+			public static int fontVariationSettings = 2130771983;
 			
 			// aapt resource value: 0x7F010010
-			public static int implementationMode = 2130771984;
+			public static int fontWeight = 2130771984;
 			
 			// aapt resource value: 0x7F010011
-			public static int lensFacing = 2130771985;
+			public static int implementationMode = 2130771985;
 			
 			// aapt resource value: 0x7F010012
-			public static int pinchToZoomEnabled = 2130771986;
+			public static int lensFacing = 2130771986;
 			
 			// aapt resource value: 0x7F010013
-			public static int scaleType = 2130771987;
+			public static int pinchToZoomEnabled = 2130771987;
 			
 			// aapt resource value: 0x7F010014
-			public static int ttcIndex = 2130771988;
+			public static int scaleType = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public static int ttcIndex = 2130771989;
 			
 			static Attribute()
 			{
@@ -375,11 +378,11 @@ namespace Ys.Camera.Droid
 			// aapt resource value: 0x7F050029
 			public static int auto = 2131034153;
 			
-			// aapt resource value: 0x7F05002A
-			public static int back = 2131034154;
-			
 			// aapt resource value: 0x7F050000
 			public static int Back = 2131034112;
+			
+			// aapt resource value: 0x7F05002A
+			public static int back = 2131034154;
 			
 			// aapt resource value: 0x7F05002B
 			public static int blocking = 2131034155;
@@ -414,11 +417,11 @@ namespace Ys.Camera.Droid
 			// aapt resource value: 0x7F050035
 			public static int forever = 2131034165;
 			
-			// aapt resource value: 0x7F050036
-			public static int front = 2131034166;
-			
 			// aapt resource value: 0x7F050001
 			public static int Front = 2131034113;
+			
+			// aapt resource value: 0x7F050036
+			public static int front = 2131034166;
 			
 			// aapt resource value: 0x7F050037
 			public static int icon = 2131034167;
@@ -487,31 +490,49 @@ namespace Ys.Camera.Droid
 			public static int tag_accessibility_pane_title = 2131034188;
 			
 			// aapt resource value: 0x7F05004D
-			public static int tag_screen_reader_focusable = 2131034189;
+			public static int tag_on_apply_window_listener = 2131034189;
 			
 			// aapt resource value: 0x7F05004E
-			public static int tag_transition_group = 2131034190;
+			public static int tag_on_receive_content_listener = 2131034190;
 			
 			// aapt resource value: 0x7F05004F
-			public static int tag_unhandled_key_event_manager = 2131034191;
+			public static int tag_on_receive_content_mime_types = 2131034191;
 			
 			// aapt resource value: 0x7F050050
-			public static int tag_unhandled_key_listeners = 2131034192;
+			public static int tag_screen_reader_focusable = 2131034192;
 			
 			// aapt resource value: 0x7F050051
-			public static int text = 2131034193;
+			public static int tag_state_description = 2131034193;
 			
 			// aapt resource value: 0x7F050052
-			public static int text2 = 2131034194;
+			public static int tag_transition_group = 2131034194;
 			
 			// aapt resource value: 0x7F050053
-			public static int time = 2131034195;
+			public static int tag_unhandled_key_event_manager = 2131034195;
 			
 			// aapt resource value: 0x7F050054
-			public static int title = 2131034196;
+			public static int tag_unhandled_key_listeners = 2131034196;
 			
 			// aapt resource value: 0x7F050055
-			public static int video = 2131034197;
+			public static int tag_window_insets_animation_callback = 2131034197;
+			
+			// aapt resource value: 0x7F050056
+			public static int text = 2131034198;
+			
+			// aapt resource value: 0x7F050057
+			public static int text2 = 2131034199;
+			
+			// aapt resource value: 0x7F050058
+			public static int time = 2131034200;
+			
+			// aapt resource value: 0x7F050059
+			public static int title = 2131034201;
+			
+			// aapt resource value: 0x7F05005A
+			public static int video = 2131034202;
+			
+			// aapt resource value: 0x7F05005B
+			public static int view_tree_lifecycle_owner = 2131034203;
 			
 			static Id()
 			{
@@ -629,13 +650,13 @@ namespace Ys.Camera.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F010004,0x7F010005,0x7F010011,0x7F010012,0x7F010013 }
+			// aapt resource value: { 0x7F010004,0x7F010005,0x7F010012,0x7F010013,0x7F010014 }
 			public static int[] CameraView = new int[] {
 					2130771972,
 					2130771973,
-					2130771985,
 					2130771986,
-					2130771987};
+					2130771987,
+					2130771988};
 			
 			// aapt resource value: 0
 			public static int CameraView_captureMode = 0;
@@ -667,16 +688,17 @@ namespace Ys.Camera.Droid
 			// aapt resource value: 0
 			public static int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x7F010007,0x7F010008,0x7F010009,0x7F01000A,0x7F01000B,0x7F01000C }
+			// aapt resource value: { 0x7F010007,0x7F010008,0x7F010009,0x7F01000A,0x7F01000B,0x7F01000C,0x7F01000D }
 			public static int[] FontFamily = new int[] {
 					2130771975,
 					2130771976,
 					2130771977,
 					2130771978,
 					2130771979,
-					2130771980};
+					2130771980,
+					2130771981};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F010006,0x7F01000D,0x7F01000E,0x7F01000F,0x7F010014 }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F010006,0x7F01000E,0x7F01000F,0x7F010010,0x7F010015 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
@@ -684,10 +706,10 @@ namespace Ys.Camera.Droid
 					16844143,
 					16844144,
 					2130771974,
-					2130771981,
 					2130771982,
 					2130771983,
-					2130771988};
+					2130771984,
+					2130771989};
 			
 			// aapt resource value: 0
 			public static int FontFamilyFont_android_font = 0;
@@ -736,6 +758,9 @@ namespace Ys.Camera.Droid
 			
 			// aapt resource value: 5
 			public static int FontFamily_fontProviderQuery = 5;
+			
+			// aapt resource value: 6
+			public static int FontFamily_fontProviderSystemFontFamily = 6;
 			
 			// aapt resource value: { 0x101019D,0x101019E,0x10101A1,0x10101A2,0x10101A3,0x10101A4,0x1010201,0x101020B,0x1010510,0x1010511,0x1010512,0x1010513 }
 			public static int[] GradientColor = new int[] {
@@ -799,10 +824,10 @@ namespace Ys.Camera.Droid
 			// aapt resource value: 2
 			public static int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F010010,0x7F010013 }
+			// aapt resource value: { 0x7F010011,0x7F010014 }
 			public static int[] PreviewView = new int[] {
-					2130771984,
-					2130771987};
+					2130771985,
+					2130771988};
 			
 			// aapt resource value: 0
 			public static int PreviewView_implementationMode = 0;
