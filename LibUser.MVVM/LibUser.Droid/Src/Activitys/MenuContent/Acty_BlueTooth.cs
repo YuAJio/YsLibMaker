@@ -16,6 +16,9 @@ using System.Text;
 
 namespace LibUser.Droid.Src.Activitys.MenuContent
 {
+    [Activity(Label = "Acty_CameraX",
+        Theme = "@style/Theme.Standard",
+        ScreenOrientation = Android.Content.PM.ScreenOrientation.Landscape)]
     public class Acty_BlueTooth : MvxActivity<ViewM_BlueTooth>
     {
         protected override void OnCreate(Bundle bundle)

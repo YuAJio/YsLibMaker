@@ -42,7 +42,8 @@ namespace LibUser.Droid.Src.Activitys
             return
                 new List<Mod_GuildMenu>
                 {
-                   new Mod_GuildMenu { MenuName = "CameraX测试(图片分类)", ViewType = typeof(Acty_CameraX) }
+                   new Mod_GuildMenu { MenuName = "CameraX测试(图片分类)", ViewType = typeof(Acty_CameraX) },
+                   new Mod_GuildMenu { MenuName = "蓝牙连接", ViewType = typeof(Acty_BlueTooth) },
                 };
         }
 
