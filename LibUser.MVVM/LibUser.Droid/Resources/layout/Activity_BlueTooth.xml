@@ -34,7 +34,8 @@
         app:layout_constraintEnd_toEndOf="@id/vListBg"
         app:layout_constraintStart_toStartOf="@id/vListBg"
         app:layout_constraintTop_toTopOf="@id/vListBg"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.04"
+        local:MvxBind="Click ClickEvent_ScanBluetooth"/>
 
     <MvvmCross.DroidX.RecyclerView.MvxRecyclerView
         android:id="@+id/rvBlueTooth"

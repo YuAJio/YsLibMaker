@@ -9,4 +9,6 @@
   <color name="TextColor_BlueToothTextBlockHint">#876A6A6A</color>
   <color name="TextColor_BlueToothTextBlock">#FF4B4B4B</color>
   <color name="TextColor_BlueToothEpigraph">#FF0A2CA4</color>
+  <color name="TextColor_BlueToothItemName">#FF312F32</color>
+  <color name="TextColor_BlueToothItemCode">#FF424143</color>
 </resources>

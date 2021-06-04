@@ -6,8 +6,8 @@ namespace LibUser.MVVM.Core.Models
 {
     public class Mod_BlueTooth
     {
-        public string Name { get; set; }
-        public string Code { get; set; }
-        public bool IsConnected { get; set; }
+        public string BtName { get; set; }
+        public string BtCode { get; set; }
+        public bool BtConnected { get; set; }
     }
 }
