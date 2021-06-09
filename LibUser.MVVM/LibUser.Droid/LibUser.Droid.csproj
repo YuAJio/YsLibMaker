@@ -38,6 +38,7 @@
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
     <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <AndroidEnableMultiDex>true</AndroidEnableMultiDex>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -141,6 +142,10 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\YSLIBS\Ys.Bluetooth.Droid\Ys.Bluetooth.Droid.csproj">
+      <Project>{5714BEC3-8429-4A66-8244-DCDF5D719676}</Project>
+      <Name>Ys.Bluetooth.Droid</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\YSLIBS\Ys.Camera.Droid\Ys.Camera.Droid.csproj">
       <Project>{a41d9dab-602c-42ac-957e-204e6362c784}</Project>
       <Name>Ys.Camera.Droid</Name>
@@ -208,6 +213,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\sele_bluetooth_connect_state.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Managers\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

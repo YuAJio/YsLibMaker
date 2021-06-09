@@ -35,21 +35,18 @@
         app:layout_constraintStart_toStartOf="@id/vListBg"
         app:layout_constraintTop_toTopOf="@id/vListBg"
         app:layout_constraintVertical_bias="0.04"
-        local:MvxBind="Click ClickEvent_ScanBluetooth"/>
+        local:MvxBind="Click ClickEvent_ScanBluetooth" />
 
-    <MvvmCross.DroidX.RecyclerView.MvxRecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvBlueTooth"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="@dimen/ViewMargin_BlutToothListToTitle"
-        android:overScrollMode="never"
-        android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="@id/vListBg"
         app:layout_constraintEnd_toEndOf="@id/vListBg"
         app:layout_constraintStart_toStartOf="@id/vListBg"
         app:layout_constraintTop_toBottomOf="@id/tvEpigraph"
-        local:MvxBind="ItemsSource List_BlueTooth; ItemClick MenuClickCommand"
-        local:MvxItemTemplate="@layout/listitem_bluetooth" />
+      />
 
     <EditText
         android:id="@+id/etInput"

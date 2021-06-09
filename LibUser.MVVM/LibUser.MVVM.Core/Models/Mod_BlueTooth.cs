@@ -9,5 +9,6 @@ namespace LibUser.MVVM.Core.Models
         public string BtName { get; set; }
         public string BtCode { get; set; }
         public bool BtConnected { get; set; }
+        public int Rssi { get; set; }
     }
 }

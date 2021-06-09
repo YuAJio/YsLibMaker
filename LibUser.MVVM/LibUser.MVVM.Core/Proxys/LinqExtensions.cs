@@ -22,5 +22,12 @@ namespace LibUser.MVVM.Core.Proxys
             return _Base;
         }
 
+        public static ObservableCollection<T> AddOb<T>(this ObservableCollection<T> _Base, T _WaitForAdd)
+        {
+            if (_Base == null) throw new ArgumentNullException("The list what is watting for add is Null");
+            _Base.Add(_WaitForAdd);
+            return _Base;
+        }
+
     }
 }

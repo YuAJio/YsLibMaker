@@ -1,11 +1,13 @@
-﻿using MvvmCross.Commands;
+﻿using LibUser.MVVM.Core.Proxys;
+
+using MvvmCross.Commands;
 using MvvmCross.ViewModels;
 
-using Plugin.BluetoothLE;
 
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Text;
 using System.Windows.Input;
 
@@ -16,13 +18,17 @@ namespace LibUser.MVVM.Core.ViewModels.MenuContent
     /// </summary>
     public class ViewM_BlueTooth : MvxViewModel
     {
+        #region 暂时未跨平台的需要各个平台独自处理的业务回调
+        public Action ActionEvent_ScanBlueTooth;
+        #endregion
+
         #region 文字相关
-        private bool VisibleBo_InputArea { get { return bo_InputArea; } set { bo_InputArea = value; RaisePropertyChanged(() => VisibleBo_InputArea); } }
-        private bool VisibleBo_OutputArea { get { return bo_OutputArea; } set { bo_OutputArea = value; RaisePropertyChanged(() => VisibleBo_OutputArea); } }
+        public bool VisibleBo_InputArea { get { return bo_InputArea; } set { bo_InputArea = value; RaisePropertyChanged(() => VisibleBo_InputArea); } }
+        public bool VisibleBo_OutputArea { get { return bo_OutputArea; } set { bo_OutputArea = value; RaisePropertyChanged(() => VisibleBo_OutputArea); } }
         private bool bo_InputArea;
         private bool bo_OutputArea;
 
-        private string Content_Input
+        public string Content_Input
         {
             get { return _contentInput; }
             set
@@ -32,7 +38,7 @@ namespace LibUser.MVVM.Core.ViewModels.MenuContent
                 RaisePropertyChanged(() => Content_Input);
             }
         }
-        private string Content_Output
+        public string Content_Output
         {
             get { return _contentOutput; }
             set
@@ -48,21 +54,14 @@ namespace LibUser.MVVM.Core.ViewModels.MenuContent
 
         #region 事件相关
         private ICommand _scanClickCommand;
-        private ICommand ClickEvent_ScanBluetooth => _scanClickCommand ??= new MvxCommand(() =>
+        public ICommand ClickEvent_ScanBluetooth => _scanClickCommand ??= new MvxCommand(EventJK_JKLIOU);
+        private void EventJK_JKLIOU()
         {//点击了扫描
-            CrossBleAdapter.Current.Scan().Subscribe(jk =>
-            {
-                List_Bluetooth.Add(new Models.Mod_BlueTooth
-                {
-                    BtName = jk.Device?.Name,
-                    BtCode = jk.Device.Uuid.ToString(),
-                    BtConnected = jk.Device.Status == ConnectionStatus.Connected
-                });
-            });
-        });
+            ActionEvent_ScanBlueTooth?.Invoke();
+        }
 
         private ICommand _sendContentClickCommand;
-        private ICommand ClickEvent_SendContent => _sendContentClickCommand ??= new MvxCommand(() =>
+        public ICommand ClickEvent_SendContent => _sendContentClickCommand ??= new MvxCommand(() =>
         {//点击了发送消息
 
         });
@@ -71,12 +70,10 @@ namespace LibUser.MVVM.Core.ViewModels.MenuContent
 
         #region 列表相关
         private ObservableCollection<Models.Mod_BlueTooth> _menuList;
-        private ObservableCollection<Models.Mod_BlueTooth> List_Bluetooth
+        public ObservableCollection<Models.Mod_BlueTooth> List_Bluetooth
         {
             get
             {
-                if (_menuList == null)
-                    _menuList = new ObservableCollection<Models.Mod_BlueTooth>();
                 return _menuList;
             }
             set
@@ -86,6 +83,13 @@ namespace LibUser.MVVM.Core.ViewModels.MenuContent
             }
         }
 
+        public void ListAdd_Bluetooth(Models.Mod_BlueTooth item)
+        {
+            if (List_Bluetooth == null)
+                List_Bluetooth = new List<Models.Mod_BlueTooth> { item }.ToObservableCollection();
+            if (List_Bluetooth.Any(x => x.BtCode == item.BtCode)) return;
+            List_Bluetooth.AddOb(item);
+        }
         #endregion
 
     }
