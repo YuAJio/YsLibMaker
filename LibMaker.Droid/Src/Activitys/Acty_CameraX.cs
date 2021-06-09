@@ -51,6 +51,8 @@ namespace LibMaker.Droid.Src.Activitys
                 StartCheckImageFrameThread();
             };
 
+            FindViewById<Button>(Resource.Id.bt_event).Visibility = ViewStates.Gone;
+
             FindViewById<Button>(Resource.Id.bt_event).Click += delegate (object sender, EventArgs e)
             {
                 if (isOpenClassify)
@@ -165,7 +167,7 @@ namespace LibMaker.Droid.Src.Activitys
         #region 线程处理实时处理分类
         private bool isClassifyDone = true;
         private bool isAllow2Classify = false;
-        private bool isOpenClassify = false;
+        private bool isOpenClassify = true;
         private void StartCheckImageFrameThread()
         {
             SimpTimerPool.Instance.StartAndAddNewLoopTimer("Classify", 0, 2 * 1000, delegate
@@ -212,6 +214,7 @@ namespace LibMaker.Droid.Src.Activitys
                 {
                     if (x.Exception != null)
                     {
+                        isClassifyDone = true;
                     }
                 }/*, TaskScheduler.FromCurrentSynchronizationContext()*/);
             }
@@ -223,7 +226,7 @@ namespace LibMaker.Droid.Src.Activitys
 
         private IClassifier defaultClassifier;
         private const string LableName = "tfliteLable.txt";
-        private const string ModelName = "tf_lite_model.tflite";
+        private const string ModelName = "converted_model-int8.tflite";
         //private const string ModelName = "converted_model-int8.tflite";
 
         private void TFLiteClassifyPorcessStart(string picturePath)
@@ -261,9 +264,13 @@ namespace LibMaker.Droid.Src.Activitys
             string result = "";
             if (e.Predictions != null && e.Predictions.Any())
             {
-                var classifyResult = from j in e.Predictions join k in ListMat2Lable on j.TagName equals k.MatCode select new { j.Probability, k.MatName };
+                //var classifyResult = from j in e.Predictions join k in ListMat2Lable on j.TagName equals k.MatCode select new { j.Probability, k.MatName };
 
-                var orderResult = classifyResult.OrderByDescending(x => x.Probability).ToList();
+                //var orderResult = classifyResult.OrderByDescending(x => x.Probability).ToList();
+                var orderResult =
+                    e.Predictions.Select(x => new { x.Probability, MatName = x.TagName })
+                    .OrderByDescending(x => x.Probability)
+                    .ToList();
                 result = $"" +
                 $"识别结果前三为:<{orderResult[0]?.MatName}/{orderResult[1]?.MatName}/{orderResult[2]?.MatName}>" +
                 $"\n识别精度分别为:<{orderResult[0]?.Probability:N2}/{orderResult[1]?.Probability:N2}/{orderResult[2]?.Probability:N2}>";

@@ -215,4500 +215,6 @@ namespace LibMaker.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_type;
 			global::Xamarin.Essentials.Resource.Xml.image_share_filepaths = global::LibMaker.Droid.Resource.Xml.image_share_filepaths;
 			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::LibMaker.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
-			global::Ys.BeLazy.Resource.Animation.abc_fade_in = global::LibMaker.Droid.Resource.Animation.abc_fade_in;
-			global::Ys.BeLazy.Resource.Animation.abc_fade_out = global::LibMaker.Droid.Resource.Animation.abc_fade_out;
-			global::Ys.BeLazy.Resource.Animation.abc_grow_fade_in_from_bottom = global::LibMaker.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Ys.BeLazy.Resource.Animation.abc_popup_enter = global::LibMaker.Droid.Resource.Animation.abc_popup_enter;
-			global::Ys.BeLazy.Resource.Animation.abc_popup_exit = global::LibMaker.Droid.Resource.Animation.abc_popup_exit;
-			global::Ys.BeLazy.Resource.Animation.abc_shrink_fade_out_from_bottom = global::LibMaker.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Ys.BeLazy.Resource.Animation.abc_slide_in_bottom = global::LibMaker.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Ys.BeLazy.Resource.Animation.abc_slide_in_top = global::LibMaker.Droid.Resource.Animation.abc_slide_in_top;
-			global::Ys.BeLazy.Resource.Animation.abc_slide_out_bottom = global::LibMaker.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Ys.BeLazy.Resource.Animation.abc_slide_out_top = global::LibMaker.Droid.Resource.Animation.abc_slide_out_top;
-			global::Ys.BeLazy.Resource.Animation.abc_tooltip_enter = global::LibMaker.Droid.Resource.Animation.abc_tooltip_enter;
-			global::Ys.BeLazy.Resource.Animation.abc_tooltip_exit = global::LibMaker.Droid.Resource.Animation.abc_tooltip_exit;
-			global::Ys.BeLazy.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
-			global::Ys.BeLazy.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
-			global::Ys.BeLazy.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
-			global::Ys.BeLazy.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
-			global::Ys.BeLazy.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
-			global::Ys.BeLazy.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
-			global::Ys.BeLazy.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
-			global::Ys.BeLazy.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
-			global::Ys.BeLazy.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
-			global::Ys.BeLazy.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
-			global::Ys.BeLazy.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
-			global::Ys.BeLazy.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
-			global::Ys.BeLazy.Resource.Animation.slide_in_right = global::LibMaker.Droid.Resource.Animation.slide_in_right;
-			global::Ys.BeLazy.Resource.Animation.slide_out_right = global::LibMaker.Droid.Resource.Animation.slide_out_right;
-			global::Ys.BeLazy.Resource.Attribute.actionBarDivider = global::LibMaker.Droid.Resource.Attribute.actionBarDivider;
-			global::Ys.BeLazy.Resource.Attribute.actionBarItemBackground = global::LibMaker.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Ys.BeLazy.Resource.Attribute.actionBarPopupTheme = global::LibMaker.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Ys.BeLazy.Resource.Attribute.actionBarSize = global::LibMaker.Droid.Resource.Attribute.actionBarSize;
-			global::Ys.BeLazy.Resource.Attribute.actionBarSplitStyle = global::LibMaker.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionBarStyle = global::LibMaker.Droid.Resource.Attribute.actionBarStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionBarTabBarStyle = global::LibMaker.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionBarTabStyle = global::LibMaker.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionBarTabTextStyle = global::LibMaker.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionBarTheme = global::LibMaker.Droid.Resource.Attribute.actionBarTheme;
-			global::Ys.BeLazy.Resource.Attribute.actionBarWidgetTheme = global::LibMaker.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Ys.BeLazy.Resource.Attribute.actionButtonStyle = global::LibMaker.Droid.Resource.Attribute.actionButtonStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionDropDownStyle = global::LibMaker.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionLayout = global::LibMaker.Droid.Resource.Attribute.actionLayout;
-			global::Ys.BeLazy.Resource.Attribute.actionMenuTextAppearance = global::LibMaker.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Ys.BeLazy.Resource.Attribute.actionMenuTextColor = global::LibMaker.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Ys.BeLazy.Resource.Attribute.actionModeBackground = global::LibMaker.Droid.Resource.Attribute.actionModeBackground;
-			global::Ys.BeLazy.Resource.Attribute.actionModeCloseButtonStyle = global::LibMaker.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionModeCloseDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Ys.BeLazy.Resource.Attribute.actionModeCopyDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Ys.BeLazy.Resource.Attribute.actionModeCutDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Ys.BeLazy.Resource.Attribute.actionModeFindDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Ys.BeLazy.Resource.Attribute.actionModePasteDrawable = global::LibMaker.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Ys.BeLazy.Resource.Attribute.actionModePopupWindowStyle = global::LibMaker.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionModeSelectAllDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Ys.BeLazy.Resource.Attribute.actionModeShareDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Ys.BeLazy.Resource.Attribute.actionModeSplitBackground = global::LibMaker.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Ys.BeLazy.Resource.Attribute.actionModeStyle = global::LibMaker.Droid.Resource.Attribute.actionModeStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionModeWebSearchDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Ys.BeLazy.Resource.Attribute.actionOverflowButtonStyle = global::LibMaker.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionOverflowMenuStyle = global::LibMaker.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Ys.BeLazy.Resource.Attribute.actionProviderClass = global::LibMaker.Droid.Resource.Attribute.actionProviderClass;
-			global::Ys.BeLazy.Resource.Attribute.actionViewClass = global::LibMaker.Droid.Resource.Attribute.actionViewClass;
-			global::Ys.BeLazy.Resource.Attribute.activityChooserViewStyle = global::LibMaker.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Ys.BeLazy.Resource.Attribute.alertDialogButtonGroupStyle = global::LibMaker.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Ys.BeLazy.Resource.Attribute.alertDialogCenterButtons = global::LibMaker.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Ys.BeLazy.Resource.Attribute.alertDialogStyle = global::LibMaker.Droid.Resource.Attribute.alertDialogStyle;
-			global::Ys.BeLazy.Resource.Attribute.alertDialogTheme = global::LibMaker.Droid.Resource.Attribute.alertDialogTheme;
-			global::Ys.BeLazy.Resource.Attribute.allowStacking = global::LibMaker.Droid.Resource.Attribute.allowStacking;
-			global::Ys.BeLazy.Resource.Attribute.alpha = global::LibMaker.Droid.Resource.Attribute.alpha;
-			global::Ys.BeLazy.Resource.Attribute.alphabeticModifiers = global::LibMaker.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Ys.BeLazy.Resource.Attribute.altSrc = global::LibMaker.Droid.Resource.Attribute.altSrc;
-			global::Ys.BeLazy.Resource.Attribute.animate_relativeTo = global::LibMaker.Droid.Resource.Attribute.animate_relativeTo;
-			global::Ys.BeLazy.Resource.Attribute.applyMotionScene = global::LibMaker.Droid.Resource.Attribute.applyMotionScene;
-			global::Ys.BeLazy.Resource.Attribute.arcMode = global::LibMaker.Droid.Resource.Attribute.arcMode;
-			global::Ys.BeLazy.Resource.Attribute.arrowHeadLength = global::LibMaker.Droid.Resource.Attribute.arrowHeadLength;
-			global::Ys.BeLazy.Resource.Attribute.arrowShaftLength = global::LibMaker.Droid.Resource.Attribute.arrowShaftLength;
-			global::Ys.BeLazy.Resource.Attribute.attributeName = global::LibMaker.Droid.Resource.Attribute.attributeName;
-			global::Ys.BeLazy.Resource.Attribute.autoCompleteTextViewStyle = global::LibMaker.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Ys.BeLazy.Resource.Attribute.autoSizeMaxTextSize = global::LibMaker.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Ys.BeLazy.Resource.Attribute.autoSizeMinTextSize = global::LibMaker.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Ys.BeLazy.Resource.Attribute.autoSizePresetSizes = global::LibMaker.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Ys.BeLazy.Resource.Attribute.autoSizeStepGranularity = global::LibMaker.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Ys.BeLazy.Resource.Attribute.autoSizeTextType = global::LibMaker.Droid.Resource.Attribute.autoSizeTextType;
-			global::Ys.BeLazy.Resource.Attribute.autoTransition = global::LibMaker.Droid.Resource.Attribute.autoTransition;
-			global::Ys.BeLazy.Resource.Attribute.background = global::LibMaker.Droid.Resource.Attribute.background;
-			global::Ys.BeLazy.Resource.Attribute.backgroundSplit = global::LibMaker.Droid.Resource.Attribute.backgroundSplit;
-			global::Ys.BeLazy.Resource.Attribute.backgroundStacked = global::LibMaker.Droid.Resource.Attribute.backgroundStacked;
-			global::Ys.BeLazy.Resource.Attribute.backgroundTint = global::LibMaker.Droid.Resource.Attribute.backgroundTint;
-			global::Ys.BeLazy.Resource.Attribute.backgroundTintMode = global::LibMaker.Droid.Resource.Attribute.backgroundTintMode;
-			global::Ys.BeLazy.Resource.Attribute.barLength = global::LibMaker.Droid.Resource.Attribute.barLength;
-			global::Ys.BeLazy.Resource.Attribute.barrierAllowsGoneWidgets = global::LibMaker.Droid.Resource.Attribute.barrierAllowsGoneWidgets;
-			global::Ys.BeLazy.Resource.Attribute.barrierDirection = global::LibMaker.Droid.Resource.Attribute.barrierDirection;
-			global::Ys.BeLazy.Resource.Attribute.barrierMargin = global::LibMaker.Droid.Resource.Attribute.barrierMargin;
-			global::Ys.BeLazy.Resource.Attribute.borderlessButtonStyle = global::LibMaker.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Ys.BeLazy.Resource.Attribute.brightness = global::LibMaker.Droid.Resource.Attribute.brightness;
-			global::Ys.BeLazy.Resource.Attribute.buttonBarButtonStyle = global::LibMaker.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Ys.BeLazy.Resource.Attribute.buttonBarNegativeButtonStyle = global::LibMaker.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Ys.BeLazy.Resource.Attribute.buttonBarNeutralButtonStyle = global::LibMaker.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Ys.BeLazy.Resource.Attribute.buttonBarPositiveButtonStyle = global::LibMaker.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Ys.BeLazy.Resource.Attribute.buttonBarStyle = global::LibMaker.Droid.Resource.Attribute.buttonBarStyle;
-			global::Ys.BeLazy.Resource.Attribute.buttonCompat = global::LibMaker.Droid.Resource.Attribute.buttonCompat;
-			global::Ys.BeLazy.Resource.Attribute.buttonGravity = global::LibMaker.Droid.Resource.Attribute.buttonGravity;
-			global::Ys.BeLazy.Resource.Attribute.buttonIconDimen = global::LibMaker.Droid.Resource.Attribute.buttonIconDimen;
-			global::Ys.BeLazy.Resource.Attribute.buttonPanelSideLayout = global::LibMaker.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Ys.BeLazy.Resource.Attribute.buttonStyle = global::LibMaker.Droid.Resource.Attribute.buttonStyle;
-			global::Ys.BeLazy.Resource.Attribute.buttonStyleSmall = global::LibMaker.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Ys.BeLazy.Resource.Attribute.buttonTint = global::LibMaker.Droid.Resource.Attribute.buttonTint;
-			global::Ys.BeLazy.Resource.Attribute.buttonTintMode = global::LibMaker.Droid.Resource.Attribute.buttonTintMode;
-			global::Ys.BeLazy.Resource.Attribute.chainUseRtl = global::LibMaker.Droid.Resource.Attribute.chainUseRtl;
-			global::Ys.BeLazy.Resource.Attribute.checkboxStyle = global::LibMaker.Droid.Resource.Attribute.checkboxStyle;
-			global::Ys.BeLazy.Resource.Attribute.checkedTextViewStyle = global::LibMaker.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Ys.BeLazy.Resource.Attribute.circleRadius = global::LibMaker.Droid.Resource.Attribute.circleRadius;
-			global::Ys.BeLazy.Resource.Attribute.clickAction = global::LibMaker.Droid.Resource.Attribute.clickAction;
-			global::Ys.BeLazy.Resource.Attribute.closeIcon = global::LibMaker.Droid.Resource.Attribute.closeIcon;
-			global::Ys.BeLazy.Resource.Attribute.closeItemLayout = global::LibMaker.Droid.Resource.Attribute.closeItemLayout;
-			global::Ys.BeLazy.Resource.Attribute.collapseContentDescription = global::LibMaker.Droid.Resource.Attribute.collapseContentDescription;
-			global::Ys.BeLazy.Resource.Attribute.collapseIcon = global::LibMaker.Droid.Resource.Attribute.collapseIcon;
-			global::Ys.BeLazy.Resource.Attribute.color = global::LibMaker.Droid.Resource.Attribute.color;
-			global::Ys.BeLazy.Resource.Attribute.colorAccent = global::LibMaker.Droid.Resource.Attribute.colorAccent;
-			global::Ys.BeLazy.Resource.Attribute.colorBackgroundFloating = global::LibMaker.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Ys.BeLazy.Resource.Attribute.colorButtonNormal = global::LibMaker.Droid.Resource.Attribute.colorButtonNormal;
-			global::Ys.BeLazy.Resource.Attribute.colorControlActivated = global::LibMaker.Droid.Resource.Attribute.colorControlActivated;
-			global::Ys.BeLazy.Resource.Attribute.colorControlHighlight = global::LibMaker.Droid.Resource.Attribute.colorControlHighlight;
-			global::Ys.BeLazy.Resource.Attribute.colorControlNormal = global::LibMaker.Droid.Resource.Attribute.colorControlNormal;
-			global::Ys.BeLazy.Resource.Attribute.colorError = global::LibMaker.Droid.Resource.Attribute.colorError;
-			global::Ys.BeLazy.Resource.Attribute.colorPrimary = global::LibMaker.Droid.Resource.Attribute.colorPrimary;
-			global::Ys.BeLazy.Resource.Attribute.colorPrimaryDark = global::LibMaker.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Ys.BeLazy.Resource.Attribute.colorSwitchThumbNormal = global::LibMaker.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Ys.BeLazy.Resource.Attribute.commitIcon = global::LibMaker.Droid.Resource.Attribute.commitIcon;
-			global::Ys.BeLazy.Resource.Attribute.constraints = global::LibMaker.Droid.Resource.Attribute.constraints;
-			global::Ys.BeLazy.Resource.Attribute.constraintSet = global::LibMaker.Droid.Resource.Attribute.constraintSet;
-			global::Ys.BeLazy.Resource.Attribute.constraintSetEnd = global::LibMaker.Droid.Resource.Attribute.constraintSetEnd;
-			global::Ys.BeLazy.Resource.Attribute.constraintSetStart = global::LibMaker.Droid.Resource.Attribute.constraintSetStart;
-			global::Ys.BeLazy.Resource.Attribute.constraint_referenced_ids = global::LibMaker.Droid.Resource.Attribute.constraint_referenced_ids;
-			global::Ys.BeLazy.Resource.Attribute.constraint_referenced_tags = global::LibMaker.Droid.Resource.Attribute.constraint_referenced_tags;
-			global::Ys.BeLazy.Resource.Attribute.content = global::LibMaker.Droid.Resource.Attribute.content;
-			global::Ys.BeLazy.Resource.Attribute.contentDescription = global::LibMaker.Droid.Resource.Attribute.contentDescription;
-			global::Ys.BeLazy.Resource.Attribute.contentInsetEnd = global::LibMaker.Droid.Resource.Attribute.contentInsetEnd;
-			global::Ys.BeLazy.Resource.Attribute.contentInsetEndWithActions = global::LibMaker.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Ys.BeLazy.Resource.Attribute.contentInsetLeft = global::LibMaker.Droid.Resource.Attribute.contentInsetLeft;
-			global::Ys.BeLazy.Resource.Attribute.contentInsetRight = global::LibMaker.Droid.Resource.Attribute.contentInsetRight;
-			global::Ys.BeLazy.Resource.Attribute.contentInsetStart = global::LibMaker.Droid.Resource.Attribute.contentInsetStart;
-			global::Ys.BeLazy.Resource.Attribute.contentInsetStartWithNavigation = global::LibMaker.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Ys.BeLazy.Resource.Attribute.contrast = global::LibMaker.Droid.Resource.Attribute.contrast;
-			global::Ys.BeLazy.Resource.Attribute.controlBackground = global::LibMaker.Droid.Resource.Attribute.controlBackground;
-			global::Ys.BeLazy.Resource.Attribute.crossfade = global::LibMaker.Droid.Resource.Attribute.crossfade;
-			global::Ys.BeLazy.Resource.Attribute.currentState = global::LibMaker.Droid.Resource.Attribute.currentState;
-			global::Ys.BeLazy.Resource.Attribute.curveFit = global::LibMaker.Droid.Resource.Attribute.curveFit;
-			global::Ys.BeLazy.Resource.Attribute.customBoolean = global::LibMaker.Droid.Resource.Attribute.customBoolean;
-			global::Ys.BeLazy.Resource.Attribute.customColorDrawableValue = global::LibMaker.Droid.Resource.Attribute.customColorDrawableValue;
-			global::Ys.BeLazy.Resource.Attribute.customColorValue = global::LibMaker.Droid.Resource.Attribute.customColorValue;
-			global::Ys.BeLazy.Resource.Attribute.customDimension = global::LibMaker.Droid.Resource.Attribute.customDimension;
-			global::Ys.BeLazy.Resource.Attribute.customFloatValue = global::LibMaker.Droid.Resource.Attribute.customFloatValue;
-			global::Ys.BeLazy.Resource.Attribute.customIntegerValue = global::LibMaker.Droid.Resource.Attribute.customIntegerValue;
-			global::Ys.BeLazy.Resource.Attribute.customNavigationLayout = global::LibMaker.Droid.Resource.Attribute.customNavigationLayout;
-			global::Ys.BeLazy.Resource.Attribute.customPixelDimension = global::LibMaker.Droid.Resource.Attribute.customPixelDimension;
-			global::Ys.BeLazy.Resource.Attribute.customStringValue = global::LibMaker.Droid.Resource.Attribute.customStringValue;
-			global::Ys.BeLazy.Resource.Attribute.defaultDuration = global::LibMaker.Droid.Resource.Attribute.defaultDuration;
-			global::Ys.BeLazy.Resource.Attribute.defaultQueryHint = global::LibMaker.Droid.Resource.Attribute.defaultQueryHint;
-			global::Ys.BeLazy.Resource.Attribute.defaultState = global::LibMaker.Droid.Resource.Attribute.defaultState;
-			global::Ys.BeLazy.Resource.Attribute.deltaPolarAngle = global::LibMaker.Droid.Resource.Attribute.deltaPolarAngle;
-			global::Ys.BeLazy.Resource.Attribute.deltaPolarRadius = global::LibMaker.Droid.Resource.Attribute.deltaPolarRadius;
-			global::Ys.BeLazy.Resource.Attribute.deriveConstraintsFrom = global::LibMaker.Droid.Resource.Attribute.deriveConstraintsFrom;
-			global::Ys.BeLazy.Resource.Attribute.dialogCornerRadius = global::LibMaker.Droid.Resource.Attribute.dialogCornerRadius;
-			global::Ys.BeLazy.Resource.Attribute.dialogPreferredPadding = global::LibMaker.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Ys.BeLazy.Resource.Attribute.dialogTheme = global::LibMaker.Droid.Resource.Attribute.dialogTheme;
-			global::Ys.BeLazy.Resource.Attribute.displayOptions = global::LibMaker.Droid.Resource.Attribute.displayOptions;
-			global::Ys.BeLazy.Resource.Attribute.divider = global::LibMaker.Droid.Resource.Attribute.divider;
-			global::Ys.BeLazy.Resource.Attribute.dividerHorizontal = global::LibMaker.Droid.Resource.Attribute.dividerHorizontal;
-			global::Ys.BeLazy.Resource.Attribute.dividerPadding = global::LibMaker.Droid.Resource.Attribute.dividerPadding;
-			global::Ys.BeLazy.Resource.Attribute.dividerVertical = global::LibMaker.Droid.Resource.Attribute.dividerVertical;
-			global::Ys.BeLazy.Resource.Attribute.dragDirection = global::LibMaker.Droid.Resource.Attribute.dragDirection;
-			global::Ys.BeLazy.Resource.Attribute.dragScale = global::LibMaker.Droid.Resource.Attribute.dragScale;
-			global::Ys.BeLazy.Resource.Attribute.dragThreshold = global::LibMaker.Droid.Resource.Attribute.dragThreshold;
-			global::Ys.BeLazy.Resource.Attribute.drawableBottomCompat = global::LibMaker.Droid.Resource.Attribute.drawableBottomCompat;
-			global::Ys.BeLazy.Resource.Attribute.drawableEndCompat = global::LibMaker.Droid.Resource.Attribute.drawableEndCompat;
-			global::Ys.BeLazy.Resource.Attribute.drawableLeftCompat = global::LibMaker.Droid.Resource.Attribute.drawableLeftCompat;
-			global::Ys.BeLazy.Resource.Attribute.drawableRightCompat = global::LibMaker.Droid.Resource.Attribute.drawableRightCompat;
-			global::Ys.BeLazy.Resource.Attribute.drawableSize = global::LibMaker.Droid.Resource.Attribute.drawableSize;
-			global::Ys.BeLazy.Resource.Attribute.drawableStartCompat = global::LibMaker.Droid.Resource.Attribute.drawableStartCompat;
-			global::Ys.BeLazy.Resource.Attribute.drawableTint = global::LibMaker.Droid.Resource.Attribute.drawableTint;
-			global::Ys.BeLazy.Resource.Attribute.drawableTintMode = global::LibMaker.Droid.Resource.Attribute.drawableTintMode;
-			global::Ys.BeLazy.Resource.Attribute.drawableTopCompat = global::LibMaker.Droid.Resource.Attribute.drawableTopCompat;
-			global::Ys.BeLazy.Resource.Attribute.drawerArrowStyle = global::LibMaker.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Ys.BeLazy.Resource.Attribute.drawerLayoutStyle = global::LibMaker.Droid.Resource.Attribute.drawerLayoutStyle;
-			global::Ys.BeLazy.Resource.Attribute.drawPath = global::LibMaker.Droid.Resource.Attribute.drawPath;
-			global::Ys.BeLazy.Resource.Attribute.dropdownListPreferredItemHeight = global::LibMaker.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Ys.BeLazy.Resource.Attribute.dropDownListViewStyle = global::LibMaker.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Ys.BeLazy.Resource.Attribute.duration = global::LibMaker.Droid.Resource.Attribute.duration;
-			global::Ys.BeLazy.Resource.Attribute.editTextBackground = global::LibMaker.Droid.Resource.Attribute.editTextBackground;
-			global::Ys.BeLazy.Resource.Attribute.editTextColor = global::LibMaker.Droid.Resource.Attribute.editTextColor;
-			global::Ys.BeLazy.Resource.Attribute.editTextStyle = global::LibMaker.Droid.Resource.Attribute.editTextStyle;
-			global::Ys.BeLazy.Resource.Attribute.elevation = global::LibMaker.Droid.Resource.Attribute.elevation;
-			global::Ys.BeLazy.Resource.Attribute.expandActivityOverflowButtonDrawable = global::LibMaker.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Ys.BeLazy.Resource.Attribute.fastScrollEnabled = global::LibMaker.Droid.Resource.Attribute.fastScrollEnabled;
-			global::Ys.BeLazy.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::LibMaker.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::Ys.BeLazy.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::LibMaker.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::Ys.BeLazy.Resource.Attribute.fastScrollVerticalThumbDrawable = global::LibMaker.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::Ys.BeLazy.Resource.Attribute.fastScrollVerticalTrackDrawable = global::LibMaker.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::Ys.BeLazy.Resource.Attribute.firstBaselineToTopHeight = global::LibMaker.Droid.Resource.Attribute.firstBaselineToTopHeight;
-			global::Ys.BeLazy.Resource.Attribute.flow_firstHorizontalBias = global::LibMaker.Droid.Resource.Attribute.flow_firstHorizontalBias;
-			global::Ys.BeLazy.Resource.Attribute.flow_firstHorizontalStyle = global::LibMaker.Droid.Resource.Attribute.flow_firstHorizontalStyle;
-			global::Ys.BeLazy.Resource.Attribute.flow_firstVerticalBias = global::LibMaker.Droid.Resource.Attribute.flow_firstVerticalBias;
-			global::Ys.BeLazy.Resource.Attribute.flow_firstVerticalStyle = global::LibMaker.Droid.Resource.Attribute.flow_firstVerticalStyle;
-			global::Ys.BeLazy.Resource.Attribute.flow_horizontalAlign = global::LibMaker.Droid.Resource.Attribute.flow_horizontalAlign;
-			global::Ys.BeLazy.Resource.Attribute.flow_horizontalBias = global::LibMaker.Droid.Resource.Attribute.flow_horizontalBias;
-			global::Ys.BeLazy.Resource.Attribute.flow_horizontalGap = global::LibMaker.Droid.Resource.Attribute.flow_horizontalGap;
-			global::Ys.BeLazy.Resource.Attribute.flow_horizontalStyle = global::LibMaker.Droid.Resource.Attribute.flow_horizontalStyle;
-			global::Ys.BeLazy.Resource.Attribute.flow_lastHorizontalBias = global::LibMaker.Droid.Resource.Attribute.flow_lastHorizontalBias;
-			global::Ys.BeLazy.Resource.Attribute.flow_lastHorizontalStyle = global::LibMaker.Droid.Resource.Attribute.flow_lastHorizontalStyle;
-			global::Ys.BeLazy.Resource.Attribute.flow_lastVerticalBias = global::LibMaker.Droid.Resource.Attribute.flow_lastVerticalBias;
-			global::Ys.BeLazy.Resource.Attribute.flow_lastVerticalStyle = global::LibMaker.Droid.Resource.Attribute.flow_lastVerticalStyle;
-			global::Ys.BeLazy.Resource.Attribute.flow_maxElementsWrap = global::LibMaker.Droid.Resource.Attribute.flow_maxElementsWrap;
-			global::Ys.BeLazy.Resource.Attribute.flow_padding = global::LibMaker.Droid.Resource.Attribute.flow_padding;
-			global::Ys.BeLazy.Resource.Attribute.flow_verticalAlign = global::LibMaker.Droid.Resource.Attribute.flow_verticalAlign;
-			global::Ys.BeLazy.Resource.Attribute.flow_verticalBias = global::LibMaker.Droid.Resource.Attribute.flow_verticalBias;
-			global::Ys.BeLazy.Resource.Attribute.flow_verticalGap = global::LibMaker.Droid.Resource.Attribute.flow_verticalGap;
-			global::Ys.BeLazy.Resource.Attribute.flow_verticalStyle = global::LibMaker.Droid.Resource.Attribute.flow_verticalStyle;
-			global::Ys.BeLazy.Resource.Attribute.flow_wrapMode = global::LibMaker.Droid.Resource.Attribute.flow_wrapMode;
-			global::Ys.BeLazy.Resource.Attribute.font = global::LibMaker.Droid.Resource.Attribute.font;
-			global::Ys.BeLazy.Resource.Attribute.fontFamily = global::LibMaker.Droid.Resource.Attribute.fontFamily;
-			global::Ys.BeLazy.Resource.Attribute.fontProviderAuthority = global::LibMaker.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Ys.BeLazy.Resource.Attribute.fontProviderCerts = global::LibMaker.Droid.Resource.Attribute.fontProviderCerts;
-			global::Ys.BeLazy.Resource.Attribute.fontProviderFetchStrategy = global::LibMaker.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Ys.BeLazy.Resource.Attribute.fontProviderFetchTimeout = global::LibMaker.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Ys.BeLazy.Resource.Attribute.fontProviderPackage = global::LibMaker.Droid.Resource.Attribute.fontProviderPackage;
-			global::Ys.BeLazy.Resource.Attribute.fontProviderQuery = global::LibMaker.Droid.Resource.Attribute.fontProviderQuery;
-			global::Ys.BeLazy.Resource.Attribute.fontStyle = global::LibMaker.Droid.Resource.Attribute.fontStyle;
-			global::Ys.BeLazy.Resource.Attribute.fontVariationSettings = global::LibMaker.Droid.Resource.Attribute.fontVariationSettings;
-			global::Ys.BeLazy.Resource.Attribute.fontWeight = global::LibMaker.Droid.Resource.Attribute.fontWeight;
-			global::Ys.BeLazy.Resource.Attribute.framePosition = global::LibMaker.Droid.Resource.Attribute.framePosition;
-			global::Ys.BeLazy.Resource.Attribute.gapBetweenBars = global::LibMaker.Droid.Resource.Attribute.gapBetweenBars;
-			global::Ys.BeLazy.Resource.Attribute.goIcon = global::LibMaker.Droid.Resource.Attribute.goIcon;
-			global::Ys.BeLazy.Resource.Attribute.height = global::LibMaker.Droid.Resource.Attribute.height;
-			global::Ys.BeLazy.Resource.Attribute.hideOnContentScroll = global::LibMaker.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Ys.BeLazy.Resource.Attribute.homeAsUpIndicator = global::LibMaker.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Ys.BeLazy.Resource.Attribute.homeLayout = global::LibMaker.Droid.Resource.Attribute.homeLayout;
-			global::Ys.BeLazy.Resource.Attribute.icon = global::LibMaker.Droid.Resource.Attribute.icon;
-			global::Ys.BeLazy.Resource.Attribute.iconifiedByDefault = global::LibMaker.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Ys.BeLazy.Resource.Attribute.iconTint = global::LibMaker.Droid.Resource.Attribute.iconTint;
-			global::Ys.BeLazy.Resource.Attribute.iconTintMode = global::LibMaker.Droid.Resource.Attribute.iconTintMode;
-			global::Ys.BeLazy.Resource.Attribute.imageButtonStyle = global::LibMaker.Droid.Resource.Attribute.imageButtonStyle;
-			global::Ys.BeLazy.Resource.Attribute.indeterminateProgressStyle = global::LibMaker.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Ys.BeLazy.Resource.Attribute.initialActivityCount = global::LibMaker.Droid.Resource.Attribute.initialActivityCount;
-			global::Ys.BeLazy.Resource.Attribute.isLightTheme = global::LibMaker.Droid.Resource.Attribute.isLightTheme;
-			global::Ys.BeLazy.Resource.Attribute.itemPadding = global::LibMaker.Droid.Resource.Attribute.itemPadding;
-			global::Ys.BeLazy.Resource.Attribute.keyPositionType = global::LibMaker.Droid.Resource.Attribute.keyPositionType;
-			global::Ys.BeLazy.Resource.Attribute.lastBaselineToBottomHeight = global::LibMaker.Droid.Resource.Attribute.lastBaselineToBottomHeight;
-			global::Ys.BeLazy.Resource.Attribute.layout = global::LibMaker.Droid.Resource.Attribute.layout;
-			global::Ys.BeLazy.Resource.Attribute.layoutDescription = global::LibMaker.Droid.Resource.Attribute.layoutDescription;
-			global::Ys.BeLazy.Resource.Attribute.layoutDuringTransition = global::LibMaker.Droid.Resource.Attribute.layoutDuringTransition;
-			global::Ys.BeLazy.Resource.Attribute.layoutManager = global::LibMaker.Droid.Resource.Attribute.layoutManager;
-			global::Ys.BeLazy.Resource.Attribute.layout_constrainedHeight = global::LibMaker.Droid.Resource.Attribute.layout_constrainedHeight;
-			global::Ys.BeLazy.Resource.Attribute.layout_constrainedWidth = global::LibMaker.Droid.Resource.Attribute.layout_constrainedWidth;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintBaseline_creator = global::LibMaker.Droid.Resource.Attribute.layout_constraintBaseline_creator;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintBaseline_toBaselineOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintBaseline_toBaselineOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintBottom_creator = global::LibMaker.Droid.Resource.Attribute.layout_constraintBottom_creator;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintBottom_toBottomOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintBottom_toBottomOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintBottom_toTopOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintBottom_toTopOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintCircle = global::LibMaker.Droid.Resource.Attribute.layout_constraintCircle;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintCircleAngle = global::LibMaker.Droid.Resource.Attribute.layout_constraintCircleAngle;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintCircleRadius = global::LibMaker.Droid.Resource.Attribute.layout_constraintCircleRadius;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintDimensionRatio = global::LibMaker.Droid.Resource.Attribute.layout_constraintDimensionRatio;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintEnd_toEndOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintEnd_toEndOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintEnd_toStartOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintEnd_toStartOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintGuide_begin = global::LibMaker.Droid.Resource.Attribute.layout_constraintGuide_begin;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintGuide_end = global::LibMaker.Droid.Resource.Attribute.layout_constraintGuide_end;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintGuide_percent = global::LibMaker.Droid.Resource.Attribute.layout_constraintGuide_percent;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintHeight_default = global::LibMaker.Droid.Resource.Attribute.layout_constraintHeight_default;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintHeight_max = global::LibMaker.Droid.Resource.Attribute.layout_constraintHeight_max;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintHeight_min = global::LibMaker.Droid.Resource.Attribute.layout_constraintHeight_min;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintHeight_percent = global::LibMaker.Droid.Resource.Attribute.layout_constraintHeight_percent;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintHorizontal_bias = global::LibMaker.Droid.Resource.Attribute.layout_constraintHorizontal_bias;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintHorizontal_chainStyle = global::LibMaker.Droid.Resource.Attribute.layout_constraintHorizontal_chainStyle;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintHorizontal_weight = global::LibMaker.Droid.Resource.Attribute.layout_constraintHorizontal_weight;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintLeft_creator = global::LibMaker.Droid.Resource.Attribute.layout_constraintLeft_creator;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintLeft_toLeftOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintLeft_toLeftOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintLeft_toRightOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintLeft_toRightOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintRight_creator = global::LibMaker.Droid.Resource.Attribute.layout_constraintRight_creator;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintRight_toLeftOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintRight_toLeftOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintRight_toRightOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintRight_toRightOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintStart_toEndOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintStart_toEndOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintStart_toStartOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintStart_toStartOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintTag = global::LibMaker.Droid.Resource.Attribute.layout_constraintTag;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintTop_creator = global::LibMaker.Droid.Resource.Attribute.layout_constraintTop_creator;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintTop_toBottomOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintTop_toBottomOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintTop_toTopOf = global::LibMaker.Droid.Resource.Attribute.layout_constraintTop_toTopOf;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintVertical_bias = global::LibMaker.Droid.Resource.Attribute.layout_constraintVertical_bias;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintVertical_chainStyle = global::LibMaker.Droid.Resource.Attribute.layout_constraintVertical_chainStyle;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintVertical_weight = global::LibMaker.Droid.Resource.Attribute.layout_constraintVertical_weight;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintWidth_default = global::LibMaker.Droid.Resource.Attribute.layout_constraintWidth_default;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintWidth_max = global::LibMaker.Droid.Resource.Attribute.layout_constraintWidth_max;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintWidth_min = global::LibMaker.Droid.Resource.Attribute.layout_constraintWidth_min;
-			global::Ys.BeLazy.Resource.Attribute.layout_constraintWidth_percent = global::LibMaker.Droid.Resource.Attribute.layout_constraintWidth_percent;
-			global::Ys.BeLazy.Resource.Attribute.layout_editor_absoluteX = global::LibMaker.Droid.Resource.Attribute.layout_editor_absoluteX;
-			global::Ys.BeLazy.Resource.Attribute.layout_editor_absoluteY = global::LibMaker.Droid.Resource.Attribute.layout_editor_absoluteY;
-			global::Ys.BeLazy.Resource.Attribute.layout_goneMarginBottom = global::LibMaker.Droid.Resource.Attribute.layout_goneMarginBottom;
-			global::Ys.BeLazy.Resource.Attribute.layout_goneMarginEnd = global::LibMaker.Droid.Resource.Attribute.layout_goneMarginEnd;
-			global::Ys.BeLazy.Resource.Attribute.layout_goneMarginLeft = global::LibMaker.Droid.Resource.Attribute.layout_goneMarginLeft;
-			global::Ys.BeLazy.Resource.Attribute.layout_goneMarginRight = global::LibMaker.Droid.Resource.Attribute.layout_goneMarginRight;
-			global::Ys.BeLazy.Resource.Attribute.layout_goneMarginStart = global::LibMaker.Droid.Resource.Attribute.layout_goneMarginStart;
-			global::Ys.BeLazy.Resource.Attribute.layout_goneMarginTop = global::LibMaker.Droid.Resource.Attribute.layout_goneMarginTop;
-			global::Ys.BeLazy.Resource.Attribute.layout_optimizationLevel = global::LibMaker.Droid.Resource.Attribute.layout_optimizationLevel;
-			global::Ys.BeLazy.Resource.Attribute.limitBoundsTo = global::LibMaker.Droid.Resource.Attribute.limitBoundsTo;
-			global::Ys.BeLazy.Resource.Attribute.lineHeight = global::LibMaker.Droid.Resource.Attribute.lineHeight;
-			global::Ys.BeLazy.Resource.Attribute.listChoiceBackgroundIndicator = global::LibMaker.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Ys.BeLazy.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::LibMaker.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
-			global::Ys.BeLazy.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::LibMaker.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
-			global::Ys.BeLazy.Resource.Attribute.listDividerAlertDialog = global::LibMaker.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Ys.BeLazy.Resource.Attribute.listItemLayout = global::LibMaker.Droid.Resource.Attribute.listItemLayout;
-			global::Ys.BeLazy.Resource.Attribute.listLayout = global::LibMaker.Droid.Resource.Attribute.listLayout;
-			global::Ys.BeLazy.Resource.Attribute.listMenuViewStyle = global::LibMaker.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Ys.BeLazy.Resource.Attribute.listPopupWindowStyle = global::LibMaker.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Ys.BeLazy.Resource.Attribute.listPreferredItemHeight = global::LibMaker.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Ys.BeLazy.Resource.Attribute.listPreferredItemHeightLarge = global::LibMaker.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Ys.BeLazy.Resource.Attribute.listPreferredItemHeightSmall = global::LibMaker.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Ys.BeLazy.Resource.Attribute.listPreferredItemPaddingEnd = global::LibMaker.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
-			global::Ys.BeLazy.Resource.Attribute.listPreferredItemPaddingLeft = global::LibMaker.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Ys.BeLazy.Resource.Attribute.listPreferredItemPaddingRight = global::LibMaker.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Ys.BeLazy.Resource.Attribute.listPreferredItemPaddingStart = global::LibMaker.Droid.Resource.Attribute.listPreferredItemPaddingStart;
-			global::Ys.BeLazy.Resource.Attribute.logo = global::LibMaker.Droid.Resource.Attribute.logo;
-			global::Ys.BeLazy.Resource.Attribute.logoDescription = global::LibMaker.Droid.Resource.Attribute.logoDescription;
-			global::Ys.BeLazy.Resource.Attribute.maxAcceleration = global::LibMaker.Droid.Resource.Attribute.maxAcceleration;
-			global::Ys.BeLazy.Resource.Attribute.maxButtonHeight = global::LibMaker.Droid.Resource.Attribute.maxButtonHeight;
-			global::Ys.BeLazy.Resource.Attribute.maxHeight = global::LibMaker.Droid.Resource.Attribute.maxHeight;
-			global::Ys.BeLazy.Resource.Attribute.maxVelocity = global::LibMaker.Droid.Resource.Attribute.maxVelocity;
-			global::Ys.BeLazy.Resource.Attribute.maxWidth = global::LibMaker.Droid.Resource.Attribute.maxWidth;
-			global::Ys.BeLazy.Resource.Attribute.measureWithLargestChild = global::LibMaker.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Ys.BeLazy.Resource.Attribute.menu = global::LibMaker.Droid.Resource.Attribute.menu;
-			global::Ys.BeLazy.Resource.Attribute.minHeight = global::LibMaker.Droid.Resource.Attribute.minHeight;
-			global::Ys.BeLazy.Resource.Attribute.minWidth = global::LibMaker.Droid.Resource.Attribute.minWidth;
-			global::Ys.BeLazy.Resource.Attribute.mock_diagonalsColor = global::LibMaker.Droid.Resource.Attribute.mock_diagonalsColor;
-			global::Ys.BeLazy.Resource.Attribute.mock_label = global::LibMaker.Droid.Resource.Attribute.mock_label;
-			global::Ys.BeLazy.Resource.Attribute.mock_labelBackgroundColor = global::LibMaker.Droid.Resource.Attribute.mock_labelBackgroundColor;
-			global::Ys.BeLazy.Resource.Attribute.mock_labelColor = global::LibMaker.Droid.Resource.Attribute.mock_labelColor;
-			global::Ys.BeLazy.Resource.Attribute.mock_showDiagonals = global::LibMaker.Droid.Resource.Attribute.mock_showDiagonals;
-			global::Ys.BeLazy.Resource.Attribute.mock_showLabel = global::LibMaker.Droid.Resource.Attribute.mock_showLabel;
-			global::Ys.BeLazy.Resource.Attribute.motionDebug = global::LibMaker.Droid.Resource.Attribute.motionDebug;
-			global::Ys.BeLazy.Resource.Attribute.motionInterpolator = global::LibMaker.Droid.Resource.Attribute.motionInterpolator;
-			global::Ys.BeLazy.Resource.Attribute.motionPathRotate = global::LibMaker.Droid.Resource.Attribute.motionPathRotate;
-			global::Ys.BeLazy.Resource.Attribute.motionProgress = global::LibMaker.Droid.Resource.Attribute.motionProgress;
-			global::Ys.BeLazy.Resource.Attribute.motionStagger = global::LibMaker.Droid.Resource.Attribute.motionStagger;
-			global::Ys.BeLazy.Resource.Attribute.motionTarget = global::LibMaker.Droid.Resource.Attribute.motionTarget;
-			global::Ys.BeLazy.Resource.Attribute.motion_postLayoutCollision = global::LibMaker.Droid.Resource.Attribute.motion_postLayoutCollision;
-			global::Ys.BeLazy.Resource.Attribute.motion_triggerOnCollision = global::LibMaker.Droid.Resource.Attribute.motion_triggerOnCollision;
-			global::Ys.BeLazy.Resource.Attribute.moveWhenScrollAtTop = global::LibMaker.Droid.Resource.Attribute.moveWhenScrollAtTop;
-			global::Ys.BeLazy.Resource.Attribute.multiChoiceItemLayout = global::LibMaker.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Ys.BeLazy.Resource.Attribute.navigationContentDescription = global::LibMaker.Droid.Resource.Attribute.navigationContentDescription;
-			global::Ys.BeLazy.Resource.Attribute.navigationIcon = global::LibMaker.Droid.Resource.Attribute.navigationIcon;
-			global::Ys.BeLazy.Resource.Attribute.navigationMode = global::LibMaker.Droid.Resource.Attribute.navigationMode;
-			global::Ys.BeLazy.Resource.Attribute.nestedScrollFlags = global::LibMaker.Droid.Resource.Attribute.nestedScrollFlags;
-			global::Ys.BeLazy.Resource.Attribute.numericModifiers = global::LibMaker.Droid.Resource.Attribute.numericModifiers;
-			global::Ys.BeLazy.Resource.Attribute.onCross = global::LibMaker.Droid.Resource.Attribute.onCross;
-			global::Ys.BeLazy.Resource.Attribute.onHide = global::LibMaker.Droid.Resource.Attribute.onHide;
-			global::Ys.BeLazy.Resource.Attribute.onNegativeCross = global::LibMaker.Droid.Resource.Attribute.onNegativeCross;
-			global::Ys.BeLazy.Resource.Attribute.onPositiveCross = global::LibMaker.Droid.Resource.Attribute.onPositiveCross;
-			global::Ys.BeLazy.Resource.Attribute.onShow = global::LibMaker.Droid.Resource.Attribute.onShow;
-			global::Ys.BeLazy.Resource.Attribute.onTouchUp = global::LibMaker.Droid.Resource.Attribute.onTouchUp;
-			global::Ys.BeLazy.Resource.Attribute.overlapAnchor = global::LibMaker.Droid.Resource.Attribute.overlapAnchor;
-			global::Ys.BeLazy.Resource.Attribute.overlay = global::LibMaker.Droid.Resource.Attribute.overlay;
-			global::Ys.BeLazy.Resource.Attribute.paddingBottomNoButtons = global::LibMaker.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Ys.BeLazy.Resource.Attribute.paddingEnd = global::LibMaker.Droid.Resource.Attribute.paddingEnd;
-			global::Ys.BeLazy.Resource.Attribute.paddingStart = global::LibMaker.Droid.Resource.Attribute.paddingStart;
-			global::Ys.BeLazy.Resource.Attribute.paddingTopNoTitle = global::LibMaker.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Ys.BeLazy.Resource.Attribute.panelBackground = global::LibMaker.Droid.Resource.Attribute.panelBackground;
-			global::Ys.BeLazy.Resource.Attribute.panelMenuListTheme = global::LibMaker.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Ys.BeLazy.Resource.Attribute.panelMenuListWidth = global::LibMaker.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Ys.BeLazy.Resource.Attribute.pathMotionArc = global::LibMaker.Droid.Resource.Attribute.pathMotionArc;
-			global::Ys.BeLazy.Resource.Attribute.path_percent = global::LibMaker.Droid.Resource.Attribute.path_percent;
-			global::Ys.BeLazy.Resource.Attribute.percentHeight = global::LibMaker.Droid.Resource.Attribute.percentHeight;
-			global::Ys.BeLazy.Resource.Attribute.percentWidth = global::LibMaker.Droid.Resource.Attribute.percentWidth;
-			global::Ys.BeLazy.Resource.Attribute.percentX = global::LibMaker.Droid.Resource.Attribute.percentX;
-			global::Ys.BeLazy.Resource.Attribute.percentY = global::LibMaker.Droid.Resource.Attribute.percentY;
-			global::Ys.BeLazy.Resource.Attribute.perpendicularPath_percent = global::LibMaker.Droid.Resource.Attribute.perpendicularPath_percent;
-			global::Ys.BeLazy.Resource.Attribute.pivotAnchor = global::LibMaker.Droid.Resource.Attribute.pivotAnchor;
-			global::Ys.BeLazy.Resource.Attribute.placeholder_emptyVisibility = global::LibMaker.Droid.Resource.Attribute.placeholder_emptyVisibility;
-			global::Ys.BeLazy.Resource.Attribute.popupMenuStyle = global::LibMaker.Droid.Resource.Attribute.popupMenuStyle;
-			global::Ys.BeLazy.Resource.Attribute.popupTheme = global::LibMaker.Droid.Resource.Attribute.popupTheme;
-			global::Ys.BeLazy.Resource.Attribute.popupWindowStyle = global::LibMaker.Droid.Resource.Attribute.popupWindowStyle;
-			global::Ys.BeLazy.Resource.Attribute.preserveIconSpacing = global::LibMaker.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Ys.BeLazy.Resource.Attribute.progressBarPadding = global::LibMaker.Droid.Resource.Attribute.progressBarPadding;
-			global::Ys.BeLazy.Resource.Attribute.progressBarStyle = global::LibMaker.Droid.Resource.Attribute.progressBarStyle;
-			global::Ys.BeLazy.Resource.Attribute.queryBackground = global::LibMaker.Droid.Resource.Attribute.queryBackground;
-			global::Ys.BeLazy.Resource.Attribute.queryHint = global::LibMaker.Droid.Resource.Attribute.queryHint;
-			global::Ys.BeLazy.Resource.Attribute.radioButtonStyle = global::LibMaker.Droid.Resource.Attribute.radioButtonStyle;
-			global::Ys.BeLazy.Resource.Attribute.ratingBarStyle = global::LibMaker.Droid.Resource.Attribute.ratingBarStyle;
-			global::Ys.BeLazy.Resource.Attribute.ratingBarStyleIndicator = global::LibMaker.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Ys.BeLazy.Resource.Attribute.ratingBarStyleSmall = global::LibMaker.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Ys.BeLazy.Resource.Attribute.recyclerViewStyle = global::LibMaker.Droid.Resource.Attribute.recyclerViewStyle;
-			global::Ys.BeLazy.Resource.Attribute.region_heightLessThan = global::LibMaker.Droid.Resource.Attribute.region_heightLessThan;
-			global::Ys.BeLazy.Resource.Attribute.region_heightMoreThan = global::LibMaker.Droid.Resource.Attribute.region_heightMoreThan;
-			global::Ys.BeLazy.Resource.Attribute.region_widthLessThan = global::LibMaker.Droid.Resource.Attribute.region_widthLessThan;
-			global::Ys.BeLazy.Resource.Attribute.region_widthMoreThan = global::LibMaker.Droid.Resource.Attribute.region_widthMoreThan;
-			global::Ys.BeLazy.Resource.Attribute.reverseLayout = global::LibMaker.Droid.Resource.Attribute.reverseLayout;
-			global::Ys.BeLazy.Resource.Attribute.round = global::LibMaker.Droid.Resource.Attribute.round;
-			global::Ys.BeLazy.Resource.Attribute.roundPercent = global::LibMaker.Droid.Resource.Attribute.roundPercent;
-			global::Ys.BeLazy.Resource.Attribute.saturation = global::LibMaker.Droid.Resource.Attribute.saturation;
-			global::Ys.BeLazy.Resource.Attribute.searchHintIcon = global::LibMaker.Droid.Resource.Attribute.searchHintIcon;
-			global::Ys.BeLazy.Resource.Attribute.searchIcon = global::LibMaker.Droid.Resource.Attribute.searchIcon;
-			global::Ys.BeLazy.Resource.Attribute.searchViewStyle = global::LibMaker.Droid.Resource.Attribute.searchViewStyle;
-			global::Ys.BeLazy.Resource.Attribute.seekBarStyle = global::LibMaker.Droid.Resource.Attribute.seekBarStyle;
-			global::Ys.BeLazy.Resource.Attribute.selectableItemBackground = global::LibMaker.Droid.Resource.Attribute.selectableItemBackground;
-			global::Ys.BeLazy.Resource.Attribute.selectableItemBackgroundBorderless = global::LibMaker.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Ys.BeLazy.Resource.Attribute.showAsAction = global::LibMaker.Droid.Resource.Attribute.showAsAction;
-			global::Ys.BeLazy.Resource.Attribute.showDividers = global::LibMaker.Droid.Resource.Attribute.showDividers;
-			global::Ys.BeLazy.Resource.Attribute.showPaths = global::LibMaker.Droid.Resource.Attribute.showPaths;
-			global::Ys.BeLazy.Resource.Attribute.showText = global::LibMaker.Droid.Resource.Attribute.showText;
-			global::Ys.BeLazy.Resource.Attribute.showTitle = global::LibMaker.Droid.Resource.Attribute.showTitle;
-			global::Ys.BeLazy.Resource.Attribute.singleChoiceItemLayout = global::LibMaker.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Ys.BeLazy.Resource.Attribute.sizePercent = global::LibMaker.Droid.Resource.Attribute.sizePercent;
-			global::Ys.BeLazy.Resource.Attribute.spanCount = global::LibMaker.Droid.Resource.Attribute.spanCount;
-			global::Ys.BeLazy.Resource.Attribute.spinBars = global::LibMaker.Droid.Resource.Attribute.spinBars;
-			global::Ys.BeLazy.Resource.Attribute.spinnerDropDownItemStyle = global::LibMaker.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Ys.BeLazy.Resource.Attribute.spinnerStyle = global::LibMaker.Droid.Resource.Attribute.spinnerStyle;
-			global::Ys.BeLazy.Resource.Attribute.splitTrack = global::LibMaker.Droid.Resource.Attribute.splitTrack;
-			global::Ys.BeLazy.Resource.Attribute.srcCompat = global::LibMaker.Droid.Resource.Attribute.srcCompat;
-			global::Ys.BeLazy.Resource.Attribute.stackFromEnd = global::LibMaker.Droid.Resource.Attribute.stackFromEnd;
-			global::Ys.BeLazy.Resource.Attribute.staggered = global::LibMaker.Droid.Resource.Attribute.staggered;
-			global::Ys.BeLazy.Resource.Attribute.state_above_anchor = global::LibMaker.Droid.Resource.Attribute.state_above_anchor;
-			global::Ys.BeLazy.Resource.Attribute.subMenuArrow = global::LibMaker.Droid.Resource.Attribute.subMenuArrow;
-			global::Ys.BeLazy.Resource.Attribute.submitBackground = global::LibMaker.Droid.Resource.Attribute.submitBackground;
-			global::Ys.BeLazy.Resource.Attribute.subtitle = global::LibMaker.Droid.Resource.Attribute.subtitle;
-			global::Ys.BeLazy.Resource.Attribute.subtitleTextAppearance = global::LibMaker.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Ys.BeLazy.Resource.Attribute.subtitleTextColor = global::LibMaker.Droid.Resource.Attribute.subtitleTextColor;
-			global::Ys.BeLazy.Resource.Attribute.subtitleTextStyle = global::LibMaker.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Ys.BeLazy.Resource.Attribute.suggestionRowLayout = global::LibMaker.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Ys.BeLazy.Resource.Attribute.switchMinWidth = global::LibMaker.Droid.Resource.Attribute.switchMinWidth;
-			global::Ys.BeLazy.Resource.Attribute.switchPadding = global::LibMaker.Droid.Resource.Attribute.switchPadding;
-			global::Ys.BeLazy.Resource.Attribute.switchStyle = global::LibMaker.Droid.Resource.Attribute.switchStyle;
-			global::Ys.BeLazy.Resource.Attribute.switchTextAppearance = global::LibMaker.Droid.Resource.Attribute.switchTextAppearance;
-			global::Ys.BeLazy.Resource.Attribute.targetId = global::LibMaker.Droid.Resource.Attribute.targetId;
-			global::Ys.BeLazy.Resource.Attribute.telltales_tailColor = global::LibMaker.Droid.Resource.Attribute.telltales_tailColor;
-			global::Ys.BeLazy.Resource.Attribute.telltales_tailScale = global::LibMaker.Droid.Resource.Attribute.telltales_tailScale;
-			global::Ys.BeLazy.Resource.Attribute.telltales_velocityMode = global::LibMaker.Droid.Resource.Attribute.telltales_velocityMode;
-			global::Ys.BeLazy.Resource.Attribute.textAllCaps = global::LibMaker.Droid.Resource.Attribute.textAllCaps;
-			global::Ys.BeLazy.Resource.Attribute.textAppearanceLargePopupMenu = global::LibMaker.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Ys.BeLazy.Resource.Attribute.textAppearanceListItem = global::LibMaker.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Ys.BeLazy.Resource.Attribute.textAppearanceListItemSecondary = global::LibMaker.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Ys.BeLazy.Resource.Attribute.textAppearanceListItemSmall = global::LibMaker.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Ys.BeLazy.Resource.Attribute.textAppearancePopupMenuHeader = global::LibMaker.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Ys.BeLazy.Resource.Attribute.textAppearanceSearchResultSubtitle = global::LibMaker.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Ys.BeLazy.Resource.Attribute.textAppearanceSearchResultTitle = global::LibMaker.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Ys.BeLazy.Resource.Attribute.textAppearanceSmallPopupMenu = global::LibMaker.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Ys.BeLazy.Resource.Attribute.textColorAlertDialogListItem = global::LibMaker.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Ys.BeLazy.Resource.Attribute.textColorSearchUrl = global::LibMaker.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Ys.BeLazy.Resource.Attribute.textLocale = global::LibMaker.Droid.Resource.Attribute.textLocale;
-			global::Ys.BeLazy.Resource.Attribute.theme = global::LibMaker.Droid.Resource.Attribute.theme;
-			global::Ys.BeLazy.Resource.Attribute.thickness = global::LibMaker.Droid.Resource.Attribute.thickness;
-			global::Ys.BeLazy.Resource.Attribute.thumbTextPadding = global::LibMaker.Droid.Resource.Attribute.thumbTextPadding;
-			global::Ys.BeLazy.Resource.Attribute.thumbTint = global::LibMaker.Droid.Resource.Attribute.thumbTint;
-			global::Ys.BeLazy.Resource.Attribute.thumbTintMode = global::LibMaker.Droid.Resource.Attribute.thumbTintMode;
-			global::Ys.BeLazy.Resource.Attribute.tickMark = global::LibMaker.Droid.Resource.Attribute.tickMark;
-			global::Ys.BeLazy.Resource.Attribute.tickMarkTint = global::LibMaker.Droid.Resource.Attribute.tickMarkTint;
-			global::Ys.BeLazy.Resource.Attribute.tickMarkTintMode = global::LibMaker.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Ys.BeLazy.Resource.Attribute.tint = global::LibMaker.Droid.Resource.Attribute.tint;
-			global::Ys.BeLazy.Resource.Attribute.tintMode = global::LibMaker.Droid.Resource.Attribute.tintMode;
-			global::Ys.BeLazy.Resource.Attribute.title = global::LibMaker.Droid.Resource.Attribute.title;
-			global::Ys.BeLazy.Resource.Attribute.titleMargin = global::LibMaker.Droid.Resource.Attribute.titleMargin;
-			global::Ys.BeLazy.Resource.Attribute.titleMarginBottom = global::LibMaker.Droid.Resource.Attribute.titleMarginBottom;
-			global::Ys.BeLazy.Resource.Attribute.titleMarginEnd = global::LibMaker.Droid.Resource.Attribute.titleMarginEnd;
-			global::Ys.BeLazy.Resource.Attribute.titleMargins = global::LibMaker.Droid.Resource.Attribute.titleMargins;
-			global::Ys.BeLazy.Resource.Attribute.titleMarginStart = global::LibMaker.Droid.Resource.Attribute.titleMarginStart;
-			global::Ys.BeLazy.Resource.Attribute.titleMarginTop = global::LibMaker.Droid.Resource.Attribute.titleMarginTop;
-			global::Ys.BeLazy.Resource.Attribute.titleTextAppearance = global::LibMaker.Droid.Resource.Attribute.titleTextAppearance;
-			global::Ys.BeLazy.Resource.Attribute.titleTextColor = global::LibMaker.Droid.Resource.Attribute.titleTextColor;
-			global::Ys.BeLazy.Resource.Attribute.titleTextStyle = global::LibMaker.Droid.Resource.Attribute.titleTextStyle;
-			global::Ys.BeLazy.Resource.Attribute.toolbarNavigationButtonStyle = global::LibMaker.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Ys.BeLazy.Resource.Attribute.toolbarStyle = global::LibMaker.Droid.Resource.Attribute.toolbarStyle;
-			global::Ys.BeLazy.Resource.Attribute.tooltipForegroundColor = global::LibMaker.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Ys.BeLazy.Resource.Attribute.tooltipFrameBackground = global::LibMaker.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Ys.BeLazy.Resource.Attribute.tooltipText = global::LibMaker.Droid.Resource.Attribute.tooltipText;
-			global::Ys.BeLazy.Resource.Attribute.touchAnchorId = global::LibMaker.Droid.Resource.Attribute.touchAnchorId;
-			global::Ys.BeLazy.Resource.Attribute.touchAnchorSide = global::LibMaker.Droid.Resource.Attribute.touchAnchorSide;
-			global::Ys.BeLazy.Resource.Attribute.touchRegionId = global::LibMaker.Droid.Resource.Attribute.touchRegionId;
-			global::Ys.BeLazy.Resource.Attribute.track = global::LibMaker.Droid.Resource.Attribute.track;
-			global::Ys.BeLazy.Resource.Attribute.trackTint = global::LibMaker.Droid.Resource.Attribute.trackTint;
-			global::Ys.BeLazy.Resource.Attribute.trackTintMode = global::LibMaker.Droid.Resource.Attribute.trackTintMode;
-			global::Ys.BeLazy.Resource.Attribute.transitionDisable = global::LibMaker.Droid.Resource.Attribute.transitionDisable;
-			global::Ys.BeLazy.Resource.Attribute.transitionEasing = global::LibMaker.Droid.Resource.Attribute.transitionEasing;
-			global::Ys.BeLazy.Resource.Attribute.transitionFlags = global::LibMaker.Droid.Resource.Attribute.transitionFlags;
-			global::Ys.BeLazy.Resource.Attribute.transitionPathRotate = global::LibMaker.Droid.Resource.Attribute.transitionPathRotate;
-			global::Ys.BeLazy.Resource.Attribute.triggerId = global::LibMaker.Droid.Resource.Attribute.triggerId;
-			global::Ys.BeLazy.Resource.Attribute.triggerReceiver = global::LibMaker.Droid.Resource.Attribute.triggerReceiver;
-			global::Ys.BeLazy.Resource.Attribute.triggerSlack = global::LibMaker.Droid.Resource.Attribute.triggerSlack;
-			global::Ys.BeLazy.Resource.Attribute.ttcIndex = global::LibMaker.Droid.Resource.Attribute.ttcIndex;
-			global::Ys.BeLazy.Resource.Attribute.viewInflaterClass = global::LibMaker.Droid.Resource.Attribute.viewInflaterClass;
-			global::Ys.BeLazy.Resource.Attribute.visibilityMode = global::LibMaker.Droid.Resource.Attribute.visibilityMode;
-			global::Ys.BeLazy.Resource.Attribute.voiceIcon = global::LibMaker.Droid.Resource.Attribute.voiceIcon;
-			global::Ys.BeLazy.Resource.Attribute.warmth = global::LibMaker.Droid.Resource.Attribute.warmth;
-			global::Ys.BeLazy.Resource.Attribute.waveDecay = global::LibMaker.Droid.Resource.Attribute.waveDecay;
-			global::Ys.BeLazy.Resource.Attribute.waveOffset = global::LibMaker.Droid.Resource.Attribute.waveOffset;
-			global::Ys.BeLazy.Resource.Attribute.wavePeriod = global::LibMaker.Droid.Resource.Attribute.wavePeriod;
-			global::Ys.BeLazy.Resource.Attribute.waveShape = global::LibMaker.Droid.Resource.Attribute.waveShape;
-			global::Ys.BeLazy.Resource.Attribute.waveVariesBy = global::LibMaker.Droid.Resource.Attribute.waveVariesBy;
-			global::Ys.BeLazy.Resource.Attribute.windowActionBar = global::LibMaker.Droid.Resource.Attribute.windowActionBar;
-			global::Ys.BeLazy.Resource.Attribute.windowActionBarOverlay = global::LibMaker.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Ys.BeLazy.Resource.Attribute.windowActionModeOverlay = global::LibMaker.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Ys.BeLazy.Resource.Attribute.windowFixedHeightMajor = global::LibMaker.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Ys.BeLazy.Resource.Attribute.windowFixedHeightMinor = global::LibMaker.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Ys.BeLazy.Resource.Attribute.windowFixedWidthMajor = global::LibMaker.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Ys.BeLazy.Resource.Attribute.windowFixedWidthMinor = global::LibMaker.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Ys.BeLazy.Resource.Attribute.windowMinWidthMajor = global::LibMaker.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Ys.BeLazy.Resource.Attribute.windowMinWidthMinor = global::LibMaker.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Ys.BeLazy.Resource.Attribute.windowNoTitle = global::LibMaker.Droid.Resource.Attribute.windowNoTitle;
-			global::Ys.BeLazy.Resource.Boolean.abc_action_bar_embed_tabs = global::LibMaker.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Ys.BeLazy.Resource.Boolean.abc_allow_stacked_button_bar = global::LibMaker.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Ys.BeLazy.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::LibMaker.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Ys.BeLazy.Resource.Color.abc_background_cache_hint_selector_material_dark = global::LibMaker.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Ys.BeLazy.Resource.Color.abc_background_cache_hint_selector_material_light = global::LibMaker.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Ys.BeLazy.Resource.Color.abc_btn_colored_borderless_text_material = global::LibMaker.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Ys.BeLazy.Resource.Color.abc_btn_colored_text_material = global::LibMaker.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Ys.BeLazy.Resource.Color.abc_color_highlight_material = global::LibMaker.Droid.Resource.Color.abc_color_highlight_material;
-			global::Ys.BeLazy.Resource.Color.abc_decor_view_status_guard = global::LibMaker.Droid.Resource.Color.abc_decor_view_status_guard;
-			global::Ys.BeLazy.Resource.Color.abc_decor_view_status_guard_light = global::LibMaker.Droid.Resource.Color.abc_decor_view_status_guard_light;
-			global::Ys.BeLazy.Resource.Color.abc_hint_foreground_material_dark = global::LibMaker.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Ys.BeLazy.Resource.Color.abc_hint_foreground_material_light = global::LibMaker.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Ys.BeLazy.Resource.Color.abc_primary_text_disable_only_material_dark = global::LibMaker.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Ys.BeLazy.Resource.Color.abc_primary_text_disable_only_material_light = global::LibMaker.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Ys.BeLazy.Resource.Color.abc_primary_text_material_dark = global::LibMaker.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Ys.BeLazy.Resource.Color.abc_primary_text_material_light = global::LibMaker.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Ys.BeLazy.Resource.Color.abc_search_url_text = global::LibMaker.Droid.Resource.Color.abc_search_url_text;
-			global::Ys.BeLazy.Resource.Color.abc_search_url_text_normal = global::LibMaker.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Ys.BeLazy.Resource.Color.abc_search_url_text_pressed = global::LibMaker.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Ys.BeLazy.Resource.Color.abc_search_url_text_selected = global::LibMaker.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Ys.BeLazy.Resource.Color.abc_secondary_text_material_dark = global::LibMaker.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Ys.BeLazy.Resource.Color.abc_secondary_text_material_light = global::LibMaker.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Ys.BeLazy.Resource.Color.abc_tint_btn_checkable = global::LibMaker.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Ys.BeLazy.Resource.Color.abc_tint_default = global::LibMaker.Droid.Resource.Color.abc_tint_default;
-			global::Ys.BeLazy.Resource.Color.abc_tint_edittext = global::LibMaker.Droid.Resource.Color.abc_tint_edittext;
-			global::Ys.BeLazy.Resource.Color.abc_tint_seek_thumb = global::LibMaker.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Ys.BeLazy.Resource.Color.abc_tint_spinner = global::LibMaker.Droid.Resource.Color.abc_tint_spinner;
-			global::Ys.BeLazy.Resource.Color.abc_tint_switch_track = global::LibMaker.Droid.Resource.Color.abc_tint_switch_track;
-			global::Ys.BeLazy.Resource.Color.accent_material_dark = global::LibMaker.Droid.Resource.Color.accent_material_dark;
-			global::Ys.BeLazy.Resource.Color.accent_material_light = global::LibMaker.Droid.Resource.Color.accent_material_light;
-			global::Ys.BeLazy.Resource.Color.androidx_core_ripple_material_light = global::LibMaker.Droid.Resource.Color.androidx_core_ripple_material_light;
-			global::Ys.BeLazy.Resource.Color.androidx_core_secondary_text_default_material_light = global::LibMaker.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
-			global::Ys.BeLazy.Resource.Color.background_floating_material_dark = global::LibMaker.Droid.Resource.Color.background_floating_material_dark;
-			global::Ys.BeLazy.Resource.Color.background_floating_material_light = global::LibMaker.Droid.Resource.Color.background_floating_material_light;
-			global::Ys.BeLazy.Resource.Color.background_material_dark = global::LibMaker.Droid.Resource.Color.background_material_dark;
-			global::Ys.BeLazy.Resource.Color.background_material_light = global::LibMaker.Droid.Resource.Color.background_material_light;
-			global::Ys.BeLazy.Resource.Color.bright_foreground_disabled_material_dark = global::LibMaker.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Ys.BeLazy.Resource.Color.bright_foreground_disabled_material_light = global::LibMaker.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Ys.BeLazy.Resource.Color.bright_foreground_inverse_material_dark = global::LibMaker.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Ys.BeLazy.Resource.Color.bright_foreground_inverse_material_light = global::LibMaker.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Ys.BeLazy.Resource.Color.bright_foreground_material_dark = global::LibMaker.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Ys.BeLazy.Resource.Color.bright_foreground_material_light = global::LibMaker.Droid.Resource.Color.bright_foreground_material_light;
-			global::Ys.BeLazy.Resource.Color.button_material_dark = global::LibMaker.Droid.Resource.Color.button_material_dark;
-			global::Ys.BeLazy.Resource.Color.button_material_light = global::LibMaker.Droid.Resource.Color.button_material_light;
-			global::Ys.BeLazy.Resource.Color.dim_foreground_disabled_material_dark = global::LibMaker.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Ys.BeLazy.Resource.Color.dim_foreground_disabled_material_light = global::LibMaker.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Ys.BeLazy.Resource.Color.dim_foreground_material_dark = global::LibMaker.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Ys.BeLazy.Resource.Color.dim_foreground_material_light = global::LibMaker.Droid.Resource.Color.dim_foreground_material_light;
-			global::Ys.BeLazy.Resource.Color.error_color_material_dark = global::LibMaker.Droid.Resource.Color.error_color_material_dark;
-			global::Ys.BeLazy.Resource.Color.error_color_material_light = global::LibMaker.Droid.Resource.Color.error_color_material_light;
-			global::Ys.BeLazy.Resource.Color.foreground_material_dark = global::LibMaker.Droid.Resource.Color.foreground_material_dark;
-			global::Ys.BeLazy.Resource.Color.foreground_material_light = global::LibMaker.Droid.Resource.Color.foreground_material_light;
-			global::Ys.BeLazy.Resource.Color.highlighted_text_material_dark = global::LibMaker.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Ys.BeLazy.Resource.Color.highlighted_text_material_light = global::LibMaker.Droid.Resource.Color.highlighted_text_material_light;
-			global::Ys.BeLazy.Resource.Color.material_blue_grey_800 = global::LibMaker.Droid.Resource.Color.material_blue_grey_800;
-			global::Ys.BeLazy.Resource.Color.material_blue_grey_900 = global::LibMaker.Droid.Resource.Color.material_blue_grey_900;
-			global::Ys.BeLazy.Resource.Color.material_blue_grey_950 = global::LibMaker.Droid.Resource.Color.material_blue_grey_950;
-			global::Ys.BeLazy.Resource.Color.material_deep_teal_200 = global::LibMaker.Droid.Resource.Color.material_deep_teal_200;
-			global::Ys.BeLazy.Resource.Color.material_deep_teal_500 = global::LibMaker.Droid.Resource.Color.material_deep_teal_500;
-			global::Ys.BeLazy.Resource.Color.material_grey_100 = global::LibMaker.Droid.Resource.Color.material_grey_100;
-			global::Ys.BeLazy.Resource.Color.material_grey_300 = global::LibMaker.Droid.Resource.Color.material_grey_300;
-			global::Ys.BeLazy.Resource.Color.material_grey_50 = global::LibMaker.Droid.Resource.Color.material_grey_50;
-			global::Ys.BeLazy.Resource.Color.material_grey_600 = global::LibMaker.Droid.Resource.Color.material_grey_600;
-			global::Ys.BeLazy.Resource.Color.material_grey_800 = global::LibMaker.Droid.Resource.Color.material_grey_800;
-			global::Ys.BeLazy.Resource.Color.material_grey_850 = global::LibMaker.Droid.Resource.Color.material_grey_850;
-			global::Ys.BeLazy.Resource.Color.material_grey_900 = global::LibMaker.Droid.Resource.Color.material_grey_900;
-			global::Ys.BeLazy.Resource.Color.notification_action_color_filter = global::LibMaker.Droid.Resource.Color.notification_action_color_filter;
-			global::Ys.BeLazy.Resource.Color.notification_icon_bg_color = global::LibMaker.Droid.Resource.Color.notification_icon_bg_color;
-			global::Ys.BeLazy.Resource.Color.primary_dark_material_dark = global::LibMaker.Droid.Resource.Color.primary_dark_material_dark;
-			global::Ys.BeLazy.Resource.Color.primary_dark_material_light = global::LibMaker.Droid.Resource.Color.primary_dark_material_light;
-			global::Ys.BeLazy.Resource.Color.primary_material_dark = global::LibMaker.Droid.Resource.Color.primary_material_dark;
-			global::Ys.BeLazy.Resource.Color.primary_material_light = global::LibMaker.Droid.Resource.Color.primary_material_light;
-			global::Ys.BeLazy.Resource.Color.primary_text_default_material_dark = global::LibMaker.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Ys.BeLazy.Resource.Color.primary_text_default_material_light = global::LibMaker.Droid.Resource.Color.primary_text_default_material_light;
-			global::Ys.BeLazy.Resource.Color.primary_text_disabled_material_dark = global::LibMaker.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Ys.BeLazy.Resource.Color.primary_text_disabled_material_light = global::LibMaker.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Ys.BeLazy.Resource.Color.ripple_material_dark = global::LibMaker.Droid.Resource.Color.ripple_material_dark;
-			global::Ys.BeLazy.Resource.Color.ripple_material_light = global::LibMaker.Droid.Resource.Color.ripple_material_light;
-			global::Ys.BeLazy.Resource.Color.secondary_text_default_material_dark = global::LibMaker.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Ys.BeLazy.Resource.Color.secondary_text_default_material_light = global::LibMaker.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Ys.BeLazy.Resource.Color.secondary_text_disabled_material_dark = global::LibMaker.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Ys.BeLazy.Resource.Color.secondary_text_disabled_material_light = global::LibMaker.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Ys.BeLazy.Resource.Color.switch_thumb_disabled_material_dark = global::LibMaker.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Ys.BeLazy.Resource.Color.switch_thumb_disabled_material_light = global::LibMaker.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Ys.BeLazy.Resource.Color.switch_thumb_material_dark = global::LibMaker.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Ys.BeLazy.Resource.Color.switch_thumb_material_light = global::LibMaker.Droid.Resource.Color.switch_thumb_material_light;
-			global::Ys.BeLazy.Resource.Color.switch_thumb_normal_material_dark = global::LibMaker.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Ys.BeLazy.Resource.Color.switch_thumb_normal_material_light = global::LibMaker.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Ys.BeLazy.Resource.Color.tooltip_background_dark = global::LibMaker.Droid.Resource.Color.tooltip_background_dark;
-			global::Ys.BeLazy.Resource.Color.tooltip_background_light = global::LibMaker.Droid.Resource.Color.tooltip_background_light;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_content_inset_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_default_height_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_default_padding_end_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_default_padding_start_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_elevation_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_stacked_max_height = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_button_min_height_material = global::LibMaker.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_button_min_width_material = global::LibMaker.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_action_button_min_width_overflow_material = global::LibMaker.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_alert_dialog_button_bar_height = global::LibMaker.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Ys.BeLazy.Resource.Dimension.abc_alert_dialog_button_dimen = global::LibMaker.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
-			global::Ys.BeLazy.Resource.Dimension.abc_button_inset_horizontal_material = global::LibMaker.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_button_inset_vertical_material = global::LibMaker.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_button_padding_horizontal_material = global::LibMaker.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_button_padding_vertical_material = global::LibMaker.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::LibMaker.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Ys.BeLazy.Resource.Dimension.abc_config_prefDialogWidth = global::LibMaker.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Ys.BeLazy.Resource.Dimension.abc_control_corner_material = global::LibMaker.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_control_inset_material = global::LibMaker.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_control_padding_material = global::LibMaker.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_corner_radius_material = global::LibMaker.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_fixed_height_major = global::LibMaker.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_fixed_height_minor = global::LibMaker.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_fixed_width_major = global::LibMaker.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_fixed_width_minor = global::LibMaker.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::LibMaker.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::LibMaker.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_min_width_major = global::LibMaker.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_min_width_minor = global::LibMaker.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_padding_material = global::LibMaker.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_padding_top_material = global::LibMaker.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_dialog_title_divider_material = global::LibMaker.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_disabled_alpha_material_dark = global::LibMaker.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Ys.BeLazy.Resource.Dimension.abc_disabled_alpha_material_light = global::LibMaker.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Ys.BeLazy.Resource.Dimension.abc_dropdownitem_icon_width = global::LibMaker.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Ys.BeLazy.Resource.Dimension.abc_dropdownitem_text_padding_left = global::LibMaker.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Ys.BeLazy.Resource.Dimension.abc_dropdownitem_text_padding_right = global::LibMaker.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Ys.BeLazy.Resource.Dimension.abc_edit_text_inset_bottom_material = global::LibMaker.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::LibMaker.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_edit_text_inset_top_material = global::LibMaker.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_floating_window_z = global::LibMaker.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Ys.BeLazy.Resource.Dimension.abc_list_item_height_large_material = global::LibMaker.Droid.Resource.Dimension.abc_list_item_height_large_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_list_item_height_material = global::LibMaker.Droid.Resource.Dimension.abc_list_item_height_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_list_item_height_small_material = global::LibMaker.Droid.Resource.Dimension.abc_list_item_height_small_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_list_item_padding_horizontal_material = global::LibMaker.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_panel_menu_list_width = global::LibMaker.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Ys.BeLazy.Resource.Dimension.abc_progress_bar_height_material = global::LibMaker.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_search_view_preferred_height = global::LibMaker.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Ys.BeLazy.Resource.Dimension.abc_search_view_preferred_width = global::LibMaker.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Ys.BeLazy.Resource.Dimension.abc_seekbar_track_background_height_material = global::LibMaker.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_seekbar_track_progress_height_material = global::LibMaker.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_select_dialog_padding_start_material = global::LibMaker.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_switch_padding = global::LibMaker.Droid.Resource.Dimension.abc_switch_padding;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_body_1_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_body_2_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_button_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_caption_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_display_1_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_display_2_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_display_3_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_display_4_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_headline_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_large_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_medium_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_menu_header_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_menu_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_small_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_subhead_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::LibMaker.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_title_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Ys.BeLazy.Resource.Dimension.abc_text_size_title_material_toolbar = global::LibMaker.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Ys.BeLazy.Resource.Dimension.compat_button_inset_horizontal_material = global::LibMaker.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Ys.BeLazy.Resource.Dimension.compat_button_inset_vertical_material = global::LibMaker.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Ys.BeLazy.Resource.Dimension.compat_button_padding_horizontal_material = global::LibMaker.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Ys.BeLazy.Resource.Dimension.compat_button_padding_vertical_material = global::LibMaker.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Ys.BeLazy.Resource.Dimension.compat_control_corner_material = global::LibMaker.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Ys.BeLazy.Resource.Dimension.compat_notification_large_icon_max_height = global::LibMaker.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Ys.BeLazy.Resource.Dimension.compat_notification_large_icon_max_width = global::LibMaker.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Ys.BeLazy.Resource.Dimension.def_drawer_elevation = global::LibMaker.Droid.Resource.Dimension.def_drawer_elevation;
-			global::Ys.BeLazy.Resource.Dimension.disabled_alpha_material_dark = global::LibMaker.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Ys.BeLazy.Resource.Dimension.disabled_alpha_material_light = global::LibMaker.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Ys.BeLazy.Resource.Dimension.fastscroll_default_thickness = global::LibMaker.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::Ys.BeLazy.Resource.Dimension.fastscroll_margin = global::LibMaker.Droid.Resource.Dimension.fastscroll_margin;
-			global::Ys.BeLazy.Resource.Dimension.fastscroll_minimum_range = global::LibMaker.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::Ys.BeLazy.Resource.Dimension.highlight_alpha_material_colored = global::LibMaker.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Ys.BeLazy.Resource.Dimension.highlight_alpha_material_dark = global::LibMaker.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Ys.BeLazy.Resource.Dimension.highlight_alpha_material_light = global::LibMaker.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Ys.BeLazy.Resource.Dimension.hint_alpha_material_dark = global::LibMaker.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Ys.BeLazy.Resource.Dimension.hint_alpha_material_light = global::LibMaker.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Ys.BeLazy.Resource.Dimension.hint_pressed_alpha_material_dark = global::LibMaker.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Ys.BeLazy.Resource.Dimension.hint_pressed_alpha_material_light = global::LibMaker.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Ys.BeLazy.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::LibMaker.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Ys.BeLazy.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::LibMaker.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Ys.BeLazy.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::LibMaker.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Ys.BeLazy.Resource.Dimension.notification_action_icon_size = global::LibMaker.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Ys.BeLazy.Resource.Dimension.notification_action_text_size = global::LibMaker.Droid.Resource.Dimension.notification_action_text_size;
-			global::Ys.BeLazy.Resource.Dimension.notification_big_circle_margin = global::LibMaker.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Ys.BeLazy.Resource.Dimension.notification_content_margin_start = global::LibMaker.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Ys.BeLazy.Resource.Dimension.notification_large_icon_height = global::LibMaker.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Ys.BeLazy.Resource.Dimension.notification_large_icon_width = global::LibMaker.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Ys.BeLazy.Resource.Dimension.notification_main_column_padding_top = global::LibMaker.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Ys.BeLazy.Resource.Dimension.notification_media_narrow_margin = global::LibMaker.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Ys.BeLazy.Resource.Dimension.notification_right_icon_size = global::LibMaker.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Ys.BeLazy.Resource.Dimension.notification_right_side_padding_top = global::LibMaker.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Ys.BeLazy.Resource.Dimension.notification_small_icon_background_padding = global::LibMaker.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Ys.BeLazy.Resource.Dimension.notification_small_icon_size_as_large = global::LibMaker.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Ys.BeLazy.Resource.Dimension.notification_subtext_size = global::LibMaker.Droid.Resource.Dimension.notification_subtext_size;
-			global::Ys.BeLazy.Resource.Dimension.notification_top_pad = global::LibMaker.Droid.Resource.Dimension.notification_top_pad;
-			global::Ys.BeLazy.Resource.Dimension.notification_top_pad_large_text = global::LibMaker.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Ys.BeLazy.Resource.Dimension.tooltip_corner_radius = global::LibMaker.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Ys.BeLazy.Resource.Dimension.tooltip_horizontal_padding = global::LibMaker.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Ys.BeLazy.Resource.Dimension.tooltip_margin = global::LibMaker.Droid.Resource.Dimension.tooltip_margin;
-			global::Ys.BeLazy.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::LibMaker.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Ys.BeLazy.Resource.Dimension.tooltip_precise_anchor_threshold = global::LibMaker.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Ys.BeLazy.Resource.Dimension.tooltip_vertical_padding = global::LibMaker.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Ys.BeLazy.Resource.Dimension.tooltip_y_offset_non_touch = global::LibMaker.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Ys.BeLazy.Resource.Dimension.tooltip_y_offset_touch = global::LibMaker.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Ys.BeLazy.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_action_bar_item_background_material = global::LibMaker.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_borderless_material = global::LibMaker.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_check_material = global::LibMaker.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_check_material_anim = global::LibMaker.Droid.Resource.Drawable.abc_btn_check_material_anim;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::LibMaker.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::LibMaker.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_colored_material = global::LibMaker.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_default_mtrl_shape = global::LibMaker.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_radio_material = global::LibMaker.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_radio_material_anim = global::LibMaker.Droid.Resource.Drawable.abc_btn_radio_material_anim;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::LibMaker.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::LibMaker.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::LibMaker.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Ys.BeLazy.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::LibMaker.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Ys.BeLazy.Resource.Drawable.abc_cab_background_internal_bg = global::LibMaker.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Ys.BeLazy.Resource.Drawable.abc_cab_background_top_material = global::LibMaker.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_control_background_material = global::LibMaker.Droid.Resource.Drawable.abc_control_background_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_dialog_material_background = global::LibMaker.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Ys.BeLazy.Resource.Drawable.abc_edit_text_material = global::LibMaker.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_ab_back_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_clear_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_go_search_api_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_menu_overflow_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_search_api_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_star_black_16dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_star_black_36dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_star_black_48dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_star_half_black_16dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_star_half_black_36dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_star_half_black_48dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Ys.BeLazy.Resource.Drawable.abc_ic_voice_search_api_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_item_background_holo_dark = global::LibMaker.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Ys.BeLazy.Resource.Drawable.abc_item_background_holo_light = global::LibMaker.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_divider_material = global::LibMaker.Droid.Resource.Drawable.abc_list_divider_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_divider_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_focused_holo = global::LibMaker.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_longpressed_holo = global::LibMaker.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_pressed_holo_dark = global::LibMaker.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_pressed_holo_light = global::LibMaker.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_selector_disabled_holo_light = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_selector_holo_dark = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Ys.BeLazy.Resource.Drawable.abc_list_selector_holo_light = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Ys.BeLazy.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::LibMaker.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Ys.BeLazy.Resource.Drawable.abc_popup_background_mtrl_mult = global::LibMaker.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Ys.BeLazy.Resource.Drawable.abc_ratingbar_indicator_material = global::LibMaker.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_ratingbar_material = global::LibMaker.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_ratingbar_small_material = global::LibMaker.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::LibMaker.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Ys.BeLazy.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::LibMaker.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Ys.BeLazy.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_seekbar_thumb_material = global::LibMaker.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_seekbar_tick_mark_material = global::LibMaker.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_seekbar_track_material = global::LibMaker.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::LibMaker.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_spinner_textfield_background_material = global::LibMaker.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_switch_thumb_material = global::LibMaker.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_switch_track_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_tab_indicator_material = global::LibMaker.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Ys.BeLazy.Resource.Drawable.abc_textfield_search_material = global::LibMaker.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_text_cursor_material = global::LibMaker.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Ys.BeLazy.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Ys.BeLazy.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Ys.BeLazy.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Ys.BeLazy.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Ys.BeLazy.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Ys.BeLazy.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Ys.BeLazy.Resource.Drawable.abc_vector_test = global::LibMaker.Droid.Resource.Drawable.abc_vector_test;
-			global::Ys.BeLazy.Resource.Drawable.btn_checkbox_checked_mtrl = global::LibMaker.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
-			global::Ys.BeLazy.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::LibMaker.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
-			global::Ys.BeLazy.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::LibMaker.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
-			global::Ys.BeLazy.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::LibMaker.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
-			global::Ys.BeLazy.Resource.Drawable.btn_radio_off_mtrl = global::LibMaker.Droid.Resource.Drawable.btn_radio_off_mtrl;
-			global::Ys.BeLazy.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::LibMaker.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
-			global::Ys.BeLazy.Resource.Drawable.btn_radio_on_mtrl = global::LibMaker.Droid.Resource.Drawable.btn_radio_on_mtrl;
-			global::Ys.BeLazy.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::LibMaker.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
-			global::Ys.BeLazy.Resource.Drawable.notification_action_background = global::LibMaker.Droid.Resource.Drawable.notification_action_background;
-			global::Ys.BeLazy.Resource.Drawable.notification_bg = global::LibMaker.Droid.Resource.Drawable.notification_bg;
-			global::Ys.BeLazy.Resource.Drawable.notification_bg_low = global::LibMaker.Droid.Resource.Drawable.notification_bg_low;
-			global::Ys.BeLazy.Resource.Drawable.notification_bg_low_normal = global::LibMaker.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Ys.BeLazy.Resource.Drawable.notification_bg_low_pressed = global::LibMaker.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Ys.BeLazy.Resource.Drawable.notification_bg_normal = global::LibMaker.Droid.Resource.Drawable.notification_bg_normal;
-			global::Ys.BeLazy.Resource.Drawable.notification_bg_normal_pressed = global::LibMaker.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Ys.BeLazy.Resource.Drawable.notification_icon_background = global::LibMaker.Droid.Resource.Drawable.notification_icon_background;
-			global::Ys.BeLazy.Resource.Drawable.notification_template_icon_bg = global::LibMaker.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Ys.BeLazy.Resource.Drawable.notification_template_icon_low_bg = global::LibMaker.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Ys.BeLazy.Resource.Drawable.notification_tile_bg = global::LibMaker.Droid.Resource.Drawable.notification_tile_bg;
-			global::Ys.BeLazy.Resource.Drawable.notify_panel_notification_icon_bg = global::LibMaker.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Ys.BeLazy.Resource.Drawable.shape_dialog_normal_background = global::LibMaker.Droid.Resource.Drawable.shape_dialog_normal_background;
-			global::Ys.BeLazy.Resource.Drawable.shape_dialog_small_background = global::LibMaker.Droid.Resource.Drawable.shape_dialog_small_background;
-			global::Ys.BeLazy.Resource.Drawable.tooltip_frame_dark = global::LibMaker.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Ys.BeLazy.Resource.Drawable.tooltip_frame_light = global::LibMaker.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Ys.BeLazy.Resource.Id.accelerate = global::LibMaker.Droid.Resource.Id.accelerate;
-			global::Ys.BeLazy.Resource.Id.accessibility_action_clickable_span = global::LibMaker.Droid.Resource.Id.accessibility_action_clickable_span;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_0 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_0;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_1 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_1;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_10 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_10;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_11 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_11;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_12 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_12;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_13 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_13;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_14 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_14;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_15 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_15;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_16 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_16;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_17 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_17;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_18 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_18;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_19 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_19;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_2 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_2;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_20 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_20;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_21 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_21;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_22 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_22;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_23 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_23;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_24 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_24;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_25 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_25;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_26 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_26;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_27 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_27;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_28 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_28;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_29 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_29;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_3 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_3;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_30 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_30;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_31 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_31;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_4 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_4;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_5 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_5;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_6 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_6;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_7 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_7;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_8 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_8;
-			global::Ys.BeLazy.Resource.Id.accessibility_custom_action_9 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_9;
-			global::Ys.BeLazy.Resource.Id.actions = global::LibMaker.Droid.Resource.Id.actions;
-			global::Ys.BeLazy.Resource.Id.action_bar = global::LibMaker.Droid.Resource.Id.action_bar;
-			global::Ys.BeLazy.Resource.Id.action_bar_activity_content = global::LibMaker.Droid.Resource.Id.action_bar_activity_content;
-			global::Ys.BeLazy.Resource.Id.action_bar_container = global::LibMaker.Droid.Resource.Id.action_bar_container;
-			global::Ys.BeLazy.Resource.Id.action_bar_root = global::LibMaker.Droid.Resource.Id.action_bar_root;
-			global::Ys.BeLazy.Resource.Id.action_bar_spinner = global::LibMaker.Droid.Resource.Id.action_bar_spinner;
-			global::Ys.BeLazy.Resource.Id.action_bar_subtitle = global::LibMaker.Droid.Resource.Id.action_bar_subtitle;
-			global::Ys.BeLazy.Resource.Id.action_bar_title = global::LibMaker.Droid.Resource.Id.action_bar_title;
-			global::Ys.BeLazy.Resource.Id.action_container = global::LibMaker.Droid.Resource.Id.action_container;
-			global::Ys.BeLazy.Resource.Id.action_context_bar = global::LibMaker.Droid.Resource.Id.action_context_bar;
-			global::Ys.BeLazy.Resource.Id.action_divider = global::LibMaker.Droid.Resource.Id.action_divider;
-			global::Ys.BeLazy.Resource.Id.action_image = global::LibMaker.Droid.Resource.Id.action_image;
-			global::Ys.BeLazy.Resource.Id.action_menu_divider = global::LibMaker.Droid.Resource.Id.action_menu_divider;
-			global::Ys.BeLazy.Resource.Id.action_menu_presenter = global::LibMaker.Droid.Resource.Id.action_menu_presenter;
-			global::Ys.BeLazy.Resource.Id.action_mode_bar = global::LibMaker.Droid.Resource.Id.action_mode_bar;
-			global::Ys.BeLazy.Resource.Id.action_mode_bar_stub = global::LibMaker.Droid.Resource.Id.action_mode_bar_stub;
-			global::Ys.BeLazy.Resource.Id.action_mode_close_button = global::LibMaker.Droid.Resource.Id.action_mode_close_button;
-			global::Ys.BeLazy.Resource.Id.action_text = global::LibMaker.Droid.Resource.Id.action_text;
-			global::Ys.BeLazy.Resource.Id.activity_chooser_view_content = global::LibMaker.Droid.Resource.Id.activity_chooser_view_content;
-			global::Ys.BeLazy.Resource.Id.add = global::LibMaker.Droid.Resource.Id.add;
-			global::Ys.BeLazy.Resource.Id.alertTitle = global::LibMaker.Droid.Resource.Id.alertTitle;
-			global::Ys.BeLazy.Resource.Id.aligned = global::LibMaker.Droid.Resource.Id.aligned;
-			global::Ys.BeLazy.Resource.Id.ALT = global::LibMaker.Droid.Resource.Id.ALT;
-			global::Ys.BeLazy.Resource.Id.always = global::LibMaker.Droid.Resource.Id.always;
-			global::Ys.BeLazy.Resource.Id.animateToEnd = global::LibMaker.Droid.Resource.Id.animateToEnd;
-			global::Ys.BeLazy.Resource.Id.animateToStart = global::LibMaker.Droid.Resource.Id.animateToStart;
-			global::Ys.BeLazy.Resource.Id.asConfigured = global::LibMaker.Droid.Resource.Id.asConfigured;
-			global::Ys.BeLazy.Resource.Id.async = global::LibMaker.Droid.Resource.Id.async;
-			global::Ys.BeLazy.Resource.Id.autoComplete = global::LibMaker.Droid.Resource.Id.autoComplete;
-			global::Ys.BeLazy.Resource.Id.autoCompleteToEnd = global::LibMaker.Droid.Resource.Id.autoCompleteToEnd;
-			global::Ys.BeLazy.Resource.Id.autoCompleteToStart = global::LibMaker.Droid.Resource.Id.autoCompleteToStart;
-			global::Ys.BeLazy.Resource.Id.barrier = global::LibMaker.Droid.Resource.Id.barrier;
-			global::Ys.BeLazy.Resource.Id.baseline = global::LibMaker.Droid.Resource.Id.baseline;
-			global::Ys.BeLazy.Resource.Id.beginning = global::LibMaker.Droid.Resource.Id.beginning;
-			global::Ys.BeLazy.Resource.Id.beginOnFirstDraw = global::LibMaker.Droid.Resource.Id.beginOnFirstDraw;
-			global::Ys.BeLazy.Resource.Id.blocking = global::LibMaker.Droid.Resource.Id.blocking;
-			global::Ys.BeLazy.Resource.Id.bottom = global::LibMaker.Droid.Resource.Id.bottom;
-			global::Ys.BeLazy.Resource.Id.bounce = global::LibMaker.Droid.Resource.Id.bounce;
-			global::Ys.BeLazy.Resource.Id.buttonPanel = global::LibMaker.Droid.Resource.Id.buttonPanel;
-			global::Ys.BeLazy.Resource.Id.cache_measures = global::LibMaker.Droid.Resource.Id.cache_measures;
-			global::Ys.BeLazy.Resource.Id.center = global::LibMaker.Droid.Resource.Id.center;
-			global::Ys.BeLazy.Resource.Id.center_vertical = global::LibMaker.Droid.Resource.Id.center_vertical;
-			global::Ys.BeLazy.Resource.Id.chain = global::LibMaker.Droid.Resource.Id.chain;
-			global::Ys.BeLazy.Resource.Id.chains = global::LibMaker.Droid.Resource.Id.chains;
-			global::Ys.BeLazy.Resource.Id.checkbox = global::LibMaker.Droid.Resource.Id.checkbox;
-			global::Ys.BeLazy.Resource.Id.@checked = global::LibMaker.Droid.Resource.Id.@checked;
-			global::Ys.BeLazy.Resource.Id.chronometer = global::LibMaker.Droid.Resource.Id.chronometer;
-			global::Ys.BeLazy.Resource.Id.collapseActionView = global::LibMaker.Droid.Resource.Id.collapseActionView;
-			global::Ys.BeLazy.Resource.Id.content = global::LibMaker.Droid.Resource.Id.content;
-			global::Ys.BeLazy.Resource.Id.contentPanel = global::LibMaker.Droid.Resource.Id.contentPanel;
-			global::Ys.BeLazy.Resource.Id.cos = global::LibMaker.Droid.Resource.Id.cos;
-			global::Ys.BeLazy.Resource.Id.CTRL = global::LibMaker.Droid.Resource.Id.CTRL;
-			global::Ys.BeLazy.Resource.Id.custom = global::LibMaker.Droid.Resource.Id.custom;
-			global::Ys.BeLazy.Resource.Id.customPanel = global::LibMaker.Droid.Resource.Id.customPanel;
-			global::Ys.BeLazy.Resource.Id.decelerate = global::LibMaker.Droid.Resource.Id.decelerate;
-			global::Ys.BeLazy.Resource.Id.decelerateAndComplete = global::LibMaker.Droid.Resource.Id.decelerateAndComplete;
-			global::Ys.BeLazy.Resource.Id.decor_content_parent = global::LibMaker.Droid.Resource.Id.decor_content_parent;
-			global::Ys.BeLazy.Resource.Id.default_activity_button = global::LibMaker.Droid.Resource.Id.default_activity_button;
-			global::Ys.BeLazy.Resource.Id.deltaRelative = global::LibMaker.Droid.Resource.Id.deltaRelative;
-			global::Ys.BeLazy.Resource.Id.dependency_ordering = global::LibMaker.Droid.Resource.Id.dependency_ordering;
-			global::Ys.BeLazy.Resource.Id.dialog_button = global::LibMaker.Droid.Resource.Id.dialog_button;
-			global::Ys.BeLazy.Resource.Id.dimensions = global::LibMaker.Droid.Resource.Id.dimensions;
-			global::Ys.BeLazy.Resource.Id.direct = global::LibMaker.Droid.Resource.Id.direct;
-			global::Ys.BeLazy.Resource.Id.disableHome = global::LibMaker.Droid.Resource.Id.disableHome;
-			global::Ys.BeLazy.Resource.Id.disablePostScroll = global::LibMaker.Droid.Resource.Id.disablePostScroll;
-			global::Ys.BeLazy.Resource.Id.disableScroll = global::LibMaker.Droid.Resource.Id.disableScroll;
-			global::Ys.BeLazy.Resource.Id.dragDown = global::LibMaker.Droid.Resource.Id.dragDown;
-			global::Ys.BeLazy.Resource.Id.dragEnd = global::LibMaker.Droid.Resource.Id.dragEnd;
-			global::Ys.BeLazy.Resource.Id.dragLeft = global::LibMaker.Droid.Resource.Id.dragLeft;
-			global::Ys.BeLazy.Resource.Id.dragRight = global::LibMaker.Droid.Resource.Id.dragRight;
-			global::Ys.BeLazy.Resource.Id.dragStart = global::LibMaker.Droid.Resource.Id.dragStart;
-			global::Ys.BeLazy.Resource.Id.dragUp = global::LibMaker.Droid.Resource.Id.dragUp;
-			global::Ys.BeLazy.Resource.Id.easeIn = global::LibMaker.Droid.Resource.Id.easeIn;
-			global::Ys.BeLazy.Resource.Id.easeInOut = global::LibMaker.Droid.Resource.Id.easeInOut;
-			global::Ys.BeLazy.Resource.Id.easeOut = global::LibMaker.Droid.Resource.Id.easeOut;
-			global::Ys.BeLazy.Resource.Id.edit_query = global::LibMaker.Droid.Resource.Id.edit_query;
-			global::Ys.BeLazy.Resource.Id.end = global::LibMaker.Droid.Resource.Id.end;
-			global::Ys.BeLazy.Resource.Id.expanded_menu = global::LibMaker.Droid.Resource.Id.expanded_menu;
-			global::Ys.BeLazy.Resource.Id.expand_activities_button = global::LibMaker.Droid.Resource.Id.expand_activities_button;
-			global::Ys.BeLazy.Resource.Id.flip = global::LibMaker.Droid.Resource.Id.flip;
-			global::Ys.BeLazy.Resource.Id.forever = global::LibMaker.Droid.Resource.Id.forever;
-			global::Ys.BeLazy.Resource.Id.FUNCTION = global::LibMaker.Droid.Resource.Id.FUNCTION;
-			global::Ys.BeLazy.Resource.Id.gone = global::LibMaker.Droid.Resource.Id.gone;
-			global::Ys.BeLazy.Resource.Id.graph = global::LibMaker.Droid.Resource.Id.graph;
-			global::Ys.BeLazy.Resource.Id.graph_wrap = global::LibMaker.Droid.Resource.Id.graph_wrap;
-			global::Ys.BeLazy.Resource.Id.grouping = global::LibMaker.Droid.Resource.Id.grouping;
-			global::Ys.BeLazy.Resource.Id.groups = global::LibMaker.Droid.Resource.Id.groups;
-			global::Ys.BeLazy.Resource.Id.group_divider = global::LibMaker.Droid.Resource.Id.group_divider;
-			global::Ys.BeLazy.Resource.Id.home = global::LibMaker.Droid.Resource.Id.home;
-			global::Ys.BeLazy.Resource.Id.homeAsUp = global::LibMaker.Droid.Resource.Id.homeAsUp;
-			global::Ys.BeLazy.Resource.Id.honorRequest = global::LibMaker.Droid.Resource.Id.honorRequest;
-			global::Ys.BeLazy.Resource.Id.icon = global::LibMaker.Droid.Resource.Id.icon;
-			global::Ys.BeLazy.Resource.Id.icon_group = global::LibMaker.Droid.Resource.Id.icon_group;
-			global::Ys.BeLazy.Resource.Id.ifRoom = global::LibMaker.Droid.Resource.Id.ifRoom;
-			global::Ys.BeLazy.Resource.Id.ignore = global::LibMaker.Droid.Resource.Id.ignore;
-			global::Ys.BeLazy.Resource.Id.ignoreRequest = global::LibMaker.Droid.Resource.Id.ignoreRequest;
-			global::Ys.BeLazy.Resource.Id.image = global::LibMaker.Droid.Resource.Id.image;
-			global::Ys.BeLazy.Resource.Id.info = global::LibMaker.Droid.Resource.Id.info;
-			global::Ys.BeLazy.Resource.Id.invisible = global::LibMaker.Droid.Resource.Id.invisible;
-			global::Ys.BeLazy.Resource.Id.italic = global::LibMaker.Droid.Resource.Id.italic;
-			global::Ys.BeLazy.Resource.Id.item_touch_helper_previous_elevation = global::LibMaker.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Ys.BeLazy.Resource.Id.jumpToEnd = global::LibMaker.Droid.Resource.Id.jumpToEnd;
-			global::Ys.BeLazy.Resource.Id.jumpToStart = global::LibMaker.Droid.Resource.Id.jumpToStart;
-			global::Ys.BeLazy.Resource.Id.layout = global::LibMaker.Droid.Resource.Id.layout;
-			global::Ys.BeLazy.Resource.Id.left = global::LibMaker.Droid.Resource.Id.left;
-			global::Ys.BeLazy.Resource.Id.line1 = global::LibMaker.Droid.Resource.Id.line1;
-			global::Ys.BeLazy.Resource.Id.line3 = global::LibMaker.Droid.Resource.Id.line3;
-			global::Ys.BeLazy.Resource.Id.linear = global::LibMaker.Droid.Resource.Id.linear;
-			global::Ys.BeLazy.Resource.Id.listMode = global::LibMaker.Droid.Resource.Id.listMode;
-			global::Ys.BeLazy.Resource.Id.list_item = global::LibMaker.Droid.Resource.Id.list_item;
-			global::Ys.BeLazy.Resource.Id.message = global::LibMaker.Droid.Resource.Id.message;
-			global::Ys.BeLazy.Resource.Id.META = global::LibMaker.Droid.Resource.Id.META;
-			global::Ys.BeLazy.Resource.Id.middle = global::LibMaker.Droid.Resource.Id.middle;
-			global::Ys.BeLazy.Resource.Id.motion_base = global::LibMaker.Droid.Resource.Id.motion_base;
-			global::Ys.BeLazy.Resource.Id.multiply = global::LibMaker.Droid.Resource.Id.multiply;
-			global::Ys.BeLazy.Resource.Id.never = global::LibMaker.Droid.Resource.Id.never;
-			global::Ys.BeLazy.Resource.Id.none = global::LibMaker.Droid.Resource.Id.none;
-			global::Ys.BeLazy.Resource.Id.normal = global::LibMaker.Droid.Resource.Id.normal;
-			global::Ys.BeLazy.Resource.Id.notification_background = global::LibMaker.Droid.Resource.Id.notification_background;
-			global::Ys.BeLazy.Resource.Id.notification_main_column = global::LibMaker.Droid.Resource.Id.notification_main_column;
-			global::Ys.BeLazy.Resource.Id.notification_main_column_container = global::LibMaker.Droid.Resource.Id.notification_main_column_container;
-			global::Ys.BeLazy.Resource.Id.NO_DEBUG = global::LibMaker.Droid.Resource.Id.NO_DEBUG;
-			global::Ys.BeLazy.Resource.Id.off = global::LibMaker.Droid.Resource.Id.off;
-			global::Ys.BeLazy.Resource.Id.on = global::LibMaker.Droid.Resource.Id.on;
-			global::Ys.BeLazy.Resource.Id.packed = global::LibMaker.Droid.Resource.Id.packed;
-			global::Ys.BeLazy.Resource.Id.parent = global::LibMaker.Droid.Resource.Id.parent;
-			global::Ys.BeLazy.Resource.Id.parentPanel = global::LibMaker.Droid.Resource.Id.parentPanel;
-			global::Ys.BeLazy.Resource.Id.parentRelative = global::LibMaker.Droid.Resource.Id.parentRelative;
-			global::Ys.BeLazy.Resource.Id.path = global::LibMaker.Droid.Resource.Id.path;
-			global::Ys.BeLazy.Resource.Id.pathRelative = global::LibMaker.Droid.Resource.Id.pathRelative;
-			global::Ys.BeLazy.Resource.Id.pb_item = global::LibMaker.Droid.Resource.Id.pb_item;
-			global::Ys.BeLazy.Resource.Id.percent = global::LibMaker.Droid.Resource.Id.percent;
-			global::Ys.BeLazy.Resource.Id.position = global::LibMaker.Droid.Resource.Id.position;
-			global::Ys.BeLazy.Resource.Id.postLayout = global::LibMaker.Droid.Resource.Id.postLayout;
-			global::Ys.BeLazy.Resource.Id.progress_circular = global::LibMaker.Droid.Resource.Id.progress_circular;
-			global::Ys.BeLazy.Resource.Id.progress_horizontal = global::LibMaker.Droid.Resource.Id.progress_horizontal;
-			global::Ys.BeLazy.Resource.Id.radio = global::LibMaker.Droid.Resource.Id.radio;
-			global::Ys.BeLazy.Resource.Id.ratio = global::LibMaker.Droid.Resource.Id.ratio;
-			global::Ys.BeLazy.Resource.Id.rectangles = global::LibMaker.Droid.Resource.Id.rectangles;
-			global::Ys.BeLazy.Resource.Id.reverseSawtooth = global::LibMaker.Droid.Resource.Id.reverseSawtooth;
-			global::Ys.BeLazy.Resource.Id.right = global::LibMaker.Droid.Resource.Id.right;
-			global::Ys.BeLazy.Resource.Id.right_icon = global::LibMaker.Droid.Resource.Id.right_icon;
-			global::Ys.BeLazy.Resource.Id.right_side = global::LibMaker.Droid.Resource.Id.right_side;
-			global::Ys.BeLazy.Resource.Id.sawtooth = global::LibMaker.Droid.Resource.Id.sawtooth;
-			global::Ys.BeLazy.Resource.Id.screen = global::LibMaker.Droid.Resource.Id.screen;
-			global::Ys.BeLazy.Resource.Id.scrollIndicatorDown = global::LibMaker.Droid.Resource.Id.scrollIndicatorDown;
-			global::Ys.BeLazy.Resource.Id.scrollIndicatorUp = global::LibMaker.Droid.Resource.Id.scrollIndicatorUp;
-			global::Ys.BeLazy.Resource.Id.scrollView = global::LibMaker.Droid.Resource.Id.scrollView;
-			global::Ys.BeLazy.Resource.Id.search_badge = global::LibMaker.Droid.Resource.Id.search_badge;
-			global::Ys.BeLazy.Resource.Id.search_bar = global::LibMaker.Droid.Resource.Id.search_bar;
-			global::Ys.BeLazy.Resource.Id.search_button = global::LibMaker.Droid.Resource.Id.search_button;
-			global::Ys.BeLazy.Resource.Id.search_close_btn = global::LibMaker.Droid.Resource.Id.search_close_btn;
-			global::Ys.BeLazy.Resource.Id.search_edit_frame = global::LibMaker.Droid.Resource.Id.search_edit_frame;
-			global::Ys.BeLazy.Resource.Id.search_go_btn = global::LibMaker.Droid.Resource.Id.search_go_btn;
-			global::Ys.BeLazy.Resource.Id.search_mag_icon = global::LibMaker.Droid.Resource.Id.search_mag_icon;
-			global::Ys.BeLazy.Resource.Id.search_plate = global::LibMaker.Droid.Resource.Id.search_plate;
-			global::Ys.BeLazy.Resource.Id.search_src_text = global::LibMaker.Droid.Resource.Id.search_src_text;
-			global::Ys.BeLazy.Resource.Id.search_voice_btn = global::LibMaker.Droid.Resource.Id.search_voice_btn;
-			global::Ys.BeLazy.Resource.Id.select_dialog_listview = global::LibMaker.Droid.Resource.Id.select_dialog_listview;
-			global::Ys.BeLazy.Resource.Id.SHIFT = global::LibMaker.Droid.Resource.Id.SHIFT;
-			global::Ys.BeLazy.Resource.Id.shortcut = global::LibMaker.Droid.Resource.Id.shortcut;
-			global::Ys.BeLazy.Resource.Id.showCustom = global::LibMaker.Droid.Resource.Id.showCustom;
-			global::Ys.BeLazy.Resource.Id.showHome = global::LibMaker.Droid.Resource.Id.showHome;
-			global::Ys.BeLazy.Resource.Id.showTitle = global::LibMaker.Droid.Resource.Id.showTitle;
-			global::Ys.BeLazy.Resource.Id.SHOW_ALL = global::LibMaker.Droid.Resource.Id.SHOW_ALL;
-			global::Ys.BeLazy.Resource.Id.SHOW_PATH = global::LibMaker.Droid.Resource.Id.SHOW_PATH;
-			global::Ys.BeLazy.Resource.Id.SHOW_PROGRESS = global::LibMaker.Droid.Resource.Id.SHOW_PROGRESS;
-			global::Ys.BeLazy.Resource.Id.sin = global::LibMaker.Droid.Resource.Id.sin;
-			global::Ys.BeLazy.Resource.Id.spacer = global::LibMaker.Droid.Resource.Id.spacer;
-			global::Ys.BeLazy.Resource.Id.spline = global::LibMaker.Droid.Resource.Id.spline;
-			global::Ys.BeLazy.Resource.Id.split_action_bar = global::LibMaker.Droid.Resource.Id.split_action_bar;
-			global::Ys.BeLazy.Resource.Id.spread = global::LibMaker.Droid.Resource.Id.spread;
-			global::Ys.BeLazy.Resource.Id.spread_inside = global::LibMaker.Droid.Resource.Id.spread_inside;
-			global::Ys.BeLazy.Resource.Id.square = global::LibMaker.Droid.Resource.Id.square;
-			global::Ys.BeLazy.Resource.Id.src_atop = global::LibMaker.Droid.Resource.Id.src_atop;
-			global::Ys.BeLazy.Resource.Id.src_in = global::LibMaker.Droid.Resource.Id.src_in;
-			global::Ys.BeLazy.Resource.Id.src_over = global::LibMaker.Droid.Resource.Id.src_over;
-			global::Ys.BeLazy.Resource.Id.standard = global::LibMaker.Droid.Resource.Id.standard;
-			global::Ys.BeLazy.Resource.Id.start = global::LibMaker.Droid.Resource.Id.start;
-			global::Ys.BeLazy.Resource.Id.startHorizontal = global::LibMaker.Droid.Resource.Id.startHorizontal;
-			global::Ys.BeLazy.Resource.Id.startVertical = global::LibMaker.Droid.Resource.Id.startVertical;
-			global::Ys.BeLazy.Resource.Id.staticLayout = global::LibMaker.Droid.Resource.Id.staticLayout;
-			global::Ys.BeLazy.Resource.Id.staticPostLayout = global::LibMaker.Droid.Resource.Id.staticPostLayout;
-			global::Ys.BeLazy.Resource.Id.stop = global::LibMaker.Droid.Resource.Id.stop;
-			global::Ys.BeLazy.Resource.Id.submenuarrow = global::LibMaker.Droid.Resource.Id.submenuarrow;
-			global::Ys.BeLazy.Resource.Id.submit_area = global::LibMaker.Droid.Resource.Id.submit_area;
-			global::Ys.BeLazy.Resource.Id.SYM = global::LibMaker.Droid.Resource.Id.SYM;
-			global::Ys.BeLazy.Resource.Id.tabMode = global::LibMaker.Droid.Resource.Id.tabMode;
-			global::Ys.BeLazy.Resource.Id.tag_accessibility_actions = global::LibMaker.Droid.Resource.Id.tag_accessibility_actions;
-			global::Ys.BeLazy.Resource.Id.tag_accessibility_clickable_spans = global::LibMaker.Droid.Resource.Id.tag_accessibility_clickable_spans;
-			global::Ys.BeLazy.Resource.Id.tag_accessibility_heading = global::LibMaker.Droid.Resource.Id.tag_accessibility_heading;
-			global::Ys.BeLazy.Resource.Id.tag_accessibility_pane_title = global::LibMaker.Droid.Resource.Id.tag_accessibility_pane_title;
-			global::Ys.BeLazy.Resource.Id.tag_screen_reader_focusable = global::LibMaker.Droid.Resource.Id.tag_screen_reader_focusable;
-			global::Ys.BeLazy.Resource.Id.tag_transition_group = global::LibMaker.Droid.Resource.Id.tag_transition_group;
-			global::Ys.BeLazy.Resource.Id.tag_unhandled_key_event_manager = global::LibMaker.Droid.Resource.Id.tag_unhandled_key_event_manager;
-			global::Ys.BeLazy.Resource.Id.tag_unhandled_key_listeners = global::LibMaker.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::Ys.BeLazy.Resource.Id.text = global::LibMaker.Droid.Resource.Id.text;
-			global::Ys.BeLazy.Resource.Id.text2 = global::LibMaker.Droid.Resource.Id.text2;
-			global::Ys.BeLazy.Resource.Id.textSpacerNoButtons = global::LibMaker.Droid.Resource.Id.textSpacerNoButtons;
-			global::Ys.BeLazy.Resource.Id.textSpacerNoTitle = global::LibMaker.Droid.Resource.Id.textSpacerNoTitle;
-			global::Ys.BeLazy.Resource.Id.time = global::LibMaker.Droid.Resource.Id.time;
-			global::Ys.BeLazy.Resource.Id.title = global::LibMaker.Droid.Resource.Id.title;
-			global::Ys.BeLazy.Resource.Id.titleDividerNoCustom = global::LibMaker.Droid.Resource.Id.titleDividerNoCustom;
-			global::Ys.BeLazy.Resource.Id.title_template = global::LibMaker.Droid.Resource.Id.title_template;
-			global::Ys.BeLazy.Resource.Id.toggle = global::LibMaker.Droid.Resource.Id.toggle;
-			global::Ys.BeLazy.Resource.Id.top = global::LibMaker.Droid.Resource.Id.top;
-			global::Ys.BeLazy.Resource.Id.topPanel = global::LibMaker.Droid.Resource.Id.topPanel;
-			global::Ys.BeLazy.Resource.Id.transitionToEnd = global::LibMaker.Droid.Resource.Id.transitionToEnd;
-			global::Ys.BeLazy.Resource.Id.transitionToStart = global::LibMaker.Droid.Resource.Id.transitionToStart;
-			global::Ys.BeLazy.Resource.Id.triangle = global::LibMaker.Droid.Resource.Id.triangle;
-			global::Ys.BeLazy.Resource.Id.tv_hint = global::LibMaker.Droid.Resource.Id.tv_hint;
-			global::Ys.BeLazy.Resource.Id.@unchecked = global::LibMaker.Droid.Resource.Id.@unchecked;
-			global::Ys.BeLazy.Resource.Id.uniform = global::LibMaker.Droid.Resource.Id.uniform;
-			global::Ys.BeLazy.Resource.Id.up = global::LibMaker.Droid.Resource.Id.up;
-			global::Ys.BeLazy.Resource.Id.useLogo = global::LibMaker.Droid.Resource.Id.useLogo;
-			global::Ys.BeLazy.Resource.Id.view_tree_lifecycle_owner = global::LibMaker.Droid.Resource.Id.view_tree_lifecycle_owner;
-			global::Ys.BeLazy.Resource.Id.visible = global::LibMaker.Droid.Resource.Id.visible;
-			global::Ys.BeLazy.Resource.Id.withText = global::LibMaker.Droid.Resource.Id.withText;
-			global::Ys.BeLazy.Resource.Id.wrap = global::LibMaker.Droid.Resource.Id.wrap;
-			global::Ys.BeLazy.Resource.Id.wrap_content = global::LibMaker.Droid.Resource.Id.wrap_content;
-			global::Ys.BeLazy.Resource.Integer.abc_config_activityDefaultDur = global::LibMaker.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Ys.BeLazy.Resource.Integer.abc_config_activityShortDur = global::LibMaker.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Ys.BeLazy.Resource.Integer.cancel_button_image_alpha = global::LibMaker.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Ys.BeLazy.Resource.Integer.config_tooltipAnimTime = global::LibMaker.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Ys.BeLazy.Resource.Integer.status_bar_notification_info_maxnum = global::LibMaker.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Ys.BeLazy.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::LibMaker.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
-			global::Ys.BeLazy.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::LibMaker.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
-			global::Ys.BeLazy.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::LibMaker.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
-			global::Ys.BeLazy.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::LibMaker.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
-			global::Ys.BeLazy.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::LibMaker.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
-			global::Ys.BeLazy.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::LibMaker.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
-			global::Ys.BeLazy.Resource.Interpolator.fast_out_slow_in = global::LibMaker.Droid.Resource.Interpolator.fast_out_slow_in;
-			global::Ys.BeLazy.Resource.Layout.abc_action_bar_title_item = global::LibMaker.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Ys.BeLazy.Resource.Layout.abc_action_bar_up_container = global::LibMaker.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Ys.BeLazy.Resource.Layout.abc_action_menu_item_layout = global::LibMaker.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Ys.BeLazy.Resource.Layout.abc_action_menu_layout = global::LibMaker.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Ys.BeLazy.Resource.Layout.abc_action_mode_bar = global::LibMaker.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Ys.BeLazy.Resource.Layout.abc_action_mode_close_item_material = global::LibMaker.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Ys.BeLazy.Resource.Layout.abc_activity_chooser_view = global::LibMaker.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Ys.BeLazy.Resource.Layout.abc_activity_chooser_view_list_item = global::LibMaker.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Ys.BeLazy.Resource.Layout.abc_alert_dialog_button_bar_material = global::LibMaker.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Ys.BeLazy.Resource.Layout.abc_alert_dialog_material = global::LibMaker.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Ys.BeLazy.Resource.Layout.abc_alert_dialog_title_material = global::LibMaker.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Ys.BeLazy.Resource.Layout.abc_cascading_menu_item_layout = global::LibMaker.Droid.Resource.Layout.abc_cascading_menu_item_layout;
-			global::Ys.BeLazy.Resource.Layout.abc_dialog_title_material = global::LibMaker.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Ys.BeLazy.Resource.Layout.abc_expanded_menu_layout = global::LibMaker.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Ys.BeLazy.Resource.Layout.abc_list_menu_item_checkbox = global::LibMaker.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Ys.BeLazy.Resource.Layout.abc_list_menu_item_icon = global::LibMaker.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Ys.BeLazy.Resource.Layout.abc_list_menu_item_layout = global::LibMaker.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Ys.BeLazy.Resource.Layout.abc_list_menu_item_radio = global::LibMaker.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Ys.BeLazy.Resource.Layout.abc_popup_menu_header_item_layout = global::LibMaker.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Ys.BeLazy.Resource.Layout.abc_popup_menu_item_layout = global::LibMaker.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Ys.BeLazy.Resource.Layout.abc_screen_content_include = global::LibMaker.Droid.Resource.Layout.abc_screen_content_include;
-			global::Ys.BeLazy.Resource.Layout.abc_screen_simple = global::LibMaker.Droid.Resource.Layout.abc_screen_simple;
-			global::Ys.BeLazy.Resource.Layout.abc_screen_simple_overlay_action_mode = global::LibMaker.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Ys.BeLazy.Resource.Layout.abc_screen_toolbar = global::LibMaker.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Ys.BeLazy.Resource.Layout.abc_search_dropdown_item_icons_2line = global::LibMaker.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Ys.BeLazy.Resource.Layout.abc_search_view = global::LibMaker.Droid.Resource.Layout.abc_search_view;
-			global::Ys.BeLazy.Resource.Layout.abc_select_dialog_material = global::LibMaker.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Ys.BeLazy.Resource.Layout.abc_tooltip = global::LibMaker.Droid.Resource.Layout.abc_tooltip;
-			global::Ys.BeLazy.Resource.Layout.custom_dialog = global::LibMaker.Droid.Resource.Layout.custom_dialog;
-			global::Ys.BeLazy.Resource.Layout.Dialog_WaitProgress_Normal = global::LibMaker.Droid.Resource.Layout.Dialog_WaitProgress_Normal;
-			global::Ys.BeLazy.Resource.Layout.Dialog_WaitProgress_Small = global::LibMaker.Droid.Resource.Layout.Dialog_WaitProgress_Small;
-			global::Ys.BeLazy.Resource.Layout.notification_action = global::LibMaker.Droid.Resource.Layout.notification_action;
-			global::Ys.BeLazy.Resource.Layout.notification_action_tombstone = global::LibMaker.Droid.Resource.Layout.notification_action_tombstone;
-			global::Ys.BeLazy.Resource.Layout.notification_template_custom_big = global::LibMaker.Droid.Resource.Layout.notification_template_custom_big;
-			global::Ys.BeLazy.Resource.Layout.notification_template_icon_group = global::LibMaker.Droid.Resource.Layout.notification_template_icon_group;
-			global::Ys.BeLazy.Resource.Layout.notification_template_part_chronometer = global::LibMaker.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Ys.BeLazy.Resource.Layout.notification_template_part_time = global::LibMaker.Droid.Resource.Layout.notification_template_part_time;
-			global::Ys.BeLazy.Resource.Layout.select_dialog_item_material = global::LibMaker.Droid.Resource.Layout.select_dialog_item_material;
-			global::Ys.BeLazy.Resource.Layout.select_dialog_multichoice_material = global::LibMaker.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Ys.BeLazy.Resource.Layout.select_dialog_singlechoice_material = global::LibMaker.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Ys.BeLazy.Resource.Layout.support_simple_spinner_dropdown_item = global::LibMaker.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Ys.BeLazy.Resource.String.abc_action_bar_home_description = global::LibMaker.Droid.Resource.String.abc_action_bar_home_description;
-			global::Ys.BeLazy.Resource.String.abc_action_bar_up_description = global::LibMaker.Droid.Resource.String.abc_action_bar_up_description;
-			global::Ys.BeLazy.Resource.String.abc_action_menu_overflow_description = global::LibMaker.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Ys.BeLazy.Resource.String.abc_action_mode_done = global::LibMaker.Droid.Resource.String.abc_action_mode_done;
-			global::Ys.BeLazy.Resource.String.abc_activitychooserview_choose_application = global::LibMaker.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Ys.BeLazy.Resource.String.abc_activity_chooser_view_see_all = global::LibMaker.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Ys.BeLazy.Resource.String.abc_capital_off = global::LibMaker.Droid.Resource.String.abc_capital_off;
-			global::Ys.BeLazy.Resource.String.abc_capital_on = global::LibMaker.Droid.Resource.String.abc_capital_on;
-			global::Ys.BeLazy.Resource.String.abc_menu_alt_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_alt_shortcut_label;
-			global::Ys.BeLazy.Resource.String.abc_menu_ctrl_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
-			global::Ys.BeLazy.Resource.String.abc_menu_delete_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_delete_shortcut_label;
-			global::Ys.BeLazy.Resource.String.abc_menu_enter_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_enter_shortcut_label;
-			global::Ys.BeLazy.Resource.String.abc_menu_function_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_function_shortcut_label;
-			global::Ys.BeLazy.Resource.String.abc_menu_meta_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_meta_shortcut_label;
-			global::Ys.BeLazy.Resource.String.abc_menu_shift_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_shift_shortcut_label;
-			global::Ys.BeLazy.Resource.String.abc_menu_space_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_space_shortcut_label;
-			global::Ys.BeLazy.Resource.String.abc_menu_sym_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_sym_shortcut_label;
-			global::Ys.BeLazy.Resource.String.abc_prepend_shortcut_label = global::LibMaker.Droid.Resource.String.abc_prepend_shortcut_label;
-			global::Ys.BeLazy.Resource.String.abc_searchview_description_clear = global::LibMaker.Droid.Resource.String.abc_searchview_description_clear;
-			global::Ys.BeLazy.Resource.String.abc_searchview_description_query = global::LibMaker.Droid.Resource.String.abc_searchview_description_query;
-			global::Ys.BeLazy.Resource.String.abc_searchview_description_search = global::LibMaker.Droid.Resource.String.abc_searchview_description_search;
-			global::Ys.BeLazy.Resource.String.abc_searchview_description_submit = global::LibMaker.Droid.Resource.String.abc_searchview_description_submit;
-			global::Ys.BeLazy.Resource.String.abc_searchview_description_voice = global::LibMaker.Droid.Resource.String.abc_searchview_description_voice;
-			global::Ys.BeLazy.Resource.String.abc_search_hint = global::LibMaker.Droid.Resource.String.abc_search_hint;
-			global::Ys.BeLazy.Resource.String.abc_shareactionprovider_share_with = global::LibMaker.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Ys.BeLazy.Resource.String.abc_shareactionprovider_share_with_application = global::LibMaker.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Ys.BeLazy.Resource.String.abc_toolbar_collapse_description = global::LibMaker.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Ys.BeLazy.Resource.String.search_menu_title = global::LibMaker.Droid.Resource.String.search_menu_title;
-			global::Ys.BeLazy.Resource.String.status_bar_notification_info_overflow = global::LibMaker.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Ys.BeLazy.Resource.Style.AlertDialog_AppCompat = global::LibMaker.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Ys.BeLazy.Resource.Style.AlertDialog_AppCompat_Light = global::LibMaker.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Animation_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Ys.BeLazy.Resource.Style.Animation_AppCompat_DropDownUp = global::LibMaker.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Ys.BeLazy.Resource.Style.Animation_AppCompat_Tooltip = global::LibMaker.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Ys.BeLazy.Resource.Style.Base_AlertDialog_AppCompat = global::LibMaker.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_AlertDialog_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Base_Animation_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Ys.BeLazy.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::LibMaker.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Ys.BeLazy.Resource.Style.Base_Animation_AppCompat_Tooltip = global::LibMaker.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Ys.BeLazy.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::LibMaker.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_DialogWindowTitle_AppCompat = global::LibMaker.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Button = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Large = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Small = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Title = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Ys.BeLazy.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Ys.BeLazy.Resource.Style.Base_ThemeOverlay_AppCompat = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Ys.BeLazy.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Ys.BeLazy.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Ys.BeLazy.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Ys.BeLazy.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Ys.BeLazy.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Ys.BeLazy.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Ys.BeLazy.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Ys.BeLazy.Resource.Style.Base_V21_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Ys.BeLazy.Resource.Style.Base_V21_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::LibMaker.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Ys.BeLazy.Resource.Style.Base_V22_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_V22_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Base_V23_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_V23_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Base_V26_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_V26_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::LibMaker.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Ys.BeLazy.Resource.Style.Base_V28_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V28_Theme_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_V28_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Ys.BeLazy.Resource.Style.Base_V7_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Ys.BeLazy.Resource.Style.Base_V7_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::LibMaker.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Ys.BeLazy.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::LibMaker.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Ys.BeLazy.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::LibMaker.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Ys.BeLazy.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::LibMaker.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ActionBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ActionButton = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ActionMode = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Button = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Button_Small = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_EditText = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ImageButton = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ListView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_RatingBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_SearchView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_SeekBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Spinner = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_TextView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Toolbar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Ys.BeLazy.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Ys.BeLazy.Resource.Style.Platform_AppCompat = global::LibMaker.Droid.Resource.Style.Platform_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Platform_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Platform_ThemeOverlay_AppCompat = global::LibMaker.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::LibMaker.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Ys.BeLazy.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Platform_V21_AppCompat = global::LibMaker.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Platform_V21_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Platform_V25_AppCompat = global::LibMaker.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Platform_V25_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Platform_Widget_AppCompat_Spinner = global::LibMaker.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::LibMaker.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Ys.BeLazy.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Ys.BeLazy.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::LibMaker.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Ys.BeLazy.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::LibMaker.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Body1 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Body2 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Button = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Caption = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Display1 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Display2 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Display3 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Display4 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Headline = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Large = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Medium = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Menu = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Small = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Subhead = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Tooltip = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_Compat_Notification = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_Compat_Notification_Info = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_Compat_Notification_Time = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_Compat_Notification_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LibMaker.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LibMaker.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Ys.BeLazy.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Ys.BeLazy.Resource.Style.ThemeOverlay_AppCompat = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Ys.BeLazy.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Ys.BeLazy.Resource.Style.ThemeOverlay_AppCompat_Dark = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Ys.BeLazy.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Ys.BeLazy.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
-			global::Ys.BeLazy.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
-			global::Ys.BeLazy.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Ys.BeLazy.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Ys.BeLazy.Resource.Style.ThemeOverlay_AppCompat_Light = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Theme_AppCompat;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_CompactMenu = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_DayNight = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_Empty = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Empty;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_Light_Dialog = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Ys.BeLazy.Resource.Style.Theme_AppCompat_NoActionBar = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Ys.BeLazy.Resource.Style.Theme_Dialog_FullScreen = global::LibMaker.Droid.Resource.Style.Theme_Dialog_FullScreen;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ActionBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ActionButton = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ActionMode = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ActivityChooserView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Button = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ButtonBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Button_Borderless = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Button_Colored = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Button_Small = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_EditText = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ImageButton = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionButton = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_SearchView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ListMenuView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ListPopupWindow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ListView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ListView_DropDown = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ListView_Menu = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_PopupMenu = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_PopupWindow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ProgressBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_RatingBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_RatingBar_Small = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_SearchView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_SeekBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Spinner = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_TextView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_TextView;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Toolbar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Ys.BeLazy.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Ys.BeLazy.Resource.Style.Widget_Compat_NotificationActionContainer = global::LibMaker.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Ys.BeLazy.Resource.Style.Widget_Compat_NotificationActionText = global::LibMaker.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar = global::LibMaker.Droid.Resource.Styleable.ActionBar;
-			global::Ys.BeLazy.Resource.Styleable.ActionBarLayout = global::LibMaker.Droid.Resource.Styleable.ActionBarLayout;
-			global::Ys.BeLazy.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::LibMaker.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_background = global::LibMaker.Droid.Resource.Styleable.ActionBar_background;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_backgroundSplit = global::LibMaker.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_backgroundStacked = global::LibMaker.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_contentInsetEnd = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_contentInsetLeft = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_contentInsetRight = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_contentInsetStart = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_customNavigationLayout = global::LibMaker.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_displayOptions = global::LibMaker.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_divider = global::LibMaker.Droid.Resource.Styleable.ActionBar_divider;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_elevation = global::LibMaker.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_height = global::LibMaker.Droid.Resource.Styleable.ActionBar_height;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_hideOnContentScroll = global::LibMaker.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_homeAsUpIndicator = global::LibMaker.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_homeLayout = global::LibMaker.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_icon = global::LibMaker.Droid.Resource.Styleable.ActionBar_icon;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::LibMaker.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_itemPadding = global::LibMaker.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_logo = global::LibMaker.Droid.Resource.Styleable.ActionBar_logo;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_navigationMode = global::LibMaker.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_popupTheme = global::LibMaker.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_progressBarPadding = global::LibMaker.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_progressBarStyle = global::LibMaker.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_subtitle = global::LibMaker.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_subtitleTextStyle = global::LibMaker.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_title = global::LibMaker.Droid.Resource.Styleable.ActionBar_title;
-			global::Ys.BeLazy.Resource.Styleable.ActionBar_titleTextStyle = global::LibMaker.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Ys.BeLazy.Resource.Styleable.ActionMenuItemView = global::LibMaker.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Ys.BeLazy.Resource.Styleable.ActionMenuItemView_android_minWidth = global::LibMaker.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Ys.BeLazy.Resource.Styleable.ActionMenuView = global::LibMaker.Droid.Resource.Styleable.ActionMenuView;
-			global::Ys.BeLazy.Resource.Styleable.ActionMode = global::LibMaker.Droid.Resource.Styleable.ActionMode;
-			global::Ys.BeLazy.Resource.Styleable.ActionMode_background = global::LibMaker.Droid.Resource.Styleable.ActionMode_background;
-			global::Ys.BeLazy.Resource.Styleable.ActionMode_backgroundSplit = global::LibMaker.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Ys.BeLazy.Resource.Styleable.ActionMode_closeItemLayout = global::LibMaker.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Ys.BeLazy.Resource.Styleable.ActionMode_height = global::LibMaker.Droid.Resource.Styleable.ActionMode_height;
-			global::Ys.BeLazy.Resource.Styleable.ActionMode_subtitleTextStyle = global::LibMaker.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Ys.BeLazy.Resource.Styleable.ActionMode_titleTextStyle = global::LibMaker.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Ys.BeLazy.Resource.Styleable.ActivityChooserView = global::LibMaker.Droid.Resource.Styleable.ActivityChooserView;
-			global::Ys.BeLazy.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::LibMaker.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Ys.BeLazy.Resource.Styleable.ActivityChooserView_initialActivityCount = global::LibMaker.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Ys.BeLazy.Resource.Styleable.AlertDialog = global::LibMaker.Droid.Resource.Styleable.AlertDialog;
-			global::Ys.BeLazy.Resource.Styleable.AlertDialog_android_layout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Ys.BeLazy.Resource.Styleable.AlertDialog_buttonIconDimen = global::LibMaker.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
-			global::Ys.BeLazy.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Ys.BeLazy.Resource.Styleable.AlertDialog_listItemLayout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Ys.BeLazy.Resource.Styleable.AlertDialog_listLayout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Ys.BeLazy.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Ys.BeLazy.Resource.Styleable.AlertDialog_showTitle = global::LibMaker.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Ys.BeLazy.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableCompat = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableItem = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableTransition = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
-			global::Ys.BeLazy.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatImageView = global::LibMaker.Droid.Resource.Styleable.AppCompatImageView;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatImageView_android_src = global::LibMaker.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatImageView_srcCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatImageView_tint = global::LibMaker.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatImageView_tintMode = global::LibMaker.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatSeekBar = global::LibMaker.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatSeekBar_android_thumb = global::LibMaker.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatSeekBar_tickMark = global::LibMaker.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::LibMaker.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::LibMaker.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextHelper = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_android_textAppearance = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_drawableTint = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_drawableTintMode = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_fontFamily = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_lineHeight = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_textAllCaps = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTextView_textLocale = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_textLocale;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionBarDivider = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionBarSize = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionBarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionBarTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModeBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModeStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_buttonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_checkboxStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_colorAccent = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_colorControlActivated = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_colorControlNormal = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_colorError = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_colorPrimary = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_controlBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_dialogTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_dividerVertical = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_editTextBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_editTextColor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_editTextStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_panelBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_searchViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_seekBarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_spinnerStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_switchStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_toolbarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_windowActionBar = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Ys.BeLazy.Resource.Styleable.AppCompatTheme_windowNoTitle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Ys.BeLazy.Resource.Styleable.ButtonBarLayout = global::LibMaker.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Ys.BeLazy.Resource.Styleable.ButtonBarLayout_allowStacking = global::LibMaker.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Ys.BeLazy.Resource.Styleable.ColorStateListItem = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem;
-			global::Ys.BeLazy.Resource.Styleable.ColorStateListItem_alpha = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Ys.BeLazy.Resource.Styleable.ColorStateListItem_android_alpha = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Ys.BeLazy.Resource.Styleable.ColorStateListItem_android_color = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Ys.BeLazy.Resource.Styleable.CompoundButton = global::LibMaker.Droid.Resource.Styleable.CompoundButton;
-			global::Ys.BeLazy.Resource.Styleable.CompoundButton_android_button = global::LibMaker.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Ys.BeLazy.Resource.Styleable.CompoundButton_buttonCompat = global::LibMaker.Droid.Resource.Styleable.CompoundButton_buttonCompat;
-			global::Ys.BeLazy.Resource.Styleable.CompoundButton_buttonTint = global::LibMaker.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Ys.BeLazy.Resource.Styleable.CompoundButton_buttonTintMode = global::LibMaker.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Ys.BeLazy.Resource.Styleable.Constraint = global::LibMaker.Droid.Resource.Styleable.Constraint;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_elevation = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_elevation;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_minHeight = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minHeight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_minWidth = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minWidth;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_orientation = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_orientation;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_padding = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_padding;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_paddingBottom = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingBottom;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_paddingEnd = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingEnd;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_paddingLeft = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingLeft;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_paddingRight = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingRight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_paddingStart = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingStart;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_paddingTop = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingTop;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_android_visibility = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_android_visibility;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_barrierDirection = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierDirection;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_barrierMargin = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierMargin;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_constraintSet = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_constraintSet;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_tags = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_tags;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalAlign = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalAlign;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalGap = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalGap;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_maxElementsWrap = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_maxElementsWrap;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_verticalAlign = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalAlign;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_verticalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_verticalGap = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalGap;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_verticalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_flow_wrapMode = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_wrapMode;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layoutDescription = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layoutDescription;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTag = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTag;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_placeholder = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_placeholder;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_placeholder_content = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_placeholder_content;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintLayout_placeholder_placeholder_emptyVisibility = global::LibMaker.Droid.Resource.Styleable.ConstraintLayout_placeholder_placeholder_emptyVisibility;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet = global::LibMaker.Droid.Resource.Styleable.ConstraintSet;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_alpha = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_alpha;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_elevation = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_elevation;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_id = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_id;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_layout_height = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_layout_height;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_layout_marginBottom = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_layout_marginBottom;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_layout_marginEnd = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_layout_marginEnd;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_layout_marginLeft = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_layout_marginLeft;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_layout_marginRight = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_layout_marginRight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_layout_marginStart = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_layout_marginStart;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_layout_marginTop = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_layout_marginTop;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_layout_width = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_layout_width;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_maxHeight = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_maxHeight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_maxWidth = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_maxWidth;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_minHeight = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_minHeight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_minWidth = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_minWidth;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_orientation = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_orientation;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_pivotX = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_pivotX;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_pivotY = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_pivotY;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_rotation = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_rotation;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_rotationX = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_rotationX;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_rotationY = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_rotationY;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_scaleX = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_scaleX;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_scaleY = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_scaleY;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_transformPivotX = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_transformPivotX;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_transformPivotY = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_transformPivotY;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_translationX = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_translationX;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_translationY = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_translationY;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_translationZ = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_translationZ;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_android_visibility = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_android_visibility;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_animate_relativeTo = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_animate_relativeTo;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_barrierAllowsGoneWidgets = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_barrierAllowsGoneWidgets;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_barrierDirection = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_barrierDirection;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_barrierMargin = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_barrierMargin;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_chainUseRtl = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_chainUseRtl;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_constraint_referenced_ids = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_constraint_referenced_tags = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_tags;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_deriveConstraintsFrom = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_deriveConstraintsFrom;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_drawPath = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_drawPath;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_firstHorizontalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_firstHorizontalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_firstHorizontalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_firstHorizontalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_firstVerticalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_firstVerticalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_firstVerticalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_firstVerticalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_horizontalAlign = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_horizontalAlign;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_horizontalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_horizontalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_horizontalGap = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_horizontalGap;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_horizontalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_horizontalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_lastHorizontalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_lastHorizontalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_lastHorizontalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_lastHorizontalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_lastVerticalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_lastVerticalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_lastVerticalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_lastVerticalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_maxElementsWrap = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_maxElementsWrap;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_verticalAlign = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_verticalAlign;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_verticalBias = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_verticalBias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_verticalGap = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_verticalGap;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_verticalStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_verticalStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_flow_wrapMode = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_flow_wrapMode;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constrainedHeight = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constrainedHeight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constrainedWidth = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constrainedWidth;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintCircle = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintGuide_end = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_end;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintHeight_default = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_default;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintHeight_max = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_max;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintHeight_min = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_min;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintRight_creator = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_creator;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintTag = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintTag;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintTop_creator = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_creator;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintWidth_default = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_default;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintWidth_max = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_max;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintWidth_min = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_min;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_editor_absoluteX = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteX;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_editor_absoluteY = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteY;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_goneMarginBottom = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBottom;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_goneMarginEnd = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginEnd;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_goneMarginLeft = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginLeft;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_goneMarginRight = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginRight;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_goneMarginStart = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginStart;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_layout_goneMarginTop = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginTop;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_motionProgress = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_motionProgress;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_motionStagger = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_motionStagger;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_pathMotionArc = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_pathMotionArc;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_pivotAnchor = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_pivotAnchor;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_transitionEasing = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_transitionEasing;
-			global::Ys.BeLazy.Resource.Styleable.ConstraintSet_transitionPathRotate = global::LibMaker.Droid.Resource.Styleable.ConstraintSet_transitionPathRotate;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_alpha = global::LibMaker.Droid.Resource.Styleable.Constraint_android_alpha;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_elevation = global::LibMaker.Droid.Resource.Styleable.Constraint_android_elevation;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_id = global::LibMaker.Droid.Resource.Styleable.Constraint_android_id;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_layout_height = global::LibMaker.Droid.Resource.Styleable.Constraint_android_layout_height;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_layout_marginBottom = global::LibMaker.Droid.Resource.Styleable.Constraint_android_layout_marginBottom;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_layout_marginEnd = global::LibMaker.Droid.Resource.Styleable.Constraint_android_layout_marginEnd;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_layout_marginLeft = global::LibMaker.Droid.Resource.Styleable.Constraint_android_layout_marginLeft;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_layout_marginRight = global::LibMaker.Droid.Resource.Styleable.Constraint_android_layout_marginRight;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_layout_marginStart = global::LibMaker.Droid.Resource.Styleable.Constraint_android_layout_marginStart;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_layout_marginTop = global::LibMaker.Droid.Resource.Styleable.Constraint_android_layout_marginTop;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_layout_width = global::LibMaker.Droid.Resource.Styleable.Constraint_android_layout_width;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_maxHeight = global::LibMaker.Droid.Resource.Styleable.Constraint_android_maxHeight;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_maxWidth = global::LibMaker.Droid.Resource.Styleable.Constraint_android_maxWidth;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_minHeight = global::LibMaker.Droid.Resource.Styleable.Constraint_android_minHeight;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_minWidth = global::LibMaker.Droid.Resource.Styleable.Constraint_android_minWidth;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_orientation = global::LibMaker.Droid.Resource.Styleable.Constraint_android_orientation;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_rotation = global::LibMaker.Droid.Resource.Styleable.Constraint_android_rotation;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_rotationX = global::LibMaker.Droid.Resource.Styleable.Constraint_android_rotationX;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_rotationY = global::LibMaker.Droid.Resource.Styleable.Constraint_android_rotationY;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_scaleX = global::LibMaker.Droid.Resource.Styleable.Constraint_android_scaleX;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_scaleY = global::LibMaker.Droid.Resource.Styleable.Constraint_android_scaleY;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_transformPivotX = global::LibMaker.Droid.Resource.Styleable.Constraint_android_transformPivotX;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_transformPivotY = global::LibMaker.Droid.Resource.Styleable.Constraint_android_transformPivotY;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_translationX = global::LibMaker.Droid.Resource.Styleable.Constraint_android_translationX;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_translationY = global::LibMaker.Droid.Resource.Styleable.Constraint_android_translationY;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_translationZ = global::LibMaker.Droid.Resource.Styleable.Constraint_android_translationZ;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_android_visibility = global::LibMaker.Droid.Resource.Styleable.Constraint_android_visibility;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_animate_relativeTo = global::LibMaker.Droid.Resource.Styleable.Constraint_animate_relativeTo;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_barrierAllowsGoneWidgets = global::LibMaker.Droid.Resource.Styleable.Constraint_barrierAllowsGoneWidgets;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_barrierDirection = global::LibMaker.Droid.Resource.Styleable.Constraint_barrierDirection;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_barrierMargin = global::LibMaker.Droid.Resource.Styleable.Constraint_barrierMargin;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_chainUseRtl = global::LibMaker.Droid.Resource.Styleable.Constraint_chainUseRtl;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_constraint_referenced_ids = global::LibMaker.Droid.Resource.Styleable.Constraint_constraint_referenced_ids;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_constraint_referenced_tags = global::LibMaker.Droid.Resource.Styleable.Constraint_constraint_referenced_tags;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_drawPath = global::LibMaker.Droid.Resource.Styleable.Constraint_drawPath;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_firstHorizontalBias = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_firstHorizontalBias;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_firstHorizontalStyle = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_firstHorizontalStyle;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_firstVerticalBias = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_firstVerticalBias;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_firstVerticalStyle = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_firstVerticalStyle;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_horizontalAlign = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_horizontalAlign;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_horizontalBias = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_horizontalBias;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_horizontalGap = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_horizontalGap;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_horizontalStyle = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_horizontalStyle;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_lastHorizontalBias = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_lastHorizontalBias;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_lastHorizontalStyle = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_lastHorizontalStyle;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_lastVerticalBias = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_lastVerticalBias;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_lastVerticalStyle = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_lastVerticalStyle;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_maxElementsWrap = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_maxElementsWrap;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_verticalAlign = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_verticalAlign;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_verticalBias = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_verticalBias;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_verticalGap = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_verticalGap;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_verticalStyle = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_verticalStyle;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_flow_wrapMode = global::LibMaker.Droid.Resource.Styleable.Constraint_flow_wrapMode;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constrainedHeight = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constrainedHeight;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constrainedWidth = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constrainedWidth;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintBaseline_creator = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_creator;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintBaseline_toBaselineOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_toBaselineOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintBottom_creator = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintBottom_creator;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintBottom_toBottomOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintBottom_toBottomOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintBottom_toTopOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintBottom_toTopOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintCircle = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintCircle;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintCircleAngle = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintCircleAngle;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintCircleRadius = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintCircleRadius;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintDimensionRatio = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintDimensionRatio;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintEnd_toEndOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintEnd_toEndOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintEnd_toStartOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintEnd_toStartOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintGuide_begin = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintGuide_begin;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintGuide_end = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintGuide_end;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintGuide_percent = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintGuide_percent;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintHeight_default = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintHeight_default;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintHeight_max = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintHeight_max;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintHeight_min = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintHeight_min;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintHeight_percent = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintHeight_percent;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintHorizontal_bias = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_bias;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintHorizontal_chainStyle = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_chainStyle;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintHorizontal_weight = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_weight;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintLeft_creator = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintLeft_creator;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintLeft_toLeftOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintLeft_toLeftOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintLeft_toRightOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintLeft_toRightOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintRight_creator = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintRight_creator;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintRight_toLeftOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintRight_toLeftOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintRight_toRightOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintRight_toRightOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintStart_toEndOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintStart_toEndOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintStart_toStartOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintStart_toStartOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintTag = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintTag;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintTop_creator = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintTop_creator;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintTop_toBottomOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintTop_toBottomOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintTop_toTopOf = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintTop_toTopOf;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintVertical_bias = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintVertical_bias;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintVertical_chainStyle = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintVertical_chainStyle;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintVertical_weight = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintVertical_weight;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintWidth_default = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintWidth_default;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintWidth_max = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintWidth_max;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintWidth_min = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintWidth_min;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_constraintWidth_percent = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_constraintWidth_percent;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_editor_absoluteX = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_editor_absoluteX;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_editor_absoluteY = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_editor_absoluteY;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_goneMarginBottom = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_goneMarginBottom;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_goneMarginEnd = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_goneMarginEnd;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_goneMarginLeft = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_goneMarginLeft;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_goneMarginRight = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_goneMarginRight;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_goneMarginStart = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_goneMarginStart;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_layout_goneMarginTop = global::LibMaker.Droid.Resource.Styleable.Constraint_layout_goneMarginTop;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_motionProgress = global::LibMaker.Droid.Resource.Styleable.Constraint_motionProgress;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_motionStagger = global::LibMaker.Droid.Resource.Styleable.Constraint_motionStagger;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_pathMotionArc = global::LibMaker.Droid.Resource.Styleable.Constraint_pathMotionArc;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_pivotAnchor = global::LibMaker.Droid.Resource.Styleable.Constraint_pivotAnchor;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_transitionEasing = global::LibMaker.Droid.Resource.Styleable.Constraint_transitionEasing;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_transitionPathRotate = global::LibMaker.Droid.Resource.Styleable.Constraint_transitionPathRotate;
-			global::Ys.BeLazy.Resource.Styleable.Constraint_visibilityMode = global::LibMaker.Droid.Resource.Styleable.Constraint_visibilityMode;
-			global::Ys.BeLazy.Resource.Styleable.CustomAttribute = global::LibMaker.Droid.Resource.Styleable.CustomAttribute;
-			global::Ys.BeLazy.Resource.Styleable.CustomAttribute_attributeName = global::LibMaker.Droid.Resource.Styleable.CustomAttribute_attributeName;
-			global::Ys.BeLazy.Resource.Styleable.CustomAttribute_customBoolean = global::LibMaker.Droid.Resource.Styleable.CustomAttribute_customBoolean;
-			global::Ys.BeLazy.Resource.Styleable.CustomAttribute_customColorDrawableValue = global::LibMaker.Droid.Resource.Styleable.CustomAttribute_customColorDrawableValue;
-			global::Ys.BeLazy.Resource.Styleable.CustomAttribute_customColorValue = global::LibMaker.Droid.Resource.Styleable.CustomAttribute_customColorValue;
-			global::Ys.BeLazy.Resource.Styleable.CustomAttribute_customDimension = global::LibMaker.Droid.Resource.Styleable.CustomAttribute_customDimension;
-			global::Ys.BeLazy.Resource.Styleable.CustomAttribute_customFloatValue = global::LibMaker.Droid.Resource.Styleable.CustomAttribute_customFloatValue;
-			global::Ys.BeLazy.Resource.Styleable.CustomAttribute_customIntegerValue = global::LibMaker.Droid.Resource.Styleable.CustomAttribute_customIntegerValue;
-			global::Ys.BeLazy.Resource.Styleable.CustomAttribute_customPixelDimension = global::LibMaker.Droid.Resource.Styleable.CustomAttribute_customPixelDimension;
-			global::Ys.BeLazy.Resource.Styleable.CustomAttribute_customStringValue = global::LibMaker.Droid.Resource.Styleable.CustomAttribute_customStringValue;
-			global::Ys.BeLazy.Resource.Styleable.DrawerArrowToggle = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Ys.BeLazy.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Ys.BeLazy.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Ys.BeLazy.Resource.Styleable.DrawerArrowToggle_barLength = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Ys.BeLazy.Resource.Styleable.DrawerArrowToggle_color = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Ys.BeLazy.Resource.Styleable.DrawerArrowToggle_drawableSize = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Ys.BeLazy.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Ys.BeLazy.Resource.Styleable.DrawerArrowToggle_spinBars = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Ys.BeLazy.Resource.Styleable.DrawerArrowToggle_thickness = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Ys.BeLazy.Resource.Styleable.DrawerLayout = global::LibMaker.Droid.Resource.Styleable.DrawerLayout;
-			global::Ys.BeLazy.Resource.Styleable.DrawerLayout_elevation = global::LibMaker.Droid.Resource.Styleable.DrawerLayout_elevation;
-			global::Ys.BeLazy.Resource.Styleable.FontFamily = global::LibMaker.Droid.Resource.Styleable.FontFamily;
-			global::Ys.BeLazy.Resource.Styleable.FontFamilyFont = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont;
-			global::Ys.BeLazy.Resource.Styleable.FontFamilyFont_android_font = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Ys.BeLazy.Resource.Styleable.FontFamilyFont_android_fontStyle = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Ys.BeLazy.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Ys.BeLazy.Resource.Styleable.FontFamilyFont_android_fontWeight = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Ys.BeLazy.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Ys.BeLazy.Resource.Styleable.FontFamilyFont_font = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Ys.BeLazy.Resource.Styleable.FontFamilyFont_fontStyle = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Ys.BeLazy.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Ys.BeLazy.Resource.Styleable.FontFamilyFont_fontWeight = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Ys.BeLazy.Resource.Styleable.FontFamilyFont_ttcIndex = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Ys.BeLazy.Resource.Styleable.FontFamily_fontProviderAuthority = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Ys.BeLazy.Resource.Styleable.FontFamily_fontProviderCerts = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Ys.BeLazy.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Ys.BeLazy.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Ys.BeLazy.Resource.Styleable.FontFamily_fontProviderPackage = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Ys.BeLazy.Resource.Styleable.FontFamily_fontProviderQuery = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor = global::LibMaker.Droid.Resource.Styleable.GradientColor;
-			global::Ys.BeLazy.Resource.Styleable.GradientColorItem = global::LibMaker.Droid.Resource.Styleable.GradientColorItem;
-			global::Ys.BeLazy.Resource.Styleable.GradientColorItem_android_color = global::LibMaker.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Ys.BeLazy.Resource.Styleable.GradientColorItem_android_offset = global::LibMaker.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_centerColor = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_centerColor;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_centerX = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_centerX;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_centerY = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_centerY;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_endColor = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_endColor;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_endX = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_endX;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_endY = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_endY;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_gradientRadius = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_startColor = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_startColor;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_startX = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_startX;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_startY = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_startY;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_tileMode = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_tileMode;
-			global::Ys.BeLazy.Resource.Styleable.GradientColor_android_type = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Ys.BeLazy.Resource.Styleable.ImageFilterView = global::LibMaker.Droid.Resource.Styleable.ImageFilterView;
-			global::Ys.BeLazy.Resource.Styleable.ImageFilterView_altSrc = global::LibMaker.Droid.Resource.Styleable.ImageFilterView_altSrc;
-			global::Ys.BeLazy.Resource.Styleable.ImageFilterView_brightness = global::LibMaker.Droid.Resource.Styleable.ImageFilterView_brightness;
-			global::Ys.BeLazy.Resource.Styleable.ImageFilterView_contrast = global::LibMaker.Droid.Resource.Styleable.ImageFilterView_contrast;
-			global::Ys.BeLazy.Resource.Styleable.ImageFilterView_crossfade = global::LibMaker.Droid.Resource.Styleable.ImageFilterView_crossfade;
-			global::Ys.BeLazy.Resource.Styleable.ImageFilterView_overlay = global::LibMaker.Droid.Resource.Styleable.ImageFilterView_overlay;
-			global::Ys.BeLazy.Resource.Styleable.ImageFilterView_round = global::LibMaker.Droid.Resource.Styleable.ImageFilterView_round;
-			global::Ys.BeLazy.Resource.Styleable.ImageFilterView_roundPercent = global::LibMaker.Droid.Resource.Styleable.ImageFilterView_roundPercent;
-			global::Ys.BeLazy.Resource.Styleable.ImageFilterView_saturation = global::LibMaker.Droid.Resource.Styleable.ImageFilterView_saturation;
-			global::Ys.BeLazy.Resource.Styleable.ImageFilterView_warmth = global::LibMaker.Droid.Resource.Styleable.ImageFilterView_warmth;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute = global::LibMaker.Droid.Resource.Styleable.KeyAttribute;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_alpha = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_alpha;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_elevation = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_elevation;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_rotation = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_rotation;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_rotationX = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_rotationX;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_rotationY = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_rotationY;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_scaleX = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_scaleX;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_scaleY = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_scaleY;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_transformPivotX = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_transformPivotX;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_transformPivotY = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_transformPivotY;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_translationX = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_translationX;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_translationY = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_translationY;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_android_translationZ = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_android_translationZ;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_curveFit = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_curveFit;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_framePosition = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_framePosition;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_motionProgress = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_motionProgress;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_motionTarget = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_motionTarget;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_transitionEasing = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_transitionEasing;
-			global::Ys.BeLazy.Resource.Styleable.KeyAttribute_transitionPathRotate = global::LibMaker.Droid.Resource.Styleable.KeyAttribute_transitionPathRotate;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle = global::LibMaker.Droid.Resource.Styleable.KeyCycle;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_android_alpha = global::LibMaker.Droid.Resource.Styleable.KeyCycle_android_alpha;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_android_elevation = global::LibMaker.Droid.Resource.Styleable.KeyCycle_android_elevation;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_android_rotation = global::LibMaker.Droid.Resource.Styleable.KeyCycle_android_rotation;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_android_rotationX = global::LibMaker.Droid.Resource.Styleable.KeyCycle_android_rotationX;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_android_rotationY = global::LibMaker.Droid.Resource.Styleable.KeyCycle_android_rotationY;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_android_scaleX = global::LibMaker.Droid.Resource.Styleable.KeyCycle_android_scaleX;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_android_scaleY = global::LibMaker.Droid.Resource.Styleable.KeyCycle_android_scaleY;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_android_translationX = global::LibMaker.Droid.Resource.Styleable.KeyCycle_android_translationX;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_android_translationY = global::LibMaker.Droid.Resource.Styleable.KeyCycle_android_translationY;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_android_translationZ = global::LibMaker.Droid.Resource.Styleable.KeyCycle_android_translationZ;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_curveFit = global::LibMaker.Droid.Resource.Styleable.KeyCycle_curveFit;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_framePosition = global::LibMaker.Droid.Resource.Styleable.KeyCycle_framePosition;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_motionProgress = global::LibMaker.Droid.Resource.Styleable.KeyCycle_motionProgress;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_motionTarget = global::LibMaker.Droid.Resource.Styleable.KeyCycle_motionTarget;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_transitionEasing = global::LibMaker.Droid.Resource.Styleable.KeyCycle_transitionEasing;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_transitionPathRotate = global::LibMaker.Droid.Resource.Styleable.KeyCycle_transitionPathRotate;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_waveOffset = global::LibMaker.Droid.Resource.Styleable.KeyCycle_waveOffset;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_wavePeriod = global::LibMaker.Droid.Resource.Styleable.KeyCycle_wavePeriod;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_waveShape = global::LibMaker.Droid.Resource.Styleable.KeyCycle_waveShape;
-			global::Ys.BeLazy.Resource.Styleable.KeyCycle_waveVariesBy = global::LibMaker.Droid.Resource.Styleable.KeyCycle_waveVariesBy;
-			global::Ys.BeLazy.Resource.Styleable.KeyFrame = global::LibMaker.Droid.Resource.Styleable.KeyFrame;
-			global::Ys.BeLazy.Resource.Styleable.KeyFramesAcceleration = global::LibMaker.Droid.Resource.Styleable.KeyFramesAcceleration;
-			global::Ys.BeLazy.Resource.Styleable.KeyFramesVelocity = global::LibMaker.Droid.Resource.Styleable.KeyFramesVelocity;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition = global::LibMaker.Droid.Resource.Styleable.KeyPosition;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_curveFit = global::LibMaker.Droid.Resource.Styleable.KeyPosition_curveFit;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_drawPath = global::LibMaker.Droid.Resource.Styleable.KeyPosition_drawPath;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_framePosition = global::LibMaker.Droid.Resource.Styleable.KeyPosition_framePosition;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_keyPositionType = global::LibMaker.Droid.Resource.Styleable.KeyPosition_keyPositionType;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_motionTarget = global::LibMaker.Droid.Resource.Styleable.KeyPosition_motionTarget;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_pathMotionArc = global::LibMaker.Droid.Resource.Styleable.KeyPosition_pathMotionArc;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_percentHeight = global::LibMaker.Droid.Resource.Styleable.KeyPosition_percentHeight;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_percentWidth = global::LibMaker.Droid.Resource.Styleable.KeyPosition_percentWidth;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_percentX = global::LibMaker.Droid.Resource.Styleable.KeyPosition_percentX;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_percentY = global::LibMaker.Droid.Resource.Styleable.KeyPosition_percentY;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_sizePercent = global::LibMaker.Droid.Resource.Styleable.KeyPosition_sizePercent;
-			global::Ys.BeLazy.Resource.Styleable.KeyPosition_transitionEasing = global::LibMaker.Droid.Resource.Styleable.KeyPosition_transitionEasing;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_android_alpha = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_android_alpha;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_android_elevation = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_android_elevation;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_android_rotation = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_android_rotation;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_android_rotationX = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_android_rotationX;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_android_rotationY = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_android_rotationY;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_android_scaleX = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_android_scaleX;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_android_scaleY = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_android_scaleY;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_android_translationX = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_android_translationX;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_android_translationY = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_android_translationY;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_android_translationZ = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_android_translationZ;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_curveFit = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_curveFit;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_framePosition = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_framePosition;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_motionProgress = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_motionProgress;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_motionTarget = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_motionTarget;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_transitionEasing = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_transitionEasing;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_transitionPathRotate = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_transitionPathRotate;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_waveDecay = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_waveDecay;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_waveOffset = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_waveOffset;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_wavePeriod = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_wavePeriod;
-			global::Ys.BeLazy.Resource.Styleable.KeyTimeCycle_waveShape = global::LibMaker.Droid.Resource.Styleable.KeyTimeCycle_waveShape;
-			global::Ys.BeLazy.Resource.Styleable.KeyTrigger = global::LibMaker.Droid.Resource.Styleable.KeyTrigger;
-			global::Ys.BeLazy.Resource.Styleable.KeyTrigger_framePosition = global::LibMaker.Droid.Resource.Styleable.KeyTrigger_framePosition;
-			global::Ys.BeLazy.Resource.Styleable.KeyTrigger_motionTarget = global::LibMaker.Droid.Resource.Styleable.KeyTrigger_motionTarget;
-			global::Ys.BeLazy.Resource.Styleable.KeyTrigger_motion_postLayoutCollision = global::LibMaker.Droid.Resource.Styleable.KeyTrigger_motion_postLayoutCollision;
-			global::Ys.BeLazy.Resource.Styleable.KeyTrigger_motion_triggerOnCollision = global::LibMaker.Droid.Resource.Styleable.KeyTrigger_motion_triggerOnCollision;
-			global::Ys.BeLazy.Resource.Styleable.KeyTrigger_onCross = global::LibMaker.Droid.Resource.Styleable.KeyTrigger_onCross;
-			global::Ys.BeLazy.Resource.Styleable.KeyTrigger_onNegativeCross = global::LibMaker.Droid.Resource.Styleable.KeyTrigger_onNegativeCross;
-			global::Ys.BeLazy.Resource.Styleable.KeyTrigger_onPositiveCross = global::LibMaker.Droid.Resource.Styleable.KeyTrigger_onPositiveCross;
-			global::Ys.BeLazy.Resource.Styleable.KeyTrigger_triggerId = global::LibMaker.Droid.Resource.Styleable.KeyTrigger_triggerId;
-			global::Ys.BeLazy.Resource.Styleable.KeyTrigger_triggerReceiver = global::LibMaker.Droid.Resource.Styleable.KeyTrigger_triggerReceiver;
-			global::Ys.BeLazy.Resource.Styleable.KeyTrigger_triggerSlack = global::LibMaker.Droid.Resource.Styleable.KeyTrigger_triggerSlack;
-			global::Ys.BeLazy.Resource.Styleable.Layout = global::LibMaker.Droid.Resource.Styleable.Layout;
-			global::Ys.BeLazy.Resource.Styleable.Layout_android_layout_height = global::LibMaker.Droid.Resource.Styleable.Layout_android_layout_height;
-			global::Ys.BeLazy.Resource.Styleable.Layout_android_layout_marginBottom = global::LibMaker.Droid.Resource.Styleable.Layout_android_layout_marginBottom;
-			global::Ys.BeLazy.Resource.Styleable.Layout_android_layout_marginEnd = global::LibMaker.Droid.Resource.Styleable.Layout_android_layout_marginEnd;
-			global::Ys.BeLazy.Resource.Styleable.Layout_android_layout_marginLeft = global::LibMaker.Droid.Resource.Styleable.Layout_android_layout_marginLeft;
-			global::Ys.BeLazy.Resource.Styleable.Layout_android_layout_marginRight = global::LibMaker.Droid.Resource.Styleable.Layout_android_layout_marginRight;
-			global::Ys.BeLazy.Resource.Styleable.Layout_android_layout_marginStart = global::LibMaker.Droid.Resource.Styleable.Layout_android_layout_marginStart;
-			global::Ys.BeLazy.Resource.Styleable.Layout_android_layout_marginTop = global::LibMaker.Droid.Resource.Styleable.Layout_android_layout_marginTop;
-			global::Ys.BeLazy.Resource.Styleable.Layout_android_layout_width = global::LibMaker.Droid.Resource.Styleable.Layout_android_layout_width;
-			global::Ys.BeLazy.Resource.Styleable.Layout_android_orientation = global::LibMaker.Droid.Resource.Styleable.Layout_android_orientation;
-			global::Ys.BeLazy.Resource.Styleable.Layout_barrierAllowsGoneWidgets = global::LibMaker.Droid.Resource.Styleable.Layout_barrierAllowsGoneWidgets;
-			global::Ys.BeLazy.Resource.Styleable.Layout_barrierDirection = global::LibMaker.Droid.Resource.Styleable.Layout_barrierDirection;
-			global::Ys.BeLazy.Resource.Styleable.Layout_barrierMargin = global::LibMaker.Droid.Resource.Styleable.Layout_barrierMargin;
-			global::Ys.BeLazy.Resource.Styleable.Layout_chainUseRtl = global::LibMaker.Droid.Resource.Styleable.Layout_chainUseRtl;
-			global::Ys.BeLazy.Resource.Styleable.Layout_constraint_referenced_ids = global::LibMaker.Droid.Resource.Styleable.Layout_constraint_referenced_ids;
-			global::Ys.BeLazy.Resource.Styleable.Layout_constraint_referenced_tags = global::LibMaker.Droid.Resource.Styleable.Layout_constraint_referenced_tags;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constrainedHeight = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constrainedHeight;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constrainedWidth = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constrainedWidth;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintBaseline_creator = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintBaseline_creator;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintBaseline_toBaselineOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintBaseline_toBaselineOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintBottom_creator = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintBottom_creator;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintBottom_toBottomOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintBottom_toBottomOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintBottom_toTopOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintBottom_toTopOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintCircle = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintCircle;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintCircleAngle = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintCircleAngle;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintCircleRadius = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintCircleRadius;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintDimensionRatio = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintDimensionRatio;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintEnd_toEndOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintEnd_toEndOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintEnd_toStartOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintEnd_toStartOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintGuide_begin = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintGuide_begin;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintGuide_end = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintGuide_end;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintGuide_percent = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintGuide_percent;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintHeight_default = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintHeight_default;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintHeight_max = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintHeight_max;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintHeight_min = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintHeight_min;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintHeight_percent = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintHeight_percent;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintHorizontal_bias = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_bias;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintHorizontal_chainStyle = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_chainStyle;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintHorizontal_weight = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_weight;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintLeft_creator = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintLeft_creator;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintLeft_toLeftOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintLeft_toLeftOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintLeft_toRightOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintLeft_toRightOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintRight_creator = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintRight_creator;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintRight_toLeftOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintRight_toLeftOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintRight_toRightOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintRight_toRightOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintStart_toEndOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintStart_toEndOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintStart_toStartOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintStart_toStartOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintTop_creator = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintTop_creator;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintTop_toBottomOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintTop_toBottomOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintTop_toTopOf = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintTop_toTopOf;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintVertical_bias = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintVertical_bias;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintVertical_chainStyle = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintVertical_chainStyle;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintVertical_weight = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintVertical_weight;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintWidth_default = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintWidth_default;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintWidth_max = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintWidth_max;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintWidth_min = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintWidth_min;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_constraintWidth_percent = global::LibMaker.Droid.Resource.Styleable.Layout_layout_constraintWidth_percent;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_editor_absoluteX = global::LibMaker.Droid.Resource.Styleable.Layout_layout_editor_absoluteX;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_editor_absoluteY = global::LibMaker.Droid.Resource.Styleable.Layout_layout_editor_absoluteY;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_goneMarginBottom = global::LibMaker.Droid.Resource.Styleable.Layout_layout_goneMarginBottom;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_goneMarginEnd = global::LibMaker.Droid.Resource.Styleable.Layout_layout_goneMarginEnd;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_goneMarginLeft = global::LibMaker.Droid.Resource.Styleable.Layout_layout_goneMarginLeft;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_goneMarginRight = global::LibMaker.Droid.Resource.Styleable.Layout_layout_goneMarginRight;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_goneMarginStart = global::LibMaker.Droid.Resource.Styleable.Layout_layout_goneMarginStart;
-			global::Ys.BeLazy.Resource.Styleable.Layout_layout_goneMarginTop = global::LibMaker.Droid.Resource.Styleable.Layout_layout_goneMarginTop;
-			global::Ys.BeLazy.Resource.Styleable.Layout_maxHeight = global::LibMaker.Droid.Resource.Styleable.Layout_maxHeight;
-			global::Ys.BeLazy.Resource.Styleable.Layout_maxWidth = global::LibMaker.Droid.Resource.Styleable.Layout_maxWidth;
-			global::Ys.BeLazy.Resource.Styleable.Layout_minHeight = global::LibMaker.Droid.Resource.Styleable.Layout_minHeight;
-			global::Ys.BeLazy.Resource.Styleable.Layout_minWidth = global::LibMaker.Droid.Resource.Styleable.Layout_minWidth;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_android_gravity = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_android_orientation = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_divider = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_Layout = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Ys.BeLazy.Resource.Styleable.LinearLayoutCompat_showDividers = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Ys.BeLazy.Resource.Styleable.ListPopupWindow = global::LibMaker.Droid.Resource.Styleable.ListPopupWindow;
-			global::Ys.BeLazy.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::LibMaker.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Ys.BeLazy.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::LibMaker.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Ys.BeLazy.Resource.Styleable.MenuGroup = global::LibMaker.Droid.Resource.Styleable.MenuGroup;
-			global::Ys.BeLazy.Resource.Styleable.MenuGroup_android_checkableBehavior = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Ys.BeLazy.Resource.Styleable.MenuGroup_android_enabled = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Ys.BeLazy.Resource.Styleable.MenuGroup_android_id = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Ys.BeLazy.Resource.Styleable.MenuGroup_android_menuCategory = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Ys.BeLazy.Resource.Styleable.MenuGroup_android_orderInCategory = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Ys.BeLazy.Resource.Styleable.MenuGroup_android_visible = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem = global::LibMaker.Droid.Resource.Styleable.MenuItem;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_actionLayout = global::LibMaker.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_actionProviderClass = global::LibMaker.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_actionViewClass = global::LibMaker.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_alphabeticModifiers = global::LibMaker.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_checkable = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_checked = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_enabled = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_icon = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_id = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_menuCategory = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_numericShortcut = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_onClick = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_orderInCategory = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_title = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_titleCondensed = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_android_visible = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_contentDescription = global::LibMaker.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_iconTint = global::LibMaker.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_iconTintMode = global::LibMaker.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_numericModifiers = global::LibMaker.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_showAsAction = global::LibMaker.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Ys.BeLazy.Resource.Styleable.MenuItem_tooltipText = global::LibMaker.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Ys.BeLazy.Resource.Styleable.MenuView = global::LibMaker.Droid.Resource.Styleable.MenuView;
-			global::Ys.BeLazy.Resource.Styleable.MenuView_android_headerBackground = global::LibMaker.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Ys.BeLazy.Resource.Styleable.MenuView_android_horizontalDivider = global::LibMaker.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Ys.BeLazy.Resource.Styleable.MenuView_android_itemBackground = global::LibMaker.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Ys.BeLazy.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::LibMaker.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Ys.BeLazy.Resource.Styleable.MenuView_android_itemTextAppearance = global::LibMaker.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Ys.BeLazy.Resource.Styleable.MenuView_android_verticalDivider = global::LibMaker.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Ys.BeLazy.Resource.Styleable.MenuView_android_windowAnimationStyle = global::LibMaker.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Ys.BeLazy.Resource.Styleable.MenuView_preserveIconSpacing = global::LibMaker.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Ys.BeLazy.Resource.Styleable.MenuView_subMenuArrow = global::LibMaker.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Ys.BeLazy.Resource.Styleable.MockView = global::LibMaker.Droid.Resource.Styleable.MockView;
-			global::Ys.BeLazy.Resource.Styleable.MockView_mock_diagonalsColor = global::LibMaker.Droid.Resource.Styleable.MockView_mock_diagonalsColor;
-			global::Ys.BeLazy.Resource.Styleable.MockView_mock_label = global::LibMaker.Droid.Resource.Styleable.MockView_mock_label;
-			global::Ys.BeLazy.Resource.Styleable.MockView_mock_labelBackgroundColor = global::LibMaker.Droid.Resource.Styleable.MockView_mock_labelBackgroundColor;
-			global::Ys.BeLazy.Resource.Styleable.MockView_mock_labelColor = global::LibMaker.Droid.Resource.Styleable.MockView_mock_labelColor;
-			global::Ys.BeLazy.Resource.Styleable.MockView_mock_showDiagonals = global::LibMaker.Droid.Resource.Styleable.MockView_mock_showDiagonals;
-			global::Ys.BeLazy.Resource.Styleable.MockView_mock_showLabel = global::LibMaker.Droid.Resource.Styleable.MockView_mock_showLabel;
-			global::Ys.BeLazy.Resource.Styleable.Motion = global::LibMaker.Droid.Resource.Styleable.Motion;
-			global::Ys.BeLazy.Resource.Styleable.MotionHelper = global::LibMaker.Droid.Resource.Styleable.MotionHelper;
-			global::Ys.BeLazy.Resource.Styleable.MotionHelper_onHide = global::LibMaker.Droid.Resource.Styleable.MotionHelper_onHide;
-			global::Ys.BeLazy.Resource.Styleable.MotionHelper_onShow = global::LibMaker.Droid.Resource.Styleable.MotionHelper_onShow;
-			global::Ys.BeLazy.Resource.Styleable.MotionLayout = global::LibMaker.Droid.Resource.Styleable.MotionLayout;
-			global::Ys.BeLazy.Resource.Styleable.MotionLayout_applyMotionScene = global::LibMaker.Droid.Resource.Styleable.MotionLayout_applyMotionScene;
-			global::Ys.BeLazy.Resource.Styleable.MotionLayout_currentState = global::LibMaker.Droid.Resource.Styleable.MotionLayout_currentState;
-			global::Ys.BeLazy.Resource.Styleable.MotionLayout_layoutDescription = global::LibMaker.Droid.Resource.Styleable.MotionLayout_layoutDescription;
-			global::Ys.BeLazy.Resource.Styleable.MotionLayout_motionDebug = global::LibMaker.Droid.Resource.Styleable.MotionLayout_motionDebug;
-			global::Ys.BeLazy.Resource.Styleable.MotionLayout_motionProgress = global::LibMaker.Droid.Resource.Styleable.MotionLayout_motionProgress;
-			global::Ys.BeLazy.Resource.Styleable.MotionLayout_showPaths = global::LibMaker.Droid.Resource.Styleable.MotionLayout_showPaths;
-			global::Ys.BeLazy.Resource.Styleable.MotionScene = global::LibMaker.Droid.Resource.Styleable.MotionScene;
-			global::Ys.BeLazy.Resource.Styleable.MotionScene_defaultDuration = global::LibMaker.Droid.Resource.Styleable.MotionScene_defaultDuration;
-			global::Ys.BeLazy.Resource.Styleable.MotionScene_layoutDuringTransition = global::LibMaker.Droid.Resource.Styleable.MotionScene_layoutDuringTransition;
-			global::Ys.BeLazy.Resource.Styleable.MotionTelltales = global::LibMaker.Droid.Resource.Styleable.MotionTelltales;
-			global::Ys.BeLazy.Resource.Styleable.MotionTelltales_telltales_tailColor = global::LibMaker.Droid.Resource.Styleable.MotionTelltales_telltales_tailColor;
-			global::Ys.BeLazy.Resource.Styleable.MotionTelltales_telltales_tailScale = global::LibMaker.Droid.Resource.Styleable.MotionTelltales_telltales_tailScale;
-			global::Ys.BeLazy.Resource.Styleable.MotionTelltales_telltales_velocityMode = global::LibMaker.Droid.Resource.Styleable.MotionTelltales_telltales_velocityMode;
-			global::Ys.BeLazy.Resource.Styleable.Motion_animate_relativeTo = global::LibMaker.Droid.Resource.Styleable.Motion_animate_relativeTo;
-			global::Ys.BeLazy.Resource.Styleable.Motion_drawPath = global::LibMaker.Droid.Resource.Styleable.Motion_drawPath;
-			global::Ys.BeLazy.Resource.Styleable.Motion_motionPathRotate = global::LibMaker.Droid.Resource.Styleable.Motion_motionPathRotate;
-			global::Ys.BeLazy.Resource.Styleable.Motion_motionStagger = global::LibMaker.Droid.Resource.Styleable.Motion_motionStagger;
-			global::Ys.BeLazy.Resource.Styleable.Motion_pathMotionArc = global::LibMaker.Droid.Resource.Styleable.Motion_pathMotionArc;
-			global::Ys.BeLazy.Resource.Styleable.Motion_transitionEasing = global::LibMaker.Droid.Resource.Styleable.Motion_transitionEasing;
-			global::Ys.BeLazy.Resource.Styleable.OnClick = global::LibMaker.Droid.Resource.Styleable.OnClick;
-			global::Ys.BeLazy.Resource.Styleable.OnClick_clickAction = global::LibMaker.Droid.Resource.Styleable.OnClick_clickAction;
-			global::Ys.BeLazy.Resource.Styleable.OnClick_targetId = global::LibMaker.Droid.Resource.Styleable.OnClick_targetId;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe = global::LibMaker.Droid.Resource.Styleable.OnSwipe;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_dragDirection = global::LibMaker.Droid.Resource.Styleable.OnSwipe_dragDirection;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_dragScale = global::LibMaker.Droid.Resource.Styleable.OnSwipe_dragScale;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_dragThreshold = global::LibMaker.Droid.Resource.Styleable.OnSwipe_dragThreshold;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_limitBoundsTo = global::LibMaker.Droid.Resource.Styleable.OnSwipe_limitBoundsTo;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_maxAcceleration = global::LibMaker.Droid.Resource.Styleable.OnSwipe_maxAcceleration;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_maxVelocity = global::LibMaker.Droid.Resource.Styleable.OnSwipe_maxVelocity;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_moveWhenScrollAtTop = global::LibMaker.Droid.Resource.Styleable.OnSwipe_moveWhenScrollAtTop;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_nestedScrollFlags = global::LibMaker.Droid.Resource.Styleable.OnSwipe_nestedScrollFlags;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_onTouchUp = global::LibMaker.Droid.Resource.Styleable.OnSwipe_onTouchUp;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_touchAnchorId = global::LibMaker.Droid.Resource.Styleable.OnSwipe_touchAnchorId;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_touchAnchorSide = global::LibMaker.Droid.Resource.Styleable.OnSwipe_touchAnchorSide;
-			global::Ys.BeLazy.Resource.Styleable.OnSwipe_touchRegionId = global::LibMaker.Droid.Resource.Styleable.OnSwipe_touchRegionId;
-			global::Ys.BeLazy.Resource.Styleable.PopupWindow = global::LibMaker.Droid.Resource.Styleable.PopupWindow;
-			global::Ys.BeLazy.Resource.Styleable.PopupWindowBackgroundState = global::LibMaker.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Ys.BeLazy.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::LibMaker.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Ys.BeLazy.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::LibMaker.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Ys.BeLazy.Resource.Styleable.PopupWindow_android_popupBackground = global::LibMaker.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Ys.BeLazy.Resource.Styleable.PopupWindow_overlapAnchor = global::LibMaker.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Ys.BeLazy.Resource.Styleable.PropertySet = global::LibMaker.Droid.Resource.Styleable.PropertySet;
-			global::Ys.BeLazy.Resource.Styleable.PropertySet_android_alpha = global::LibMaker.Droid.Resource.Styleable.PropertySet_android_alpha;
-			global::Ys.BeLazy.Resource.Styleable.PropertySet_android_visibility = global::LibMaker.Droid.Resource.Styleable.PropertySet_android_visibility;
-			global::Ys.BeLazy.Resource.Styleable.PropertySet_layout_constraintTag = global::LibMaker.Droid.Resource.Styleable.PropertySet_layout_constraintTag;
-			global::Ys.BeLazy.Resource.Styleable.PropertySet_motionProgress = global::LibMaker.Droid.Resource.Styleable.PropertySet_motionProgress;
-			global::Ys.BeLazy.Resource.Styleable.PropertySet_visibilityMode = global::LibMaker.Droid.Resource.Styleable.PropertySet_visibilityMode;
-			global::Ys.BeLazy.Resource.Styleable.RecycleListView = global::LibMaker.Droid.Resource.Styleable.RecycleListView;
-			global::Ys.BeLazy.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::LibMaker.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Ys.BeLazy.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::LibMaker.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView = global::LibMaker.Droid.Resource.Styleable.RecyclerView;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_android_clipToPadding = global::LibMaker.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_android_descendantFocusability = global::LibMaker.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_android_orientation = global::LibMaker.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_fastScrollEnabled = global::LibMaker.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::LibMaker.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::LibMaker.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::LibMaker.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::LibMaker.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_layoutManager = global::LibMaker.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_reverseLayout = global::LibMaker.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_spanCount = global::LibMaker.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Ys.BeLazy.Resource.Styleable.RecyclerView_stackFromEnd = global::LibMaker.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Ys.BeLazy.Resource.Styleable.SearchView = global::LibMaker.Droid.Resource.Styleable.SearchView;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_android_focusable = global::LibMaker.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_android_imeOptions = global::LibMaker.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_android_inputType = global::LibMaker.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_android_maxWidth = global::LibMaker.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_closeIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_commitIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_defaultQueryHint = global::LibMaker.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_goIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_iconifiedByDefault = global::LibMaker.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_layout = global::LibMaker.Droid.Resource.Styleable.SearchView_layout;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_queryBackground = global::LibMaker.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_queryHint = global::LibMaker.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_searchHintIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_searchIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_submitBackground = global::LibMaker.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_suggestionRowLayout = global::LibMaker.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Ys.BeLazy.Resource.Styleable.SearchView_voiceIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Ys.BeLazy.Resource.Styleable.Spinner = global::LibMaker.Droid.Resource.Styleable.Spinner;
-			global::Ys.BeLazy.Resource.Styleable.Spinner_android_dropDownWidth = global::LibMaker.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Ys.BeLazy.Resource.Styleable.Spinner_android_entries = global::LibMaker.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Ys.BeLazy.Resource.Styleable.Spinner_android_popupBackground = global::LibMaker.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Ys.BeLazy.Resource.Styleable.Spinner_android_prompt = global::LibMaker.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Ys.BeLazy.Resource.Styleable.Spinner_popupTheme = global::LibMaker.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Ys.BeLazy.Resource.Styleable.State = global::LibMaker.Droid.Resource.Styleable.State;
-			global::Ys.BeLazy.Resource.Styleable.StateListDrawable = global::LibMaker.Droid.Resource.Styleable.StateListDrawable;
-			global::Ys.BeLazy.Resource.Styleable.StateListDrawableItem = global::LibMaker.Droid.Resource.Styleable.StateListDrawableItem;
-			global::Ys.BeLazy.Resource.Styleable.StateListDrawableItem_android_drawable = global::LibMaker.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
-			global::Ys.BeLazy.Resource.Styleable.StateListDrawable_android_constantSize = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
-			global::Ys.BeLazy.Resource.Styleable.StateListDrawable_android_dither = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_dither;
-			global::Ys.BeLazy.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
-			global::Ys.BeLazy.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
-			global::Ys.BeLazy.Resource.Styleable.StateListDrawable_android_variablePadding = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
-			global::Ys.BeLazy.Resource.Styleable.StateListDrawable_android_visible = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_visible;
-			global::Ys.BeLazy.Resource.Styleable.StateSet = global::LibMaker.Droid.Resource.Styleable.StateSet;
-			global::Ys.BeLazy.Resource.Styleable.StateSet_defaultState = global::LibMaker.Droid.Resource.Styleable.StateSet_defaultState;
-			global::Ys.BeLazy.Resource.Styleable.State_android_id = global::LibMaker.Droid.Resource.Styleable.State_android_id;
-			global::Ys.BeLazy.Resource.Styleable.State_constraints = global::LibMaker.Droid.Resource.Styleable.State_constraints;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat = global::LibMaker.Droid.Resource.Styleable.SwitchCompat;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_android_textOff = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_android_textOn = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_android_thumb = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_showText = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_splitTrack = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_switchMinWidth = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_switchPadding = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_switchTextAppearance = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_thumbTextPadding = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_thumbTint = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_thumbTintMode = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_track = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_trackTint = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Ys.BeLazy.Resource.Styleable.SwitchCompat_trackTintMode = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance = global::LibMaker.Droid.Resource.Styleable.TextAppearance;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_fontFamily = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_shadowColor = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_shadowDx = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_shadowDy = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_shadowRadius = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_textColor = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_textColorHint = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_textColorLink = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_textFontWeight = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_textSize = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_textStyle = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_android_typeface = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_fontFamily = global::LibMaker.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_fontVariationSettings = global::LibMaker.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_textAllCaps = global::LibMaker.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Ys.BeLazy.Resource.Styleable.TextAppearance_textLocale = global::LibMaker.Droid.Resource.Styleable.TextAppearance_textLocale;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar = global::LibMaker.Droid.Resource.Styleable.Toolbar;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_android_gravity = global::LibMaker.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_android_minHeight = global::LibMaker.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_buttonGravity = global::LibMaker.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_collapseContentDescription = global::LibMaker.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_collapseIcon = global::LibMaker.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_contentInsetEnd = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_contentInsetLeft = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_contentInsetRight = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_contentInsetStart = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_logo = global::LibMaker.Droid.Resource.Styleable.Toolbar_logo;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_logoDescription = global::LibMaker.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_maxButtonHeight = global::LibMaker.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_menu = global::LibMaker.Droid.Resource.Styleable.Toolbar_menu;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_navigationContentDescription = global::LibMaker.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_navigationIcon = global::LibMaker.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_popupTheme = global::LibMaker.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_subtitle = global::LibMaker.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_subtitleTextAppearance = global::LibMaker.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_subtitleTextColor = global::LibMaker.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_title = global::LibMaker.Droid.Resource.Styleable.Toolbar_title;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_titleMargin = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_titleMarginBottom = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_titleMarginEnd = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_titleMargins = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_titleMarginStart = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_titleMarginTop = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_titleTextAppearance = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Ys.BeLazy.Resource.Styleable.Toolbar_titleTextColor = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Ys.BeLazy.Resource.Styleable.Transform = global::LibMaker.Droid.Resource.Styleable.Transform;
-			global::Ys.BeLazy.Resource.Styleable.Transform_android_elevation = global::LibMaker.Droid.Resource.Styleable.Transform_android_elevation;
-			global::Ys.BeLazy.Resource.Styleable.Transform_android_rotation = global::LibMaker.Droid.Resource.Styleable.Transform_android_rotation;
-			global::Ys.BeLazy.Resource.Styleable.Transform_android_rotationX = global::LibMaker.Droid.Resource.Styleable.Transform_android_rotationX;
-			global::Ys.BeLazy.Resource.Styleable.Transform_android_rotationY = global::LibMaker.Droid.Resource.Styleable.Transform_android_rotationY;
-			global::Ys.BeLazy.Resource.Styleable.Transform_android_scaleX = global::LibMaker.Droid.Resource.Styleable.Transform_android_scaleX;
-			global::Ys.BeLazy.Resource.Styleable.Transform_android_scaleY = global::LibMaker.Droid.Resource.Styleable.Transform_android_scaleY;
-			global::Ys.BeLazy.Resource.Styleable.Transform_android_transformPivotX = global::LibMaker.Droid.Resource.Styleable.Transform_android_transformPivotX;
-			global::Ys.BeLazy.Resource.Styleable.Transform_android_transformPivotY = global::LibMaker.Droid.Resource.Styleable.Transform_android_transformPivotY;
-			global::Ys.BeLazy.Resource.Styleable.Transform_android_translationX = global::LibMaker.Droid.Resource.Styleable.Transform_android_translationX;
-			global::Ys.BeLazy.Resource.Styleable.Transform_android_translationY = global::LibMaker.Droid.Resource.Styleable.Transform_android_translationY;
-			global::Ys.BeLazy.Resource.Styleable.Transform_android_translationZ = global::LibMaker.Droid.Resource.Styleable.Transform_android_translationZ;
-			global::Ys.BeLazy.Resource.Styleable.Transition = global::LibMaker.Droid.Resource.Styleable.Transition;
-			global::Ys.BeLazy.Resource.Styleable.Transition_android_id = global::LibMaker.Droid.Resource.Styleable.Transition_android_id;
-			global::Ys.BeLazy.Resource.Styleable.Transition_autoTransition = global::LibMaker.Droid.Resource.Styleable.Transition_autoTransition;
-			global::Ys.BeLazy.Resource.Styleable.Transition_constraintSetEnd = global::LibMaker.Droid.Resource.Styleable.Transition_constraintSetEnd;
-			global::Ys.BeLazy.Resource.Styleable.Transition_constraintSetStart = global::LibMaker.Droid.Resource.Styleable.Transition_constraintSetStart;
-			global::Ys.BeLazy.Resource.Styleable.Transition_duration = global::LibMaker.Droid.Resource.Styleable.Transition_duration;
-			global::Ys.BeLazy.Resource.Styleable.Transition_layoutDuringTransition = global::LibMaker.Droid.Resource.Styleable.Transition_layoutDuringTransition;
-			global::Ys.BeLazy.Resource.Styleable.Transition_motionInterpolator = global::LibMaker.Droid.Resource.Styleable.Transition_motionInterpolator;
-			global::Ys.BeLazy.Resource.Styleable.Transition_pathMotionArc = global::LibMaker.Droid.Resource.Styleable.Transition_pathMotionArc;
-			global::Ys.BeLazy.Resource.Styleable.Transition_staggered = global::LibMaker.Droid.Resource.Styleable.Transition_staggered;
-			global::Ys.BeLazy.Resource.Styleable.Transition_transitionDisable = global::LibMaker.Droid.Resource.Styleable.Transition_transitionDisable;
-			global::Ys.BeLazy.Resource.Styleable.Transition_transitionFlags = global::LibMaker.Droid.Resource.Styleable.Transition_transitionFlags;
-			global::Ys.BeLazy.Resource.Styleable.Variant = global::LibMaker.Droid.Resource.Styleable.Variant;
-			global::Ys.BeLazy.Resource.Styleable.Variant_constraints = global::LibMaker.Droid.Resource.Styleable.Variant_constraints;
-			global::Ys.BeLazy.Resource.Styleable.Variant_region_heightLessThan = global::LibMaker.Droid.Resource.Styleable.Variant_region_heightLessThan;
-			global::Ys.BeLazy.Resource.Styleable.Variant_region_heightMoreThan = global::LibMaker.Droid.Resource.Styleable.Variant_region_heightMoreThan;
-			global::Ys.BeLazy.Resource.Styleable.Variant_region_widthLessThan = global::LibMaker.Droid.Resource.Styleable.Variant_region_widthLessThan;
-			global::Ys.BeLazy.Resource.Styleable.Variant_region_widthMoreThan = global::LibMaker.Droid.Resource.Styleable.Variant_region_widthMoreThan;
-			global::Ys.BeLazy.Resource.Styleable.View = global::LibMaker.Droid.Resource.Styleable.View;
-			global::Ys.BeLazy.Resource.Styleable.ViewBackgroundHelper = global::LibMaker.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Ys.BeLazy.Resource.Styleable.ViewBackgroundHelper_android_background = global::LibMaker.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Ys.BeLazy.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::LibMaker.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Ys.BeLazy.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::LibMaker.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Ys.BeLazy.Resource.Styleable.ViewStubCompat = global::LibMaker.Droid.Resource.Styleable.ViewStubCompat;
-			global::Ys.BeLazy.Resource.Styleable.ViewStubCompat_android_id = global::LibMaker.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Ys.BeLazy.Resource.Styleable.ViewStubCompat_android_inflatedId = global::LibMaker.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Ys.BeLazy.Resource.Styleable.ViewStubCompat_android_layout = global::LibMaker.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Ys.BeLazy.Resource.Styleable.View_android_focusable = global::LibMaker.Droid.Resource.Styleable.View_android_focusable;
-			global::Ys.BeLazy.Resource.Styleable.View_android_theme = global::LibMaker.Droid.Resource.Styleable.View_android_theme;
-			global::Ys.BeLazy.Resource.Styleable.View_paddingEnd = global::LibMaker.Droid.Resource.Styleable.View_paddingEnd;
-			global::Ys.BeLazy.Resource.Styleable.View_paddingStart = global::LibMaker.Droid.Resource.Styleable.View_paddingStart;
-			global::Ys.BeLazy.Resource.Styleable.View_theme = global::LibMaker.Droid.Resource.Styleable.View_theme;
-			global::Ys.Camera.Droid.Resource.Attribute.alpha = global::LibMaker.Droid.Resource.Attribute.alpha;
-			global::Ys.Camera.Droid.Resource.Attribute.Camera_Facing = global::LibMaker.Droid.Resource.Attribute.Camera_Facing;
-			global::Ys.Camera.Droid.Resource.Attribute.captureMode = global::LibMaker.Droid.Resource.Attribute.captureMode;
-			global::Ys.Camera.Droid.Resource.Attribute.CapturePictureSize_Height = global::LibMaker.Droid.Resource.Attribute.CapturePictureSize_Height;
-			global::Ys.Camera.Droid.Resource.Attribute.CapturePictureSize_Width = global::LibMaker.Droid.Resource.Attribute.CapturePictureSize_Width;
-			global::Ys.Camera.Droid.Resource.Attribute.flash = global::LibMaker.Droid.Resource.Attribute.flash;
-			global::Ys.Camera.Droid.Resource.Attribute.font = global::LibMaker.Droid.Resource.Attribute.font;
-			global::Ys.Camera.Droid.Resource.Attribute.fontProviderAuthority = global::LibMaker.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Ys.Camera.Droid.Resource.Attribute.fontProviderCerts = global::LibMaker.Droid.Resource.Attribute.fontProviderCerts;
-			global::Ys.Camera.Droid.Resource.Attribute.fontProviderFetchStrategy = global::LibMaker.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Ys.Camera.Droid.Resource.Attribute.fontProviderFetchTimeout = global::LibMaker.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Ys.Camera.Droid.Resource.Attribute.fontProviderPackage = global::LibMaker.Droid.Resource.Attribute.fontProviderPackage;
-			global::Ys.Camera.Droid.Resource.Attribute.fontProviderQuery = global::LibMaker.Droid.Resource.Attribute.fontProviderQuery;
-			global::Ys.Camera.Droid.Resource.Attribute.fontStyle = global::LibMaker.Droid.Resource.Attribute.fontStyle;
-			global::Ys.Camera.Droid.Resource.Attribute.fontVariationSettings = global::LibMaker.Droid.Resource.Attribute.fontVariationSettings;
-			global::Ys.Camera.Droid.Resource.Attribute.fontWeight = global::LibMaker.Droid.Resource.Attribute.fontWeight;
-			global::Ys.Camera.Droid.Resource.Attribute.implementationMode = global::LibMaker.Droid.Resource.Attribute.implementationMode;
-			global::Ys.Camera.Droid.Resource.Attribute.lensFacing = global::LibMaker.Droid.Resource.Attribute.lensFacing;
-			global::Ys.Camera.Droid.Resource.Attribute.pinchToZoomEnabled = global::LibMaker.Droid.Resource.Attribute.pinchToZoomEnabled;
-			global::Ys.Camera.Droid.Resource.Attribute.scaleType = global::LibMaker.Droid.Resource.Attribute.scaleType;
-			global::Ys.Camera.Droid.Resource.Attribute.ttcIndex = global::LibMaker.Droid.Resource.Attribute.ttcIndex;
-			global::Ys.Camera.Droid.Resource.Color.androidx_core_ripple_material_light = global::LibMaker.Droid.Resource.Color.androidx_core_ripple_material_light;
-			global::Ys.Camera.Droid.Resource.Color.androidx_core_secondary_text_default_material_light = global::LibMaker.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
-			global::Ys.Camera.Droid.Resource.Color.notification_action_color_filter = global::LibMaker.Droid.Resource.Color.notification_action_color_filter;
-			global::Ys.Camera.Droid.Resource.Color.notification_icon_bg_color = global::LibMaker.Droid.Resource.Color.notification_icon_bg_color;
-			global::Ys.Camera.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::LibMaker.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Ys.Camera.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::LibMaker.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Ys.Camera.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::LibMaker.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Ys.Camera.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::LibMaker.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Ys.Camera.Droid.Resource.Dimension.compat_control_corner_material = global::LibMaker.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Ys.Camera.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::LibMaker.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Ys.Camera.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::LibMaker.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_action_icon_size = global::LibMaker.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_action_text_size = global::LibMaker.Droid.Resource.Dimension.notification_action_text_size;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_big_circle_margin = global::LibMaker.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_content_margin_start = global::LibMaker.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_large_icon_height = global::LibMaker.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_large_icon_width = global::LibMaker.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_main_column_padding_top = global::LibMaker.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_media_narrow_margin = global::LibMaker.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_right_icon_size = global::LibMaker.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_right_side_padding_top = global::LibMaker.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_small_icon_background_padding = global::LibMaker.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::LibMaker.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_subtext_size = global::LibMaker.Droid.Resource.Dimension.notification_subtext_size;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_top_pad = global::LibMaker.Droid.Resource.Dimension.notification_top_pad;
-			global::Ys.Camera.Droid.Resource.Dimension.notification_top_pad_large_text = global::LibMaker.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Ys.Camera.Droid.Resource.Drawable.notification_action_background = global::LibMaker.Droid.Resource.Drawable.notification_action_background;
-			global::Ys.Camera.Droid.Resource.Drawable.notification_bg = global::LibMaker.Droid.Resource.Drawable.notification_bg;
-			global::Ys.Camera.Droid.Resource.Drawable.notification_bg_low = global::LibMaker.Droid.Resource.Drawable.notification_bg_low;
-			global::Ys.Camera.Droid.Resource.Drawable.notification_bg_low_normal = global::LibMaker.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Ys.Camera.Droid.Resource.Drawable.notification_bg_low_pressed = global::LibMaker.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Ys.Camera.Droid.Resource.Drawable.notification_bg_normal = global::LibMaker.Droid.Resource.Drawable.notification_bg_normal;
-			global::Ys.Camera.Droid.Resource.Drawable.notification_bg_normal_pressed = global::LibMaker.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Ys.Camera.Droid.Resource.Drawable.notification_icon_background = global::LibMaker.Droid.Resource.Drawable.notification_icon_background;
-			global::Ys.Camera.Droid.Resource.Drawable.notification_template_icon_bg = global::LibMaker.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Ys.Camera.Droid.Resource.Drawable.notification_template_icon_low_bg = global::LibMaker.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Ys.Camera.Droid.Resource.Drawable.notification_tile_bg = global::LibMaker.Droid.Resource.Drawable.notification_tile_bg;
-			global::Ys.Camera.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::LibMaker.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_action_clickable_span = global::LibMaker.Droid.Resource.Id.accessibility_action_clickable_span;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_0 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_0;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_1 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_1;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_10 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_10;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_11 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_11;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_12 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_12;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_13 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_13;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_14 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_14;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_15 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_15;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_16 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_16;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_17 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_17;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_18 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_18;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_19 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_19;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_2 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_2;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_20 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_20;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_21 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_21;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_22 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_22;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_23 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_23;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_24 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_24;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_25 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_25;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_26 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_26;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_27 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_27;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_28 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_28;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_29 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_29;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_3 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_3;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_30 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_30;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_31 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_31;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_4 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_4;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_5 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_5;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_6 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_6;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_7 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_7;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_8 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_8;
-			global::Ys.Camera.Droid.Resource.Id.accessibility_custom_action_9 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_9;
-			global::Ys.Camera.Droid.Resource.Id.actions = global::LibMaker.Droid.Resource.Id.actions;
-			global::Ys.Camera.Droid.Resource.Id.action_container = global::LibMaker.Droid.Resource.Id.action_container;
-			global::Ys.Camera.Droid.Resource.Id.action_divider = global::LibMaker.Droid.Resource.Id.action_divider;
-			global::Ys.Camera.Droid.Resource.Id.action_image = global::LibMaker.Droid.Resource.Id.action_image;
-			global::Ys.Camera.Droid.Resource.Id.action_text = global::LibMaker.Droid.Resource.Id.action_text;
-			global::Ys.Camera.Droid.Resource.Id.async = global::LibMaker.Droid.Resource.Id.async;
-			global::Ys.Camera.Droid.Resource.Id.auto = global::LibMaker.Droid.Resource.Id.auto;
-			global::Ys.Camera.Droid.Resource.Id.back = global::LibMaker.Droid.Resource.Id.back;
-			global::Ys.Camera.Droid.Resource.Id.Back = global::LibMaker.Droid.Resource.Id.Back;
-			global::Ys.Camera.Droid.Resource.Id.blocking = global::LibMaker.Droid.Resource.Id.blocking;
-			global::Ys.Camera.Droid.Resource.Id.chronometer = global::LibMaker.Droid.Resource.Id.chronometer;
-			global::Ys.Camera.Droid.Resource.Id.compatible = global::LibMaker.Droid.Resource.Id.compatible;
-			global::Ys.Camera.Droid.Resource.Id.dialog_button = global::LibMaker.Droid.Resource.Id.dialog_button;
-			global::Ys.Camera.Droid.Resource.Id.fillCenter = global::LibMaker.Droid.Resource.Id.fillCenter;
-			global::Ys.Camera.Droid.Resource.Id.fillEnd = global::LibMaker.Droid.Resource.Id.fillEnd;
-			global::Ys.Camera.Droid.Resource.Id.fillStart = global::LibMaker.Droid.Resource.Id.fillStart;
-			global::Ys.Camera.Droid.Resource.Id.fitCenter = global::LibMaker.Droid.Resource.Id.fitCenter;
-			global::Ys.Camera.Droid.Resource.Id.fitEnd = global::LibMaker.Droid.Resource.Id.fitEnd;
-			global::Ys.Camera.Droid.Resource.Id.fitStart = global::LibMaker.Droid.Resource.Id.fitStart;
-			global::Ys.Camera.Droid.Resource.Id.forever = global::LibMaker.Droid.Resource.Id.forever;
-			global::Ys.Camera.Droid.Resource.Id.front = global::LibMaker.Droid.Resource.Id.front;
-			global::Ys.Camera.Droid.Resource.Id.Front = global::LibMaker.Droid.Resource.Id.Front;
-			global::Ys.Camera.Droid.Resource.Id.icon = global::LibMaker.Droid.Resource.Id.icon;
-			global::Ys.Camera.Droid.Resource.Id.icon_group = global::LibMaker.Droid.Resource.Id.icon_group;
-			global::Ys.Camera.Droid.Resource.Id.image = global::LibMaker.Droid.Resource.Id.image;
-			global::Ys.Camera.Droid.Resource.Id.info = global::LibMaker.Droid.Resource.Id.info;
-			global::Ys.Camera.Droid.Resource.Id.italic = global::LibMaker.Droid.Resource.Id.italic;
-			global::Ys.Camera.Droid.Resource.Id.line1 = global::LibMaker.Droid.Resource.Id.line1;
-			global::Ys.Camera.Droid.Resource.Id.line3 = global::LibMaker.Droid.Resource.Id.line3;
-			global::Ys.Camera.Droid.Resource.Id.mixed = global::LibMaker.Droid.Resource.Id.mixed;
-			global::Ys.Camera.Droid.Resource.Id.none = global::LibMaker.Droid.Resource.Id.none;
-			global::Ys.Camera.Droid.Resource.Id.normal = global::LibMaker.Droid.Resource.Id.normal;
-			global::Ys.Camera.Droid.Resource.Id.notification_background = global::LibMaker.Droid.Resource.Id.notification_background;
-			global::Ys.Camera.Droid.Resource.Id.notification_main_column = global::LibMaker.Droid.Resource.Id.notification_main_column;
-			global::Ys.Camera.Droid.Resource.Id.notification_main_column_container = global::LibMaker.Droid.Resource.Id.notification_main_column_container;
-			global::Ys.Camera.Droid.Resource.Id.off = global::LibMaker.Droid.Resource.Id.off;
-			global::Ys.Camera.Droid.Resource.Id.on = global::LibMaker.Droid.Resource.Id.on;
-			global::Ys.Camera.Droid.Resource.Id.performance = global::LibMaker.Droid.Resource.Id.performance;
-			global::Ys.Camera.Droid.Resource.Id.right_icon = global::LibMaker.Droid.Resource.Id.right_icon;
-			global::Ys.Camera.Droid.Resource.Id.right_side = global::LibMaker.Droid.Resource.Id.right_side;
-			global::Ys.Camera.Droid.Resource.Id.tag_accessibility_actions = global::LibMaker.Droid.Resource.Id.tag_accessibility_actions;
-			global::Ys.Camera.Droid.Resource.Id.tag_accessibility_clickable_spans = global::LibMaker.Droid.Resource.Id.tag_accessibility_clickable_spans;
-			global::Ys.Camera.Droid.Resource.Id.tag_accessibility_heading = global::LibMaker.Droid.Resource.Id.tag_accessibility_heading;
-			global::Ys.Camera.Droid.Resource.Id.tag_accessibility_pane_title = global::LibMaker.Droid.Resource.Id.tag_accessibility_pane_title;
-			global::Ys.Camera.Droid.Resource.Id.tag_screen_reader_focusable = global::LibMaker.Droid.Resource.Id.tag_screen_reader_focusable;
-			global::Ys.Camera.Droid.Resource.Id.tag_transition_group = global::LibMaker.Droid.Resource.Id.tag_transition_group;
-			global::Ys.Camera.Droid.Resource.Id.tag_unhandled_key_event_manager = global::LibMaker.Droid.Resource.Id.tag_unhandled_key_event_manager;
-			global::Ys.Camera.Droid.Resource.Id.tag_unhandled_key_listeners = global::LibMaker.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::Ys.Camera.Droid.Resource.Id.text = global::LibMaker.Droid.Resource.Id.text;
-			global::Ys.Camera.Droid.Resource.Id.text2 = global::LibMaker.Droid.Resource.Id.text2;
-			global::Ys.Camera.Droid.Resource.Id.time = global::LibMaker.Droid.Resource.Id.time;
-			global::Ys.Camera.Droid.Resource.Id.title = global::LibMaker.Droid.Resource.Id.title;
-			global::Ys.Camera.Droid.Resource.Id.video = global::LibMaker.Droid.Resource.Id.video;
-			global::Ys.Camera.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::LibMaker.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Ys.Camera.Droid.Resource.Layout.custom_dialog = global::LibMaker.Droid.Resource.Layout.custom_dialog;
-			global::Ys.Camera.Droid.Resource.Layout.notification_action = global::LibMaker.Droid.Resource.Layout.notification_action;
-			global::Ys.Camera.Droid.Resource.Layout.notification_action_tombstone = global::LibMaker.Droid.Resource.Layout.notification_action_tombstone;
-			global::Ys.Camera.Droid.Resource.Layout.notification_template_custom_big = global::LibMaker.Droid.Resource.Layout.notification_template_custom_big;
-			global::Ys.Camera.Droid.Resource.Layout.notification_template_icon_group = global::LibMaker.Droid.Resource.Layout.notification_template_icon_group;
-			global::Ys.Camera.Droid.Resource.Layout.notification_template_part_chronometer = global::LibMaker.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Ys.Camera.Droid.Resource.Layout.notification_template_part_time = global::LibMaker.Droid.Resource.Layout.notification_template_part_time;
-			global::Ys.Camera.Droid.Resource.String.androidx_camera_default_config_provider = global::LibMaker.Droid.Resource.String.androidx_camera_default_config_provider;
-			global::Ys.Camera.Droid.Resource.String.status_bar_notification_info_overflow = global::LibMaker.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Ys.Camera.Droid.Resource.Style.TextAppearance_Compat_Notification = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Ys.Camera.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Ys.Camera.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Ys.Camera.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Ys.Camera.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Ys.Camera.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::LibMaker.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Ys.Camera.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::LibMaker.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Ys.Camera.Droid.Resource.Styleable.CameraView = global::LibMaker.Droid.Resource.Styleable.CameraView;
-			global::Ys.Camera.Droid.Resource.Styleable.CameraView_captureMode = global::LibMaker.Droid.Resource.Styleable.CameraView_captureMode;
-			global::Ys.Camera.Droid.Resource.Styleable.CameraView_flash = global::LibMaker.Droid.Resource.Styleable.CameraView_flash;
-			global::Ys.Camera.Droid.Resource.Styleable.CameraView_lensFacing = global::LibMaker.Droid.Resource.Styleable.CameraView_lensFacing;
-			global::Ys.Camera.Droid.Resource.Styleable.CameraView_pinchToZoomEnabled = global::LibMaker.Droid.Resource.Styleable.CameraView_pinchToZoomEnabled;
-			global::Ys.Camera.Droid.Resource.Styleable.CameraView_scaleType = global::LibMaker.Droid.Resource.Styleable.CameraView_scaleType;
-			global::Ys.Camera.Droid.Resource.Styleable.ColorStateListItem = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem;
-			global::Ys.Camera.Droid.Resource.Styleable.ColorStateListItem_alpha = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Ys.Camera.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Ys.Camera.Droid.Resource.Styleable.ColorStateListItem_android_color = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamily = global::LibMaker.Droid.Resource.Styleable.FontFamily;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamilyFont = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamilyFont_android_font = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamilyFont_font = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Ys.Camera.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor = global::LibMaker.Droid.Resource.Styleable.GradientColor;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColorItem = global::LibMaker.Droid.Resource.Styleable.GradientColorItem;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColorItem_android_color = global::LibMaker.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColorItem_android_offset = global::LibMaker.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_centerColor = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_centerColor;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_centerX = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_centerX;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_centerY = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_centerY;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_endColor = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_endColor;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_endX = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_endX;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_endY = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_endY;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_startColor = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_startColor;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_startX = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_startX;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_startY = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_startY;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_tileMode = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_tileMode;
-			global::Ys.Camera.Droid.Resource.Styleable.GradientColor_android_type = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Ys.Camera.Droid.Resource.Styleable.PreviewView = global::LibMaker.Droid.Resource.Styleable.PreviewView;
-			global::Ys.Camera.Droid.Resource.Styleable.PreviewView_implementationMode = global::LibMaker.Droid.Resource.Styleable.PreviewView_implementationMode;
-			global::Ys.Camera.Droid.Resource.Styleable.PreviewView_scaleType = global::LibMaker.Droid.Resource.Styleable.PreviewView_scaleType;
-			global::Ys.Camera.Droid.Resource.Styleable.YsCameraX = global::LibMaker.Droid.Resource.Styleable.YsCameraX;
-			global::Ys.Camera.Droid.Resource.Styleable.YsCameraX_Camera_Facing = global::LibMaker.Droid.Resource.Styleable.YsCameraX_Camera_Facing;
-			global::Ys.Camera.Droid.Resource.Styleable.YsCameraX_CapturePictureSize_Height = global::LibMaker.Droid.Resource.Styleable.YsCameraX_CapturePictureSize_Height;
-			global::Ys.Camera.Droid.Resource.Styleable.YsCameraX_CapturePictureSize_Width = global::LibMaker.Droid.Resource.Styleable.YsCameraX_CapturePictureSize_Width;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_fade_in = global::LibMaker.Droid.Resource.Animation.abc_fade_in;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_fade_out = global::LibMaker.Droid.Resource.Animation.abc_fade_out;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::LibMaker.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_popup_enter = global::LibMaker.Droid.Resource.Animation.abc_popup_enter;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_popup_exit = global::LibMaker.Droid.Resource.Animation.abc_popup_exit;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::LibMaker.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_slide_in_bottom = global::LibMaker.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_slide_in_top = global::LibMaker.Droid.Resource.Animation.abc_slide_in_top;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_slide_out_bottom = global::LibMaker.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_slide_out_top = global::LibMaker.Droid.Resource.Animation.abc_slide_out_top;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_tooltip_enter = global::LibMaker.Droid.Resource.Animation.abc_tooltip_enter;
-			global::Ys.TFLite.Droid.Resource.Animation.abc_tooltip_exit = global::LibMaker.Droid.Resource.Animation.abc_tooltip_exit;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::LibMaker.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::LibMaker.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
-			global::Ys.TFLite.Droid.Resource.Animation.fragment_fast_out_extra_slow_in = global::LibMaker.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
-			global::Ys.TFLite.Droid.Resource.Animator.fragment_close_enter = global::LibMaker.Droid.Resource.Animator.fragment_close_enter;
-			global::Ys.TFLite.Droid.Resource.Animator.fragment_close_exit = global::LibMaker.Droid.Resource.Animator.fragment_close_exit;
-			global::Ys.TFLite.Droid.Resource.Animator.fragment_fade_enter = global::LibMaker.Droid.Resource.Animator.fragment_fade_enter;
-			global::Ys.TFLite.Droid.Resource.Animator.fragment_fade_exit = global::LibMaker.Droid.Resource.Animator.fragment_fade_exit;
-			global::Ys.TFLite.Droid.Resource.Animator.fragment_open_enter = global::LibMaker.Droid.Resource.Animator.fragment_open_enter;
-			global::Ys.TFLite.Droid.Resource.Animator.fragment_open_exit = global::LibMaker.Droid.Resource.Animator.fragment_open_exit;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionBarDivider = global::LibMaker.Droid.Resource.Attribute.actionBarDivider;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionBarItemBackground = global::LibMaker.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionBarPopupTheme = global::LibMaker.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionBarSize = global::LibMaker.Droid.Resource.Attribute.actionBarSize;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionBarSplitStyle = global::LibMaker.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionBarStyle = global::LibMaker.Droid.Resource.Attribute.actionBarStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionBarTabBarStyle = global::LibMaker.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionBarTabStyle = global::LibMaker.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionBarTabTextStyle = global::LibMaker.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionBarTheme = global::LibMaker.Droid.Resource.Attribute.actionBarTheme;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionBarWidgetTheme = global::LibMaker.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionButtonStyle = global::LibMaker.Droid.Resource.Attribute.actionButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionDropDownStyle = global::LibMaker.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionLayout = global::LibMaker.Droid.Resource.Attribute.actionLayout;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionMenuTextAppearance = global::LibMaker.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionMenuTextColor = global::LibMaker.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModeBackground = global::LibMaker.Droid.Resource.Attribute.actionModeBackground;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::LibMaker.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModeCloseDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModeCopyDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModeCutDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModeFindDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModePasteDrawable = global::LibMaker.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModePopupWindowStyle = global::LibMaker.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModeShareDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModeSplitBackground = global::LibMaker.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModeStyle = global::LibMaker.Droid.Resource.Attribute.actionModeStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::LibMaker.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionOverflowButtonStyle = global::LibMaker.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionOverflowMenuStyle = global::LibMaker.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionProviderClass = global::LibMaker.Droid.Resource.Attribute.actionProviderClass;
-			global::Ys.TFLite.Droid.Resource.Attribute.actionViewClass = global::LibMaker.Droid.Resource.Attribute.actionViewClass;
-			global::Ys.TFLite.Droid.Resource.Attribute.activityChooserViewStyle = global::LibMaker.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::LibMaker.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.alertDialogCenterButtons = global::LibMaker.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Ys.TFLite.Droid.Resource.Attribute.alertDialogStyle = global::LibMaker.Droid.Resource.Attribute.alertDialogStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.alertDialogTheme = global::LibMaker.Droid.Resource.Attribute.alertDialogTheme;
-			global::Ys.TFLite.Droid.Resource.Attribute.allowStacking = global::LibMaker.Droid.Resource.Attribute.allowStacking;
-			global::Ys.TFLite.Droid.Resource.Attribute.alpha = global::LibMaker.Droid.Resource.Attribute.alpha;
-			global::Ys.TFLite.Droid.Resource.Attribute.alphabeticModifiers = global::LibMaker.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Ys.TFLite.Droid.Resource.Attribute.arrowHeadLength = global::LibMaker.Droid.Resource.Attribute.arrowHeadLength;
-			global::Ys.TFLite.Droid.Resource.Attribute.arrowShaftLength = global::LibMaker.Droid.Resource.Attribute.arrowShaftLength;
-			global::Ys.TFLite.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::LibMaker.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.autoSizeMaxTextSize = global::LibMaker.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Ys.TFLite.Droid.Resource.Attribute.autoSizeMinTextSize = global::LibMaker.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Ys.TFLite.Droid.Resource.Attribute.autoSizePresetSizes = global::LibMaker.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Ys.TFLite.Droid.Resource.Attribute.autoSizeStepGranularity = global::LibMaker.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Ys.TFLite.Droid.Resource.Attribute.autoSizeTextType = global::LibMaker.Droid.Resource.Attribute.autoSizeTextType;
-			global::Ys.TFLite.Droid.Resource.Attribute.background = global::LibMaker.Droid.Resource.Attribute.background;
-			global::Ys.TFLite.Droid.Resource.Attribute.backgroundSplit = global::LibMaker.Droid.Resource.Attribute.backgroundSplit;
-			global::Ys.TFLite.Droid.Resource.Attribute.backgroundStacked = global::LibMaker.Droid.Resource.Attribute.backgroundStacked;
-			global::Ys.TFLite.Droid.Resource.Attribute.backgroundTint = global::LibMaker.Droid.Resource.Attribute.backgroundTint;
-			global::Ys.TFLite.Droid.Resource.Attribute.backgroundTintMode = global::LibMaker.Droid.Resource.Attribute.backgroundTintMode;
-			global::Ys.TFLite.Droid.Resource.Attribute.barLength = global::LibMaker.Droid.Resource.Attribute.barLength;
-			global::Ys.TFLite.Droid.Resource.Attribute.borderlessButtonStyle = global::LibMaker.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonBarButtonStyle = global::LibMaker.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::LibMaker.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::LibMaker.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::LibMaker.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonBarStyle = global::LibMaker.Droid.Resource.Attribute.buttonBarStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonCompat = global::LibMaker.Droid.Resource.Attribute.buttonCompat;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonGravity = global::LibMaker.Droid.Resource.Attribute.buttonGravity;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonIconDimen = global::LibMaker.Droid.Resource.Attribute.buttonIconDimen;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonPanelSideLayout = global::LibMaker.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonStyle = global::LibMaker.Droid.Resource.Attribute.buttonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonStyleSmall = global::LibMaker.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonTint = global::LibMaker.Droid.Resource.Attribute.buttonTint;
-			global::Ys.TFLite.Droid.Resource.Attribute.buttonTintMode = global::LibMaker.Droid.Resource.Attribute.buttonTintMode;
-			global::Ys.TFLite.Droid.Resource.Attribute.checkboxStyle = global::LibMaker.Droid.Resource.Attribute.checkboxStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.checkedTextViewStyle = global::LibMaker.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.closeIcon = global::LibMaker.Droid.Resource.Attribute.closeIcon;
-			global::Ys.TFLite.Droid.Resource.Attribute.closeItemLayout = global::LibMaker.Droid.Resource.Attribute.closeItemLayout;
-			global::Ys.TFLite.Droid.Resource.Attribute.collapseContentDescription = global::LibMaker.Droid.Resource.Attribute.collapseContentDescription;
-			global::Ys.TFLite.Droid.Resource.Attribute.collapseIcon = global::LibMaker.Droid.Resource.Attribute.collapseIcon;
-			global::Ys.TFLite.Droid.Resource.Attribute.color = global::LibMaker.Droid.Resource.Attribute.color;
-			global::Ys.TFLite.Droid.Resource.Attribute.colorAccent = global::LibMaker.Droid.Resource.Attribute.colorAccent;
-			global::Ys.TFLite.Droid.Resource.Attribute.colorBackgroundFloating = global::LibMaker.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Ys.TFLite.Droid.Resource.Attribute.colorButtonNormal = global::LibMaker.Droid.Resource.Attribute.colorButtonNormal;
-			global::Ys.TFLite.Droid.Resource.Attribute.colorControlActivated = global::LibMaker.Droid.Resource.Attribute.colorControlActivated;
-			global::Ys.TFLite.Droid.Resource.Attribute.colorControlHighlight = global::LibMaker.Droid.Resource.Attribute.colorControlHighlight;
-			global::Ys.TFLite.Droid.Resource.Attribute.colorControlNormal = global::LibMaker.Droid.Resource.Attribute.colorControlNormal;
-			global::Ys.TFLite.Droid.Resource.Attribute.colorError = global::LibMaker.Droid.Resource.Attribute.colorError;
-			global::Ys.TFLite.Droid.Resource.Attribute.colorPrimary = global::LibMaker.Droid.Resource.Attribute.colorPrimary;
-			global::Ys.TFLite.Droid.Resource.Attribute.colorPrimaryDark = global::LibMaker.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Ys.TFLite.Droid.Resource.Attribute.colorSwitchThumbNormal = global::LibMaker.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Ys.TFLite.Droid.Resource.Attribute.commitIcon = global::LibMaker.Droid.Resource.Attribute.commitIcon;
-			global::Ys.TFLite.Droid.Resource.Attribute.contentDescription = global::LibMaker.Droid.Resource.Attribute.contentDescription;
-			global::Ys.TFLite.Droid.Resource.Attribute.contentInsetEnd = global::LibMaker.Droid.Resource.Attribute.contentInsetEnd;
-			global::Ys.TFLite.Droid.Resource.Attribute.contentInsetEndWithActions = global::LibMaker.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Ys.TFLite.Droid.Resource.Attribute.contentInsetLeft = global::LibMaker.Droid.Resource.Attribute.contentInsetLeft;
-			global::Ys.TFLite.Droid.Resource.Attribute.contentInsetRight = global::LibMaker.Droid.Resource.Attribute.contentInsetRight;
-			global::Ys.TFLite.Droid.Resource.Attribute.contentInsetStart = global::LibMaker.Droid.Resource.Attribute.contentInsetStart;
-			global::Ys.TFLite.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::LibMaker.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Ys.TFLite.Droid.Resource.Attribute.controlBackground = global::LibMaker.Droid.Resource.Attribute.controlBackground;
-			global::Ys.TFLite.Droid.Resource.Attribute.customNavigationLayout = global::LibMaker.Droid.Resource.Attribute.customNavigationLayout;
-			global::Ys.TFLite.Droid.Resource.Attribute.defaultQueryHint = global::LibMaker.Droid.Resource.Attribute.defaultQueryHint;
-			global::Ys.TFLite.Droid.Resource.Attribute.dialogCornerRadius = global::LibMaker.Droid.Resource.Attribute.dialogCornerRadius;
-			global::Ys.TFLite.Droid.Resource.Attribute.dialogPreferredPadding = global::LibMaker.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Ys.TFLite.Droid.Resource.Attribute.dialogTheme = global::LibMaker.Droid.Resource.Attribute.dialogTheme;
-			global::Ys.TFLite.Droid.Resource.Attribute.displayOptions = global::LibMaker.Droid.Resource.Attribute.displayOptions;
-			global::Ys.TFLite.Droid.Resource.Attribute.divider = global::LibMaker.Droid.Resource.Attribute.divider;
-			global::Ys.TFLite.Droid.Resource.Attribute.dividerHorizontal = global::LibMaker.Droid.Resource.Attribute.dividerHorizontal;
-			global::Ys.TFLite.Droid.Resource.Attribute.dividerPadding = global::LibMaker.Droid.Resource.Attribute.dividerPadding;
-			global::Ys.TFLite.Droid.Resource.Attribute.dividerVertical = global::LibMaker.Droid.Resource.Attribute.dividerVertical;
-			global::Ys.TFLite.Droid.Resource.Attribute.drawableBottomCompat = global::LibMaker.Droid.Resource.Attribute.drawableBottomCompat;
-			global::Ys.TFLite.Droid.Resource.Attribute.drawableEndCompat = global::LibMaker.Droid.Resource.Attribute.drawableEndCompat;
-			global::Ys.TFLite.Droid.Resource.Attribute.drawableLeftCompat = global::LibMaker.Droid.Resource.Attribute.drawableLeftCompat;
-			global::Ys.TFLite.Droid.Resource.Attribute.drawableRightCompat = global::LibMaker.Droid.Resource.Attribute.drawableRightCompat;
-			global::Ys.TFLite.Droid.Resource.Attribute.drawableSize = global::LibMaker.Droid.Resource.Attribute.drawableSize;
-			global::Ys.TFLite.Droid.Resource.Attribute.drawableStartCompat = global::LibMaker.Droid.Resource.Attribute.drawableStartCompat;
-			global::Ys.TFLite.Droid.Resource.Attribute.drawableTint = global::LibMaker.Droid.Resource.Attribute.drawableTint;
-			global::Ys.TFLite.Droid.Resource.Attribute.drawableTintMode = global::LibMaker.Droid.Resource.Attribute.drawableTintMode;
-			global::Ys.TFLite.Droid.Resource.Attribute.drawableTopCompat = global::LibMaker.Droid.Resource.Attribute.drawableTopCompat;
-			global::Ys.TFLite.Droid.Resource.Attribute.drawerArrowStyle = global::LibMaker.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.drawerLayoutStyle = global::LibMaker.Droid.Resource.Attribute.drawerLayoutStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::LibMaker.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Ys.TFLite.Droid.Resource.Attribute.dropDownListViewStyle = global::LibMaker.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.editTextBackground = global::LibMaker.Droid.Resource.Attribute.editTextBackground;
-			global::Ys.TFLite.Droid.Resource.Attribute.editTextColor = global::LibMaker.Droid.Resource.Attribute.editTextColor;
-			global::Ys.TFLite.Droid.Resource.Attribute.editTextStyle = global::LibMaker.Droid.Resource.Attribute.editTextStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.elevation = global::LibMaker.Droid.Resource.Attribute.elevation;
-			global::Ys.TFLite.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::LibMaker.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Ys.TFLite.Droid.Resource.Attribute.firstBaselineToTopHeight = global::LibMaker.Droid.Resource.Attribute.firstBaselineToTopHeight;
-			global::Ys.TFLite.Droid.Resource.Attribute.font = global::LibMaker.Droid.Resource.Attribute.font;
-			global::Ys.TFLite.Droid.Resource.Attribute.fontFamily = global::LibMaker.Droid.Resource.Attribute.fontFamily;
-			global::Ys.TFLite.Droid.Resource.Attribute.fontProviderAuthority = global::LibMaker.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Ys.TFLite.Droid.Resource.Attribute.fontProviderCerts = global::LibMaker.Droid.Resource.Attribute.fontProviderCerts;
-			global::Ys.TFLite.Droid.Resource.Attribute.fontProviderFetchStrategy = global::LibMaker.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Ys.TFLite.Droid.Resource.Attribute.fontProviderFetchTimeout = global::LibMaker.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Ys.TFLite.Droid.Resource.Attribute.fontProviderPackage = global::LibMaker.Droid.Resource.Attribute.fontProviderPackage;
-			global::Ys.TFLite.Droid.Resource.Attribute.fontProviderQuery = global::LibMaker.Droid.Resource.Attribute.fontProviderQuery;
-			global::Ys.TFLite.Droid.Resource.Attribute.fontStyle = global::LibMaker.Droid.Resource.Attribute.fontStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.fontVariationSettings = global::LibMaker.Droid.Resource.Attribute.fontVariationSettings;
-			global::Ys.TFLite.Droid.Resource.Attribute.fontWeight = global::LibMaker.Droid.Resource.Attribute.fontWeight;
-			global::Ys.TFLite.Droid.Resource.Attribute.gapBetweenBars = global::LibMaker.Droid.Resource.Attribute.gapBetweenBars;
-			global::Ys.TFLite.Droid.Resource.Attribute.goIcon = global::LibMaker.Droid.Resource.Attribute.goIcon;
-			global::Ys.TFLite.Droid.Resource.Attribute.height = global::LibMaker.Droid.Resource.Attribute.height;
-			global::Ys.TFLite.Droid.Resource.Attribute.hideOnContentScroll = global::LibMaker.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Ys.TFLite.Droid.Resource.Attribute.homeAsUpIndicator = global::LibMaker.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Ys.TFLite.Droid.Resource.Attribute.homeLayout = global::LibMaker.Droid.Resource.Attribute.homeLayout;
-			global::Ys.TFLite.Droid.Resource.Attribute.icon = global::LibMaker.Droid.Resource.Attribute.icon;
-			global::Ys.TFLite.Droid.Resource.Attribute.iconifiedByDefault = global::LibMaker.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Ys.TFLite.Droid.Resource.Attribute.iconTint = global::LibMaker.Droid.Resource.Attribute.iconTint;
-			global::Ys.TFLite.Droid.Resource.Attribute.iconTintMode = global::LibMaker.Droid.Resource.Attribute.iconTintMode;
-			global::Ys.TFLite.Droid.Resource.Attribute.imageButtonStyle = global::LibMaker.Droid.Resource.Attribute.imageButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.indeterminateProgressStyle = global::LibMaker.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.initialActivityCount = global::LibMaker.Droid.Resource.Attribute.initialActivityCount;
-			global::Ys.TFLite.Droid.Resource.Attribute.isLightTheme = global::LibMaker.Droid.Resource.Attribute.isLightTheme;
-			global::Ys.TFLite.Droid.Resource.Attribute.itemPadding = global::LibMaker.Droid.Resource.Attribute.itemPadding;
-			global::Ys.TFLite.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::LibMaker.Droid.Resource.Attribute.lastBaselineToBottomHeight;
-			global::Ys.TFLite.Droid.Resource.Attribute.layout = global::LibMaker.Droid.Resource.Attribute.layout;
-			global::Ys.TFLite.Droid.Resource.Attribute.lineHeight = global::LibMaker.Droid.Resource.Attribute.lineHeight;
-			global::Ys.TFLite.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::LibMaker.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Ys.TFLite.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::LibMaker.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
-			global::Ys.TFLite.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::LibMaker.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
-			global::Ys.TFLite.Droid.Resource.Attribute.listDividerAlertDialog = global::LibMaker.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Ys.TFLite.Droid.Resource.Attribute.listItemLayout = global::LibMaker.Droid.Resource.Attribute.listItemLayout;
-			global::Ys.TFLite.Droid.Resource.Attribute.listLayout = global::LibMaker.Droid.Resource.Attribute.listLayout;
-			global::Ys.TFLite.Droid.Resource.Attribute.listMenuViewStyle = global::LibMaker.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.listPopupWindowStyle = global::LibMaker.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.listPreferredItemHeight = global::LibMaker.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Ys.TFLite.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::LibMaker.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Ys.TFLite.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::LibMaker.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Ys.TFLite.Droid.Resource.Attribute.listPreferredItemPaddingEnd = global::LibMaker.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
-			global::Ys.TFLite.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::LibMaker.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Ys.TFLite.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::LibMaker.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Ys.TFLite.Droid.Resource.Attribute.listPreferredItemPaddingStart = global::LibMaker.Droid.Resource.Attribute.listPreferredItemPaddingStart;
-			global::Ys.TFLite.Droid.Resource.Attribute.logo = global::LibMaker.Droid.Resource.Attribute.logo;
-			global::Ys.TFLite.Droid.Resource.Attribute.logoDescription = global::LibMaker.Droid.Resource.Attribute.logoDescription;
-			global::Ys.TFLite.Droid.Resource.Attribute.maxButtonHeight = global::LibMaker.Droid.Resource.Attribute.maxButtonHeight;
-			global::Ys.TFLite.Droid.Resource.Attribute.measureWithLargestChild = global::LibMaker.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Ys.TFLite.Droid.Resource.Attribute.menu = global::LibMaker.Droid.Resource.Attribute.menu;
-			global::Ys.TFLite.Droid.Resource.Attribute.multiChoiceItemLayout = global::LibMaker.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Ys.TFLite.Droid.Resource.Attribute.navigationContentDescription = global::LibMaker.Droid.Resource.Attribute.navigationContentDescription;
-			global::Ys.TFLite.Droid.Resource.Attribute.navigationIcon = global::LibMaker.Droid.Resource.Attribute.navigationIcon;
-			global::Ys.TFLite.Droid.Resource.Attribute.navigationMode = global::LibMaker.Droid.Resource.Attribute.navigationMode;
-			global::Ys.TFLite.Droid.Resource.Attribute.numericModifiers = global::LibMaker.Droid.Resource.Attribute.numericModifiers;
-			global::Ys.TFLite.Droid.Resource.Attribute.overlapAnchor = global::LibMaker.Droid.Resource.Attribute.overlapAnchor;
-			global::Ys.TFLite.Droid.Resource.Attribute.paddingBottomNoButtons = global::LibMaker.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Ys.TFLite.Droid.Resource.Attribute.paddingEnd = global::LibMaker.Droid.Resource.Attribute.paddingEnd;
-			global::Ys.TFLite.Droid.Resource.Attribute.paddingStart = global::LibMaker.Droid.Resource.Attribute.paddingStart;
-			global::Ys.TFLite.Droid.Resource.Attribute.paddingTopNoTitle = global::LibMaker.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Ys.TFLite.Droid.Resource.Attribute.panelBackground = global::LibMaker.Droid.Resource.Attribute.panelBackground;
-			global::Ys.TFLite.Droid.Resource.Attribute.panelMenuListTheme = global::LibMaker.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Ys.TFLite.Droid.Resource.Attribute.panelMenuListWidth = global::LibMaker.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Ys.TFLite.Droid.Resource.Attribute.popupMenuStyle = global::LibMaker.Droid.Resource.Attribute.popupMenuStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.popupTheme = global::LibMaker.Droid.Resource.Attribute.popupTheme;
-			global::Ys.TFLite.Droid.Resource.Attribute.popupWindowStyle = global::LibMaker.Droid.Resource.Attribute.popupWindowStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.preserveIconSpacing = global::LibMaker.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Ys.TFLite.Droid.Resource.Attribute.progressBarPadding = global::LibMaker.Droid.Resource.Attribute.progressBarPadding;
-			global::Ys.TFLite.Droid.Resource.Attribute.progressBarStyle = global::LibMaker.Droid.Resource.Attribute.progressBarStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.queryBackground = global::LibMaker.Droid.Resource.Attribute.queryBackground;
-			global::Ys.TFLite.Droid.Resource.Attribute.queryHint = global::LibMaker.Droid.Resource.Attribute.queryHint;
-			global::Ys.TFLite.Droid.Resource.Attribute.radioButtonStyle = global::LibMaker.Droid.Resource.Attribute.radioButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.ratingBarStyle = global::LibMaker.Droid.Resource.Attribute.ratingBarStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.ratingBarStyleIndicator = global::LibMaker.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Ys.TFLite.Droid.Resource.Attribute.ratingBarStyleSmall = global::LibMaker.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Ys.TFLite.Droid.Resource.Attribute.searchHintIcon = global::LibMaker.Droid.Resource.Attribute.searchHintIcon;
-			global::Ys.TFLite.Droid.Resource.Attribute.searchIcon = global::LibMaker.Droid.Resource.Attribute.searchIcon;
-			global::Ys.TFLite.Droid.Resource.Attribute.searchViewStyle = global::LibMaker.Droid.Resource.Attribute.searchViewStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.seekBarStyle = global::LibMaker.Droid.Resource.Attribute.seekBarStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.selectableItemBackground = global::LibMaker.Droid.Resource.Attribute.selectableItemBackground;
-			global::Ys.TFLite.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::LibMaker.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Ys.TFLite.Droid.Resource.Attribute.showAsAction = global::LibMaker.Droid.Resource.Attribute.showAsAction;
-			global::Ys.TFLite.Droid.Resource.Attribute.showDividers = global::LibMaker.Droid.Resource.Attribute.showDividers;
-			global::Ys.TFLite.Droid.Resource.Attribute.showText = global::LibMaker.Droid.Resource.Attribute.showText;
-			global::Ys.TFLite.Droid.Resource.Attribute.showTitle = global::LibMaker.Droid.Resource.Attribute.showTitle;
-			global::Ys.TFLite.Droid.Resource.Attribute.singleChoiceItemLayout = global::LibMaker.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Ys.TFLite.Droid.Resource.Attribute.spinBars = global::LibMaker.Droid.Resource.Attribute.spinBars;
-			global::Ys.TFLite.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::LibMaker.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.spinnerStyle = global::LibMaker.Droid.Resource.Attribute.spinnerStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.splitTrack = global::LibMaker.Droid.Resource.Attribute.splitTrack;
-			global::Ys.TFLite.Droid.Resource.Attribute.srcCompat = global::LibMaker.Droid.Resource.Attribute.srcCompat;
-			global::Ys.TFLite.Droid.Resource.Attribute.state_above_anchor = global::LibMaker.Droid.Resource.Attribute.state_above_anchor;
-			global::Ys.TFLite.Droid.Resource.Attribute.subMenuArrow = global::LibMaker.Droid.Resource.Attribute.subMenuArrow;
-			global::Ys.TFLite.Droid.Resource.Attribute.submitBackground = global::LibMaker.Droid.Resource.Attribute.submitBackground;
-			global::Ys.TFLite.Droid.Resource.Attribute.subtitle = global::LibMaker.Droid.Resource.Attribute.subtitle;
-			global::Ys.TFLite.Droid.Resource.Attribute.subtitleTextAppearance = global::LibMaker.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Ys.TFLite.Droid.Resource.Attribute.subtitleTextColor = global::LibMaker.Droid.Resource.Attribute.subtitleTextColor;
-			global::Ys.TFLite.Droid.Resource.Attribute.subtitleTextStyle = global::LibMaker.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.suggestionRowLayout = global::LibMaker.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Ys.TFLite.Droid.Resource.Attribute.switchMinWidth = global::LibMaker.Droid.Resource.Attribute.switchMinWidth;
-			global::Ys.TFLite.Droid.Resource.Attribute.switchPadding = global::LibMaker.Droid.Resource.Attribute.switchPadding;
-			global::Ys.TFLite.Droid.Resource.Attribute.switchStyle = global::LibMaker.Droid.Resource.Attribute.switchStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.switchTextAppearance = global::LibMaker.Droid.Resource.Attribute.switchTextAppearance;
-			global::Ys.TFLite.Droid.Resource.Attribute.textAllCaps = global::LibMaker.Droid.Resource.Attribute.textAllCaps;
-			global::Ys.TFLite.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::LibMaker.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Ys.TFLite.Droid.Resource.Attribute.textAppearanceListItem = global::LibMaker.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Ys.TFLite.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::LibMaker.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Ys.TFLite.Droid.Resource.Attribute.textAppearanceListItemSmall = global::LibMaker.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Ys.TFLite.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::LibMaker.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Ys.TFLite.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::LibMaker.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Ys.TFLite.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::LibMaker.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Ys.TFLite.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::LibMaker.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Ys.TFLite.Droid.Resource.Attribute.textColorAlertDialogListItem = global::LibMaker.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Ys.TFLite.Droid.Resource.Attribute.textColorSearchUrl = global::LibMaker.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Ys.TFLite.Droid.Resource.Attribute.textLocale = global::LibMaker.Droid.Resource.Attribute.textLocale;
-			global::Ys.TFLite.Droid.Resource.Attribute.theme = global::LibMaker.Droid.Resource.Attribute.theme;
-			global::Ys.TFLite.Droid.Resource.Attribute.thickness = global::LibMaker.Droid.Resource.Attribute.thickness;
-			global::Ys.TFLite.Droid.Resource.Attribute.thumbTextPadding = global::LibMaker.Droid.Resource.Attribute.thumbTextPadding;
-			global::Ys.TFLite.Droid.Resource.Attribute.thumbTint = global::LibMaker.Droid.Resource.Attribute.thumbTint;
-			global::Ys.TFLite.Droid.Resource.Attribute.thumbTintMode = global::LibMaker.Droid.Resource.Attribute.thumbTintMode;
-			global::Ys.TFLite.Droid.Resource.Attribute.tickMark = global::LibMaker.Droid.Resource.Attribute.tickMark;
-			global::Ys.TFLite.Droid.Resource.Attribute.tickMarkTint = global::LibMaker.Droid.Resource.Attribute.tickMarkTint;
-			global::Ys.TFLite.Droid.Resource.Attribute.tickMarkTintMode = global::LibMaker.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Ys.TFLite.Droid.Resource.Attribute.tint = global::LibMaker.Droid.Resource.Attribute.tint;
-			global::Ys.TFLite.Droid.Resource.Attribute.tintMode = global::LibMaker.Droid.Resource.Attribute.tintMode;
-			global::Ys.TFLite.Droid.Resource.Attribute.title = global::LibMaker.Droid.Resource.Attribute.title;
-			global::Ys.TFLite.Droid.Resource.Attribute.titleMargin = global::LibMaker.Droid.Resource.Attribute.titleMargin;
-			global::Ys.TFLite.Droid.Resource.Attribute.titleMarginBottom = global::LibMaker.Droid.Resource.Attribute.titleMarginBottom;
-			global::Ys.TFLite.Droid.Resource.Attribute.titleMarginEnd = global::LibMaker.Droid.Resource.Attribute.titleMarginEnd;
-			global::Ys.TFLite.Droid.Resource.Attribute.titleMargins = global::LibMaker.Droid.Resource.Attribute.titleMargins;
-			global::Ys.TFLite.Droid.Resource.Attribute.titleMarginStart = global::LibMaker.Droid.Resource.Attribute.titleMarginStart;
-			global::Ys.TFLite.Droid.Resource.Attribute.titleMarginTop = global::LibMaker.Droid.Resource.Attribute.titleMarginTop;
-			global::Ys.TFLite.Droid.Resource.Attribute.titleTextAppearance = global::LibMaker.Droid.Resource.Attribute.titleTextAppearance;
-			global::Ys.TFLite.Droid.Resource.Attribute.titleTextColor = global::LibMaker.Droid.Resource.Attribute.titleTextColor;
-			global::Ys.TFLite.Droid.Resource.Attribute.titleTextStyle = global::LibMaker.Droid.Resource.Attribute.titleTextStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::LibMaker.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.toolbarStyle = global::LibMaker.Droid.Resource.Attribute.toolbarStyle;
-			global::Ys.TFLite.Droid.Resource.Attribute.tooltipForegroundColor = global::LibMaker.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Ys.TFLite.Droid.Resource.Attribute.tooltipFrameBackground = global::LibMaker.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Ys.TFLite.Droid.Resource.Attribute.tooltipText = global::LibMaker.Droid.Resource.Attribute.tooltipText;
-			global::Ys.TFLite.Droid.Resource.Attribute.track = global::LibMaker.Droid.Resource.Attribute.track;
-			global::Ys.TFLite.Droid.Resource.Attribute.trackTint = global::LibMaker.Droid.Resource.Attribute.trackTint;
-			global::Ys.TFLite.Droid.Resource.Attribute.trackTintMode = global::LibMaker.Droid.Resource.Attribute.trackTintMode;
-			global::Ys.TFLite.Droid.Resource.Attribute.ttcIndex = global::LibMaker.Droid.Resource.Attribute.ttcIndex;
-			global::Ys.TFLite.Droid.Resource.Attribute.viewInflaterClass = global::LibMaker.Droid.Resource.Attribute.viewInflaterClass;
-			global::Ys.TFLite.Droid.Resource.Attribute.voiceIcon = global::LibMaker.Droid.Resource.Attribute.voiceIcon;
-			global::Ys.TFLite.Droid.Resource.Attribute.windowActionBar = global::LibMaker.Droid.Resource.Attribute.windowActionBar;
-			global::Ys.TFLite.Droid.Resource.Attribute.windowActionBarOverlay = global::LibMaker.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Ys.TFLite.Droid.Resource.Attribute.windowActionModeOverlay = global::LibMaker.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Ys.TFLite.Droid.Resource.Attribute.windowFixedHeightMajor = global::LibMaker.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Ys.TFLite.Droid.Resource.Attribute.windowFixedHeightMinor = global::LibMaker.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Ys.TFLite.Droid.Resource.Attribute.windowFixedWidthMajor = global::LibMaker.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Ys.TFLite.Droid.Resource.Attribute.windowFixedWidthMinor = global::LibMaker.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Ys.TFLite.Droid.Resource.Attribute.windowMinWidthMajor = global::LibMaker.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Ys.TFLite.Droid.Resource.Attribute.windowMinWidthMinor = global::LibMaker.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Ys.TFLite.Droid.Resource.Attribute.windowNoTitle = global::LibMaker.Droid.Resource.Attribute.windowNoTitle;
-			global::Ys.TFLite.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::LibMaker.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Ys.TFLite.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::LibMaker.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Ys.TFLite.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::LibMaker.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Ys.TFLite.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::LibMaker.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::LibMaker.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::LibMaker.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Ys.TFLite.Droid.Resource.Color.abc_btn_colored_text_material = global::LibMaker.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Ys.TFLite.Droid.Resource.Color.abc_color_highlight_material = global::LibMaker.Droid.Resource.Color.abc_color_highlight_material;
-			global::Ys.TFLite.Droid.Resource.Color.abc_decor_view_status_guard = global::LibMaker.Droid.Resource.Color.abc_decor_view_status_guard;
-			global::Ys.TFLite.Droid.Resource.Color.abc_decor_view_status_guard_light = global::LibMaker.Droid.Resource.Color.abc_decor_view_status_guard_light;
-			global::Ys.TFLite.Droid.Resource.Color.abc_hint_foreground_material_dark = global::LibMaker.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.abc_hint_foreground_material_light = global::LibMaker.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::LibMaker.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::LibMaker.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.abc_primary_text_material_dark = global::LibMaker.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.abc_primary_text_material_light = global::LibMaker.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.abc_search_url_text = global::LibMaker.Droid.Resource.Color.abc_search_url_text;
-			global::Ys.TFLite.Droid.Resource.Color.abc_search_url_text_normal = global::LibMaker.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Ys.TFLite.Droid.Resource.Color.abc_search_url_text_pressed = global::LibMaker.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Ys.TFLite.Droid.Resource.Color.abc_search_url_text_selected = global::LibMaker.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Ys.TFLite.Droid.Resource.Color.abc_secondary_text_material_dark = global::LibMaker.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.abc_secondary_text_material_light = global::LibMaker.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.abc_tint_btn_checkable = global::LibMaker.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Ys.TFLite.Droid.Resource.Color.abc_tint_default = global::LibMaker.Droid.Resource.Color.abc_tint_default;
-			global::Ys.TFLite.Droid.Resource.Color.abc_tint_edittext = global::LibMaker.Droid.Resource.Color.abc_tint_edittext;
-			global::Ys.TFLite.Droid.Resource.Color.abc_tint_seek_thumb = global::LibMaker.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Ys.TFLite.Droid.Resource.Color.abc_tint_spinner = global::LibMaker.Droid.Resource.Color.abc_tint_spinner;
-			global::Ys.TFLite.Droid.Resource.Color.abc_tint_switch_track = global::LibMaker.Droid.Resource.Color.abc_tint_switch_track;
-			global::Ys.TFLite.Droid.Resource.Color.accent_material_dark = global::LibMaker.Droid.Resource.Color.accent_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.accent_material_light = global::LibMaker.Droid.Resource.Color.accent_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.androidx_core_ripple_material_light = global::LibMaker.Droid.Resource.Color.androidx_core_ripple_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.androidx_core_secondary_text_default_material_light = global::LibMaker.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.background_floating_material_dark = global::LibMaker.Droid.Resource.Color.background_floating_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.background_floating_material_light = global::LibMaker.Droid.Resource.Color.background_floating_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.background_material_dark = global::LibMaker.Droid.Resource.Color.background_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.background_material_light = global::LibMaker.Droid.Resource.Color.background_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::LibMaker.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.bright_foreground_disabled_material_light = global::LibMaker.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::LibMaker.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.bright_foreground_inverse_material_light = global::LibMaker.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.bright_foreground_material_dark = global::LibMaker.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.bright_foreground_material_light = global::LibMaker.Droid.Resource.Color.bright_foreground_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.button_material_dark = global::LibMaker.Droid.Resource.Color.button_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.button_material_light = global::LibMaker.Droid.Resource.Color.button_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::LibMaker.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.dim_foreground_disabled_material_light = global::LibMaker.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.dim_foreground_material_dark = global::LibMaker.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.dim_foreground_material_light = global::LibMaker.Droid.Resource.Color.dim_foreground_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.error_color_material_dark = global::LibMaker.Droid.Resource.Color.error_color_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.error_color_material_light = global::LibMaker.Droid.Resource.Color.error_color_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.foreground_material_dark = global::LibMaker.Droid.Resource.Color.foreground_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.foreground_material_light = global::LibMaker.Droid.Resource.Color.foreground_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.highlighted_text_material_dark = global::LibMaker.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.highlighted_text_material_light = global::LibMaker.Droid.Resource.Color.highlighted_text_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.material_blue_grey_800 = global::LibMaker.Droid.Resource.Color.material_blue_grey_800;
-			global::Ys.TFLite.Droid.Resource.Color.material_blue_grey_900 = global::LibMaker.Droid.Resource.Color.material_blue_grey_900;
-			global::Ys.TFLite.Droid.Resource.Color.material_blue_grey_950 = global::LibMaker.Droid.Resource.Color.material_blue_grey_950;
-			global::Ys.TFLite.Droid.Resource.Color.material_deep_teal_200 = global::LibMaker.Droid.Resource.Color.material_deep_teal_200;
-			global::Ys.TFLite.Droid.Resource.Color.material_deep_teal_500 = global::LibMaker.Droid.Resource.Color.material_deep_teal_500;
-			global::Ys.TFLite.Droid.Resource.Color.material_grey_100 = global::LibMaker.Droid.Resource.Color.material_grey_100;
-			global::Ys.TFLite.Droid.Resource.Color.material_grey_300 = global::LibMaker.Droid.Resource.Color.material_grey_300;
-			global::Ys.TFLite.Droid.Resource.Color.material_grey_50 = global::LibMaker.Droid.Resource.Color.material_grey_50;
-			global::Ys.TFLite.Droid.Resource.Color.material_grey_600 = global::LibMaker.Droid.Resource.Color.material_grey_600;
-			global::Ys.TFLite.Droid.Resource.Color.material_grey_800 = global::LibMaker.Droid.Resource.Color.material_grey_800;
-			global::Ys.TFLite.Droid.Resource.Color.material_grey_850 = global::LibMaker.Droid.Resource.Color.material_grey_850;
-			global::Ys.TFLite.Droid.Resource.Color.material_grey_900 = global::LibMaker.Droid.Resource.Color.material_grey_900;
-			global::Ys.TFLite.Droid.Resource.Color.notification_action_color_filter = global::LibMaker.Droid.Resource.Color.notification_action_color_filter;
-			global::Ys.TFLite.Droid.Resource.Color.notification_icon_bg_color = global::LibMaker.Droid.Resource.Color.notification_icon_bg_color;
-			global::Ys.TFLite.Droid.Resource.Color.primary_dark_material_dark = global::LibMaker.Droid.Resource.Color.primary_dark_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.primary_dark_material_light = global::LibMaker.Droid.Resource.Color.primary_dark_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.primary_material_dark = global::LibMaker.Droid.Resource.Color.primary_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.primary_material_light = global::LibMaker.Droid.Resource.Color.primary_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.primary_text_default_material_dark = global::LibMaker.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.primary_text_default_material_light = global::LibMaker.Droid.Resource.Color.primary_text_default_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.primary_text_disabled_material_dark = global::LibMaker.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.primary_text_disabled_material_light = global::LibMaker.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.ripple_material_dark = global::LibMaker.Droid.Resource.Color.ripple_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.ripple_material_light = global::LibMaker.Droid.Resource.Color.ripple_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.secondary_text_default_material_dark = global::LibMaker.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.secondary_text_default_material_light = global::LibMaker.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.secondary_text_disabled_material_dark = global::LibMaker.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.secondary_text_disabled_material_light = global::LibMaker.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::LibMaker.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.switch_thumb_disabled_material_light = global::LibMaker.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.switch_thumb_material_dark = global::LibMaker.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.switch_thumb_material_light = global::LibMaker.Droid.Resource.Color.switch_thumb_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.switch_thumb_normal_material_dark = global::LibMaker.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Ys.TFLite.Droid.Resource.Color.switch_thumb_normal_material_light = global::LibMaker.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Ys.TFLite.Droid.Resource.Color.tooltip_background_dark = global::LibMaker.Droid.Resource.Color.tooltip_background_dark;
-			global::Ys.TFLite.Droid.Resource.Color.tooltip_background_light = global::LibMaker.Droid.Resource.Color.tooltip_background_light;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::LibMaker.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_button_min_height_material = global::LibMaker.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_button_min_width_material = global::LibMaker.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::LibMaker.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::LibMaker.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::LibMaker.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::LibMaker.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::LibMaker.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::LibMaker.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::LibMaker.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::LibMaker.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::LibMaker.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_control_corner_material = global::LibMaker.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_control_inset_material = global::LibMaker.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_control_padding_material = global::LibMaker.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::LibMaker.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::LibMaker.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::LibMaker.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::LibMaker.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::LibMaker.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::LibMaker.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::LibMaker.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_min_width_major = global::LibMaker.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::LibMaker.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_padding_material = global::LibMaker.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::LibMaker.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::LibMaker.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::LibMaker.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::LibMaker.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::LibMaker.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::LibMaker.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::LibMaker.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::LibMaker.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::LibMaker.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::LibMaker.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_floating_window_z = global::LibMaker.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_list_item_height_large_material = global::LibMaker.Droid.Resource.Dimension.abc_list_item_height_large_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_list_item_height_material = global::LibMaker.Droid.Resource.Dimension.abc_list_item_height_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_list_item_height_small_material = global::LibMaker.Droid.Resource.Dimension.abc_list_item_height_small_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::LibMaker.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_panel_menu_list_width = global::LibMaker.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_progress_bar_height_material = global::LibMaker.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_search_view_preferred_height = global::LibMaker.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_search_view_preferred_width = global::LibMaker.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::LibMaker.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::LibMaker.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::LibMaker.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_switch_padding = global::LibMaker.Droid.Resource.Dimension.abc_switch_padding;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_body_1_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_body_2_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_button_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_caption_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_display_1_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_display_2_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_display_3_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_display_4_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_headline_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_large_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_medium_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_menu_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_small_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_subhead_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::LibMaker.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_title_material = global::LibMaker.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::LibMaker.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Ys.TFLite.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::LibMaker.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::LibMaker.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::LibMaker.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::LibMaker.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.compat_control_corner_material = global::LibMaker.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Ys.TFLite.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::LibMaker.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Ys.TFLite.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::LibMaker.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Ys.TFLite.Droid.Resource.Dimension.def_drawer_elevation = global::LibMaker.Droid.Resource.Dimension.def_drawer_elevation;
-			global::Ys.TFLite.Droid.Resource.Dimension.disabled_alpha_material_dark = global::LibMaker.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Ys.TFLite.Droid.Resource.Dimension.disabled_alpha_material_light = global::LibMaker.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Ys.TFLite.Droid.Resource.Dimension.highlight_alpha_material_colored = global::LibMaker.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Ys.TFLite.Droid.Resource.Dimension.highlight_alpha_material_dark = global::LibMaker.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Ys.TFLite.Droid.Resource.Dimension.highlight_alpha_material_light = global::LibMaker.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Ys.TFLite.Droid.Resource.Dimension.hint_alpha_material_dark = global::LibMaker.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Ys.TFLite.Droid.Resource.Dimension.hint_alpha_material_light = global::LibMaker.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Ys.TFLite.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::LibMaker.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Ys.TFLite.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::LibMaker.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_action_icon_size = global::LibMaker.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_action_text_size = global::LibMaker.Droid.Resource.Dimension.notification_action_text_size;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_big_circle_margin = global::LibMaker.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_content_margin_start = global::LibMaker.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_large_icon_height = global::LibMaker.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_large_icon_width = global::LibMaker.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_main_column_padding_top = global::LibMaker.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_media_narrow_margin = global::LibMaker.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_right_icon_size = global::LibMaker.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_right_side_padding_top = global::LibMaker.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_small_icon_background_padding = global::LibMaker.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::LibMaker.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_subtext_size = global::LibMaker.Droid.Resource.Dimension.notification_subtext_size;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_top_pad = global::LibMaker.Droid.Resource.Dimension.notification_top_pad;
-			global::Ys.TFLite.Droid.Resource.Dimension.notification_top_pad_large_text = global::LibMaker.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Ys.TFLite.Droid.Resource.Dimension.tooltip_corner_radius = global::LibMaker.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Ys.TFLite.Droid.Resource.Dimension.tooltip_horizontal_padding = global::LibMaker.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Ys.TFLite.Droid.Resource.Dimension.tooltip_margin = global::LibMaker.Droid.Resource.Dimension.tooltip_margin;
-			global::Ys.TFLite.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::LibMaker.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Ys.TFLite.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::LibMaker.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Ys.TFLite.Droid.Resource.Dimension.tooltip_vertical_padding = global::LibMaker.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Ys.TFLite.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::LibMaker.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Ys.TFLite.Droid.Resource.Dimension.tooltip_y_offset_touch = global::LibMaker.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::LibMaker.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_borderless_material = global::LibMaker.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_check_material = global::LibMaker.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_check_material_anim = global::LibMaker.Droid.Resource.Drawable.abc_btn_check_material_anim;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::LibMaker.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::LibMaker.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_colored_material = global::LibMaker.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::LibMaker.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_radio_material = global::LibMaker.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_radio_material_anim = global::LibMaker.Droid.Resource.Drawable.abc_btn_radio_material_anim;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::LibMaker.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::LibMaker.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::LibMaker.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::LibMaker.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::LibMaker.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_cab_background_top_material = global::LibMaker.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_control_background_material = global::LibMaker.Droid.Resource.Drawable.abc_control_background_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_dialog_material_background = global::LibMaker.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_edit_text_material = global::LibMaker.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_ab_back_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_clear_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_search_api_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::LibMaker.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::LibMaker.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_item_background_holo_dark = global::LibMaker.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_item_background_holo_light = global::LibMaker.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_divider_material = global::LibMaker.Droid.Resource.Drawable.abc_list_divider_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_focused_holo = global::LibMaker.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_longpressed_holo = global::LibMaker.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::LibMaker.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::LibMaker.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_list_selector_holo_light = global::LibMaker.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::LibMaker.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::LibMaker.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::LibMaker.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ratingbar_material = global::LibMaker.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_ratingbar_small_material = global::LibMaker.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::LibMaker.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::LibMaker.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::LibMaker.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::LibMaker.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_seekbar_track_material = global::LibMaker.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::LibMaker.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::LibMaker.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_switch_thumb_material = global::LibMaker.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_tab_indicator_material = global::LibMaker.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::LibMaker.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_textfield_search_material = global::LibMaker.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_text_cursor_material = global::LibMaker.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::LibMaker.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Ys.TFLite.Droid.Resource.Drawable.abc_vector_test = global::LibMaker.Droid.Resource.Drawable.abc_vector_test;
-			global::Ys.TFLite.Droid.Resource.Drawable.btn_checkbox_checked_mtrl = global::LibMaker.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
-			global::Ys.TFLite.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::LibMaker.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
-			global::Ys.TFLite.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::LibMaker.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
-			global::Ys.TFLite.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::LibMaker.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
-			global::Ys.TFLite.Droid.Resource.Drawable.btn_radio_off_mtrl = global::LibMaker.Droid.Resource.Drawable.btn_radio_off_mtrl;
-			global::Ys.TFLite.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::LibMaker.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
-			global::Ys.TFLite.Droid.Resource.Drawable.btn_radio_on_mtrl = global::LibMaker.Droid.Resource.Drawable.btn_radio_on_mtrl;
-			global::Ys.TFLite.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::LibMaker.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
-			global::Ys.TFLite.Droid.Resource.Drawable.notification_action_background = global::LibMaker.Droid.Resource.Drawable.notification_action_background;
-			global::Ys.TFLite.Droid.Resource.Drawable.notification_bg = global::LibMaker.Droid.Resource.Drawable.notification_bg;
-			global::Ys.TFLite.Droid.Resource.Drawable.notification_bg_low = global::LibMaker.Droid.Resource.Drawable.notification_bg_low;
-			global::Ys.TFLite.Droid.Resource.Drawable.notification_bg_low_normal = global::LibMaker.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Ys.TFLite.Droid.Resource.Drawable.notification_bg_low_pressed = global::LibMaker.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Ys.TFLite.Droid.Resource.Drawable.notification_bg_normal = global::LibMaker.Droid.Resource.Drawable.notification_bg_normal;
-			global::Ys.TFLite.Droid.Resource.Drawable.notification_bg_normal_pressed = global::LibMaker.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Ys.TFLite.Droid.Resource.Drawable.notification_icon_background = global::LibMaker.Droid.Resource.Drawable.notification_icon_background;
-			global::Ys.TFLite.Droid.Resource.Drawable.notification_template_icon_bg = global::LibMaker.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Ys.TFLite.Droid.Resource.Drawable.notification_template_icon_low_bg = global::LibMaker.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Ys.TFLite.Droid.Resource.Drawable.notification_tile_bg = global::LibMaker.Droid.Resource.Drawable.notification_tile_bg;
-			global::Ys.TFLite.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::LibMaker.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Ys.TFLite.Droid.Resource.Drawable.tooltip_frame_dark = global::LibMaker.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Ys.TFLite.Droid.Resource.Drawable.tooltip_frame_light = global::LibMaker.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_action_clickable_span = global::LibMaker.Droid.Resource.Id.accessibility_action_clickable_span;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_0 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_0;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_1 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_1;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_10 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_10;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_11 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_11;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_12 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_12;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_13 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_13;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_14 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_14;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_15 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_15;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_16 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_16;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_17 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_17;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_18 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_18;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_19 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_19;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_2 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_2;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_20 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_20;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_21 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_21;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_22 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_22;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_23 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_23;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_24 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_24;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_25 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_25;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_26 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_26;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_27 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_27;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_28 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_28;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_29 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_29;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_3 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_3;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_30 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_30;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_31 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_31;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_4 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_4;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_5 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_5;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_6 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_6;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_7 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_7;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_8 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_8;
-			global::Ys.TFLite.Droid.Resource.Id.accessibility_custom_action_9 = global::LibMaker.Droid.Resource.Id.accessibility_custom_action_9;
-			global::Ys.TFLite.Droid.Resource.Id.actions = global::LibMaker.Droid.Resource.Id.actions;
-			global::Ys.TFLite.Droid.Resource.Id.action_bar = global::LibMaker.Droid.Resource.Id.action_bar;
-			global::Ys.TFLite.Droid.Resource.Id.action_bar_activity_content = global::LibMaker.Droid.Resource.Id.action_bar_activity_content;
-			global::Ys.TFLite.Droid.Resource.Id.action_bar_container = global::LibMaker.Droid.Resource.Id.action_bar_container;
-			global::Ys.TFLite.Droid.Resource.Id.action_bar_root = global::LibMaker.Droid.Resource.Id.action_bar_root;
-			global::Ys.TFLite.Droid.Resource.Id.action_bar_spinner = global::LibMaker.Droid.Resource.Id.action_bar_spinner;
-			global::Ys.TFLite.Droid.Resource.Id.action_bar_subtitle = global::LibMaker.Droid.Resource.Id.action_bar_subtitle;
-			global::Ys.TFLite.Droid.Resource.Id.action_bar_title = global::LibMaker.Droid.Resource.Id.action_bar_title;
-			global::Ys.TFLite.Droid.Resource.Id.action_container = global::LibMaker.Droid.Resource.Id.action_container;
-			global::Ys.TFLite.Droid.Resource.Id.action_context_bar = global::LibMaker.Droid.Resource.Id.action_context_bar;
-			global::Ys.TFLite.Droid.Resource.Id.action_divider = global::LibMaker.Droid.Resource.Id.action_divider;
-			global::Ys.TFLite.Droid.Resource.Id.action_image = global::LibMaker.Droid.Resource.Id.action_image;
-			global::Ys.TFLite.Droid.Resource.Id.action_menu_divider = global::LibMaker.Droid.Resource.Id.action_menu_divider;
-			global::Ys.TFLite.Droid.Resource.Id.action_menu_presenter = global::LibMaker.Droid.Resource.Id.action_menu_presenter;
-			global::Ys.TFLite.Droid.Resource.Id.action_mode_bar = global::LibMaker.Droid.Resource.Id.action_mode_bar;
-			global::Ys.TFLite.Droid.Resource.Id.action_mode_bar_stub = global::LibMaker.Droid.Resource.Id.action_mode_bar_stub;
-			global::Ys.TFLite.Droid.Resource.Id.action_mode_close_button = global::LibMaker.Droid.Resource.Id.action_mode_close_button;
-			global::Ys.TFLite.Droid.Resource.Id.action_text = global::LibMaker.Droid.Resource.Id.action_text;
-			global::Ys.TFLite.Droid.Resource.Id.activity_chooser_view_content = global::LibMaker.Droid.Resource.Id.activity_chooser_view_content;
-			global::Ys.TFLite.Droid.Resource.Id.add = global::LibMaker.Droid.Resource.Id.add;
-			global::Ys.TFLite.Droid.Resource.Id.alertTitle = global::LibMaker.Droid.Resource.Id.alertTitle;
-			global::Ys.TFLite.Droid.Resource.Id.ALT = global::LibMaker.Droid.Resource.Id.ALT;
-			global::Ys.TFLite.Droid.Resource.Id.always = global::LibMaker.Droid.Resource.Id.always;
-			global::Ys.TFLite.Droid.Resource.Id.async = global::LibMaker.Droid.Resource.Id.async;
-			global::Ys.TFLite.Droid.Resource.Id.beginning = global::LibMaker.Droid.Resource.Id.beginning;
-			global::Ys.TFLite.Droid.Resource.Id.blocking = global::LibMaker.Droid.Resource.Id.blocking;
-			global::Ys.TFLite.Droid.Resource.Id.bottom = global::LibMaker.Droid.Resource.Id.bottom;
-			global::Ys.TFLite.Droid.Resource.Id.buttonPanel = global::LibMaker.Droid.Resource.Id.buttonPanel;
-			global::Ys.TFLite.Droid.Resource.Id.center_vertical = global::LibMaker.Droid.Resource.Id.center_vertical;
-			global::Ys.TFLite.Droid.Resource.Id.checkbox = global::LibMaker.Droid.Resource.Id.checkbox;
-			global::Ys.TFLite.Droid.Resource.Id.@checked = global::LibMaker.Droid.Resource.Id.@checked;
-			global::Ys.TFLite.Droid.Resource.Id.chronometer = global::LibMaker.Droid.Resource.Id.chronometer;
-			global::Ys.TFLite.Droid.Resource.Id.collapseActionView = global::LibMaker.Droid.Resource.Id.collapseActionView;
-			global::Ys.TFLite.Droid.Resource.Id.content = global::LibMaker.Droid.Resource.Id.content;
-			global::Ys.TFLite.Droid.Resource.Id.contentPanel = global::LibMaker.Droid.Resource.Id.contentPanel;
-			global::Ys.TFLite.Droid.Resource.Id.CTRL = global::LibMaker.Droid.Resource.Id.CTRL;
-			global::Ys.TFLite.Droid.Resource.Id.custom = global::LibMaker.Droid.Resource.Id.custom;
-			global::Ys.TFLite.Droid.Resource.Id.customPanel = global::LibMaker.Droid.Resource.Id.customPanel;
-			global::Ys.TFLite.Droid.Resource.Id.decor_content_parent = global::LibMaker.Droid.Resource.Id.decor_content_parent;
-			global::Ys.TFLite.Droid.Resource.Id.default_activity_button = global::LibMaker.Droid.Resource.Id.default_activity_button;
-			global::Ys.TFLite.Droid.Resource.Id.dialog_button = global::LibMaker.Droid.Resource.Id.dialog_button;
-			global::Ys.TFLite.Droid.Resource.Id.disableHome = global::LibMaker.Droid.Resource.Id.disableHome;
-			global::Ys.TFLite.Droid.Resource.Id.edit_query = global::LibMaker.Droid.Resource.Id.edit_query;
-			global::Ys.TFLite.Droid.Resource.Id.end = global::LibMaker.Droid.Resource.Id.end;
-			global::Ys.TFLite.Droid.Resource.Id.expanded_menu = global::LibMaker.Droid.Resource.Id.expanded_menu;
-			global::Ys.TFLite.Droid.Resource.Id.expand_activities_button = global::LibMaker.Droid.Resource.Id.expand_activities_button;
-			global::Ys.TFLite.Droid.Resource.Id.forever = global::LibMaker.Droid.Resource.Id.forever;
-			global::Ys.TFLite.Droid.Resource.Id.fragment_container_view_tag = global::LibMaker.Droid.Resource.Id.fragment_container_view_tag;
-			global::Ys.TFLite.Droid.Resource.Id.FUNCTION = global::LibMaker.Droid.Resource.Id.FUNCTION;
-			global::Ys.TFLite.Droid.Resource.Id.group_divider = global::LibMaker.Droid.Resource.Id.group_divider;
-			global::Ys.TFLite.Droid.Resource.Id.home = global::LibMaker.Droid.Resource.Id.home;
-			global::Ys.TFLite.Droid.Resource.Id.homeAsUp = global::LibMaker.Droid.Resource.Id.homeAsUp;
-			global::Ys.TFLite.Droid.Resource.Id.icon = global::LibMaker.Droid.Resource.Id.icon;
-			global::Ys.TFLite.Droid.Resource.Id.icon_group = global::LibMaker.Droid.Resource.Id.icon_group;
-			global::Ys.TFLite.Droid.Resource.Id.ifRoom = global::LibMaker.Droid.Resource.Id.ifRoom;
-			global::Ys.TFLite.Droid.Resource.Id.image = global::LibMaker.Droid.Resource.Id.image;
-			global::Ys.TFLite.Droid.Resource.Id.info = global::LibMaker.Droid.Resource.Id.info;
-			global::Ys.TFLite.Droid.Resource.Id.italic = global::LibMaker.Droid.Resource.Id.italic;
-			global::Ys.TFLite.Droid.Resource.Id.line1 = global::LibMaker.Droid.Resource.Id.line1;
-			global::Ys.TFLite.Droid.Resource.Id.line3 = global::LibMaker.Droid.Resource.Id.line3;
-			global::Ys.TFLite.Droid.Resource.Id.listMode = global::LibMaker.Droid.Resource.Id.listMode;
-			global::Ys.TFLite.Droid.Resource.Id.list_item = global::LibMaker.Droid.Resource.Id.list_item;
-			global::Ys.TFLite.Droid.Resource.Id.message = global::LibMaker.Droid.Resource.Id.message;
-			global::Ys.TFLite.Droid.Resource.Id.META = global::LibMaker.Droid.Resource.Id.META;
-			global::Ys.TFLite.Droid.Resource.Id.middle = global::LibMaker.Droid.Resource.Id.middle;
-			global::Ys.TFLite.Droid.Resource.Id.multiply = global::LibMaker.Droid.Resource.Id.multiply;
-			global::Ys.TFLite.Droid.Resource.Id.never = global::LibMaker.Droid.Resource.Id.never;
-			global::Ys.TFLite.Droid.Resource.Id.none = global::LibMaker.Droid.Resource.Id.none;
-			global::Ys.TFLite.Droid.Resource.Id.normal = global::LibMaker.Droid.Resource.Id.normal;
-			global::Ys.TFLite.Droid.Resource.Id.notification_background = global::LibMaker.Droid.Resource.Id.notification_background;
-			global::Ys.TFLite.Droid.Resource.Id.notification_main_column = global::LibMaker.Droid.Resource.Id.notification_main_column;
-			global::Ys.TFLite.Droid.Resource.Id.notification_main_column_container = global::LibMaker.Droid.Resource.Id.notification_main_column_container;
-			global::Ys.TFLite.Droid.Resource.Id.off = global::LibMaker.Droid.Resource.Id.off;
-			global::Ys.TFLite.Droid.Resource.Id.on = global::LibMaker.Droid.Resource.Id.on;
-			global::Ys.TFLite.Droid.Resource.Id.parentPanel = global::LibMaker.Droid.Resource.Id.parentPanel;
-			global::Ys.TFLite.Droid.Resource.Id.progress_circular = global::LibMaker.Droid.Resource.Id.progress_circular;
-			global::Ys.TFLite.Droid.Resource.Id.progress_horizontal = global::LibMaker.Droid.Resource.Id.progress_horizontal;
-			global::Ys.TFLite.Droid.Resource.Id.radio = global::LibMaker.Droid.Resource.Id.radio;
-			global::Ys.TFLite.Droid.Resource.Id.right_icon = global::LibMaker.Droid.Resource.Id.right_icon;
-			global::Ys.TFLite.Droid.Resource.Id.right_side = global::LibMaker.Droid.Resource.Id.right_side;
-			global::Ys.TFLite.Droid.Resource.Id.screen = global::LibMaker.Droid.Resource.Id.screen;
-			global::Ys.TFLite.Droid.Resource.Id.scrollIndicatorDown = global::LibMaker.Droid.Resource.Id.scrollIndicatorDown;
-			global::Ys.TFLite.Droid.Resource.Id.scrollIndicatorUp = global::LibMaker.Droid.Resource.Id.scrollIndicatorUp;
-			global::Ys.TFLite.Droid.Resource.Id.scrollView = global::LibMaker.Droid.Resource.Id.scrollView;
-			global::Ys.TFLite.Droid.Resource.Id.search_badge = global::LibMaker.Droid.Resource.Id.search_badge;
-			global::Ys.TFLite.Droid.Resource.Id.search_bar = global::LibMaker.Droid.Resource.Id.search_bar;
-			global::Ys.TFLite.Droid.Resource.Id.search_button = global::LibMaker.Droid.Resource.Id.search_button;
-			global::Ys.TFLite.Droid.Resource.Id.search_close_btn = global::LibMaker.Droid.Resource.Id.search_close_btn;
-			global::Ys.TFLite.Droid.Resource.Id.search_edit_frame = global::LibMaker.Droid.Resource.Id.search_edit_frame;
-			global::Ys.TFLite.Droid.Resource.Id.search_go_btn = global::LibMaker.Droid.Resource.Id.search_go_btn;
-			global::Ys.TFLite.Droid.Resource.Id.search_mag_icon = global::LibMaker.Droid.Resource.Id.search_mag_icon;
-			global::Ys.TFLite.Droid.Resource.Id.search_plate = global::LibMaker.Droid.Resource.Id.search_plate;
-			global::Ys.TFLite.Droid.Resource.Id.search_src_text = global::LibMaker.Droid.Resource.Id.search_src_text;
-			global::Ys.TFLite.Droid.Resource.Id.search_voice_btn = global::LibMaker.Droid.Resource.Id.search_voice_btn;
-			global::Ys.TFLite.Droid.Resource.Id.select_dialog_listview = global::LibMaker.Droid.Resource.Id.select_dialog_listview;
-			global::Ys.TFLite.Droid.Resource.Id.SHIFT = global::LibMaker.Droid.Resource.Id.SHIFT;
-			global::Ys.TFLite.Droid.Resource.Id.shortcut = global::LibMaker.Droid.Resource.Id.shortcut;
-			global::Ys.TFLite.Droid.Resource.Id.showCustom = global::LibMaker.Droid.Resource.Id.showCustom;
-			global::Ys.TFLite.Droid.Resource.Id.showHome = global::LibMaker.Droid.Resource.Id.showHome;
-			global::Ys.TFLite.Droid.Resource.Id.showTitle = global::LibMaker.Droid.Resource.Id.showTitle;
-			global::Ys.TFLite.Droid.Resource.Id.spacer = global::LibMaker.Droid.Resource.Id.spacer;
-			global::Ys.TFLite.Droid.Resource.Id.special_effects_controller_view_tag = global::LibMaker.Droid.Resource.Id.special_effects_controller_view_tag;
-			global::Ys.TFLite.Droid.Resource.Id.split_action_bar = global::LibMaker.Droid.Resource.Id.split_action_bar;
-			global::Ys.TFLite.Droid.Resource.Id.src_atop = global::LibMaker.Droid.Resource.Id.src_atop;
-			global::Ys.TFLite.Droid.Resource.Id.src_in = global::LibMaker.Droid.Resource.Id.src_in;
-			global::Ys.TFLite.Droid.Resource.Id.src_over = global::LibMaker.Droid.Resource.Id.src_over;
-			global::Ys.TFLite.Droid.Resource.Id.submenuarrow = global::LibMaker.Droid.Resource.Id.submenuarrow;
-			global::Ys.TFLite.Droid.Resource.Id.submit_area = global::LibMaker.Droid.Resource.Id.submit_area;
-			global::Ys.TFLite.Droid.Resource.Id.SYM = global::LibMaker.Droid.Resource.Id.SYM;
-			global::Ys.TFLite.Droid.Resource.Id.tabMode = global::LibMaker.Droid.Resource.Id.tabMode;
-			global::Ys.TFLite.Droid.Resource.Id.tag_accessibility_actions = global::LibMaker.Droid.Resource.Id.tag_accessibility_actions;
-			global::Ys.TFLite.Droid.Resource.Id.tag_accessibility_clickable_spans = global::LibMaker.Droid.Resource.Id.tag_accessibility_clickable_spans;
-			global::Ys.TFLite.Droid.Resource.Id.tag_accessibility_heading = global::LibMaker.Droid.Resource.Id.tag_accessibility_heading;
-			global::Ys.TFLite.Droid.Resource.Id.tag_accessibility_pane_title = global::LibMaker.Droid.Resource.Id.tag_accessibility_pane_title;
-			global::Ys.TFLite.Droid.Resource.Id.tag_screen_reader_focusable = global::LibMaker.Droid.Resource.Id.tag_screen_reader_focusable;
-			global::Ys.TFLite.Droid.Resource.Id.tag_transition_group = global::LibMaker.Droid.Resource.Id.tag_transition_group;
-			global::Ys.TFLite.Droid.Resource.Id.tag_unhandled_key_event_manager = global::LibMaker.Droid.Resource.Id.tag_unhandled_key_event_manager;
-			global::Ys.TFLite.Droid.Resource.Id.tag_unhandled_key_listeners = global::LibMaker.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::Ys.TFLite.Droid.Resource.Id.text = global::LibMaker.Droid.Resource.Id.text;
-			global::Ys.TFLite.Droid.Resource.Id.text2 = global::LibMaker.Droid.Resource.Id.text2;
-			global::Ys.TFLite.Droid.Resource.Id.textSpacerNoButtons = global::LibMaker.Droid.Resource.Id.textSpacerNoButtons;
-			global::Ys.TFLite.Droid.Resource.Id.textSpacerNoTitle = global::LibMaker.Droid.Resource.Id.textSpacerNoTitle;
-			global::Ys.TFLite.Droid.Resource.Id.time = global::LibMaker.Droid.Resource.Id.time;
-			global::Ys.TFLite.Droid.Resource.Id.title = global::LibMaker.Droid.Resource.Id.title;
-			global::Ys.TFLite.Droid.Resource.Id.titleDividerNoCustom = global::LibMaker.Droid.Resource.Id.titleDividerNoCustom;
-			global::Ys.TFLite.Droid.Resource.Id.title_template = global::LibMaker.Droid.Resource.Id.title_template;
-			global::Ys.TFLite.Droid.Resource.Id.top = global::LibMaker.Droid.Resource.Id.top;
-			global::Ys.TFLite.Droid.Resource.Id.topPanel = global::LibMaker.Droid.Resource.Id.topPanel;
-			global::Ys.TFLite.Droid.Resource.Id.@unchecked = global::LibMaker.Droid.Resource.Id.@unchecked;
-			global::Ys.TFLite.Droid.Resource.Id.uniform = global::LibMaker.Droid.Resource.Id.uniform;
-			global::Ys.TFLite.Droid.Resource.Id.up = global::LibMaker.Droid.Resource.Id.up;
-			global::Ys.TFLite.Droid.Resource.Id.useLogo = global::LibMaker.Droid.Resource.Id.useLogo;
-			global::Ys.TFLite.Droid.Resource.Id.view_tree_lifecycle_owner = global::LibMaker.Droid.Resource.Id.view_tree_lifecycle_owner;
-			global::Ys.TFLite.Droid.Resource.Id.view_tree_saved_state_registry_owner = global::LibMaker.Droid.Resource.Id.view_tree_saved_state_registry_owner;
-			global::Ys.TFLite.Droid.Resource.Id.view_tree_view_model_store_owner = global::LibMaker.Droid.Resource.Id.view_tree_view_model_store_owner;
-			global::Ys.TFLite.Droid.Resource.Id.visible_removing_fragment_view_tag = global::LibMaker.Droid.Resource.Id.visible_removing_fragment_view_tag;
-			global::Ys.TFLite.Droid.Resource.Id.withText = global::LibMaker.Droid.Resource.Id.withText;
-			global::Ys.TFLite.Droid.Resource.Id.wrap_content = global::LibMaker.Droid.Resource.Id.wrap_content;
-			global::Ys.TFLite.Droid.Resource.Integer.abc_config_activityDefaultDur = global::LibMaker.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Ys.TFLite.Droid.Resource.Integer.abc_config_activityShortDur = global::LibMaker.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Ys.TFLite.Droid.Resource.Integer.cancel_button_image_alpha = global::LibMaker.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Ys.TFLite.Droid.Resource.Integer.config_tooltipAnimTime = global::LibMaker.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Ys.TFLite.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::LibMaker.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Ys.TFLite.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::LibMaker.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
-			global::Ys.TFLite.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::LibMaker.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
-			global::Ys.TFLite.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::LibMaker.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
-			global::Ys.TFLite.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::LibMaker.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
-			global::Ys.TFLite.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::LibMaker.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
-			global::Ys.TFLite.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::LibMaker.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
-			global::Ys.TFLite.Droid.Resource.Interpolator.fast_out_slow_in = global::LibMaker.Droid.Resource.Interpolator.fast_out_slow_in;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_action_bar_title_item = global::LibMaker.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_action_bar_up_container = global::LibMaker.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_action_menu_item_layout = global::LibMaker.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_action_menu_layout = global::LibMaker.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_action_mode_bar = global::LibMaker.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_action_mode_close_item_material = global::LibMaker.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_activity_chooser_view = global::LibMaker.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::LibMaker.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::LibMaker.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_alert_dialog_material = global::LibMaker.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_alert_dialog_title_material = global::LibMaker.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::LibMaker.Droid.Resource.Layout.abc_cascading_menu_item_layout;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_dialog_title_material = global::LibMaker.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_expanded_menu_layout = global::LibMaker.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::LibMaker.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_list_menu_item_icon = global::LibMaker.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_list_menu_item_layout = global::LibMaker.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_list_menu_item_radio = global::LibMaker.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::LibMaker.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_popup_menu_item_layout = global::LibMaker.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_screen_content_include = global::LibMaker.Droid.Resource.Layout.abc_screen_content_include;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_screen_simple = global::LibMaker.Droid.Resource.Layout.abc_screen_simple;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::LibMaker.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_screen_toolbar = global::LibMaker.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::LibMaker.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_search_view = global::LibMaker.Droid.Resource.Layout.abc_search_view;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_select_dialog_material = global::LibMaker.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Ys.TFLite.Droid.Resource.Layout.abc_tooltip = global::LibMaker.Droid.Resource.Layout.abc_tooltip;
-			global::Ys.TFLite.Droid.Resource.Layout.custom_dialog = global::LibMaker.Droid.Resource.Layout.custom_dialog;
-			global::Ys.TFLite.Droid.Resource.Layout.notification_action = global::LibMaker.Droid.Resource.Layout.notification_action;
-			global::Ys.TFLite.Droid.Resource.Layout.notification_action_tombstone = global::LibMaker.Droid.Resource.Layout.notification_action_tombstone;
-			global::Ys.TFLite.Droid.Resource.Layout.notification_template_custom_big = global::LibMaker.Droid.Resource.Layout.notification_template_custom_big;
-			global::Ys.TFLite.Droid.Resource.Layout.notification_template_icon_group = global::LibMaker.Droid.Resource.Layout.notification_template_icon_group;
-			global::Ys.TFLite.Droid.Resource.Layout.notification_template_part_chronometer = global::LibMaker.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Ys.TFLite.Droid.Resource.Layout.notification_template_part_time = global::LibMaker.Droid.Resource.Layout.notification_template_part_time;
-			global::Ys.TFLite.Droid.Resource.Layout.select_dialog_item_material = global::LibMaker.Droid.Resource.Layout.select_dialog_item_material;
-			global::Ys.TFLite.Droid.Resource.Layout.select_dialog_multichoice_material = global::LibMaker.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Ys.TFLite.Droid.Resource.Layout.select_dialog_singlechoice_material = global::LibMaker.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Ys.TFLite.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::LibMaker.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Ys.TFLite.Droid.Resource.String.abc_action_bar_home_description = global::LibMaker.Droid.Resource.String.abc_action_bar_home_description;
-			global::Ys.TFLite.Droid.Resource.String.abc_action_bar_up_description = global::LibMaker.Droid.Resource.String.abc_action_bar_up_description;
-			global::Ys.TFLite.Droid.Resource.String.abc_action_menu_overflow_description = global::LibMaker.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Ys.TFLite.Droid.Resource.String.abc_action_mode_done = global::LibMaker.Droid.Resource.String.abc_action_mode_done;
-			global::Ys.TFLite.Droid.Resource.String.abc_activitychooserview_choose_application = global::LibMaker.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Ys.TFLite.Droid.Resource.String.abc_activity_chooser_view_see_all = global::LibMaker.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Ys.TFLite.Droid.Resource.String.abc_capital_off = global::LibMaker.Droid.Resource.String.abc_capital_off;
-			global::Ys.TFLite.Droid.Resource.String.abc_capital_on = global::LibMaker.Droid.Resource.String.abc_capital_on;
-			global::Ys.TFLite.Droid.Resource.String.abc_menu_alt_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_alt_shortcut_label;
-			global::Ys.TFLite.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
-			global::Ys.TFLite.Droid.Resource.String.abc_menu_delete_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_delete_shortcut_label;
-			global::Ys.TFLite.Droid.Resource.String.abc_menu_enter_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_enter_shortcut_label;
-			global::Ys.TFLite.Droid.Resource.String.abc_menu_function_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_function_shortcut_label;
-			global::Ys.TFLite.Droid.Resource.String.abc_menu_meta_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_meta_shortcut_label;
-			global::Ys.TFLite.Droid.Resource.String.abc_menu_shift_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_shift_shortcut_label;
-			global::Ys.TFLite.Droid.Resource.String.abc_menu_space_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_space_shortcut_label;
-			global::Ys.TFLite.Droid.Resource.String.abc_menu_sym_shortcut_label = global::LibMaker.Droid.Resource.String.abc_menu_sym_shortcut_label;
-			global::Ys.TFLite.Droid.Resource.String.abc_prepend_shortcut_label = global::LibMaker.Droid.Resource.String.abc_prepend_shortcut_label;
-			global::Ys.TFLite.Droid.Resource.String.abc_searchview_description_clear = global::LibMaker.Droid.Resource.String.abc_searchview_description_clear;
-			global::Ys.TFLite.Droid.Resource.String.abc_searchview_description_query = global::LibMaker.Droid.Resource.String.abc_searchview_description_query;
-			global::Ys.TFLite.Droid.Resource.String.abc_searchview_description_search = global::LibMaker.Droid.Resource.String.abc_searchview_description_search;
-			global::Ys.TFLite.Droid.Resource.String.abc_searchview_description_submit = global::LibMaker.Droid.Resource.String.abc_searchview_description_submit;
-			global::Ys.TFLite.Droid.Resource.String.abc_searchview_description_voice = global::LibMaker.Droid.Resource.String.abc_searchview_description_voice;
-			global::Ys.TFLite.Droid.Resource.String.abc_search_hint = global::LibMaker.Droid.Resource.String.abc_search_hint;
-			global::Ys.TFLite.Droid.Resource.String.abc_shareactionprovider_share_with = global::LibMaker.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Ys.TFLite.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::LibMaker.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Ys.TFLite.Droid.Resource.String.abc_toolbar_collapse_description = global::LibMaker.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Ys.TFLite.Droid.Resource.String.search_menu_title = global::LibMaker.Droid.Resource.String.search_menu_title;
-			global::Ys.TFLite.Droid.Resource.String.status_bar_notification_info_overflow = global::LibMaker.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Ys.TFLite.Droid.Resource.Style.AlertDialog_AppCompat = global::LibMaker.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::LibMaker.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Animation_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::LibMaker.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Ys.TFLite.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::LibMaker.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Ys.TFLite.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::LibMaker.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::LibMaker.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::LibMaker.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Ys.TFLite.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::LibMaker.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::LibMaker.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Ys.TFLite.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::LibMaker.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Ys.TFLite.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Ys.TFLite.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Ys.TFLite.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::LibMaker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::LibMaker.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::LibMaker.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V28_Theme_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::LibMaker.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::LibMaker.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::LibMaker.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Ys.TFLite.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::LibMaker.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_TextView = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Ys.TFLite.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::LibMaker.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Ys.TFLite.Droid.Resource.Style.Platform_AppCompat = global::LibMaker.Droid.Resource.Style.Platform_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Platform_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::LibMaker.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::LibMaker.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Ys.TFLite.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Platform_V21_AppCompat = global::LibMaker.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Platform_V25_AppCompat = global::LibMaker.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::LibMaker.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::LibMaker.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Ys.TFLite.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::LibMaker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Ys.TFLite.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::LibMaker.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Ys.TFLite.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::LibMaker.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LibMaker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_Compat_Notification = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LibMaker.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LibMaker.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Ys.TFLite.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::LibMaker.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Ys.TFLite.Droid.Resource.Style.ThemeOverlay_AppCompat = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Ys.TFLite.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
-			global::Ys.TFLite.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Ys.TFLite.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::LibMaker.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat = global::LibMaker.Droid.Resource.Style.Theme_AppCompat;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_DayNight = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_Dialog = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_Empty = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Empty;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_Light = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::LibMaker.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Button = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_EditText = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ListView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_SearchView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Spinner = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_TextView = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_TextView;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::LibMaker.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::LibMaker.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Ys.TFLite.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::LibMaker.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar = global::LibMaker.Droid.Resource.Styleable.ActionBar;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBarLayout = global::LibMaker.Droid.Resource.Styleable.ActionBarLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::LibMaker.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_background = global::LibMaker.Droid.Resource.Styleable.ActionBar_background;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::LibMaker.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::LibMaker.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::LibMaker.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::LibMaker.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_displayOptions = global::LibMaker.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_divider = global::LibMaker.Droid.Resource.Styleable.ActionBar_divider;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_elevation = global::LibMaker.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_height = global::LibMaker.Droid.Resource.Styleable.ActionBar_height;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::LibMaker.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::LibMaker.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_homeLayout = global::LibMaker.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_icon = global::LibMaker.Droid.Resource.Styleable.ActionBar_icon;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::LibMaker.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_itemPadding = global::LibMaker.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_logo = global::LibMaker.Droid.Resource.Styleable.ActionBar_logo;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_navigationMode = global::LibMaker.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_popupTheme = global::LibMaker.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::LibMaker.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::LibMaker.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_subtitle = global::LibMaker.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::LibMaker.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_title = global::LibMaker.Droid.Resource.Styleable.ActionBar_title;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::LibMaker.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionMenuItemView = global::LibMaker.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::LibMaker.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionMenuView = global::LibMaker.Droid.Resource.Styleable.ActionMenuView;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionMode = global::LibMaker.Droid.Resource.Styleable.ActionMode;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionMode_background = global::LibMaker.Droid.Resource.Styleable.ActionMode_background;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::LibMaker.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::LibMaker.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionMode_height = global::LibMaker.Droid.Resource.Styleable.ActionMode_height;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::LibMaker.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::LibMaker.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActivityChooserView = global::LibMaker.Droid.Resource.Styleable.ActivityChooserView;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::LibMaker.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::LibMaker.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Ys.TFLite.Droid.Resource.Styleable.AlertDialog = global::LibMaker.Droid.Resource.Styleable.AlertDialog;
-			global::Ys.TFLite.Droid.Resource.Styleable.AlertDialog_android_layout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Ys.TFLite.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::LibMaker.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
-			global::Ys.TFLite.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.AlertDialog_listLayout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.AlertDialog_showTitle = global::LibMaker.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::LibMaker.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
-			global::Ys.TFLite.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::LibMaker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatImageView = global::LibMaker.Droid.Resource.Styleable.AppCompatImageView;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatImageView_android_src = global::LibMaker.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatImageView_tint = global::LibMaker.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::LibMaker.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatSeekBar = global::LibMaker.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::LibMaker.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::LibMaker.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::LibMaker.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::LibMaker.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextHelper = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::LibMaker.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_drawableTint = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTextView_textLocale = global::LibMaker.Droid.Resource.Styleable.AppCompatTextView_textLocale;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_colorError = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Ys.TFLite.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::LibMaker.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Ys.TFLite.Droid.Resource.Styleable.ButtonBarLayout = global::LibMaker.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::LibMaker.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Ys.TFLite.Droid.Resource.Styleable.ColorStateListItem = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem;
-			global::Ys.TFLite.Droid.Resource.Styleable.ColorStateListItem_alpha = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Ys.TFLite.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Ys.TFLite.Droid.Resource.Styleable.ColorStateListItem_android_color = global::LibMaker.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Ys.TFLite.Droid.Resource.Styleable.CompoundButton = global::LibMaker.Droid.Resource.Styleable.CompoundButton;
-			global::Ys.TFLite.Droid.Resource.Styleable.CompoundButton_android_button = global::LibMaker.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Ys.TFLite.Droid.Resource.Styleable.CompoundButton_buttonCompat = global::LibMaker.Droid.Resource.Styleable.CompoundButton_buttonCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.CompoundButton_buttonTint = global::LibMaker.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Ys.TFLite.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::LibMaker.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Ys.TFLite.Droid.Resource.Styleable.DrawerArrowToggle = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Ys.TFLite.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Ys.TFLite.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Ys.TFLite.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Ys.TFLite.Droid.Resource.Styleable.DrawerArrowToggle_color = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Ys.TFLite.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Ys.TFLite.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Ys.TFLite.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Ys.TFLite.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::LibMaker.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Ys.TFLite.Droid.Resource.Styleable.DrawerLayout = global::LibMaker.Droid.Resource.Styleable.DrawerLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.DrawerLayout_elevation = global::LibMaker.Droid.Resource.Styleable.DrawerLayout_elevation;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamily = global::LibMaker.Droid.Resource.Styleable.FontFamily;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamilyFont = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamilyFont_android_font = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamilyFont_font = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::LibMaker.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Ys.TFLite.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::LibMaker.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Ys.TFLite.Droid.Resource.Styleable.Fragment = global::LibMaker.Droid.Resource.Styleable.Fragment;
-			global::Ys.TFLite.Droid.Resource.Styleable.FragmentContainerView = global::LibMaker.Droid.Resource.Styleable.FragmentContainerView;
-			global::Ys.TFLite.Droid.Resource.Styleable.FragmentContainerView_android_name = global::LibMaker.Droid.Resource.Styleable.FragmentContainerView_android_name;
-			global::Ys.TFLite.Droid.Resource.Styleable.FragmentContainerView_android_tag = global::LibMaker.Droid.Resource.Styleable.FragmentContainerView_android_tag;
-			global::Ys.TFLite.Droid.Resource.Styleable.Fragment_android_id = global::LibMaker.Droid.Resource.Styleable.Fragment_android_id;
-			global::Ys.TFLite.Droid.Resource.Styleable.Fragment_android_name = global::LibMaker.Droid.Resource.Styleable.Fragment_android_name;
-			global::Ys.TFLite.Droid.Resource.Styleable.Fragment_android_tag = global::LibMaker.Droid.Resource.Styleable.Fragment_android_tag;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor = global::LibMaker.Droid.Resource.Styleable.GradientColor;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColorItem = global::LibMaker.Droid.Resource.Styleable.GradientColorItem;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColorItem_android_color = global::LibMaker.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColorItem_android_offset = global::LibMaker.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_centerColor = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_centerColor;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_centerX = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_centerX;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_centerY = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_centerY;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_endColor = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_endColor;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_endX = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_endX;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_endY = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_endY;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_startColor = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_startColor;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_startX = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_startX;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_startY = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_startY;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_tileMode = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_tileMode;
-			global::Ys.TFLite.Droid.Resource.Styleable.GradientColor_android_type = global::LibMaker.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Ys.TFLite.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::LibMaker.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Ys.TFLite.Droid.Resource.Styleable.ListPopupWindow = global::LibMaker.Droid.Resource.Styleable.ListPopupWindow;
-			global::Ys.TFLite.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::LibMaker.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Ys.TFLite.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::LibMaker.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuGroup = global::LibMaker.Droid.Resource.Styleable.MenuGroup;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuGroup_android_enabled = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuGroup_android_id = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuGroup_android_visible = global::LibMaker.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem = global::LibMaker.Droid.Resource.Styleable.MenuItem;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_actionLayout = global::LibMaker.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::LibMaker.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_actionViewClass = global::LibMaker.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::LibMaker.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_checkable = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_checked = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_enabled = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_icon = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_id = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_onClick = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_title = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_android_visible = global::LibMaker.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_contentDescription = global::LibMaker.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_iconTint = global::LibMaker.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_iconTintMode = global::LibMaker.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_numericModifiers = global::LibMaker.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_showAsAction = global::LibMaker.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuItem_tooltipText = global::LibMaker.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuView = global::LibMaker.Droid.Resource.Styleable.MenuView;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuView_android_headerBackground = global::LibMaker.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::LibMaker.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuView_android_itemBackground = global::LibMaker.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::LibMaker.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::LibMaker.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::LibMaker.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::LibMaker.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::LibMaker.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Ys.TFLite.Droid.Resource.Styleable.MenuView_subMenuArrow = global::LibMaker.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Ys.TFLite.Droid.Resource.Styleable.PopupWindow = global::LibMaker.Droid.Resource.Styleable.PopupWindow;
-			global::Ys.TFLite.Droid.Resource.Styleable.PopupWindowBackgroundState = global::LibMaker.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Ys.TFLite.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::LibMaker.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Ys.TFLite.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::LibMaker.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::LibMaker.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::LibMaker.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Ys.TFLite.Droid.Resource.Styleable.RecycleListView = global::LibMaker.Droid.Resource.Styleable.RecycleListView;
-			global::Ys.TFLite.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::LibMaker.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Ys.TFLite.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::LibMaker.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView = global::LibMaker.Droid.Resource.Styleable.SearchView;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_android_focusable = global::LibMaker.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_android_imeOptions = global::LibMaker.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_android_inputType = global::LibMaker.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_android_maxWidth = global::LibMaker.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_closeIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_commitIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::LibMaker.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_goIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::LibMaker.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_layout = global::LibMaker.Droid.Resource.Styleable.SearchView_layout;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_queryBackground = global::LibMaker.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_queryHint = global::LibMaker.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_searchHintIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_searchIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_submitBackground = global::LibMaker.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::LibMaker.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Ys.TFLite.Droid.Resource.Styleable.SearchView_voiceIcon = global::LibMaker.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Ys.TFLite.Droid.Resource.Styleable.Spinner = global::LibMaker.Droid.Resource.Styleable.Spinner;
-			global::Ys.TFLite.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::LibMaker.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Ys.TFLite.Droid.Resource.Styleable.Spinner_android_entries = global::LibMaker.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Ys.TFLite.Droid.Resource.Styleable.Spinner_android_popupBackground = global::LibMaker.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Ys.TFLite.Droid.Resource.Styleable.Spinner_android_prompt = global::LibMaker.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Ys.TFLite.Droid.Resource.Styleable.Spinner_popupTheme = global::LibMaker.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Ys.TFLite.Droid.Resource.Styleable.StateListDrawable = global::LibMaker.Droid.Resource.Styleable.StateListDrawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.StateListDrawableItem = global::LibMaker.Droid.Resource.Styleable.StateListDrawableItem;
-			global::Ys.TFLite.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::LibMaker.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
-			global::Ys.TFLite.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
-			global::Ys.TFLite.Droid.Resource.Styleable.StateListDrawable_android_dither = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_dither;
-			global::Ys.TFLite.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
-			global::Ys.TFLite.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
-			global::Ys.TFLite.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
-			global::Ys.TFLite.Droid.Resource.Styleable.StateListDrawable_android_visible = global::LibMaker.Droid.Resource.Styleable.StateListDrawable_android_visible;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat = global::LibMaker.Droid.Resource.Styleable.SwitchCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_showText = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_track = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_trackTint = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Ys.TFLite.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::LibMaker.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance = global::LibMaker.Droid.Resource.Styleable.TextAppearance;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_textColor = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_textFontWeight = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_textSize = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_android_typeface = global::LibMaker.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_fontFamily = global::LibMaker.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_fontVariationSettings = global::LibMaker.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::LibMaker.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Ys.TFLite.Droid.Resource.Styleable.TextAppearance_textLocale = global::LibMaker.Droid.Resource.Styleable.TextAppearance_textLocale;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar = global::LibMaker.Droid.Resource.Styleable.Toolbar;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_android_gravity = global::LibMaker.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_android_minHeight = global::LibMaker.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_buttonGravity = global::LibMaker.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::LibMaker.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_collapseIcon = global::LibMaker.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::LibMaker.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_logo = global::LibMaker.Droid.Resource.Styleable.Toolbar_logo;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_logoDescription = global::LibMaker.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::LibMaker.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_menu = global::LibMaker.Droid.Resource.Styleable.Toolbar_menu;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::LibMaker.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_navigationIcon = global::LibMaker.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_popupTheme = global::LibMaker.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_subtitle = global::LibMaker.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::LibMaker.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::LibMaker.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_title = global::LibMaker.Droid.Resource.Styleable.Toolbar_title;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_titleMargin = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_titleMargins = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Ys.TFLite.Droid.Resource.Styleable.Toolbar_titleTextColor = global::LibMaker.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Ys.TFLite.Droid.Resource.Styleable.View = global::LibMaker.Droid.Resource.Styleable.View;
-			global::Ys.TFLite.Droid.Resource.Styleable.ViewBackgroundHelper = global::LibMaker.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Ys.TFLite.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::LibMaker.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Ys.TFLite.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::LibMaker.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Ys.TFLite.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::LibMaker.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Ys.TFLite.Droid.Resource.Styleable.ViewStubCompat = global::LibMaker.Droid.Resource.Styleable.ViewStubCompat;
-			global::Ys.TFLite.Droid.Resource.Styleable.ViewStubCompat_android_id = global::LibMaker.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Ys.TFLite.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::LibMaker.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Ys.TFLite.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::LibMaker.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Ys.TFLite.Droid.Resource.Styleable.View_android_focusable = global::LibMaker.Droid.Resource.Styleable.View_android_focusable;
-			global::Ys.TFLite.Droid.Resource.Styleable.View_android_theme = global::LibMaker.Droid.Resource.Styleable.View_android_theme;
-			global::Ys.TFLite.Droid.Resource.Styleable.View_paddingEnd = global::LibMaker.Droid.Resource.Styleable.View_paddingEnd;
-			global::Ys.TFLite.Droid.Resource.Styleable.View_paddingStart = global::LibMaker.Droid.Resource.Styleable.View_paddingStart;
-			global::Ys.TFLite.Droid.Resource.Styleable.View_theme = global::LibMaker.Droid.Resource.Styleable.View_theme;
 		}
 		
 		public partial class Animation
@@ -4809,12 +315,6 @@ namespace LibMaker.Droid
 			
 			// aapt resource value: 0x7F01001F
 			public const int mtrl_card_lowers_interpolator = 2130771999;
-			
-			// aapt resource value: 0x7F010020
-			public const int slide_in_right = 2130772000;
-			
-			// aapt resource value: 0x7F010021
-			public const int slide_out_right = 2130772001;
 			
 			static Animation()
 			{
@@ -4920,2684 +420,2675 @@ namespace LibMaker.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7F030003
-			public const int actionBarDivider = 2130903043;
-			
-			// aapt resource value: 0x7F030004
-			public const int actionBarItemBackground = 2130903044;
-			
-			// aapt resource value: 0x7F030005
-			public const int actionBarPopupTheme = 2130903045;
-			
-			// aapt resource value: 0x7F030006
-			public const int actionBarSize = 2130903046;
-			
-			// aapt resource value: 0x7F030007
-			public const int actionBarSplitStyle = 2130903047;
-			
-			// aapt resource value: 0x7F030008
-			public const int actionBarStyle = 2130903048;
-			
-			// aapt resource value: 0x7F030009
-			public const int actionBarTabBarStyle = 2130903049;
-			
-			// aapt resource value: 0x7F03000A
-			public const int actionBarTabStyle = 2130903050;
-			
-			// aapt resource value: 0x7F03000B
-			public const int actionBarTabTextStyle = 2130903051;
-			
-			// aapt resource value: 0x7F03000C
-			public const int actionBarTheme = 2130903052;
-			
-			// aapt resource value: 0x7F03000D
-			public const int actionBarWidgetTheme = 2130903053;
-			
-			// aapt resource value: 0x7F03000E
-			public const int actionButtonStyle = 2130903054;
-			
-			// aapt resource value: 0x7F03000F
-			public const int actionDropDownStyle = 2130903055;
-			
-			// aapt resource value: 0x7F030010
-			public const int actionLayout = 2130903056;
-			
-			// aapt resource value: 0x7F030011
-			public const int actionMenuTextAppearance = 2130903057;
-			
-			// aapt resource value: 0x7F030012
-			public const int actionMenuTextColor = 2130903058;
-			
-			// aapt resource value: 0x7F030013
-			public const int actionModeBackground = 2130903059;
-			
-			// aapt resource value: 0x7F030014
-			public const int actionModeCloseButtonStyle = 2130903060;
-			
-			// aapt resource value: 0x7F030015
-			public const int actionModeCloseDrawable = 2130903061;
-			
-			// aapt resource value: 0x7F030016
-			public const int actionModeCopyDrawable = 2130903062;
-			
-			// aapt resource value: 0x7F030017
-			public const int actionModeCutDrawable = 2130903063;
-			
-			// aapt resource value: 0x7F030018
-			public const int actionModeFindDrawable = 2130903064;
-			
-			// aapt resource value: 0x7F030019
-			public const int actionModePasteDrawable = 2130903065;
-			
-			// aapt resource value: 0x7F03001A
-			public const int actionModePopupWindowStyle = 2130903066;
-			
-			// aapt resource value: 0x7F03001B
-			public const int actionModeSelectAllDrawable = 2130903067;
-			
-			// aapt resource value: 0x7F03001C
-			public const int actionModeShareDrawable = 2130903068;
-			
-			// aapt resource value: 0x7F03001D
-			public const int actionModeSplitBackground = 2130903069;
-			
-			// aapt resource value: 0x7F03001E
-			public const int actionModeStyle = 2130903070;
-			
-			// aapt resource value: 0x7F03001F
-			public const int actionModeWebSearchDrawable = 2130903071;
-			
-			// aapt resource value: 0x7F030020
-			public const int actionOverflowButtonStyle = 2130903072;
-			
-			// aapt resource value: 0x7F030021
-			public const int actionOverflowMenuStyle = 2130903073;
-			
-			// aapt resource value: 0x7F030022
-			public const int actionProviderClass = 2130903074;
-			
-			// aapt resource value: 0x7F030023
-			public const int actionTextColorAlpha = 2130903075;
-			
-			// aapt resource value: 0x7F030024
-			public const int actionViewClass = 2130903076;
-			
-			// aapt resource value: 0x7F030025
-			public const int activityChooserViewStyle = 2130903077;
-			
-			// aapt resource value: 0x7F030026
-			public const int alertDialogButtonGroupStyle = 2130903078;
-			
-			// aapt resource value: 0x7F030027
-			public const int alertDialogCenterButtons = 2130903079;
-			
-			// aapt resource value: 0x7F030028
-			public const int alertDialogStyle = 2130903080;
-			
-			// aapt resource value: 0x7F030029
-			public const int alertDialogTheme = 2130903081;
-			
-			// aapt resource value: 0x7F03002A
-			public const int allowStacking = 2130903082;
-			
-			// aapt resource value: 0x7F03002B
-			public const int alpha = 2130903083;
-			
-			// aapt resource value: 0x7F03002C
-			public const int alphabeticModifiers = 2130903084;
-			
-			// aapt resource value: 0x7F03002D
-			public const int altSrc = 2130903085;
-			
-			// aapt resource value: 0x7F03002E
-			public const int animate_relativeTo = 2130903086;
-			
-			// aapt resource value: 0x7F03002F
-			public const int animationMode = 2130903087;
-			
-			// aapt resource value: 0x7F030030
-			public const int appBarLayoutStyle = 2130903088;
-			
-			// aapt resource value: 0x7F030031
-			public const int applyMotionScene = 2130903089;
-			
-			// aapt resource value: 0x7F030032
-			public const int arcMode = 2130903090;
-			
-			// aapt resource value: 0x7F030033
-			public const int arrowHeadLength = 2130903091;
-			
-			// aapt resource value: 0x7F030034
-			public const int arrowShaftLength = 2130903092;
-			
-			// aapt resource value: 0x7F030035
-			public const int attributeName = 2130903093;
-			
-			// aapt resource value: 0x7F030036
-			public const int autoCompleteTextViewStyle = 2130903094;
-			
-			// aapt resource value: 0x7F030037
-			public const int autoSizeMaxTextSize = 2130903095;
-			
-			// aapt resource value: 0x7F030038
-			public const int autoSizeMinTextSize = 2130903096;
-			
-			// aapt resource value: 0x7F030039
-			public const int autoSizePresetSizes = 2130903097;
-			
-			// aapt resource value: 0x7F03003A
-			public const int autoSizeStepGranularity = 2130903098;
-			
-			// aapt resource value: 0x7F03003B
-			public const int autoSizeTextType = 2130903099;
-			
-			// aapt resource value: 0x7F03003C
-			public const int autoTransition = 2130903100;
-			
-			// aapt resource value: 0x7F03003D
-			public const int background = 2130903101;
-			
-			// aapt resource value: 0x7F03003E
-			public const int backgroundColor = 2130903102;
-			
-			// aapt resource value: 0x7F03003F
-			public const int backgroundInsetBottom = 2130903103;
-			
-			// aapt resource value: 0x7F030040
-			public const int backgroundInsetEnd = 2130903104;
-			
-			// aapt resource value: 0x7F030041
-			public const int backgroundInsetStart = 2130903105;
-			
-			// aapt resource value: 0x7F030042
-			public const int backgroundInsetTop = 2130903106;
-			
-			// aapt resource value: 0x7F030043
-			public const int backgroundOverlayColorAlpha = 2130903107;
-			
-			// aapt resource value: 0x7F030044
-			public const int backgroundSplit = 2130903108;
-			
-			// aapt resource value: 0x7F030045
-			public const int backgroundStacked = 2130903109;
-			
-			// aapt resource value: 0x7F030046
-			public const int backgroundTint = 2130903110;
-			
-			// aapt resource value: 0x7F030047
-			public const int backgroundTintMode = 2130903111;
-			
-			// aapt resource value: 0x7F030048
-			public const int badgeGravity = 2130903112;
-			
-			// aapt resource value: 0x7F030049
-			public const int badgeStyle = 2130903113;
-			
-			// aapt resource value: 0x7F03004A
-			public const int badgeTextColor = 2130903114;
-			
-			// aapt resource value: 0x7F03004B
-			public const int barLength = 2130903115;
-			
-			// aapt resource value: 0x7F03004C
-			public const int barrierAllowsGoneWidgets = 2130903116;
-			
-			// aapt resource value: 0x7F03004D
-			public const int barrierDirection = 2130903117;
-			
-			// aapt resource value: 0x7F03004E
-			public const int barrierMargin = 2130903118;
-			
-			// aapt resource value: 0x7F03004F
-			public const int behavior_autoHide = 2130903119;
-			
-			// aapt resource value: 0x7F030050
-			public const int behavior_autoShrink = 2130903120;
-			
-			// aapt resource value: 0x7F030051
-			public const int behavior_draggable = 2130903121;
-			
-			// aapt resource value: 0x7F030052
-			public const int behavior_expandedOffset = 2130903122;
-			
-			// aapt resource value: 0x7F030053
-			public const int behavior_fitToContents = 2130903123;
-			
-			// aapt resource value: 0x7F030054
-			public const int behavior_halfExpandedRatio = 2130903124;
-			
-			// aapt resource value: 0x7F030055
-			public const int behavior_hideable = 2130903125;
-			
-			// aapt resource value: 0x7F030056
-			public const int behavior_overlapTop = 2130903126;
-			
-			// aapt resource value: 0x7F030057
-			public const int behavior_peekHeight = 2130903127;
-			
-			// aapt resource value: 0x7F030058
-			public const int behavior_saveFlags = 2130903128;
-			
-			// aapt resource value: 0x7F030059
-			public const int behavior_skipCollapsed = 2130903129;
-			
-			// aapt resource value: 0x7F03005B
-			public const int borderlessButtonStyle = 2130903131;
-			
-			// aapt resource value: 0x7F03005A
-			public const int borderWidth = 2130903130;
-			
-			// aapt resource value: 0x7F03005C
-			public const int bottomAppBarStyle = 2130903132;
-			
-			// aapt resource value: 0x7F03005D
-			public const int bottomNavigationStyle = 2130903133;
-			
-			// aapt resource value: 0x7F03005E
-			public const int bottomSheetDialogTheme = 2130903134;
-			
-			// aapt resource value: 0x7F03005F
-			public const int bottomSheetStyle = 2130903135;
-			
-			// aapt resource value: 0x7F030060
-			public const int boxBackgroundColor = 2130903136;
-			
-			// aapt resource value: 0x7F030061
-			public const int boxBackgroundMode = 2130903137;
-			
-			// aapt resource value: 0x7F030062
-			public const int boxCollapsedPaddingTop = 2130903138;
-			
-			// aapt resource value: 0x7F030063
-			public const int boxCornerRadiusBottomEnd = 2130903139;
-			
-			// aapt resource value: 0x7F030064
-			public const int boxCornerRadiusBottomStart = 2130903140;
-			
-			// aapt resource value: 0x7F030065
-			public const int boxCornerRadiusTopEnd = 2130903141;
-			
-			// aapt resource value: 0x7F030066
-			public const int boxCornerRadiusTopStart = 2130903142;
-			
-			// aapt resource value: 0x7F030067
-			public const int boxStrokeColor = 2130903143;
-			
-			// aapt resource value: 0x7F030068
-			public const int boxStrokeErrorColor = 2130903144;
-			
-			// aapt resource value: 0x7F030069
-			public const int boxStrokeWidth = 2130903145;
-			
-			// aapt resource value: 0x7F03006A
-			public const int boxStrokeWidthFocused = 2130903146;
-			
-			// aapt resource value: 0x7F03006B
-			public const int brightness = 2130903147;
-			
-			// aapt resource value: 0x7F03006C
-			public const int buttonBarButtonStyle = 2130903148;
-			
-			// aapt resource value: 0x7F03006D
-			public const int buttonBarNegativeButtonStyle = 2130903149;
-			
-			// aapt resource value: 0x7F03006E
-			public const int buttonBarNeutralButtonStyle = 2130903150;
-			
-			// aapt resource value: 0x7F03006F
-			public const int buttonBarPositiveButtonStyle = 2130903151;
-			
-			// aapt resource value: 0x7F030070
-			public const int buttonBarStyle = 2130903152;
-			
-			// aapt resource value: 0x7F030071
-			public const int buttonCompat = 2130903153;
-			
-			// aapt resource value: 0x7F030072
-			public const int buttonGravity = 2130903154;
-			
-			// aapt resource value: 0x7F030073
-			public const int buttonIconDimen = 2130903155;
-			
-			// aapt resource value: 0x7F030074
-			public const int buttonPanelSideLayout = 2130903156;
-			
-			// aapt resource value: 0x7F030075
-			public const int buttonStyle = 2130903157;
-			
-			// aapt resource value: 0x7F030076
-			public const int buttonStyleSmall = 2130903158;
-			
-			// aapt resource value: 0x7F030077
-			public const int buttonTint = 2130903159;
-			
-			// aapt resource value: 0x7F030078
-			public const int buttonTintMode = 2130903160;
-			
 			// aapt resource value: 0x7F030000
-			public const int Camera_Facing = 2130903040;
-			
-			// aapt resource value: 0x7F030079
-			public const int captureMode = 2130903161;
+			public const int actionBarDivider = 2130903040;
 			
 			// aapt resource value: 0x7F030001
-			public const int CapturePictureSize_Height = 2130903041;
+			public const int actionBarItemBackground = 2130903041;
 			
 			// aapt resource value: 0x7F030002
-			public const int CapturePictureSize_Width = 2130903042;
+			public const int actionBarPopupTheme = 2130903042;
+			
+			// aapt resource value: 0x7F030003
+			public const int actionBarSize = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int actionBarSplitStyle = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int actionBarStyle = 2130903045;
+			
+			// aapt resource value: 0x7F030006
+			public const int actionBarTabBarStyle = 2130903046;
+			
+			// aapt resource value: 0x7F030007
+			public const int actionBarTabStyle = 2130903047;
+			
+			// aapt resource value: 0x7F030008
+			public const int actionBarTabTextStyle = 2130903048;
+			
+			// aapt resource value: 0x7F030009
+			public const int actionBarTheme = 2130903049;
+			
+			// aapt resource value: 0x7F03000A
+			public const int actionBarWidgetTheme = 2130903050;
+			
+			// aapt resource value: 0x7F03000B
+			public const int actionButtonStyle = 2130903051;
+			
+			// aapt resource value: 0x7F03000C
+			public const int actionDropDownStyle = 2130903052;
+			
+			// aapt resource value: 0x7F03000D
+			public const int actionLayout = 2130903053;
+			
+			// aapt resource value: 0x7F03000E
+			public const int actionMenuTextAppearance = 2130903054;
+			
+			// aapt resource value: 0x7F03000F
+			public const int actionMenuTextColor = 2130903055;
+			
+			// aapt resource value: 0x7F030010
+			public const int actionModeBackground = 2130903056;
+			
+			// aapt resource value: 0x7F030011
+			public const int actionModeCloseButtonStyle = 2130903057;
+			
+			// aapt resource value: 0x7F030012
+			public const int actionModeCloseDrawable = 2130903058;
+			
+			// aapt resource value: 0x7F030013
+			public const int actionModeCopyDrawable = 2130903059;
+			
+			// aapt resource value: 0x7F030014
+			public const int actionModeCutDrawable = 2130903060;
+			
+			// aapt resource value: 0x7F030015
+			public const int actionModeFindDrawable = 2130903061;
+			
+			// aapt resource value: 0x7F030016
+			public const int actionModePasteDrawable = 2130903062;
+			
+			// aapt resource value: 0x7F030017
+			public const int actionModePopupWindowStyle = 2130903063;
+			
+			// aapt resource value: 0x7F030018
+			public const int actionModeSelectAllDrawable = 2130903064;
+			
+			// aapt resource value: 0x7F030019
+			public const int actionModeShareDrawable = 2130903065;
+			
+			// aapt resource value: 0x7F03001A
+			public const int actionModeSplitBackground = 2130903066;
+			
+			// aapt resource value: 0x7F03001B
+			public const int actionModeStyle = 2130903067;
+			
+			// aapt resource value: 0x7F03001C
+			public const int actionModeWebSearchDrawable = 2130903068;
+			
+			// aapt resource value: 0x7F03001D
+			public const int actionOverflowButtonStyle = 2130903069;
+			
+			// aapt resource value: 0x7F03001E
+			public const int actionOverflowMenuStyle = 2130903070;
+			
+			// aapt resource value: 0x7F03001F
+			public const int actionProviderClass = 2130903071;
+			
+			// aapt resource value: 0x7F030020
+			public const int actionTextColorAlpha = 2130903072;
+			
+			// aapt resource value: 0x7F030021
+			public const int actionViewClass = 2130903073;
+			
+			// aapt resource value: 0x7F030022
+			public const int activityChooserViewStyle = 2130903074;
+			
+			// aapt resource value: 0x7F030023
+			public const int alertDialogButtonGroupStyle = 2130903075;
+			
+			// aapt resource value: 0x7F030024
+			public const int alertDialogCenterButtons = 2130903076;
+			
+			// aapt resource value: 0x7F030025
+			public const int alertDialogStyle = 2130903077;
+			
+			// aapt resource value: 0x7F030026
+			public const int alertDialogTheme = 2130903078;
+			
+			// aapt resource value: 0x7F030027
+			public const int allowStacking = 2130903079;
+			
+			// aapt resource value: 0x7F030028
+			public const int alpha = 2130903080;
+			
+			// aapt resource value: 0x7F030029
+			public const int alphabeticModifiers = 2130903081;
+			
+			// aapt resource value: 0x7F03002A
+			public const int altSrc = 2130903082;
+			
+			// aapt resource value: 0x7F03002B
+			public const int animate_relativeTo = 2130903083;
+			
+			// aapt resource value: 0x7F03002C
+			public const int animationMode = 2130903084;
+			
+			// aapt resource value: 0x7F03002D
+			public const int appBarLayoutStyle = 2130903085;
+			
+			// aapt resource value: 0x7F03002E
+			public const int applyMotionScene = 2130903086;
+			
+			// aapt resource value: 0x7F03002F
+			public const int arcMode = 2130903087;
+			
+			// aapt resource value: 0x7F030030
+			public const int arrowHeadLength = 2130903088;
+			
+			// aapt resource value: 0x7F030031
+			public const int arrowShaftLength = 2130903089;
+			
+			// aapt resource value: 0x7F030032
+			public const int attributeName = 2130903090;
+			
+			// aapt resource value: 0x7F030033
+			public const int autoCompleteTextViewStyle = 2130903091;
+			
+			// aapt resource value: 0x7F030034
+			public const int autoSizeMaxTextSize = 2130903092;
+			
+			// aapt resource value: 0x7F030035
+			public const int autoSizeMinTextSize = 2130903093;
+			
+			// aapt resource value: 0x7F030036
+			public const int autoSizePresetSizes = 2130903094;
+			
+			// aapt resource value: 0x7F030037
+			public const int autoSizeStepGranularity = 2130903095;
+			
+			// aapt resource value: 0x7F030038
+			public const int autoSizeTextType = 2130903096;
+			
+			// aapt resource value: 0x7F030039
+			public const int autoTransition = 2130903097;
+			
+			// aapt resource value: 0x7F03003A
+			public const int background = 2130903098;
+			
+			// aapt resource value: 0x7F03003B
+			public const int backgroundColor = 2130903099;
+			
+			// aapt resource value: 0x7F03003C
+			public const int backgroundInsetBottom = 2130903100;
+			
+			// aapt resource value: 0x7F03003D
+			public const int backgroundInsetEnd = 2130903101;
+			
+			// aapt resource value: 0x7F03003E
+			public const int backgroundInsetStart = 2130903102;
+			
+			// aapt resource value: 0x7F03003F
+			public const int backgroundInsetTop = 2130903103;
+			
+			// aapt resource value: 0x7F030040
+			public const int backgroundOverlayColorAlpha = 2130903104;
+			
+			// aapt resource value: 0x7F030041
+			public const int backgroundSplit = 2130903105;
+			
+			// aapt resource value: 0x7F030042
+			public const int backgroundStacked = 2130903106;
+			
+			// aapt resource value: 0x7F030043
+			public const int backgroundTint = 2130903107;
+			
+			// aapt resource value: 0x7F030044
+			public const int backgroundTintMode = 2130903108;
+			
+			// aapt resource value: 0x7F030045
+			public const int badgeGravity = 2130903109;
+			
+			// aapt resource value: 0x7F030046
+			public const int badgeStyle = 2130903110;
+			
+			// aapt resource value: 0x7F030047
+			public const int badgeTextColor = 2130903111;
+			
+			// aapt resource value: 0x7F030048
+			public const int barLength = 2130903112;
+			
+			// aapt resource value: 0x7F030049
+			public const int barrierAllowsGoneWidgets = 2130903113;
+			
+			// aapt resource value: 0x7F03004A
+			public const int barrierDirection = 2130903114;
+			
+			// aapt resource value: 0x7F03004B
+			public const int barrierMargin = 2130903115;
+			
+			// aapt resource value: 0x7F03004C
+			public const int behavior_autoHide = 2130903116;
+			
+			// aapt resource value: 0x7F03004D
+			public const int behavior_autoShrink = 2130903117;
+			
+			// aapt resource value: 0x7F03004E
+			public const int behavior_draggable = 2130903118;
+			
+			// aapt resource value: 0x7F03004F
+			public const int behavior_expandedOffset = 2130903119;
+			
+			// aapt resource value: 0x7F030050
+			public const int behavior_fitToContents = 2130903120;
+			
+			// aapt resource value: 0x7F030051
+			public const int behavior_halfExpandedRatio = 2130903121;
+			
+			// aapt resource value: 0x7F030052
+			public const int behavior_hideable = 2130903122;
+			
+			// aapt resource value: 0x7F030053
+			public const int behavior_overlapTop = 2130903123;
+			
+			// aapt resource value: 0x7F030054
+			public const int behavior_peekHeight = 2130903124;
+			
+			// aapt resource value: 0x7F030055
+			public const int behavior_saveFlags = 2130903125;
+			
+			// aapt resource value: 0x7F030056
+			public const int behavior_skipCollapsed = 2130903126;
+			
+			// aapt resource value: 0x7F030058
+			public const int borderlessButtonStyle = 2130903128;
+			
+			// aapt resource value: 0x7F030057
+			public const int borderWidth = 2130903127;
+			
+			// aapt resource value: 0x7F030059
+			public const int bottomAppBarStyle = 2130903129;
+			
+			// aapt resource value: 0x7F03005A
+			public const int bottomNavigationStyle = 2130903130;
+			
+			// aapt resource value: 0x7F03005B
+			public const int bottomSheetDialogTheme = 2130903131;
+			
+			// aapt resource value: 0x7F03005C
+			public const int bottomSheetStyle = 2130903132;
+			
+			// aapt resource value: 0x7F03005D
+			public const int boxBackgroundColor = 2130903133;
+			
+			// aapt resource value: 0x7F03005E
+			public const int boxBackgroundMode = 2130903134;
+			
+			// aapt resource value: 0x7F03005F
+			public const int boxCollapsedPaddingTop = 2130903135;
+			
+			// aapt resource value: 0x7F030060
+			public const int boxCornerRadiusBottomEnd = 2130903136;
+			
+			// aapt resource value: 0x7F030061
+			public const int boxCornerRadiusBottomStart = 2130903137;
+			
+			// aapt resource value: 0x7F030062
+			public const int boxCornerRadiusTopEnd = 2130903138;
+			
+			// aapt resource value: 0x7F030063
+			public const int boxCornerRadiusTopStart = 2130903139;
+			
+			// aapt resource value: 0x7F030064
+			public const int boxStrokeColor = 2130903140;
+			
+			// aapt resource value: 0x7F030065
+			public const int boxStrokeErrorColor = 2130903141;
+			
+			// aapt resource value: 0x7F030066
+			public const int boxStrokeWidth = 2130903142;
+			
+			// aapt resource value: 0x7F030067
+			public const int boxStrokeWidthFocused = 2130903143;
+			
+			// aapt resource value: 0x7F030068
+			public const int brightness = 2130903144;
+			
+			// aapt resource value: 0x7F030069
+			public const int buttonBarButtonStyle = 2130903145;
+			
+			// aapt resource value: 0x7F03006A
+			public const int buttonBarNegativeButtonStyle = 2130903146;
+			
+			// aapt resource value: 0x7F03006B
+			public const int buttonBarNeutralButtonStyle = 2130903147;
+			
+			// aapt resource value: 0x7F03006C
+			public const int buttonBarPositiveButtonStyle = 2130903148;
+			
+			// aapt resource value: 0x7F03006D
+			public const int buttonBarStyle = 2130903149;
+			
+			// aapt resource value: 0x7F03006E
+			public const int buttonCompat = 2130903150;
+			
+			// aapt resource value: 0x7F03006F
+			public const int buttonGravity = 2130903151;
+			
+			// aapt resource value: 0x7F030070
+			public const int buttonIconDimen = 2130903152;
+			
+			// aapt resource value: 0x7F030071
+			public const int buttonPanelSideLayout = 2130903153;
+			
+			// aapt resource value: 0x7F030072
+			public const int buttonStyle = 2130903154;
+			
+			// aapt resource value: 0x7F030073
+			public const int buttonStyleSmall = 2130903155;
+			
+			// aapt resource value: 0x7F030074
+			public const int buttonTint = 2130903156;
+			
+			// aapt resource value: 0x7F030075
+			public const int buttonTintMode = 2130903157;
+			
+			// aapt resource value: 0x7F030076
+			public const int captureMode = 2130903158;
+			
+			// aapt resource value: 0x7F030077
+			public const int cardBackgroundColor = 2130903159;
+			
+			// aapt resource value: 0x7F030078
+			public const int cardCornerRadius = 2130903160;
+			
+			// aapt resource value: 0x7F030079
+			public const int cardElevation = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int cardBackgroundColor = 2130903162;
+			public const int cardForegroundColor = 2130903162;
 			
 			// aapt resource value: 0x7F03007B
-			public const int cardCornerRadius = 2130903163;
+			public const int cardMaxElevation = 2130903163;
 			
 			// aapt resource value: 0x7F03007C
-			public const int cardElevation = 2130903164;
+			public const int cardPreventCornerOverlap = 2130903164;
 			
 			// aapt resource value: 0x7F03007D
-			public const int cardForegroundColor = 2130903165;
+			public const int cardUseCompatPadding = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int cardMaxElevation = 2130903166;
+			public const int cardViewStyle = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int cardPreventCornerOverlap = 2130903167;
+			public const int chainUseRtl = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int cardUseCompatPadding = 2130903168;
+			public const int checkboxStyle = 2130903168;
 			
 			// aapt resource value: 0x7F030081
-			public const int cardViewStyle = 2130903169;
+			public const int checkedButton = 2130903169;
 			
 			// aapt resource value: 0x7F030082
-			public const int chainUseRtl = 2130903170;
+			public const int checkedChip = 2130903170;
 			
 			// aapt resource value: 0x7F030083
-			public const int checkboxStyle = 2130903171;
+			public const int checkedIcon = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int checkedButton = 2130903172;
+			public const int checkedIconEnabled = 2130903172;
 			
 			// aapt resource value: 0x7F030085
-			public const int checkedChip = 2130903173;
+			public const int checkedIconMargin = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int checkedIcon = 2130903174;
+			public const int checkedIconSize = 2130903174;
 			
 			// aapt resource value: 0x7F030087
-			public const int checkedIconEnabled = 2130903175;
+			public const int checkedIconTint = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int checkedIconMargin = 2130903176;
+			public const int checkedIconVisible = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int checkedIconSize = 2130903177;
+			public const int checkedTextViewStyle = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int checkedIconTint = 2130903178;
+			public const int chipBackgroundColor = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int checkedIconVisible = 2130903179;
+			public const int chipCornerRadius = 2130903179;
 			
 			// aapt resource value: 0x7F03008C
-			public const int checkedTextViewStyle = 2130903180;
+			public const int chipEndPadding = 2130903180;
 			
 			// aapt resource value: 0x7F03008D
-			public const int chipBackgroundColor = 2130903181;
+			public const int chipGroupStyle = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int chipCornerRadius = 2130903182;
+			public const int chipIcon = 2130903182;
 			
 			// aapt resource value: 0x7F03008F
-			public const int chipEndPadding = 2130903183;
+			public const int chipIconEnabled = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int chipGroupStyle = 2130903184;
+			public const int chipIconSize = 2130903184;
 			
 			// aapt resource value: 0x7F030091
-			public const int chipIcon = 2130903185;
+			public const int chipIconTint = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int chipIconEnabled = 2130903186;
+			public const int chipIconVisible = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int chipIconSize = 2130903187;
+			public const int chipMinHeight = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int chipIconTint = 2130903188;
+			public const int chipMinTouchTargetSize = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int chipIconVisible = 2130903189;
+			public const int chipSpacing = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int chipMinHeight = 2130903190;
+			public const int chipSpacingHorizontal = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int chipMinTouchTargetSize = 2130903191;
+			public const int chipSpacingVertical = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int chipSpacing = 2130903192;
+			public const int chipStandaloneStyle = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int chipSpacingHorizontal = 2130903193;
+			public const int chipStartPadding = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int chipSpacingVertical = 2130903194;
+			public const int chipStrokeColor = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int chipStandaloneStyle = 2130903195;
+			public const int chipStrokeWidth = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int chipStartPadding = 2130903196;
+			public const int chipStyle = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int chipStrokeColor = 2130903197;
+			public const int chipSurfaceColor = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int chipStrokeWidth = 2130903198;
+			public const int circleRadius = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int chipStyle = 2130903199;
+			public const int circularProgressIndicatorStyle = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int chipSurfaceColor = 2130903200;
+			public const int clickAction = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int circleRadius = 2130903201;
+			public const int clockFaceBackgroundColor = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int circularProgressIndicatorStyle = 2130903202;
+			public const int clockHandColor = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int clickAction = 2130903203;
+			public const int clockIcon = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int clockFaceBackgroundColor = 2130903204;
+			public const int clockNumberTextColor = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int clockHandColor = 2130903205;
+			public const int closeIcon = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int clockIcon = 2130903206;
+			public const int closeIconEnabled = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int clockNumberTextColor = 2130903207;
+			public const int closeIconEndPadding = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int closeIcon = 2130903208;
+			public const int closeIconSize = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int closeIconEnabled = 2130903209;
+			public const int closeIconStartPadding = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int closeIconEndPadding = 2130903210;
+			public const int closeIconTint = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int closeIconSize = 2130903211;
+			public const int closeIconVisible = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int closeIconStartPadding = 2130903212;
+			public const int closeItemLayout = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int closeIconTint = 2130903213;
-			
-			// aapt resource value: 0x7F0300AE
-			public const int closeIconVisible = 2130903214;
+			public const int collapseContentDescription = 2130903213;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int closeItemLayout = 2130903215;
+			public const int collapsedSize = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int collapseContentDescription = 2130903216;
-			
-			// aapt resource value: 0x7F0300B2
-			public const int collapsedSize = 2130903218;
-			
-			// aapt resource value: 0x7F0300B3
-			public const int collapsedTitleGravity = 2130903219;
-			
-			// aapt resource value: 0x7F0300B4
-			public const int collapsedTitleTextAppearance = 2130903220;
+			public const int collapsedTitleGravity = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int collapseIcon = 2130903217;
+			public const int collapsedTitleTextAppearance = 2130903217;
+			
+			// aapt resource value: 0x7F0300AE
+			public const int collapseIcon = 2130903214;
+			
+			// aapt resource value: 0x7F0300B2
+			public const int collapsingToolbarLayoutStyle = 2130903218;
+			
+			// aapt resource value: 0x7F0300B3
+			public const int color = 2130903219;
+			
+			// aapt resource value: 0x7F0300B4
+			public const int colorAccent = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int collapsingToolbarLayoutStyle = 2130903221;
+			public const int colorBackgroundFloating = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int color = 2130903222;
+			public const int colorButtonNormal = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int colorAccent = 2130903223;
+			public const int colorControlActivated = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int colorBackgroundFloating = 2130903224;
+			public const int colorControlHighlight = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int colorButtonNormal = 2130903225;
+			public const int colorControlNormal = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int colorControlActivated = 2130903226;
+			public const int colorError = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int colorControlHighlight = 2130903227;
+			public const int colorOnBackground = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int colorControlNormal = 2130903228;
+			public const int colorOnError = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int colorError = 2130903229;
+			public const int colorOnPrimary = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int colorOnBackground = 2130903230;
+			public const int colorOnPrimarySurface = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int colorOnError = 2130903231;
+			public const int colorOnSecondary = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int colorOnPrimary = 2130903232;
+			public const int colorOnSurface = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int colorOnPrimarySurface = 2130903233;
+			public const int colorPrimary = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int colorOnSecondary = 2130903234;
+			public const int colorPrimaryDark = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int colorOnSurface = 2130903235;
+			public const int colorPrimarySurface = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int colorPrimary = 2130903236;
+			public const int colorPrimaryVariant = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int colorPrimaryDark = 2130903237;
+			public const int colorSecondary = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int colorPrimarySurface = 2130903238;
+			public const int colorSecondaryVariant = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int colorPrimaryVariant = 2130903239;
+			public const int colorSurface = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int colorSecondary = 2130903240;
+			public const int colorSwitchThumbNormal = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int colorSecondaryVariant = 2130903241;
-			
-			// aapt resource value: 0x7F0300CA
-			public const int colorSurface = 2130903242;
-			
-			// aapt resource value: 0x7F0300CB
-			public const int colorSwitchThumbNormal = 2130903243;
-			
-			// aapt resource value: 0x7F0300CC
-			public const int commitIcon = 2130903244;
-			
-			// aapt resource value: 0x7F0300D2
-			public const int constraints = 2130903250;
-			
-			// aapt resource value: 0x7F0300CD
-			public const int constraintSet = 2130903245;
-			
-			// aapt resource value: 0x7F0300CE
-			public const int constraintSetEnd = 2130903246;
+			public const int commitIcon = 2130903241;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int constraintSetStart = 2130903247;
+			public const int constraints = 2130903247;
+			
+			// aapt resource value: 0x7F0300CA
+			public const int constraintSet = 2130903242;
+			
+			// aapt resource value: 0x7F0300CB
+			public const int constraintSetEnd = 2130903243;
+			
+			// aapt resource value: 0x7F0300CC
+			public const int constraintSetStart = 2130903244;
+			
+			// aapt resource value: 0x7F0300CD
+			public const int constraint_referenced_ids = 2130903245;
+			
+			// aapt resource value: 0x7F0300CE
+			public const int constraint_referenced_tags = 2130903246;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int constraint_referenced_ids = 2130903248;
+			public const int content = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int constraint_referenced_tags = 2130903249;
+			public const int contentDescription = 2130903249;
+			
+			// aapt resource value: 0x7F0300D2
+			public const int contentInsetEnd = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int content = 2130903251;
+			public const int contentInsetEndWithActions = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int contentDescription = 2130903252;
+			public const int contentInsetLeft = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int contentInsetEnd = 2130903253;
+			public const int contentInsetRight = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int contentInsetEndWithActions = 2130903254;
+			public const int contentInsetStart = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int contentInsetLeft = 2130903255;
+			public const int contentInsetStartWithNavigation = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int contentInsetRight = 2130903256;
+			public const int contentPadding = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int contentInsetStart = 2130903257;
+			public const int contentPaddingBottom = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int contentInsetStartWithNavigation = 2130903258;
+			public const int contentPaddingEnd = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int contentPadding = 2130903259;
+			public const int contentPaddingLeft = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int contentPaddingBottom = 2130903260;
+			public const int contentPaddingRight = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int contentPaddingEnd = 2130903261;
+			public const int contentPaddingStart = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int contentPaddingLeft = 2130903262;
+			public const int contentPaddingTop = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int contentPaddingRight = 2130903263;
+			public const int contentScrim = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int contentPaddingStart = 2130903264;
+			public const int contrast = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int contentPaddingTop = 2130903265;
+			public const int controlBackground = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int contentScrim = 2130903266;
+			public const int coordinatorLayoutStyle = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int contrast = 2130903267;
+			public const int cornerFamily = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int controlBackground = 2130903268;
+			public const int cornerFamilyBottomLeft = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int coordinatorLayoutStyle = 2130903269;
+			public const int cornerFamilyBottomRight = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int cornerFamily = 2130903270;
+			public const int cornerFamilyTopLeft = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int cornerFamilyBottomLeft = 2130903271;
+			public const int cornerFamilyTopRight = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int cornerFamilyBottomRight = 2130903272;
+			public const int cornerRadius = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int cornerFamilyTopLeft = 2130903273;
+			public const int cornerSize = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int cornerFamilyTopRight = 2130903274;
+			public const int cornerSizeBottomLeft = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int cornerRadius = 2130903275;
+			public const int cornerSizeBottomRight = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int cornerSize = 2130903276;
+			public const int cornerSizeTopLeft = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int cornerSizeBottomLeft = 2130903277;
+			public const int cornerSizeTopRight = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int cornerSizeBottomRight = 2130903278;
+			public const int counterEnabled = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int cornerSizeTopLeft = 2130903279;
+			public const int counterMaxLength = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int cornerSizeTopRight = 2130903280;
+			public const int counterOverflowTextAppearance = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int counterEnabled = 2130903281;
+			public const int counterOverflowTextColor = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int counterMaxLength = 2130903282;
+			public const int counterTextAppearance = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int counterOverflowTextAppearance = 2130903283;
+			public const int counterTextColor = 2130903283;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int counterOverflowTextColor = 2130903284;
+			public const int crossfade = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int counterTextAppearance = 2130903285;
+			public const int currentState = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int counterTextColor = 2130903286;
+			public const int curveFit = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int crossfade = 2130903287;
+			public const int customBoolean = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int currentState = 2130903288;
+			public const int customColorDrawableValue = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int curveFit = 2130903289;
+			public const int customColorValue = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int customBoolean = 2130903290;
+			public const int customDimension = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int customColorDrawableValue = 2130903291;
+			public const int customFloatValue = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int customColorValue = 2130903292;
+			public const int customIntegerValue = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int customDimension = 2130903293;
+			public const int customNavigationLayout = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int customFloatValue = 2130903294;
+			public const int customPixelDimension = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int customIntegerValue = 2130903295;
+			public const int customStringValue = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int customNavigationLayout = 2130903296;
+			public const int dayInvalidStyle = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int customPixelDimension = 2130903297;
+			public const int daySelectedStyle = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int customStringValue = 2130903298;
+			public const int dayStyle = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int dayInvalidStyle = 2130903299;
+			public const int dayTodayStyle = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int daySelectedStyle = 2130903300;
+			public const int defaultDuration = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int dayStyle = 2130903301;
+			public const int defaultQueryHint = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int dayTodayStyle = 2130903302;
+			public const int defaultState = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int defaultDuration = 2130903303;
+			public const int deltaPolarAngle = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int defaultQueryHint = 2130903304;
+			public const int deltaPolarRadius = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int defaultState = 2130903305;
+			public const int deriveConstraintsFrom = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int deltaPolarAngle = 2130903306;
+			public const int dialogCornerRadius = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int deltaPolarRadius = 2130903307;
+			public const int dialogPreferredPadding = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int deriveConstraintsFrom = 2130903308;
+			public const int dialogTheme = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int dialogCornerRadius = 2130903309;
+			public const int displayOptions = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int dialogPreferredPadding = 2130903310;
+			public const int divider = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int dialogTheme = 2130903311;
+			public const int dividerHorizontal = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int displayOptions = 2130903312;
+			public const int dividerPadding = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int divider = 2130903313;
+			public const int dividerVertical = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int dividerHorizontal = 2130903314;
+			public const int dragDirection = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int dividerPadding = 2130903315;
+			public const int dragScale = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int dividerVertical = 2130903316;
-			
-			// aapt resource value: 0x7F030115
-			public const int dragDirection = 2130903317;
+			public const int dragThreshold = 2130903316;
 			
 			// aapt resource value: 0x7F030116
-			public const int dragScale = 2130903318;
+			public const int drawableBottomCompat = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int dragThreshold = 2130903319;
-			
-			// aapt resource value: 0x7F030119
-			public const int drawableBottomCompat = 2130903321;
-			
-			// aapt resource value: 0x7F03011A
-			public const int drawableEndCompat = 2130903322;
-			
-			// aapt resource value: 0x7F03011B
-			public const int drawableLeftCompat = 2130903323;
-			
-			// aapt resource value: 0x7F03011C
-			public const int drawableRightCompat = 2130903324;
-			
-			// aapt resource value: 0x7F03011D
-			public const int drawableSize = 2130903325;
-			
-			// aapt resource value: 0x7F03011E
-			public const int drawableStartCompat = 2130903326;
-			
-			// aapt resource value: 0x7F03011F
-			public const int drawableTint = 2130903327;
-			
-			// aapt resource value: 0x7F030120
-			public const int drawableTintMode = 2130903328;
-			
-			// aapt resource value: 0x7F030121
-			public const int drawableTopCompat = 2130903329;
-			
-			// aapt resource value: 0x7F030122
-			public const int drawerArrowStyle = 2130903330;
-			
-			// aapt resource value: 0x7F030123
-			public const int drawerLayoutStyle = 2130903331;
+			public const int drawableEndCompat = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int drawPath = 2130903320;
+			public const int drawableLeftCompat = 2130903320;
 			
-			// aapt resource value: 0x7F030125
-			public const int dropdownListPreferredItemHeight = 2130903333;
+			// aapt resource value: 0x7F030119
+			public const int drawableRightCompat = 2130903321;
+			
+			// aapt resource value: 0x7F03011A
+			public const int drawableSize = 2130903322;
+			
+			// aapt resource value: 0x7F03011B
+			public const int drawableStartCompat = 2130903323;
+			
+			// aapt resource value: 0x7F03011C
+			public const int drawableTint = 2130903324;
+			
+			// aapt resource value: 0x7F03011D
+			public const int drawableTintMode = 2130903325;
+			
+			// aapt resource value: 0x7F03011E
+			public const int drawableTopCompat = 2130903326;
+			
+			// aapt resource value: 0x7F03011F
+			public const int drawerArrowStyle = 2130903327;
+			
+			// aapt resource value: 0x7F030120
+			public const int drawerLayoutStyle = 2130903328;
+			
+			// aapt resource value: 0x7F030115
+			public const int drawPath = 2130903317;
+			
+			// aapt resource value: 0x7F030122
+			public const int dropdownListPreferredItemHeight = 2130903330;
+			
+			// aapt resource value: 0x7F030121
+			public const int dropDownListViewStyle = 2130903329;
+			
+			// aapt resource value: 0x7F030123
+			public const int duration = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int dropDownListViewStyle = 2130903332;
+			public const int editTextBackground = 2130903332;
+			
+			// aapt resource value: 0x7F030125
+			public const int editTextColor = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int duration = 2130903334;
+			public const int editTextStyle = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int editTextBackground = 2130903335;
+			public const int elevation = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int editTextColor = 2130903336;
+			public const int elevationOverlayColor = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int editTextStyle = 2130903337;
+			public const int elevationOverlayEnabled = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int elevation = 2130903338;
+			public const int endIconCheckable = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int elevationOverlayColor = 2130903339;
+			public const int endIconContentDescription = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int elevationOverlayEnabled = 2130903340;
+			public const int endIconDrawable = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int endIconCheckable = 2130903341;
+			public const int endIconMode = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int endIconContentDescription = 2130903342;
+			public const int endIconTint = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int endIconDrawable = 2130903343;
+			public const int endIconTintMode = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int endIconMode = 2130903344;
+			public const int enforceMaterialTheme = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int endIconTint = 2130903345;
+			public const int enforceTextAppearance = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int endIconTintMode = 2130903346;
+			public const int ensureMinTouchTargetSize = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int enforceMaterialTheme = 2130903347;
+			public const int errorContentDescription = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int enforceTextAppearance = 2130903348;
+			public const int errorEnabled = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int ensureMinTouchTargetSize = 2130903349;
+			public const int errorIconDrawable = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int errorContentDescription = 2130903350;
+			public const int errorIconTint = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int errorEnabled = 2130903351;
+			public const int errorIconTintMode = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int errorIconDrawable = 2130903352;
+			public const int errorTextAppearance = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int errorIconTint = 2130903353;
+			public const int errorTextColor = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int errorIconTintMode = 2130903354;
+			public const int expandActivityOverflowButtonDrawable = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int errorTextAppearance = 2130903355;
+			public const int expanded = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int errorTextColor = 2130903356;
+			public const int expandedHintEnabled = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int expandActivityOverflowButtonDrawable = 2130903357;
+			public const int expandedTitleGravity = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int expanded = 2130903358;
+			public const int expandedTitleMargin = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int expandedHintEnabled = 2130903359;
+			public const int expandedTitleMarginBottom = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int expandedTitleGravity = 2130903360;
+			public const int expandedTitleMarginEnd = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int expandedTitleMargin = 2130903361;
+			public const int expandedTitleMarginStart = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int expandedTitleMarginBottom = 2130903362;
+			public const int expandedTitleMarginTop = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int expandedTitleMarginEnd = 2130903363;
-			
-			// aapt resource value: 0x7F030144
-			public const int expandedTitleMarginStart = 2130903364;
+			public const int expandedTitleTextAppearance = 2130903363;
 			
 			// aapt resource value: 0x7F030145
-			public const int expandedTitleMarginTop = 2130903365;
+			public const int extendedFloatingActionButtonStyle = 2130903365;
+			
+			// aapt resource value: 0x7F030144
+			public const int extendMotionSpec = 2130903364;
 			
 			// aapt resource value: 0x7F030146
-			public const int expandedTitleTextAppearance = 2130903366;
-			
-			// aapt resource value: 0x7F030148
-			public const int extendedFloatingActionButtonStyle = 2130903368;
+			public const int fabAlignmentMode = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int extendMotionSpec = 2130903367;
+			public const int fabAnimationMode = 2130903367;
+			
+			// aapt resource value: 0x7F030148
+			public const int fabCradleMargin = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int fabAlignmentMode = 2130903369;
+			public const int fabCradleRoundedCornerRadius = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int fabAnimationMode = 2130903370;
+			public const int fabCradleVerticalOffset = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int fabCradleMargin = 2130903371;
+			public const int fabCustomSize = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int fabCradleRoundedCornerRadius = 2130903372;
+			public const int fabSize = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int fabCradleVerticalOffset = 2130903373;
+			public const int fastScrollEnabled = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int fabCustomSize = 2130903374;
+			public const int fastScrollHorizontalThumbDrawable = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int fabSize = 2130903375;
+			public const int fastScrollHorizontalTrackDrawable = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int fastScrollEnabled = 2130903376;
+			public const int fastScrollVerticalThumbDrawable = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int fastScrollHorizontalThumbDrawable = 2130903377;
+			public const int fastScrollVerticalTrackDrawable = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int fastScrollHorizontalTrackDrawable = 2130903378;
+			public const int firstBaselineToTopHeight = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int fastScrollVerticalThumbDrawable = 2130903379;
+			public const int flash = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int fastScrollVerticalTrackDrawable = 2130903380;
+			public const int floatingActionButtonStyle = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int firstBaselineToTopHeight = 2130903381;
+			public const int flow_firstHorizontalBias = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int flash = 2130903382;
+			public const int flow_firstHorizontalStyle = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int floatingActionButtonStyle = 2130903383;
+			public const int flow_firstVerticalBias = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int flow_firstHorizontalBias = 2130903384;
+			public const int flow_firstVerticalStyle = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int flow_firstHorizontalStyle = 2130903385;
+			public const int flow_horizontalAlign = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int flow_firstVerticalBias = 2130903386;
+			public const int flow_horizontalBias = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int flow_firstVerticalStyle = 2130903387;
+			public const int flow_horizontalGap = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int flow_horizontalAlign = 2130903388;
+			public const int flow_horizontalStyle = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int flow_horizontalBias = 2130903389;
+			public const int flow_lastHorizontalBias = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int flow_horizontalGap = 2130903390;
+			public const int flow_lastHorizontalStyle = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int flow_horizontalStyle = 2130903391;
+			public const int flow_lastVerticalBias = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int flow_lastHorizontalBias = 2130903392;
+			public const int flow_lastVerticalStyle = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int flow_lastHorizontalStyle = 2130903393;
+			public const int flow_maxElementsWrap = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int flow_lastVerticalBias = 2130903394;
+			public const int flow_padding = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int flow_lastVerticalStyle = 2130903395;
+			public const int flow_verticalAlign = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int flow_maxElementsWrap = 2130903396;
+			public const int flow_verticalBias = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int flow_padding = 2130903397;
+			public const int flow_verticalGap = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int flow_verticalAlign = 2130903398;
+			public const int flow_verticalStyle = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int flow_verticalBias = 2130903399;
+			public const int flow_wrapMode = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int flow_verticalGap = 2130903400;
+			public const int font = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int flow_verticalStyle = 2130903401;
+			public const int fontFamily = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int flow_wrapMode = 2130903402;
+			public const int fontProviderAuthority = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int font = 2130903403;
+			public const int fontProviderCerts = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int fontFamily = 2130903404;
+			public const int fontProviderFetchStrategy = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int fontProviderAuthority = 2130903405;
+			public const int fontProviderFetchTimeout = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int fontProviderCerts = 2130903406;
+			public const int fontProviderPackage = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int fontProviderFetchStrategy = 2130903407;
+			public const int fontProviderQuery = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int fontProviderFetchTimeout = 2130903408;
+			public const int fontStyle = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int fontProviderPackage = 2130903409;
+			public const int fontVariationSettings = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int fontProviderQuery = 2130903410;
+			public const int fontWeight = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int fontStyle = 2130903411;
+			public const int foregroundInsidePadding = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int fontVariationSettings = 2130903412;
+			public const int framePosition = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int fontWeight = 2130903413;
+			public const int gapBetweenBars = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int foregroundInsidePadding = 2130903414;
+			public const int gestureInsetBottomIgnored = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int framePosition = 2130903415;
+			public const int goIcon = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int gapBetweenBars = 2130903416;
+			public const int haloColor = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int gestureInsetBottomIgnored = 2130903417;
+			public const int haloRadius = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int goIcon = 2130903418;
+			public const int headerLayout = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int haloColor = 2130903419;
+			public const int height = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int haloRadius = 2130903420;
+			public const int helperText = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int headerLayout = 2130903421;
+			public const int helperTextEnabled = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int height = 2130903422;
+			public const int helperTextTextAppearance = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int helperText = 2130903423;
+			public const int helperTextTextColor = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int helperTextEnabled = 2130903424;
+			public const int hideAnimationBehavior = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int helperTextTextAppearance = 2130903425;
+			public const int hideMotionSpec = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int helperTextTextColor = 2130903426;
+			public const int hideOnContentScroll = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int hideAnimationBehavior = 2130903427;
+			public const int hideOnScroll = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int hideMotionSpec = 2130903428;
+			public const int hintAnimationEnabled = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int hideOnContentScroll = 2130903429;
+			public const int hintEnabled = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int hideOnScroll = 2130903430;
+			public const int hintTextAppearance = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int hintAnimationEnabled = 2130903431;
+			public const int hintTextColor = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int hintEnabled = 2130903432;
+			public const int homeAsUpIndicator = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int hintTextAppearance = 2130903433;
+			public const int homeLayout = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int hintTextColor = 2130903434;
+			public const int horizontalOffset = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int homeAsUpIndicator = 2130903435;
+			public const int hoveredFocusedTranslationZ = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int homeLayout = 2130903436;
+			public const int icon = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int horizontalOffset = 2130903437;
+			public const int iconEndPadding = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int hoveredFocusedTranslationZ = 2130903438;
-			
-			// aapt resource value: 0x7F03018F
-			public const int icon = 2130903439;
-			
-			// aapt resource value: 0x7F030190
-			public const int iconEndPadding = 2130903440;
-			
-			// aapt resource value: 0x7F030191
-			public const int iconGravity = 2130903441;
-			
-			// aapt resource value: 0x7F030197
-			public const int iconifiedByDefault = 2130903447;
-			
-			// aapt resource value: 0x7F030192
-			public const int iconPadding = 2130903442;
-			
-			// aapt resource value: 0x7F030193
-			public const int iconSize = 2130903443;
+			public const int iconGravity = 2130903438;
 			
 			// aapt resource value: 0x7F030194
-			public const int iconStartPadding = 2130903444;
+			public const int iconifiedByDefault = 2130903444;
+			
+			// aapt resource value: 0x7F03018F
+			public const int iconPadding = 2130903439;
+			
+			// aapt resource value: 0x7F030190
+			public const int iconSize = 2130903440;
+			
+			// aapt resource value: 0x7F030191
+			public const int iconStartPadding = 2130903441;
+			
+			// aapt resource value: 0x7F030192
+			public const int iconTint = 2130903442;
+			
+			// aapt resource value: 0x7F030193
+			public const int iconTintMode = 2130903443;
 			
 			// aapt resource value: 0x7F030195
-			public const int iconTint = 2130903445;
+			public const int imageButtonStyle = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int iconTintMode = 2130903446;
+			public const int implementationMode = 2130903446;
+			
+			// aapt resource value: 0x7F030197
+			public const int indeterminateAnimationType = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int imageButtonStyle = 2130903448;
+			public const int indeterminateProgressStyle = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int implementationMode = 2130903449;
+			public const int indicatorColor = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int indeterminateAnimationType = 2130903450;
+			public const int indicatorDirectionCircular = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int indeterminateProgressStyle = 2130903451;
+			public const int indicatorDirectionLinear = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int indicatorColor = 2130903452;
+			public const int indicatorInset = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int indicatorDirectionCircular = 2130903453;
+			public const int indicatorSize = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int indicatorDirectionLinear = 2130903454;
+			public const int initialActivityCount = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int indicatorInset = 2130903455;
+			public const int insetForeground = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int indicatorSize = 2130903456;
+			public const int isLightTheme = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int initialActivityCount = 2130903457;
+			public const int isMaterialTheme = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int insetForeground = 2130903458;
+			public const int itemBackground = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int isLightTheme = 2130903459;
+			public const int itemFillColor = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int isMaterialTheme = 2130903460;
+			public const int itemHorizontalPadding = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int itemBackground = 2130903461;
+			public const int itemHorizontalTranslationEnabled = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int itemFillColor = 2130903462;
+			public const int itemIconPadding = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int itemHorizontalPadding = 2130903463;
+			public const int itemIconSize = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int itemHorizontalTranslationEnabled = 2130903464;
+			public const int itemIconTint = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int itemIconPadding = 2130903465;
+			public const int itemMaxLines = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int itemIconSize = 2130903466;
+			public const int itemPadding = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int itemIconTint = 2130903467;
+			public const int itemRippleColor = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int itemMaxLines = 2130903468;
+			public const int itemShapeAppearance = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int itemPadding = 2130903469;
+			public const int itemShapeAppearanceOverlay = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int itemRippleColor = 2130903470;
+			public const int itemShapeFillColor = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int itemShapeAppearance = 2130903471;
+			public const int itemShapeInsetBottom = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int itemShapeAppearanceOverlay = 2130903472;
+			public const int itemShapeInsetEnd = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int itemShapeFillColor = 2130903473;
+			public const int itemShapeInsetStart = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int itemShapeInsetBottom = 2130903474;
+			public const int itemShapeInsetTop = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int itemShapeInsetEnd = 2130903475;
+			public const int itemSpacing = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int itemShapeInsetStart = 2130903476;
+			public const int itemStrokeColor = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int itemShapeInsetTop = 2130903477;
+			public const int itemStrokeWidth = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int itemSpacing = 2130903478;
+			public const int itemTextAppearance = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int itemStrokeColor = 2130903479;
+			public const int itemTextAppearanceActive = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int itemStrokeWidth = 2130903480;
+			public const int itemTextAppearanceInactive = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int itemTextAppearance = 2130903481;
-			
-			// aapt resource value: 0x7F0301BA
-			public const int itemTextAppearanceActive = 2130903482;
+			public const int itemTextColor = 2130903481;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int itemTextAppearanceInactive = 2130903483;
+			public const int keyboardIcon = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int itemTextColor = 2130903484;
+			public const int keylines = 2130903484;
 			
-			// aapt resource value: 0x7F0301BE
-			public const int keyboardIcon = 2130903486;
-			
-			// aapt resource value: 0x7F0301BF
-			public const int keylines = 2130903487;
+			// aapt resource value: 0x7F0301BA
+			public const int keyPositionType = 2130903482;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int keyPositionType = 2130903485;
+			public const int labelBehavior = 2130903485;
+			
+			// aapt resource value: 0x7F0301BE
+			public const int labelStyle = 2130903486;
+			
+			// aapt resource value: 0x7F0301BF
+			public const int labelVisibilityMode = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int labelBehavior = 2130903488;
+			public const int lastBaselineToBottomHeight = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int labelStyle = 2130903489;
+			public const int layout = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int labelVisibilityMode = 2130903490;
+			public const int layoutDescription = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int lastBaselineToBottomHeight = 2130903491;
+			public const int layoutDuringTransition = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int layout = 2130903492;
+			public const int layoutManager = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int layoutDescription = 2130903493;
+			public const int layout_anchor = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int layoutDuringTransition = 2130903494;
+			public const int layout_anchorGravity = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int layoutManager = 2130903495;
+			public const int layout_behavior = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int layout_anchor = 2130903496;
+			public const int layout_collapseMode = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int layout_anchorGravity = 2130903497;
+			public const int layout_collapseParallaxMultiplier = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int layout_behavior = 2130903498;
+			public const int layout_constrainedHeight = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int layout_collapseMode = 2130903499;
+			public const int layout_constrainedWidth = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int layout_collapseParallaxMultiplier = 2130903500;
+			public const int layout_constraintBaseline_creator = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int layout_constrainedHeight = 2130903501;
+			public const int layout_constraintBaseline_toBaselineOf = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int layout_constrainedWidth = 2130903502;
+			public const int layout_constraintBottom_creator = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int layout_constraintBaseline_creator = 2130903503;
+			public const int layout_constraintBottom_toBottomOf = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int layout_constraintBaseline_toBaselineOf = 2130903504;
+			public const int layout_constraintBottom_toTopOf = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int layout_constraintBottom_creator = 2130903505;
+			public const int layout_constraintCircle = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int layout_constraintBottom_toBottomOf = 2130903506;
+			public const int layout_constraintCircleAngle = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int layout_constraintBottom_toTopOf = 2130903507;
+			public const int layout_constraintCircleRadius = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int layout_constraintCircle = 2130903508;
+			public const int layout_constraintDimensionRatio = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int layout_constraintCircleAngle = 2130903509;
+			public const int layout_constraintEnd_toEndOf = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int layout_constraintCircleRadius = 2130903510;
+			public const int layout_constraintEnd_toStartOf = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int layout_constraintDimensionRatio = 2130903511;
+			public const int layout_constraintGuide_begin = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int layout_constraintEnd_toEndOf = 2130903512;
+			public const int layout_constraintGuide_end = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int layout_constraintEnd_toStartOf = 2130903513;
+			public const int layout_constraintGuide_percent = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int layout_constraintGuide_begin = 2130903514;
+			public const int layout_constraintHeight_default = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int layout_constraintGuide_end = 2130903515;
+			public const int layout_constraintHeight_max = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int layout_constraintGuide_percent = 2130903516;
+			public const int layout_constraintHeight_min = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int layout_constraintHeight_default = 2130903517;
+			public const int layout_constraintHeight_percent = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int layout_constraintHeight_max = 2130903518;
+			public const int layout_constraintHorizontal_bias = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int layout_constraintHeight_min = 2130903519;
+			public const int layout_constraintHorizontal_chainStyle = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int layout_constraintHeight_percent = 2130903520;
+			public const int layout_constraintHorizontal_weight = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int layout_constraintHorizontal_bias = 2130903521;
+			public const int layout_constraintLeft_creator = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int layout_constraintHorizontal_chainStyle = 2130903522;
+			public const int layout_constraintLeft_toLeftOf = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int layout_constraintHorizontal_weight = 2130903523;
+			public const int layout_constraintLeft_toRightOf = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int layout_constraintLeft_creator = 2130903524;
+			public const int layout_constraintRight_creator = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int layout_constraintLeft_toLeftOf = 2130903525;
+			public const int layout_constraintRight_toLeftOf = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int layout_constraintLeft_toRightOf = 2130903526;
+			public const int layout_constraintRight_toRightOf = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int layout_constraintRight_creator = 2130903527;
+			public const int layout_constraintStart_toEndOf = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int layout_constraintRight_toLeftOf = 2130903528;
+			public const int layout_constraintStart_toStartOf = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int layout_constraintRight_toRightOf = 2130903529;
+			public const int layout_constraintTag = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int layout_constraintStart_toEndOf = 2130903530;
+			public const int layout_constraintTop_creator = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int layout_constraintStart_toStartOf = 2130903531;
+			public const int layout_constraintTop_toBottomOf = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int layout_constraintTag = 2130903532;
+			public const int layout_constraintTop_toTopOf = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int layout_constraintTop_creator = 2130903533;
+			public const int layout_constraintVertical_bias = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int layout_constraintTop_toBottomOf = 2130903534;
+			public const int layout_constraintVertical_chainStyle = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int layout_constraintTop_toTopOf = 2130903535;
+			public const int layout_constraintVertical_weight = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int layout_constraintVertical_bias = 2130903536;
+			public const int layout_constraintWidth_default = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int layout_constraintVertical_chainStyle = 2130903537;
+			public const int layout_constraintWidth_max = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int layout_constraintVertical_weight = 2130903538;
+			public const int layout_constraintWidth_min = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int layout_constraintWidth_default = 2130903539;
+			public const int layout_constraintWidth_percent = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int layout_constraintWidth_max = 2130903540;
+			public const int layout_dodgeInsetEdges = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int layout_constraintWidth_min = 2130903541;
+			public const int layout_editor_absoluteX = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int layout_constraintWidth_percent = 2130903542;
+			public const int layout_editor_absoluteY = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int layout_dodgeInsetEdges = 2130903543;
+			public const int layout_goneMarginBottom = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int layout_editor_absoluteX = 2130903544;
+			public const int layout_goneMarginEnd = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int layout_editor_absoluteY = 2130903545;
+			public const int layout_goneMarginLeft = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int layout_goneMarginBottom = 2130903546;
+			public const int layout_goneMarginRight = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int layout_goneMarginEnd = 2130903547;
+			public const int layout_goneMarginStart = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int layout_goneMarginLeft = 2130903548;
+			public const int layout_goneMarginTop = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int layout_goneMarginRight = 2130903549;
+			public const int layout_insetEdge = 2130903549;
 			
 			// aapt resource value: 0x7F0301FE
-			public const int layout_goneMarginStart = 2130903550;
+			public const int layout_keyline = 2130903550;
 			
 			// aapt resource value: 0x7F0301FF
-			public const int layout_goneMarginTop = 2130903551;
+			public const int layout_optimizationLevel = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int layout_insetEdge = 2130903552;
+			public const int layout_scrollFlags = 2130903552;
 			
 			// aapt resource value: 0x7F030201
-			public const int layout_keyline = 2130903553;
+			public const int layout_scrollInterpolator = 2130903553;
 			
 			// aapt resource value: 0x7F030202
-			public const int layout_optimizationLevel = 2130903554;
+			public const int lensFacing = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int layout_scrollFlags = 2130903555;
+			public const int liftOnScroll = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int layout_scrollInterpolator = 2130903556;
+			public const int liftOnScrollTargetViewId = 2130903556;
 			
 			// aapt resource value: 0x7F030205
-			public const int lensFacing = 2130903557;
-			
-			// aapt resource value: 0x7F030206
-			public const int liftOnScroll = 2130903558;
-			
-			// aapt resource value: 0x7F030207
-			public const int liftOnScrollTargetViewId = 2130903559;
+			public const int limitBoundsTo = 2130903557;
 			
 			// aapt resource value: 0x7F030208
-			public const int limitBoundsTo = 2130903560;
+			public const int linearProgressIndicatorStyle = 2130903560;
 			
-			// aapt resource value: 0x7F03020B
-			public const int linearProgressIndicatorStyle = 2130903563;
+			// aapt resource value: 0x7F030206
+			public const int lineHeight = 2130903558;
+			
+			// aapt resource value: 0x7F030207
+			public const int lineSpacing = 2130903559;
 			
 			// aapt resource value: 0x7F030209
-			public const int lineHeight = 2130903561;
+			public const int listChoiceBackgroundIndicator = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int lineSpacing = 2130903562;
+			public const int listChoiceIndicatorMultipleAnimated = 2130903562;
+			
+			// aapt resource value: 0x7F03020B
+			public const int listChoiceIndicatorSingleAnimated = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int listChoiceBackgroundIndicator = 2130903564;
+			public const int listDividerAlertDialog = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int listChoiceIndicatorMultipleAnimated = 2130903565;
+			public const int listItemLayout = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int listChoiceIndicatorSingleAnimated = 2130903566;
+			public const int listLayout = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int listDividerAlertDialog = 2130903567;
+			public const int listMenuViewStyle = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int listItemLayout = 2130903568;
+			public const int listPopupWindowStyle = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int listLayout = 2130903569;
+			public const int listPreferredItemHeight = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int listMenuViewStyle = 2130903570;
+			public const int listPreferredItemHeightLarge = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int listPopupWindowStyle = 2130903571;
+			public const int listPreferredItemHeightSmall = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int listPreferredItemHeight = 2130903572;
+			public const int listPreferredItemPaddingEnd = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int listPreferredItemHeightLarge = 2130903573;
+			public const int listPreferredItemPaddingLeft = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int listPreferredItemHeightSmall = 2130903574;
+			public const int listPreferredItemPaddingRight = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int listPreferredItemPaddingEnd = 2130903575;
+			public const int listPreferredItemPaddingStart = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int listPreferredItemPaddingLeft = 2130903576;
+			public const int logo = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int listPreferredItemPaddingRight = 2130903577;
+			public const int logoDescription = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int listPreferredItemPaddingStart = 2130903578;
+			public const int materialAlertDialogBodyTextStyle = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int logo = 2130903579;
+			public const int materialAlertDialogTheme = 2130903579;
 			
 			// aapt resource value: 0x7F03021C
-			public const int logoDescription = 2130903580;
+			public const int materialAlertDialogTitleIconStyle = 2130903580;
 			
 			// aapt resource value: 0x7F03021D
-			public const int materialAlertDialogBodyTextStyle = 2130903581;
+			public const int materialAlertDialogTitlePanelStyle = 2130903581;
 			
 			// aapt resource value: 0x7F03021E
-			public const int materialAlertDialogTheme = 2130903582;
+			public const int materialAlertDialogTitleTextStyle = 2130903582;
 			
 			// aapt resource value: 0x7F03021F
-			public const int materialAlertDialogTitleIconStyle = 2130903583;
+			public const int materialButtonOutlinedStyle = 2130903583;
 			
 			// aapt resource value: 0x7F030220
-			public const int materialAlertDialogTitlePanelStyle = 2130903584;
+			public const int materialButtonStyle = 2130903584;
 			
 			// aapt resource value: 0x7F030221
-			public const int materialAlertDialogTitleTextStyle = 2130903585;
+			public const int materialButtonToggleGroupStyle = 2130903585;
 			
 			// aapt resource value: 0x7F030222
-			public const int materialButtonOutlinedStyle = 2130903586;
+			public const int materialCalendarDay = 2130903586;
 			
 			// aapt resource value: 0x7F030223
-			public const int materialButtonStyle = 2130903587;
+			public const int materialCalendarFullscreenTheme = 2130903587;
 			
 			// aapt resource value: 0x7F030224
-			public const int materialButtonToggleGroupStyle = 2130903588;
+			public const int materialCalendarHeaderCancelButton = 2130903588;
 			
 			// aapt resource value: 0x7F030225
-			public const int materialCalendarDay = 2130903589;
+			public const int materialCalendarHeaderConfirmButton = 2130903589;
 			
 			// aapt resource value: 0x7F030226
-			public const int materialCalendarFullscreenTheme = 2130903590;
+			public const int materialCalendarHeaderDivider = 2130903590;
 			
 			// aapt resource value: 0x7F030227
-			public const int materialCalendarHeaderCancelButton = 2130903591;
+			public const int materialCalendarHeaderLayout = 2130903591;
 			
 			// aapt resource value: 0x7F030228
-			public const int materialCalendarHeaderConfirmButton = 2130903592;
+			public const int materialCalendarHeaderSelection = 2130903592;
 			
 			// aapt resource value: 0x7F030229
-			public const int materialCalendarHeaderDivider = 2130903593;
+			public const int materialCalendarHeaderTitle = 2130903593;
 			
 			// aapt resource value: 0x7F03022A
-			public const int materialCalendarHeaderLayout = 2130903594;
+			public const int materialCalendarHeaderToggleButton = 2130903594;
 			
 			// aapt resource value: 0x7F03022B
-			public const int materialCalendarHeaderSelection = 2130903595;
+			public const int materialCalendarMonth = 2130903595;
 			
 			// aapt resource value: 0x7F03022C
-			public const int materialCalendarHeaderTitle = 2130903596;
+			public const int materialCalendarMonthNavigationButton = 2130903596;
 			
 			// aapt resource value: 0x7F03022D
-			public const int materialCalendarHeaderToggleButton = 2130903597;
+			public const int materialCalendarStyle = 2130903597;
 			
 			// aapt resource value: 0x7F03022E
-			public const int materialCalendarMonth = 2130903598;
+			public const int materialCalendarTheme = 2130903598;
 			
 			// aapt resource value: 0x7F03022F
-			public const int materialCalendarMonthNavigationButton = 2130903599;
+			public const int materialCalendarYearNavigationButton = 2130903599;
 			
 			// aapt resource value: 0x7F030230
-			public const int materialCalendarStyle = 2130903600;
+			public const int materialCardViewStyle = 2130903600;
 			
 			// aapt resource value: 0x7F030231
-			public const int materialCalendarTheme = 2130903601;
+			public const int materialCircleRadius = 2130903601;
 			
 			// aapt resource value: 0x7F030232
-			public const int materialCalendarYearNavigationButton = 2130903602;
+			public const int materialClockStyle = 2130903602;
 			
 			// aapt resource value: 0x7F030233
-			public const int materialCardViewStyle = 2130903603;
+			public const int materialThemeOverlay = 2130903603;
 			
 			// aapt resource value: 0x7F030234
-			public const int materialCircleRadius = 2130903604;
+			public const int materialTimePickerStyle = 2130903604;
 			
 			// aapt resource value: 0x7F030235
-			public const int materialClockStyle = 2130903605;
+			public const int materialTimePickerTheme = 2130903605;
 			
 			// aapt resource value: 0x7F030236
-			public const int materialThemeOverlay = 2130903606;
+			public const int maxAcceleration = 2130903606;
 			
 			// aapt resource value: 0x7F030237
-			public const int materialTimePickerStyle = 2130903607;
+			public const int maxActionInlineWidth = 2130903607;
 			
 			// aapt resource value: 0x7F030238
-			public const int materialTimePickerTheme = 2130903608;
+			public const int maxButtonHeight = 2130903608;
 			
 			// aapt resource value: 0x7F030239
-			public const int maxAcceleration = 2130903609;
+			public const int maxCharacterCount = 2130903609;
 			
 			// aapt resource value: 0x7F03023A
-			public const int maxActionInlineWidth = 2130903610;
+			public const int maxHeight = 2130903610;
 			
 			// aapt resource value: 0x7F03023B
-			public const int maxButtonHeight = 2130903611;
+			public const int maxImageSize = 2130903611;
 			
 			// aapt resource value: 0x7F03023C
-			public const int maxCharacterCount = 2130903612;
+			public const int maxLines = 2130903612;
 			
 			// aapt resource value: 0x7F03023D
-			public const int maxHeight = 2130903613;
+			public const int maxVelocity = 2130903613;
 			
 			// aapt resource value: 0x7F03023E
-			public const int maxImageSize = 2130903614;
+			public const int maxWidth = 2130903614;
 			
 			// aapt resource value: 0x7F03023F
-			public const int maxLines = 2130903615;
+			public const int measureWithLargestChild = 2130903615;
 			
 			// aapt resource value: 0x7F030240
-			public const int maxVelocity = 2130903616;
+			public const int menu = 2130903616;
 			
 			// aapt resource value: 0x7F030241
-			public const int maxWidth = 2130903617;
+			public const int minHeight = 2130903617;
 			
 			// aapt resource value: 0x7F030242
-			public const int measureWithLargestChild = 2130903618;
+			public const int minHideDelay = 2130903618;
 			
 			// aapt resource value: 0x7F030243
-			public const int menu = 2130903619;
+			public const int minSeparation = 2130903619;
 			
 			// aapt resource value: 0x7F030244
-			public const int minHeight = 2130903620;
+			public const int minTouchTargetSize = 2130903620;
 			
 			// aapt resource value: 0x7F030245
-			public const int minHideDelay = 2130903621;
+			public const int minWidth = 2130903621;
 			
 			// aapt resource value: 0x7F030246
-			public const int minSeparation = 2130903622;
+			public const int mock_diagonalsColor = 2130903622;
 			
 			// aapt resource value: 0x7F030247
-			public const int minTouchTargetSize = 2130903623;
+			public const int mock_label = 2130903623;
 			
 			// aapt resource value: 0x7F030248
-			public const int minWidth = 2130903624;
+			public const int mock_labelBackgroundColor = 2130903624;
 			
 			// aapt resource value: 0x7F030249
-			public const int mock_diagonalsColor = 2130903625;
+			public const int mock_labelColor = 2130903625;
 			
 			// aapt resource value: 0x7F03024A
-			public const int mock_label = 2130903626;
+			public const int mock_showDiagonals = 2130903626;
 			
 			// aapt resource value: 0x7F03024B
-			public const int mock_labelBackgroundColor = 2130903627;
+			public const int mock_showLabel = 2130903627;
 			
 			// aapt resource value: 0x7F03024C
-			public const int mock_labelColor = 2130903628;
+			public const int motionDebug = 2130903628;
 			
 			// aapt resource value: 0x7F03024D
-			public const int mock_showDiagonals = 2130903629;
+			public const int motionInterpolator = 2130903629;
 			
 			// aapt resource value: 0x7F03024E
-			public const int mock_showLabel = 2130903630;
+			public const int motionPathRotate = 2130903630;
 			
 			// aapt resource value: 0x7F03024F
-			public const int motionDebug = 2130903631;
+			public const int motionProgress = 2130903631;
 			
 			// aapt resource value: 0x7F030250
-			public const int motionInterpolator = 2130903632;
+			public const int motionStagger = 2130903632;
 			
 			// aapt resource value: 0x7F030251
-			public const int motionPathRotate = 2130903633;
+			public const int motionTarget = 2130903633;
 			
 			// aapt resource value: 0x7F030252
-			public const int motionProgress = 2130903634;
+			public const int motion_postLayoutCollision = 2130903634;
 			
 			// aapt resource value: 0x7F030253
-			public const int motionStagger = 2130903635;
+			public const int motion_triggerOnCollision = 2130903635;
 			
 			// aapt resource value: 0x7F030254
-			public const int motionTarget = 2130903636;
+			public const int moveWhenScrollAtTop = 2130903636;
 			
 			// aapt resource value: 0x7F030255
-			public const int motion_postLayoutCollision = 2130903637;
+			public const int multiChoiceItemLayout = 2130903637;
 			
 			// aapt resource value: 0x7F030256
-			public const int motion_triggerOnCollision = 2130903638;
+			public const int navigationContentDescription = 2130903638;
 			
 			// aapt resource value: 0x7F030257
-			public const int moveWhenScrollAtTop = 2130903639;
+			public const int navigationIcon = 2130903639;
 			
 			// aapt resource value: 0x7F030258
-			public const int multiChoiceItemLayout = 2130903640;
+			public const int navigationIconTint = 2130903640;
 			
 			// aapt resource value: 0x7F030259
-			public const int navigationContentDescription = 2130903641;
+			public const int navigationMode = 2130903641;
 			
 			// aapt resource value: 0x7F03025A
-			public const int navigationIcon = 2130903642;
-			
-			// aapt resource value: 0x7F03025B
-			public const int navigationIconTint = 2130903643;
+			public const int navigationViewStyle = 2130903642;
 			
 			// aapt resource value: 0x7F03025C
-			public const int navigationMode = 2130903644;
+			public const int nestedScrollable = 2130903644;
+			
+			// aapt resource value: 0x7F03025B
+			public const int nestedScrollFlags = 2130903643;
 			
 			// aapt resource value: 0x7F03025D
-			public const int navigationViewStyle = 2130903645;
-			
-			// aapt resource value: 0x7F03025F
-			public const int nestedScrollable = 2130903647;
+			public const int number = 2130903645;
 			
 			// aapt resource value: 0x7F03025E
-			public const int nestedScrollFlags = 2130903646;
+			public const int numericModifiers = 2130903646;
+			
+			// aapt resource value: 0x7F03025F
+			public const int onCross = 2130903647;
 			
 			// aapt resource value: 0x7F030260
-			public const int number = 2130903648;
+			public const int onHide = 2130903648;
 			
 			// aapt resource value: 0x7F030261
-			public const int numericModifiers = 2130903649;
+			public const int onNegativeCross = 2130903649;
 			
 			// aapt resource value: 0x7F030262
-			public const int onCross = 2130903650;
+			public const int onPositiveCross = 2130903650;
 			
 			// aapt resource value: 0x7F030263
-			public const int onHide = 2130903651;
+			public const int onShow = 2130903651;
 			
 			// aapt resource value: 0x7F030264
-			public const int onNegativeCross = 2130903652;
+			public const int onTouchUp = 2130903652;
 			
 			// aapt resource value: 0x7F030265
-			public const int onPositiveCross = 2130903653;
+			public const int overlapAnchor = 2130903653;
 			
 			// aapt resource value: 0x7F030266
-			public const int onShow = 2130903654;
+			public const int overlay = 2130903654;
 			
 			// aapt resource value: 0x7F030267
-			public const int onTouchUp = 2130903655;
+			public const int paddingBottomNoButtons = 2130903655;
 			
 			// aapt resource value: 0x7F030268
-			public const int overlapAnchor = 2130903656;
+			public const int paddingBottomSystemWindowInsets = 2130903656;
 			
 			// aapt resource value: 0x7F030269
-			public const int overlay = 2130903657;
+			public const int paddingEnd = 2130903657;
 			
 			// aapt resource value: 0x7F03026A
-			public const int paddingBottomNoButtons = 2130903658;
+			public const int paddingLeftSystemWindowInsets = 2130903658;
 			
 			// aapt resource value: 0x7F03026B
-			public const int paddingBottomSystemWindowInsets = 2130903659;
+			public const int paddingRightSystemWindowInsets = 2130903659;
 			
 			// aapt resource value: 0x7F03026C
-			public const int paddingEnd = 2130903660;
+			public const int paddingStart = 2130903660;
 			
 			// aapt resource value: 0x7F03026D
-			public const int paddingLeftSystemWindowInsets = 2130903661;
+			public const int paddingTopNoTitle = 2130903661;
 			
 			// aapt resource value: 0x7F03026E
-			public const int paddingRightSystemWindowInsets = 2130903662;
+			public const int panelBackground = 2130903662;
 			
 			// aapt resource value: 0x7F03026F
-			public const int paddingStart = 2130903663;
+			public const int panelMenuListTheme = 2130903663;
 			
 			// aapt resource value: 0x7F030270
-			public const int paddingTopNoTitle = 2130903664;
+			public const int panelMenuListWidth = 2130903664;
 			
 			// aapt resource value: 0x7F030271
-			public const int panelBackground = 2130903665;
+			public const int passwordToggleContentDescription = 2130903665;
 			
 			// aapt resource value: 0x7F030272
-			public const int panelMenuListTheme = 2130903666;
+			public const int passwordToggleDrawable = 2130903666;
 			
 			// aapt resource value: 0x7F030273
-			public const int panelMenuListWidth = 2130903667;
+			public const int passwordToggleEnabled = 2130903667;
 			
 			// aapt resource value: 0x7F030274
-			public const int passwordToggleContentDescription = 2130903668;
+			public const int passwordToggleTint = 2130903668;
 			
 			// aapt resource value: 0x7F030275
-			public const int passwordToggleDrawable = 2130903669;
+			public const int passwordToggleTintMode = 2130903669;
 			
 			// aapt resource value: 0x7F030276
-			public const int passwordToggleEnabled = 2130903670;
+			public const int pathMotionArc = 2130903670;
 			
 			// aapt resource value: 0x7F030277
-			public const int passwordToggleTint = 2130903671;
+			public const int path_percent = 2130903671;
 			
 			// aapt resource value: 0x7F030278
-			public const int passwordToggleTintMode = 2130903672;
+			public const int percentHeight = 2130903672;
 			
 			// aapt resource value: 0x7F030279
-			public const int pathMotionArc = 2130903673;
+			public const int percentWidth = 2130903673;
 			
 			// aapt resource value: 0x7F03027A
-			public const int path_percent = 2130903674;
+			public const int percentX = 2130903674;
 			
 			// aapt resource value: 0x7F03027B
-			public const int percentHeight = 2130903675;
+			public const int percentY = 2130903675;
 			
 			// aapt resource value: 0x7F03027C
-			public const int percentWidth = 2130903676;
+			public const int perpendicularPath_percent = 2130903676;
 			
 			// aapt resource value: 0x7F03027D
-			public const int percentX = 2130903677;
+			public const int pinchToZoomEnabled = 2130903677;
 			
 			// aapt resource value: 0x7F03027E
-			public const int percentY = 2130903678;
+			public const int pivotAnchor = 2130903678;
 			
 			// aapt resource value: 0x7F03027F
-			public const int perpendicularPath_percent = 2130903679;
+			public const int placeholderText = 2130903679;
 			
 			// aapt resource value: 0x7F030280
-			public const int pinchToZoomEnabled = 2130903680;
+			public const int placeholderTextAppearance = 2130903680;
 			
 			// aapt resource value: 0x7F030281
-			public const int pivotAnchor = 2130903681;
+			public const int placeholderTextColor = 2130903681;
 			
 			// aapt resource value: 0x7F030282
-			public const int placeholderText = 2130903682;
+			public const int placeholder_emptyVisibility = 2130903682;
 			
 			// aapt resource value: 0x7F030283
-			public const int placeholderTextAppearance = 2130903683;
+			public const int popupMenuBackground = 2130903683;
 			
 			// aapt resource value: 0x7F030284
-			public const int placeholderTextColor = 2130903684;
+			public const int popupMenuStyle = 2130903684;
 			
 			// aapt resource value: 0x7F030285
-			public const int placeholder_emptyVisibility = 2130903685;
+			public const int popupTheme = 2130903685;
 			
 			// aapt resource value: 0x7F030286
-			public const int popupMenuBackground = 2130903686;
+			public const int popupWindowStyle = 2130903686;
 			
 			// aapt resource value: 0x7F030287
-			public const int popupMenuStyle = 2130903687;
+			public const int prefixText = 2130903687;
 			
 			// aapt resource value: 0x7F030288
-			public const int popupTheme = 2130903688;
+			public const int prefixTextAppearance = 2130903688;
 			
 			// aapt resource value: 0x7F030289
-			public const int popupWindowStyle = 2130903689;
+			public const int prefixTextColor = 2130903689;
 			
 			// aapt resource value: 0x7F03028A
-			public const int prefixText = 2130903690;
+			public const int preserveIconSpacing = 2130903690;
 			
 			// aapt resource value: 0x7F03028B
-			public const int prefixTextAppearance = 2130903691;
+			public const int pressedTranslationZ = 2130903691;
 			
 			// aapt resource value: 0x7F03028C
-			public const int prefixTextColor = 2130903692;
+			public const int progressBarPadding = 2130903692;
 			
 			// aapt resource value: 0x7F03028D
-			public const int preserveIconSpacing = 2130903693;
+			public const int progressBarStyle = 2130903693;
 			
 			// aapt resource value: 0x7F03028E
-			public const int pressedTranslationZ = 2130903694;
+			public const int queryBackground = 2130903694;
 			
 			// aapt resource value: 0x7F03028F
-			public const int progressBarPadding = 2130903695;
+			public const int queryHint = 2130903695;
 			
 			// aapt resource value: 0x7F030290
-			public const int progressBarStyle = 2130903696;
+			public const int radioButtonStyle = 2130903696;
 			
 			// aapt resource value: 0x7F030291
-			public const int queryBackground = 2130903697;
+			public const int rangeFillColor = 2130903697;
 			
 			// aapt resource value: 0x7F030292
-			public const int queryHint = 2130903698;
+			public const int ratingBarStyle = 2130903698;
 			
 			// aapt resource value: 0x7F030293
-			public const int radioButtonStyle = 2130903699;
+			public const int ratingBarStyleIndicator = 2130903699;
 			
 			// aapt resource value: 0x7F030294
-			public const int rangeFillColor = 2130903700;
+			public const int ratingBarStyleSmall = 2130903700;
 			
 			// aapt resource value: 0x7F030295
-			public const int ratingBarStyle = 2130903701;
+			public const int recyclerViewStyle = 2130903701;
 			
 			// aapt resource value: 0x7F030296
-			public const int ratingBarStyleIndicator = 2130903702;
+			public const int region_heightLessThan = 2130903702;
 			
 			// aapt resource value: 0x7F030297
-			public const int ratingBarStyleSmall = 2130903703;
+			public const int region_heightMoreThan = 2130903703;
 			
 			// aapt resource value: 0x7F030298
-			public const int recyclerViewStyle = 2130903704;
+			public const int region_widthLessThan = 2130903704;
 			
 			// aapt resource value: 0x7F030299
-			public const int region_heightLessThan = 2130903705;
+			public const int region_widthMoreThan = 2130903705;
 			
 			// aapt resource value: 0x7F03029A
-			public const int region_heightMoreThan = 2130903706;
+			public const int reverseLayout = 2130903706;
 			
 			// aapt resource value: 0x7F03029B
-			public const int region_widthLessThan = 2130903707;
+			public const int rippleColor = 2130903707;
 			
 			// aapt resource value: 0x7F03029C
-			public const int region_widthMoreThan = 2130903708;
+			public const int round = 2130903708;
 			
 			// aapt resource value: 0x7F03029D
-			public const int reverseLayout = 2130903709;
+			public const int roundPercent = 2130903709;
 			
 			// aapt resource value: 0x7F03029E
-			public const int rippleColor = 2130903710;
+			public const int saturation = 2130903710;
 			
 			// aapt resource value: 0x7F03029F
-			public const int round = 2130903711;
+			public const int scaleType = 2130903711;
 			
 			// aapt resource value: 0x7F0302A0
-			public const int roundPercent = 2130903712;
+			public const int scrimAnimationDuration = 2130903712;
 			
 			// aapt resource value: 0x7F0302A1
-			public const int saturation = 2130903713;
+			public const int scrimBackground = 2130903713;
 			
 			// aapt resource value: 0x7F0302A2
-			public const int scaleType = 2130903714;
+			public const int scrimVisibleHeightTrigger = 2130903714;
 			
 			// aapt resource value: 0x7F0302A3
-			public const int scrimAnimationDuration = 2130903715;
+			public const int searchHintIcon = 2130903715;
 			
 			// aapt resource value: 0x7F0302A4
-			public const int scrimBackground = 2130903716;
+			public const int searchIcon = 2130903716;
 			
 			// aapt resource value: 0x7F0302A5
-			public const int scrimVisibleHeightTrigger = 2130903717;
+			public const int searchViewStyle = 2130903717;
 			
 			// aapt resource value: 0x7F0302A6
-			public const int searchHintIcon = 2130903718;
+			public const int seekBarStyle = 2130903718;
 			
 			// aapt resource value: 0x7F0302A7
-			public const int searchIcon = 2130903719;
+			public const int selectableItemBackground = 2130903719;
 			
 			// aapt resource value: 0x7F0302A8
-			public const int searchViewStyle = 2130903720;
+			public const int selectableItemBackgroundBorderless = 2130903720;
 			
 			// aapt resource value: 0x7F0302A9
-			public const int seekBarStyle = 2130903721;
+			public const int selectionRequired = 2130903721;
 			
 			// aapt resource value: 0x7F0302AA
-			public const int selectableItemBackground = 2130903722;
+			public const int selectorSize = 2130903722;
 			
 			// aapt resource value: 0x7F0302AB
-			public const int selectableItemBackgroundBorderless = 2130903723;
+			public const int shapeAppearance = 2130903723;
 			
 			// aapt resource value: 0x7F0302AC
-			public const int selectionRequired = 2130903724;
+			public const int shapeAppearanceLargeComponent = 2130903724;
 			
 			// aapt resource value: 0x7F0302AD
-			public const int selectorSize = 2130903725;
+			public const int shapeAppearanceMediumComponent = 2130903725;
 			
 			// aapt resource value: 0x7F0302AE
-			public const int shapeAppearance = 2130903726;
+			public const int shapeAppearanceOverlay = 2130903726;
 			
 			// aapt resource value: 0x7F0302AF
-			public const int shapeAppearanceLargeComponent = 2130903727;
+			public const int shapeAppearanceSmallComponent = 2130903727;
 			
 			// aapt resource value: 0x7F0302B0
-			public const int shapeAppearanceMediumComponent = 2130903728;
+			public const int showAnimationBehavior = 2130903728;
 			
 			// aapt resource value: 0x7F0302B1
-			public const int shapeAppearanceOverlay = 2130903729;
+			public const int showAsAction = 2130903729;
 			
 			// aapt resource value: 0x7F0302B2
-			public const int shapeAppearanceSmallComponent = 2130903730;
+			public const int showDelay = 2130903730;
 			
 			// aapt resource value: 0x7F0302B3
-			public const int showAnimationBehavior = 2130903731;
+			public const int showDividers = 2130903731;
 			
 			// aapt resource value: 0x7F0302B4
-			public const int showAsAction = 2130903732;
+			public const int showMotionSpec = 2130903732;
 			
 			// aapt resource value: 0x7F0302B5
-			public const int showDelay = 2130903733;
+			public const int showPaths = 2130903733;
 			
 			// aapt resource value: 0x7F0302B6
-			public const int showDividers = 2130903734;
+			public const int showText = 2130903734;
 			
 			// aapt resource value: 0x7F0302B7
-			public const int showMotionSpec = 2130903735;
+			public const int showTitle = 2130903735;
 			
 			// aapt resource value: 0x7F0302B8
-			public const int showPaths = 2130903736;
+			public const int shrinkMotionSpec = 2130903736;
 			
 			// aapt resource value: 0x7F0302B9
-			public const int showText = 2130903737;
+			public const int singleChoiceItemLayout = 2130903737;
 			
 			// aapt resource value: 0x7F0302BA
-			public const int showTitle = 2130903738;
+			public const int singleLine = 2130903738;
 			
 			// aapt resource value: 0x7F0302BB
-			public const int shrinkMotionSpec = 2130903739;
+			public const int singleSelection = 2130903739;
 			
 			// aapt resource value: 0x7F0302BC
-			public const int singleChoiceItemLayout = 2130903740;
+			public const int sizePercent = 2130903740;
 			
 			// aapt resource value: 0x7F0302BD
-			public const int singleLine = 2130903741;
+			public const int sliderStyle = 2130903741;
 			
 			// aapt resource value: 0x7F0302BE
-			public const int singleSelection = 2130903742;
+			public const int snackbarButtonStyle = 2130903742;
 			
 			// aapt resource value: 0x7F0302BF
-			public const int sizePercent = 2130903743;
+			public const int snackbarStyle = 2130903743;
 			
 			// aapt resource value: 0x7F0302C0
-			public const int sliderStyle = 2130903744;
+			public const int snackbarTextViewStyle = 2130903744;
 			
 			// aapt resource value: 0x7F0302C1
-			public const int snackbarButtonStyle = 2130903745;
+			public const int spanCount = 2130903745;
 			
 			// aapt resource value: 0x7F0302C2
-			public const int snackbarStyle = 2130903746;
+			public const int spinBars = 2130903746;
 			
 			// aapt resource value: 0x7F0302C3
-			public const int snackbarTextViewStyle = 2130903747;
+			public const int spinnerDropDownItemStyle = 2130903747;
 			
 			// aapt resource value: 0x7F0302C4
-			public const int spanCount = 2130903748;
+			public const int spinnerStyle = 2130903748;
 			
 			// aapt resource value: 0x7F0302C5
-			public const int spinBars = 2130903749;
+			public const int splitTrack = 2130903749;
 			
 			// aapt resource value: 0x7F0302C6
-			public const int spinnerDropDownItemStyle = 2130903750;
+			public const int srcCompat = 2130903750;
 			
 			// aapt resource value: 0x7F0302C7
-			public const int spinnerStyle = 2130903751;
+			public const int stackFromEnd = 2130903751;
 			
 			// aapt resource value: 0x7F0302C8
-			public const int splitTrack = 2130903752;
+			public const int staggered = 2130903752;
 			
 			// aapt resource value: 0x7F0302C9
-			public const int srcCompat = 2130903753;
+			public const int startIconCheckable = 2130903753;
 			
 			// aapt resource value: 0x7F0302CA
-			public const int stackFromEnd = 2130903754;
+			public const int startIconContentDescription = 2130903754;
 			
 			// aapt resource value: 0x7F0302CB
-			public const int staggered = 2130903755;
+			public const int startIconDrawable = 2130903755;
 			
 			// aapt resource value: 0x7F0302CC
-			public const int startIconCheckable = 2130903756;
+			public const int startIconTint = 2130903756;
 			
 			// aapt resource value: 0x7F0302CD
-			public const int startIconContentDescription = 2130903757;
+			public const int startIconTintMode = 2130903757;
 			
 			// aapt resource value: 0x7F0302CE
-			public const int startIconDrawable = 2130903758;
+			public const int state_above_anchor = 2130903758;
 			
 			// aapt resource value: 0x7F0302CF
-			public const int startIconTint = 2130903759;
+			public const int state_collapsed = 2130903759;
 			
 			// aapt resource value: 0x7F0302D0
-			public const int startIconTintMode = 2130903760;
+			public const int state_collapsible = 2130903760;
 			
 			// aapt resource value: 0x7F0302D1
-			public const int state_above_anchor = 2130903761;
+			public const int state_dragged = 2130903761;
 			
 			// aapt resource value: 0x7F0302D2
-			public const int state_collapsed = 2130903762;
+			public const int state_liftable = 2130903762;
 			
 			// aapt resource value: 0x7F0302D3
-			public const int state_collapsible = 2130903763;
+			public const int state_lifted = 2130903763;
 			
 			// aapt resource value: 0x7F0302D4
-			public const int state_dragged = 2130903764;
+			public const int statusBarBackground = 2130903764;
 			
 			// aapt resource value: 0x7F0302D5
-			public const int state_liftable = 2130903765;
+			public const int statusBarForeground = 2130903765;
 			
 			// aapt resource value: 0x7F0302D6
-			public const int state_lifted = 2130903766;
+			public const int statusBarScrim = 2130903766;
 			
 			// aapt resource value: 0x7F0302D7
-			public const int statusBarBackground = 2130903767;
+			public const int strokeColor = 2130903767;
 			
 			// aapt resource value: 0x7F0302D8
-			public const int statusBarForeground = 2130903768;
+			public const int strokeWidth = 2130903768;
 			
 			// aapt resource value: 0x7F0302D9
-			public const int statusBarScrim = 2130903769;
+			public const int subMenuArrow = 2130903769;
 			
 			// aapt resource value: 0x7F0302DA
-			public const int strokeColor = 2130903770;
+			public const int submitBackground = 2130903770;
 			
 			// aapt resource value: 0x7F0302DB
-			public const int strokeWidth = 2130903771;
+			public const int subtitle = 2130903771;
 			
 			// aapt resource value: 0x7F0302DC
-			public const int subMenuArrow = 2130903772;
+			public const int subtitleTextAppearance = 2130903772;
 			
 			// aapt resource value: 0x7F0302DD
-			public const int submitBackground = 2130903773;
+			public const int subtitleTextColor = 2130903773;
 			
 			// aapt resource value: 0x7F0302DE
-			public const int subtitle = 2130903774;
+			public const int subtitleTextStyle = 2130903774;
 			
 			// aapt resource value: 0x7F0302DF
-			public const int subtitleTextAppearance = 2130903775;
+			public const int suffixText = 2130903775;
 			
 			// aapt resource value: 0x7F0302E0
-			public const int subtitleTextColor = 2130903776;
+			public const int suffixTextAppearance = 2130903776;
 			
 			// aapt resource value: 0x7F0302E1
-			public const int subtitleTextStyle = 2130903777;
+			public const int suffixTextColor = 2130903777;
 			
 			// aapt resource value: 0x7F0302E2
-			public const int suffixText = 2130903778;
+			public const int suggestionRowLayout = 2130903778;
 			
 			// aapt resource value: 0x7F0302E3
-			public const int suffixTextAppearance = 2130903779;
+			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903779;
 			
 			// aapt resource value: 0x7F0302E4
-			public const int suffixTextColor = 2130903780;
+			public const int switchMinWidth = 2130903780;
 			
 			// aapt resource value: 0x7F0302E5
-			public const int suggestionRowLayout = 2130903781;
+			public const int switchPadding = 2130903781;
 			
 			// aapt resource value: 0x7F0302E6
-			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903782;
+			public const int switchStyle = 2130903782;
 			
 			// aapt resource value: 0x7F0302E7
-			public const int switchMinWidth = 2130903783;
+			public const int switchTextAppearance = 2130903783;
 			
 			// aapt resource value: 0x7F0302E8
-			public const int switchPadding = 2130903784;
+			public const int tabBackground = 2130903784;
 			
 			// aapt resource value: 0x7F0302E9
-			public const int switchStyle = 2130903785;
+			public const int tabContentStart = 2130903785;
 			
 			// aapt resource value: 0x7F0302EA
-			public const int switchTextAppearance = 2130903786;
+			public const int tabGravity = 2130903786;
 			
 			// aapt resource value: 0x7F0302EB
-			public const int tabBackground = 2130903787;
+			public const int tabIconTint = 2130903787;
 			
 			// aapt resource value: 0x7F0302EC
-			public const int tabContentStart = 2130903788;
+			public const int tabIconTintMode = 2130903788;
 			
 			// aapt resource value: 0x7F0302ED
-			public const int tabGravity = 2130903789;
+			public const int tabIndicator = 2130903789;
 			
 			// aapt resource value: 0x7F0302EE
-			public const int tabIconTint = 2130903790;
+			public const int tabIndicatorAnimationDuration = 2130903790;
 			
 			// aapt resource value: 0x7F0302EF
-			public const int tabIconTintMode = 2130903791;
+			public const int tabIndicatorAnimationMode = 2130903791;
 			
 			// aapt resource value: 0x7F0302F0
-			public const int tabIndicator = 2130903792;
+			public const int tabIndicatorColor = 2130903792;
 			
 			// aapt resource value: 0x7F0302F1
-			public const int tabIndicatorAnimationDuration = 2130903793;
+			public const int tabIndicatorFullWidth = 2130903793;
 			
 			// aapt resource value: 0x7F0302F2
-			public const int tabIndicatorAnimationMode = 2130903794;
+			public const int tabIndicatorGravity = 2130903794;
 			
 			// aapt resource value: 0x7F0302F3
-			public const int tabIndicatorColor = 2130903795;
+			public const int tabIndicatorHeight = 2130903795;
 			
 			// aapt resource value: 0x7F0302F4
-			public const int tabIndicatorFullWidth = 2130903796;
+			public const int tabInlineLabel = 2130903796;
 			
 			// aapt resource value: 0x7F0302F5
-			public const int tabIndicatorGravity = 2130903797;
+			public const int tabMaxWidth = 2130903797;
 			
 			// aapt resource value: 0x7F0302F6
-			public const int tabIndicatorHeight = 2130903798;
+			public const int tabMinWidth = 2130903798;
 			
 			// aapt resource value: 0x7F0302F7
-			public const int tabInlineLabel = 2130903799;
+			public const int tabMode = 2130903799;
 			
 			// aapt resource value: 0x7F0302F8
-			public const int tabMaxWidth = 2130903800;
+			public const int tabPadding = 2130903800;
 			
 			// aapt resource value: 0x7F0302F9
-			public const int tabMinWidth = 2130903801;
+			public const int tabPaddingBottom = 2130903801;
 			
 			// aapt resource value: 0x7F0302FA
-			public const int tabMode = 2130903802;
+			public const int tabPaddingEnd = 2130903802;
 			
 			// aapt resource value: 0x7F0302FB
-			public const int tabPadding = 2130903803;
+			public const int tabPaddingStart = 2130903803;
 			
 			// aapt resource value: 0x7F0302FC
-			public const int tabPaddingBottom = 2130903804;
+			public const int tabPaddingTop = 2130903804;
 			
 			// aapt resource value: 0x7F0302FD
-			public const int tabPaddingEnd = 2130903805;
+			public const int tabRippleColor = 2130903805;
 			
 			// aapt resource value: 0x7F0302FE
-			public const int tabPaddingStart = 2130903806;
+			public const int tabSelectedTextColor = 2130903806;
 			
 			// aapt resource value: 0x7F0302FF
-			public const int tabPaddingTop = 2130903807;
+			public const int tabStyle = 2130903807;
 			
 			// aapt resource value: 0x7F030300
-			public const int tabRippleColor = 2130903808;
+			public const int tabTextAppearance = 2130903808;
 			
 			// aapt resource value: 0x7F030301
-			public const int tabSelectedTextColor = 2130903809;
+			public const int tabTextColor = 2130903809;
 			
 			// aapt resource value: 0x7F030302
-			public const int tabStyle = 2130903810;
+			public const int tabUnboundedRipple = 2130903810;
 			
 			// aapt resource value: 0x7F030303
-			public const int tabTextAppearance = 2130903811;
+			public const int targetId = 2130903811;
 			
 			// aapt resource value: 0x7F030304
-			public const int tabTextColor = 2130903812;
+			public const int telltales_tailColor = 2130903812;
 			
 			// aapt resource value: 0x7F030305
-			public const int tabUnboundedRipple = 2130903813;
+			public const int telltales_tailScale = 2130903813;
 			
 			// aapt resource value: 0x7F030306
-			public const int targetId = 2130903814;
+			public const int telltales_velocityMode = 2130903814;
 			
 			// aapt resource value: 0x7F030307
-			public const int telltales_tailColor = 2130903815;
+			public const int textAllCaps = 2130903815;
 			
 			// aapt resource value: 0x7F030308
-			public const int telltales_tailScale = 2130903816;
+			public const int textAppearanceBody1 = 2130903816;
 			
 			// aapt resource value: 0x7F030309
-			public const int telltales_velocityMode = 2130903817;
+			public const int textAppearanceBody2 = 2130903817;
 			
 			// aapt resource value: 0x7F03030A
-			public const int textAllCaps = 2130903818;
+			public const int textAppearanceButton = 2130903818;
 			
 			// aapt resource value: 0x7F03030B
-			public const int textAppearanceBody1 = 2130903819;
+			public const int textAppearanceCaption = 2130903819;
 			
 			// aapt resource value: 0x7F03030C
-			public const int textAppearanceBody2 = 2130903820;
+			public const int textAppearanceHeadline1 = 2130903820;
 			
 			// aapt resource value: 0x7F03030D
-			public const int textAppearanceButton = 2130903821;
+			public const int textAppearanceHeadline2 = 2130903821;
 			
 			// aapt resource value: 0x7F03030E
-			public const int textAppearanceCaption = 2130903822;
+			public const int textAppearanceHeadline3 = 2130903822;
 			
 			// aapt resource value: 0x7F03030F
-			public const int textAppearanceHeadline1 = 2130903823;
+			public const int textAppearanceHeadline4 = 2130903823;
 			
 			// aapt resource value: 0x7F030310
-			public const int textAppearanceHeadline2 = 2130903824;
+			public const int textAppearanceHeadline5 = 2130903824;
 			
 			// aapt resource value: 0x7F030311
-			public const int textAppearanceHeadline3 = 2130903825;
+			public const int textAppearanceHeadline6 = 2130903825;
 			
 			// aapt resource value: 0x7F030312
-			public const int textAppearanceHeadline4 = 2130903826;
+			public const int textAppearanceLargePopupMenu = 2130903826;
 			
 			// aapt resource value: 0x7F030313
-			public const int textAppearanceHeadline5 = 2130903827;
+			public const int textAppearanceLineHeightEnabled = 2130903827;
 			
 			// aapt resource value: 0x7F030314
-			public const int textAppearanceHeadline6 = 2130903828;
+			public const int textAppearanceListItem = 2130903828;
 			
 			// aapt resource value: 0x7F030315
-			public const int textAppearanceLargePopupMenu = 2130903829;
+			public const int textAppearanceListItemSecondary = 2130903829;
 			
 			// aapt resource value: 0x7F030316
-			public const int textAppearanceLineHeightEnabled = 2130903830;
+			public const int textAppearanceListItemSmall = 2130903830;
 			
 			// aapt resource value: 0x7F030317
-			public const int textAppearanceListItem = 2130903831;
+			public const int textAppearanceOverline = 2130903831;
 			
 			// aapt resource value: 0x7F030318
-			public const int textAppearanceListItemSecondary = 2130903832;
+			public const int textAppearancePopupMenuHeader = 2130903832;
 			
 			// aapt resource value: 0x7F030319
-			public const int textAppearanceListItemSmall = 2130903833;
+			public const int textAppearanceSearchResultSubtitle = 2130903833;
 			
 			// aapt resource value: 0x7F03031A
-			public const int textAppearanceOverline = 2130903834;
+			public const int textAppearanceSearchResultTitle = 2130903834;
 			
 			// aapt resource value: 0x7F03031B
-			public const int textAppearancePopupMenuHeader = 2130903835;
+			public const int textAppearanceSmallPopupMenu = 2130903835;
 			
 			// aapt resource value: 0x7F03031C
-			public const int textAppearanceSearchResultSubtitle = 2130903836;
+			public const int textAppearanceSubtitle1 = 2130903836;
 			
 			// aapt resource value: 0x7F03031D
-			public const int textAppearanceSearchResultTitle = 2130903837;
+			public const int textAppearanceSubtitle2 = 2130903837;
 			
 			// aapt resource value: 0x7F03031E
-			public const int textAppearanceSmallPopupMenu = 2130903838;
+			public const int textColorAlertDialogListItem = 2130903838;
 			
 			// aapt resource value: 0x7F03031F
-			public const int textAppearanceSubtitle1 = 2130903839;
+			public const int textColorSearchUrl = 2130903839;
 			
 			// aapt resource value: 0x7F030320
-			public const int textAppearanceSubtitle2 = 2130903840;
+			public const int textEndPadding = 2130903840;
 			
 			// aapt resource value: 0x7F030321
-			public const int textColorAlertDialogListItem = 2130903841;
+			public const int textInputLayoutFocusedRectEnabled = 2130903841;
 			
 			// aapt resource value: 0x7F030322
-			public const int textColorSearchUrl = 2130903842;
+			public const int textInputStyle = 2130903842;
 			
 			// aapt resource value: 0x7F030323
-			public const int textEndPadding = 2130903843;
+			public const int textLocale = 2130903843;
 			
 			// aapt resource value: 0x7F030324
-			public const int textInputLayoutFocusedRectEnabled = 2130903844;
+			public const int textStartPadding = 2130903844;
 			
 			// aapt resource value: 0x7F030325
-			public const int textInputStyle = 2130903845;
+			public const int theme = 2130903845;
 			
 			// aapt resource value: 0x7F030326
-			public const int textLocale = 2130903846;
+			public const int themeLineHeight = 2130903846;
 			
 			// aapt resource value: 0x7F030327
-			public const int textStartPadding = 2130903847;
+			public const int thickness = 2130903847;
 			
 			// aapt resource value: 0x7F030328
-			public const int theme = 2130903848;
+			public const int thumbColor = 2130903848;
 			
 			// aapt resource value: 0x7F030329
-			public const int themeLineHeight = 2130903849;
+			public const int thumbElevation = 2130903849;
 			
 			// aapt resource value: 0x7F03032A
-			public const int thickness = 2130903850;
+			public const int thumbRadius = 2130903850;
 			
 			// aapt resource value: 0x7F03032B
-			public const int thumbColor = 2130903851;
+			public const int thumbStrokeColor = 2130903851;
 			
 			// aapt resource value: 0x7F03032C
-			public const int thumbElevation = 2130903852;
+			public const int thumbStrokeWidth = 2130903852;
 			
 			// aapt resource value: 0x7F03032D
-			public const int thumbRadius = 2130903853;
+			public const int thumbTextPadding = 2130903853;
 			
 			// aapt resource value: 0x7F03032E
-			public const int thumbStrokeColor = 2130903854;
+			public const int thumbTint = 2130903854;
 			
 			// aapt resource value: 0x7F03032F
-			public const int thumbStrokeWidth = 2130903855;
+			public const int thumbTintMode = 2130903855;
 			
 			// aapt resource value: 0x7F030330
-			public const int thumbTextPadding = 2130903856;
+			public const int tickColor = 2130903856;
 			
 			// aapt resource value: 0x7F030331
-			public const int thumbTint = 2130903857;
+			public const int tickColorActive = 2130903857;
 			
 			// aapt resource value: 0x7F030332
-			public const int thumbTintMode = 2130903858;
+			public const int tickColorInactive = 2130903858;
 			
 			// aapt resource value: 0x7F030333
-			public const int tickColor = 2130903859;
+			public const int tickMark = 2130903859;
 			
 			// aapt resource value: 0x7F030334
-			public const int tickColorActive = 2130903860;
+			public const int tickMarkTint = 2130903860;
 			
 			// aapt resource value: 0x7F030335
-			public const int tickColorInactive = 2130903861;
+			public const int tickMarkTintMode = 2130903861;
 			
 			// aapt resource value: 0x7F030336
-			public const int tickMark = 2130903862;
+			public const int tickVisible = 2130903862;
 			
 			// aapt resource value: 0x7F030337
-			public const int tickMarkTint = 2130903863;
+			public const int tint = 2130903863;
 			
 			// aapt resource value: 0x7F030338
-			public const int tickMarkTintMode = 2130903864;
+			public const int tintMode = 2130903864;
 			
 			// aapt resource value: 0x7F030339
-			public const int tickVisible = 2130903865;
+			public const int title = 2130903865;
 			
 			// aapt resource value: 0x7F03033A
-			public const int tint = 2130903866;
+			public const int titleEnabled = 2130903866;
 			
 			// aapt resource value: 0x7F03033B
-			public const int tintMode = 2130903867;
+			public const int titleMargin = 2130903867;
 			
 			// aapt resource value: 0x7F03033C
-			public const int title = 2130903868;
+			public const int titleMarginBottom = 2130903868;
 			
 			// aapt resource value: 0x7F03033D
-			public const int titleEnabled = 2130903869;
-			
-			// aapt resource value: 0x7F03033E
-			public const int titleMargin = 2130903870;
-			
-			// aapt resource value: 0x7F03033F
-			public const int titleMarginBottom = 2130903871;
+			public const int titleMarginEnd = 2130903869;
 			
 			// aapt resource value: 0x7F030340
-			public const int titleMarginEnd = 2130903872;
+			public const int titleMargins = 2130903872;
 			
-			// aapt resource value: 0x7F030343
-			public const int titleMargins = 2130903875;
+			// aapt resource value: 0x7F03033E
+			public const int titleMarginStart = 2130903870;
+			
+			// aapt resource value: 0x7F03033F
+			public const int titleMarginTop = 2130903871;
 			
 			// aapt resource value: 0x7F030341
-			public const int titleMarginStart = 2130903873;
+			public const int titleTextAppearance = 2130903873;
 			
 			// aapt resource value: 0x7F030342
-			public const int titleMarginTop = 2130903874;
+			public const int titleTextColor = 2130903874;
+			
+			// aapt resource value: 0x7F030343
+			public const int titleTextStyle = 2130903875;
 			
 			// aapt resource value: 0x7F030344
-			public const int titleTextAppearance = 2130903876;
+			public const int toolbarId = 2130903876;
 			
 			// aapt resource value: 0x7F030345
-			public const int titleTextColor = 2130903877;
+			public const int toolbarNavigationButtonStyle = 2130903877;
 			
 			// aapt resource value: 0x7F030346
-			public const int titleTextStyle = 2130903878;
+			public const int toolbarStyle = 2130903878;
 			
 			// aapt resource value: 0x7F030347
-			public const int toolbarId = 2130903879;
+			public const int tooltipForegroundColor = 2130903879;
 			
 			// aapt resource value: 0x7F030348
-			public const int toolbarNavigationButtonStyle = 2130903880;
+			public const int tooltipFrameBackground = 2130903880;
 			
 			// aapt resource value: 0x7F030349
-			public const int toolbarStyle = 2130903881;
+			public const int tooltipStyle = 2130903881;
 			
 			// aapt resource value: 0x7F03034A
-			public const int tooltipForegroundColor = 2130903882;
+			public const int tooltipText = 2130903882;
 			
 			// aapt resource value: 0x7F03034B
-			public const int tooltipFrameBackground = 2130903883;
+			public const int touchAnchorId = 2130903883;
 			
 			// aapt resource value: 0x7F03034C
-			public const int tooltipStyle = 2130903884;
+			public const int touchAnchorSide = 2130903884;
 			
 			// aapt resource value: 0x7F03034D
-			public const int tooltipText = 2130903885;
+			public const int touchRegionId = 2130903885;
 			
 			// aapt resource value: 0x7F03034E
-			public const int touchAnchorId = 2130903886;
+			public const int track = 2130903886;
 			
 			// aapt resource value: 0x7F03034F
-			public const int touchAnchorSide = 2130903887;
+			public const int trackColor = 2130903887;
 			
 			// aapt resource value: 0x7F030350
-			public const int touchRegionId = 2130903888;
+			public const int trackColorActive = 2130903888;
 			
 			// aapt resource value: 0x7F030351
-			public const int track = 2130903889;
+			public const int trackColorInactive = 2130903889;
 			
 			// aapt resource value: 0x7F030352
-			public const int trackColor = 2130903890;
+			public const int trackCornerRadius = 2130903890;
 			
 			// aapt resource value: 0x7F030353
-			public const int trackColorActive = 2130903891;
+			public const int trackHeight = 2130903891;
 			
 			// aapt resource value: 0x7F030354
-			public const int trackColorInactive = 2130903892;
+			public const int trackThickness = 2130903892;
 			
 			// aapt resource value: 0x7F030355
-			public const int trackCornerRadius = 2130903893;
+			public const int trackTint = 2130903893;
 			
 			// aapt resource value: 0x7F030356
-			public const int trackHeight = 2130903894;
+			public const int trackTintMode = 2130903894;
 			
 			// aapt resource value: 0x7F030357
-			public const int trackThickness = 2130903895;
+			public const int transitionDisable = 2130903895;
 			
 			// aapt resource value: 0x7F030358
-			public const int trackTint = 2130903896;
+			public const int transitionEasing = 2130903896;
 			
 			// aapt resource value: 0x7F030359
-			public const int trackTintMode = 2130903897;
+			public const int transitionFlags = 2130903897;
 			
 			// aapt resource value: 0x7F03035A
-			public const int transitionDisable = 2130903898;
+			public const int transitionPathRotate = 2130903898;
 			
 			// aapt resource value: 0x7F03035B
-			public const int transitionEasing = 2130903899;
+			public const int transitionShapeAppearance = 2130903899;
 			
 			// aapt resource value: 0x7F03035C
-			public const int transitionFlags = 2130903900;
+			public const int triggerId = 2130903900;
 			
 			// aapt resource value: 0x7F03035D
-			public const int transitionPathRotate = 2130903901;
+			public const int triggerReceiver = 2130903901;
 			
 			// aapt resource value: 0x7F03035E
-			public const int transitionShapeAppearance = 2130903902;
+			public const int triggerSlack = 2130903902;
 			
 			// aapt resource value: 0x7F03035F
-			public const int triggerId = 2130903903;
+			public const int ttcIndex = 2130903903;
 			
 			// aapt resource value: 0x7F030360
-			public const int triggerReceiver = 2130903904;
+			public const int useCompatPadding = 2130903904;
 			
 			// aapt resource value: 0x7F030361
-			public const int triggerSlack = 2130903905;
+			public const int useMaterialThemeColors = 2130903905;
 			
 			// aapt resource value: 0x7F030362
-			public const int ttcIndex = 2130903906;
+			public const int values = 2130903906;
 			
 			// aapt resource value: 0x7F030363
-			public const int useCompatPadding = 2130903907;
+			public const int verticalOffset = 2130903907;
 			
 			// aapt resource value: 0x7F030364
-			public const int useMaterialThemeColors = 2130903908;
+			public const int viewInflaterClass = 2130903908;
 			
 			// aapt resource value: 0x7F030365
-			public const int values = 2130903909;
+			public const int visibilityMode = 2130903909;
 			
 			// aapt resource value: 0x7F030366
-			public const int verticalOffset = 2130903910;
+			public const int voiceIcon = 2130903910;
 			
 			// aapt resource value: 0x7F030367
-			public const int viewInflaterClass = 2130903911;
+			public const int warmth = 2130903911;
 			
 			// aapt resource value: 0x7F030368
-			public const int visibilityMode = 2130903912;
+			public const int waveDecay = 2130903912;
 			
 			// aapt resource value: 0x7F030369
-			public const int voiceIcon = 2130903913;
+			public const int waveOffset = 2130903913;
 			
 			// aapt resource value: 0x7F03036A
-			public const int warmth = 2130903914;
+			public const int wavePeriod = 2130903914;
 			
 			// aapt resource value: 0x7F03036B
-			public const int waveDecay = 2130903915;
+			public const int waveShape = 2130903915;
 			
 			// aapt resource value: 0x7F03036C
-			public const int waveOffset = 2130903916;
+			public const int waveVariesBy = 2130903916;
 			
 			// aapt resource value: 0x7F03036D
-			public const int wavePeriod = 2130903917;
+			public const int windowActionBar = 2130903917;
 			
 			// aapt resource value: 0x7F03036E
-			public const int waveShape = 2130903918;
+			public const int windowActionBarOverlay = 2130903918;
 			
 			// aapt resource value: 0x7F03036F
-			public const int waveVariesBy = 2130903919;
+			public const int windowActionModeOverlay = 2130903919;
 			
 			// aapt resource value: 0x7F030370
-			public const int windowActionBar = 2130903920;
+			public const int windowFixedHeightMajor = 2130903920;
 			
 			// aapt resource value: 0x7F030371
-			public const int windowActionBarOverlay = 2130903921;
+			public const int windowFixedHeightMinor = 2130903921;
 			
 			// aapt resource value: 0x7F030372
-			public const int windowActionModeOverlay = 2130903922;
+			public const int windowFixedWidthMajor = 2130903922;
 			
 			// aapt resource value: 0x7F030373
-			public const int windowFixedHeightMajor = 2130903923;
+			public const int windowFixedWidthMinor = 2130903923;
 			
 			// aapt resource value: 0x7F030374
-			public const int windowFixedHeightMinor = 2130903924;
+			public const int windowMinWidthMajor = 2130903924;
 			
 			// aapt resource value: 0x7F030375
-			public const int windowFixedWidthMajor = 2130903925;
+			public const int windowMinWidthMinor = 2130903925;
 			
 			// aapt resource value: 0x7F030376
-			public const int windowFixedWidthMinor = 2130903926;
+			public const int windowNoTitle = 2130903926;
 			
 			// aapt resource value: 0x7F030377
-			public const int windowMinWidthMajor = 2130903927;
+			public const int yearSelectedStyle = 2130903927;
 			
 			// aapt resource value: 0x7F030378
-			public const int windowMinWidthMinor = 2130903928;
+			public const int yearStyle = 2130903928;
 			
 			// aapt resource value: 0x7F030379
-			public const int windowNoTitle = 2130903929;
-			
-			// aapt resource value: 0x7F03037A
-			public const int yearSelectedStyle = 2130903930;
-			
-			// aapt resource value: 0x7F03037B
-			public const int yearStyle = 2130903931;
-			
-			// aapt resource value: 0x7F03037C
-			public const int yearTodayStyle = 2130903932;
+			public const int yearTodayStyle = 2130903929;
 			
 			static Attribute()
 			{
@@ -9905,19 +5396,13 @@ namespace LibMaker.Droid
 			public const int notify_panel_notification_icon_bg = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int shape_dialog_normal_background = 2131165330;
+			public const int test_custom_background = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int shape_dialog_small_background = 2131165331;
+			public const int tooltip_frame_dark = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int test_custom_background = 2131165332;
-			
-			// aapt resource value: 0x7F070095
-			public const int tooltip_frame_dark = 2131165333;
-			
-			// aapt resource value: 0x7F070096
-			public const int tooltip_frame_light = 2131165334;
+			public const int tooltip_frame_light = 2131165332;
 			
 			static Drawable()
 			{
@@ -9932,230 +5417,227 @@ namespace LibMaker.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7F08000E
+			public const int accelerate = 2131230734;
+			
+			// aapt resource value: 0x7F08000F
+			public const int accessibility_action_clickable_span = 2131230735;
+			
 			// aapt resource value: 0x7F080010
-			public const int accelerate = 2131230736;
+			public const int accessibility_custom_action_0 = 2131230736;
 			
 			// aapt resource value: 0x7F080011
-			public const int accessibility_action_clickable_span = 2131230737;
+			public const int accessibility_custom_action_1 = 2131230737;
 			
 			// aapt resource value: 0x7F080012
-			public const int accessibility_custom_action_0 = 2131230738;
+			public const int accessibility_custom_action_10 = 2131230738;
 			
 			// aapt resource value: 0x7F080013
-			public const int accessibility_custom_action_1 = 2131230739;
+			public const int accessibility_custom_action_11 = 2131230739;
 			
 			// aapt resource value: 0x7F080014
-			public const int accessibility_custom_action_10 = 2131230740;
+			public const int accessibility_custom_action_12 = 2131230740;
 			
 			// aapt resource value: 0x7F080015
-			public const int accessibility_custom_action_11 = 2131230741;
+			public const int accessibility_custom_action_13 = 2131230741;
 			
 			// aapt resource value: 0x7F080016
-			public const int accessibility_custom_action_12 = 2131230742;
+			public const int accessibility_custom_action_14 = 2131230742;
 			
 			// aapt resource value: 0x7F080017
-			public const int accessibility_custom_action_13 = 2131230743;
+			public const int accessibility_custom_action_15 = 2131230743;
 			
 			// aapt resource value: 0x7F080018
-			public const int accessibility_custom_action_14 = 2131230744;
+			public const int accessibility_custom_action_16 = 2131230744;
 			
 			// aapt resource value: 0x7F080019
-			public const int accessibility_custom_action_15 = 2131230745;
+			public const int accessibility_custom_action_17 = 2131230745;
 			
 			// aapt resource value: 0x7F08001A
-			public const int accessibility_custom_action_16 = 2131230746;
+			public const int accessibility_custom_action_18 = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int accessibility_custom_action_17 = 2131230747;
+			public const int accessibility_custom_action_19 = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int accessibility_custom_action_18 = 2131230748;
+			public const int accessibility_custom_action_2 = 2131230748;
 			
 			// aapt resource value: 0x7F08001D
-			public const int accessibility_custom_action_19 = 2131230749;
+			public const int accessibility_custom_action_20 = 2131230749;
 			
 			// aapt resource value: 0x7F08001E
-			public const int accessibility_custom_action_2 = 2131230750;
+			public const int accessibility_custom_action_21 = 2131230750;
 			
 			// aapt resource value: 0x7F08001F
-			public const int accessibility_custom_action_20 = 2131230751;
+			public const int accessibility_custom_action_22 = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int accessibility_custom_action_21 = 2131230752;
+			public const int accessibility_custom_action_23 = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int accessibility_custom_action_22 = 2131230753;
+			public const int accessibility_custom_action_24 = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int accessibility_custom_action_23 = 2131230754;
+			public const int accessibility_custom_action_25 = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int accessibility_custom_action_24 = 2131230755;
+			public const int accessibility_custom_action_26 = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int accessibility_custom_action_25 = 2131230756;
+			public const int accessibility_custom_action_27 = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int accessibility_custom_action_26 = 2131230757;
+			public const int accessibility_custom_action_28 = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int accessibility_custom_action_27 = 2131230758;
+			public const int accessibility_custom_action_29 = 2131230758;
 			
 			// aapt resource value: 0x7F080027
-			public const int accessibility_custom_action_28 = 2131230759;
+			public const int accessibility_custom_action_3 = 2131230759;
 			
 			// aapt resource value: 0x7F080028
-			public const int accessibility_custom_action_29 = 2131230760;
+			public const int accessibility_custom_action_30 = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int accessibility_custom_action_3 = 2131230761;
+			public const int accessibility_custom_action_31 = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int accessibility_custom_action_30 = 2131230762;
+			public const int accessibility_custom_action_4 = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int accessibility_custom_action_31 = 2131230763;
+			public const int accessibility_custom_action_5 = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int accessibility_custom_action_4 = 2131230764;
+			public const int accessibility_custom_action_6 = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int accessibility_custom_action_5 = 2131230765;
+			public const int accessibility_custom_action_7 = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int accessibility_custom_action_6 = 2131230766;
+			public const int accessibility_custom_action_8 = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int accessibility_custom_action_7 = 2131230767;
-			
-			// aapt resource value: 0x7F080030
-			public const int accessibility_custom_action_8 = 2131230768;
-			
-			// aapt resource value: 0x7F080031
-			public const int accessibility_custom_action_9 = 2131230769;
-			
-			// aapt resource value: 0x7F080043
-			public const int actions = 2131230787;
-			
-			// aapt resource value: 0x7F080032
-			public const int action_bar = 2131230770;
-			
-			// aapt resource value: 0x7F080033
-			public const int action_bar_activity_content = 2131230771;
-			
-			// aapt resource value: 0x7F080034
-			public const int action_bar_container = 2131230772;
-			
-			// aapt resource value: 0x7F080035
-			public const int action_bar_root = 2131230773;
-			
-			// aapt resource value: 0x7F080036
-			public const int action_bar_spinner = 2131230774;
-			
-			// aapt resource value: 0x7F080037
-			public const int action_bar_subtitle = 2131230775;
-			
-			// aapt resource value: 0x7F080038
-			public const int action_bar_title = 2131230776;
-			
-			// aapt resource value: 0x7F080039
-			public const int action_container = 2131230777;
-			
-			// aapt resource value: 0x7F08003A
-			public const int action_context_bar = 2131230778;
-			
-			// aapt resource value: 0x7F08003B
-			public const int action_divider = 2131230779;
-			
-			// aapt resource value: 0x7F08003C
-			public const int action_image = 2131230780;
-			
-			// aapt resource value: 0x7F08003D
-			public const int action_menu_divider = 2131230781;
-			
-			// aapt resource value: 0x7F08003E
-			public const int action_menu_presenter = 2131230782;
-			
-			// aapt resource value: 0x7F08003F
-			public const int action_mode_bar = 2131230783;
-			
-			// aapt resource value: 0x7F080040
-			public const int action_mode_bar_stub = 2131230784;
+			public const int accessibility_custom_action_9 = 2131230767;
 			
 			// aapt resource value: 0x7F080041
-			public const int action_mode_close_button = 2131230785;
+			public const int actions = 2131230785;
+			
+			// aapt resource value: 0x7F080030
+			public const int action_bar = 2131230768;
+			
+			// aapt resource value: 0x7F080031
+			public const int action_bar_activity_content = 2131230769;
+			
+			// aapt resource value: 0x7F080032
+			public const int action_bar_container = 2131230770;
+			
+			// aapt resource value: 0x7F080033
+			public const int action_bar_root = 2131230771;
+			
+			// aapt resource value: 0x7F080034
+			public const int action_bar_spinner = 2131230772;
+			
+			// aapt resource value: 0x7F080035
+			public const int action_bar_subtitle = 2131230773;
+			
+			// aapt resource value: 0x7F080036
+			public const int action_bar_title = 2131230774;
+			
+			// aapt resource value: 0x7F080037
+			public const int action_container = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int action_context_bar = 2131230776;
+			
+			// aapt resource value: 0x7F080039
+			public const int action_divider = 2131230777;
+			
+			// aapt resource value: 0x7F08003A
+			public const int action_image = 2131230778;
+			
+			// aapt resource value: 0x7F08003B
+			public const int action_menu_divider = 2131230779;
+			
+			// aapt resource value: 0x7F08003C
+			public const int action_menu_presenter = 2131230780;
+			
+			// aapt resource value: 0x7F08003D
+			public const int action_mode_bar = 2131230781;
+			
+			// aapt resource value: 0x7F08003E
+			public const int action_mode_bar_stub = 2131230782;
+			
+			// aapt resource value: 0x7F08003F
+			public const int action_mode_close_button = 2131230783;
+			
+			// aapt resource value: 0x7F080040
+			public const int action_text = 2131230784;
 			
 			// aapt resource value: 0x7F080042
-			public const int action_text = 2131230786;
+			public const int activity_chooser_view_content = 2131230786;
+			
+			// aapt resource value: 0x7F080043
+			public const int add = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int activity_chooser_view_content = 2131230788;
+			public const int alertTitle = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int add = 2131230789;
+			public const int aligned = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int alertTitle = 2131230790;
-			
-			// aapt resource value: 0x7F080047
-			public const int aligned = 2131230791;
-			
-			// aapt resource value: 0x7F080048
-			public const int all = 2131230792;
+			public const int all = 2131230790;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
+			// aapt resource value: 0x7F080047
+			public const int always = 2131230791;
+			
+			// aapt resource value: 0x7F080048
+			public const int animateToEnd = 2131230792;
+			
 			// aapt resource value: 0x7F080049
-			public const int always = 2131230793;
+			public const int animateToStart = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int animateToEnd = 2131230794;
+			public const int asConfigured = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int animateToStart = 2131230795;
+			public const int async = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int asConfigured = 2131230796;
+			public const int auto = 2131230796;
 			
 			// aapt resource value: 0x7F08004D
-			public const int async = 2131230797;
+			public const int autoComplete = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int auto = 2131230798;
+			public const int autoCompleteToEnd = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int autoComplete = 2131230799;
+			public const int autoCompleteToStart = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int autoCompleteToEnd = 2131230800;
+			public const int back = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int autoCompleteToStart = 2131230801;
-			
-			// aapt resource value: 0x7F080003
-			public const int Back = 2131230723;
+			public const int barrier = 2131230801;
 			
 			// aapt resource value: 0x7F080052
-			public const int back = 2131230802;
-			
-			// aapt resource value: 0x7F080053
-			public const int barrier = 2131230803;
+			public const int baseline = 2131230802;
 			
 			// aapt resource value: 0x7F080054
-			public const int baseline = 2131230804;
+			public const int beginning = 2131230804;
 			
-			// aapt resource value: 0x7F080056
-			public const int beginning = 2131230806;
+			// aapt resource value: 0x7F080053
+			public const int beginOnFirstDraw = 2131230803;
 			
 			// aapt resource value: 0x7F080055
-			public const int beginOnFirstDraw = 2131230805;
+			public const int blocking = 2131230805;
 			
-			// aapt resource value: 0x7F080057
-			public const int blocking = 2131230807;
-			
-			// aapt resource value: 0x7F080058
-			public const int bottom = 2131230808;
+			// aapt resource value: 0x7F080056
+			public const int bottom = 2131230806;
 			
 			// aapt resource value: 0x7F080001
 			public const int BOTTOM_END = 2131230721;
@@ -10163,1103 +5645,1094 @@ namespace LibMaker.Droid
 			// aapt resource value: 0x7F080002
 			public const int BOTTOM_START = 2131230722;
 			
-			// aapt resource value: 0x7F080059
-			public const int bounce = 2131230809;
+			// aapt resource value: 0x7F080057
+			public const int bounce = 2131230807;
 			
-			// aapt resource value: 0x7F08005A
-			public const int browser_actions_header_text = 2131230810;
-			
-			// aapt resource value: 0x7F08005D
-			public const int browser_actions_menu_items = 2131230813;
+			// aapt resource value: 0x7F080058
+			public const int browser_actions_header_text = 2131230808;
 			
 			// aapt resource value: 0x7F08005B
-			public const int browser_actions_menu_item_icon = 2131230811;
+			public const int browser_actions_menu_items = 2131230811;
+			
+			// aapt resource value: 0x7F080059
+			public const int browser_actions_menu_item_icon = 2131230809;
+			
+			// aapt resource value: 0x7F08005A
+			public const int browser_actions_menu_item_text = 2131230810;
 			
 			// aapt resource value: 0x7F08005C
-			public const int browser_actions_menu_item_text = 2131230812;
+			public const int browser_actions_menu_view = 2131230812;
+			
+			// aapt resource value: 0x7F08005D
+			public const int bt_event = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int browser_actions_menu_view = 2131230814;
+			public const int buttonPanel = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int bt_event = 2131230815;
+			public const int cache_measures = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int buttonPanel = 2131230816;
+			public const int cancel_button = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int cache_measures = 2131230817;
+			public const int center = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int cancel_button = 2131230818;
+			public const int center_horizontal = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int center = 2131230819;
+			public const int center_vertical = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int center_horizontal = 2131230820;
+			public const int chain = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int center_vertical = 2131230821;
+			public const int chains = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int chain = 2131230822;
+			public const int checkbox = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int chains = 2131230823;
+			public const int @checked = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int checkbox = 2131230824;
+			public const int chip = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int @checked = 2131230825;
+			public const int chip1 = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int chip = 2131230826;
+			public const int chip2 = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int chip1 = 2131230827;
+			public const int chip3 = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int chip2 = 2131230828;
+			public const int chip_group = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int chip3 = 2131230829;
+			public const int chronometer = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int chip_group = 2131230830;
+			public const int circle_center = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int chronometer = 2131230831;
+			public const int clear_text = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int circle_center = 2131230832;
+			public const int clip_horizontal = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int clear_text = 2131230833;
+			public const int clip_vertical = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int clip_horizontal = 2131230834;
+			public const int clockwise = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int clip_vertical = 2131230835;
+			public const int collapseActionView = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int clockwise = 2131230836;
+			public const int compatible = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int collapseActionView = 2131230837;
+			public const int confirm_button = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int compatible = 2131230838;
+			public const int container = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int confirm_button = 2131230839;
+			public const int content = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int container = 2131230840;
+			public const int contentPanel = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int content = 2131230841;
+			public const int contiguous = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int contentPanel = 2131230842;
+			public const int coordinator = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int contiguous = 2131230843;
+			public const int cos = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int coordinator = 2131230844;
+			public const int counterclockwise = 2131230844;
+			
+			// aapt resource value: 0x7F080003
+			public const int CTRL = 2131230723;
 			
 			// aapt resource value: 0x7F08007D
-			public const int cos = 2131230845;
+			public const int custom = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int counterclockwise = 2131230846;
-			
-			// aapt resource value: 0x7F080004
-			public const int CTRL = 2131230724;
+			public const int customPanel = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int custom = 2131230847;
+			public const int cut = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int customPanel = 2131230848;
+			public const int cxCameraX = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int cut = 2131230849;
+			public const int date_picker_actions = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int cxCameraX = 2131230850;
+			public const int decelerate = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int date_picker_actions = 2131230851;
+			public const int decelerateAndComplete = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int decelerate = 2131230852;
+			public const int decor_content_parent = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int decelerateAndComplete = 2131230853;
+			public const int default_activity_button = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int decor_content_parent = 2131230854;
+			public const int deltaRelative = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int default_activity_button = 2131230855;
+			public const int dependency_ordering = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int deltaRelative = 2131230856;
+			public const int design_bottom_sheet = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int dependency_ordering = 2131230857;
+			public const int design_menu_item_action_area = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int design_bottom_sheet = 2131230858;
+			public const int design_menu_item_action_area_stub = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int design_menu_item_action_area = 2131230859;
+			public const int design_menu_item_text = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int design_menu_item_action_area_stub = 2131230860;
+			public const int design_navigation_view = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int design_menu_item_text = 2131230861;
+			public const int dialog_button = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int design_navigation_view = 2131230862;
+			public const int dimensions = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int dialog_button = 2131230863;
+			public const int direct = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int dimensions = 2131230864;
+			public const int disableHome = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int direct = 2131230865;
+			public const int disablePostScroll = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int disableHome = 2131230866;
+			public const int disableScroll = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int disablePostScroll = 2131230867;
+			public const int disjoint = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int disableScroll = 2131230868;
+			public const int dragDown = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int disjoint = 2131230869;
+			public const int dragEnd = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int dragDown = 2131230870;
+			public const int dragLeft = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int dragEnd = 2131230871;
+			public const int dragRight = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int dragLeft = 2131230872;
+			public const int dragStart = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int dragRight = 2131230873;
+			public const int dragUp = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int dragStart = 2131230874;
+			public const int dropdown_menu = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int dragUp = 2131230875;
+			public const int easeIn = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int dropdown_menu = 2131230876;
+			public const int easeInOut = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int easeIn = 2131230877;
+			public const int easeOut = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int easeInOut = 2131230878;
+			public const int edit_query = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int easeOut = 2131230879;
+			public const int elastic = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int edit_query = 2131230880;
+			public const int end = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int elastic = 2131230881;
+			public const int endToStart = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int end = 2131230882;
+			public const int enterAlways = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int endToStart = 2131230883;
+			public const int enterAlwaysCollapsed = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int enterAlways = 2131230884;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int enterAlwaysCollapsed = 2131230885;
+			public const int exitUntilCollapsed = 2131230884;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int exitUntilCollapsed = 2131230886;
+			public const int expanded_menu = 2131230886;
 			
-			// aapt resource value: 0x7F0800A8
-			public const int expanded_menu = 2131230888;
+			// aapt resource value: 0x7F0800A5
+			public const int expand_activities_button = 2131230885;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int expand_activities_button = 2131230887;
+			public const int fade = 2131230887;
+			
+			// aapt resource value: 0x7F0800A8
+			public const int fill = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int fade = 2131230889;
-			
-			// aapt resource value: 0x7F0800AA
-			public const int fill = 2131230890;
-			
-			// aapt resource value: 0x7F0800AB
-			public const int fillCenter = 2131230891;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int filled = 2131230896;
-			
-			// aapt resource value: 0x7F0800AC
-			public const int fillEnd = 2131230892;
-			
-			// aapt resource value: 0x7F0800AD
-			public const int fillStart = 2131230893;
+			public const int fillCenter = 2131230889;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int fill_horizontal = 2131230894;
+			public const int filled = 2131230894;
+			
+			// aapt resource value: 0x7F0800AA
+			public const int fillEnd = 2131230890;
+			
+			// aapt resource value: 0x7F0800AB
+			public const int fillStart = 2131230891;
+			
+			// aapt resource value: 0x7F0800AC
+			public const int fill_horizontal = 2131230892;
+			
+			// aapt resource value: 0x7F0800AD
+			public const int fill_vertical = 2131230893;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int fill_vertical = 2131230895;
+			public const int fitCenter = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int fitEnd = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int fitCenter = 2131230897;
+			public const int fitStart = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int fitEnd = 2131230898;
+			public const int fitToContents = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int fitStart = 2131230899;
+			public const int @fixed = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int fitToContents = 2131230900;
+			public const int flip = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int @fixed = 2131230901;
+			public const int floating = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int flip = 2131230902;
+			public const int forever = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int floating = 2131230903;
+			public const int fragment_container_view_tag = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int forever = 2131230904;
+			public const int front = 2131230904;
+			
+			// aapt resource value: 0x7F080004
+			public const int FUNCTION = 2131230724;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int fragment_container_view_tag = 2131230905;
-			
-			// aapt resource value: 0x7F080006
-			public const int Front = 2131230726;
+			public const int ghost_view = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int front = 2131230906;
-			
-			// aapt resource value: 0x7F080005
-			public const int FUNCTION = 2131230725;
+			public const int ghost_view_holder = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int ghost_view = 2131230907;
+			public const int gone = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int ghost_view_holder = 2131230908;
+			public const int graph = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int gone = 2131230909;
-			
-			// aapt resource value: 0x7F0800BE
-			public const int graph = 2131230910;
+			public const int graph_wrap = 2131230909;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int graph_wrap = 2131230911;
-			
-			// aapt resource value: 0x7F0800C1
-			public const int grouping = 2131230913;
-			
-			// aapt resource value: 0x7F0800C2
-			public const int groups = 2131230914;
+			public const int grouping = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int group_divider = 2131230912;
+			public const int groups = 2131230912;
+			
+			// aapt resource value: 0x7F0800BE
+			public const int group_divider = 2131230910;
+			
+			// aapt resource value: 0x7F0800C1
+			public const int guideline = 2131230913;
+			
+			// aapt resource value: 0x7F0800C2
+			public const int header_title = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int guideline = 2131230915;
+			public const int hideable = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int header_title = 2131230916;
+			public const int home = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int hideable = 2131230917;
+			public const int homeAsUp = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int home = 2131230918;
+			public const int honorRequest = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int homeAsUp = 2131230919;
+			public const int icon = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int honorRequest = 2131230920;
+			public const int icon_group = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int icon = 2131230921;
+			public const int ifRoom = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int icon_group = 2131230922;
+			public const int ignore = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int ifRoom = 2131230923;
+			public const int ignoreRequest = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int ignore = 2131230924;
+			public const int image = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int ignoreRequest = 2131230925;
+			public const int info = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int image = 2131230926;
+			public const int invisible = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int info = 2131230927;
+			public const int inward = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int invisible = 2131230928;
+			public const int italic = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int inward = 2131230929;
+			public const int item_touch_helper_previous_elevation = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int italic = 2131230930;
+			public const int jumpToEnd = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int item_touch_helper_previous_elevation = 2131230931;
-			
-			// aapt resource value: 0x7F0800D4
-			public const int jumpToEnd = 2131230932;
+			public const int jumpToStart = 2131230931;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int jumpToStart = 2131230933;
+			public const int labeled = 2131230933;
 			
-			// aapt resource value: 0x7F0800D7
-			public const int labeled = 2131230935;
+			// aapt resource value: 0x7F0800D4
+			public const int labelGroup = 2131230932;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int labelGroup = 2131230934;
+			public const int largeLabel = 2131230934;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int layout = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int largeLabel = 2131230936;
+			public const int left = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int layout = 2131230937;
+			public const int leftToRight = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int left = 2131230938;
+			public const int line1 = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int leftToRight = 2131230939;
+			public const int line3 = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int line1 = 2131230940;
+			public const int linear = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int line3 = 2131230941;
+			public const int listMode = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int linear = 2131230942;
+			public const int list_item = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int listMode = 2131230943;
+			public const int masked = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int list_item = 2131230944;
+			public const int material_clock_display = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int masked = 2131230945;
+			public const int material_clock_face = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int material_clock_display = 2131230946;
+			public const int material_clock_hand = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int material_clock_face = 2131230947;
+			public const int material_clock_period_am_button = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int material_clock_hand = 2131230948;
+			public const int material_clock_period_pm_button = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int material_clock_period_am_button = 2131230949;
+			public const int material_clock_period_toggle = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int material_clock_period_pm_button = 2131230950;
+			public const int material_hour_text_input = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int material_clock_period_toggle = 2131230951;
+			public const int material_hour_tv = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int material_hour_text_input = 2131230952;
+			public const int material_label = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int material_hour_tv = 2131230953;
+			public const int material_minute_text_input = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int material_label = 2131230954;
+			public const int material_minute_tv = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int material_minute_text_input = 2131230955;
+			public const int material_textinput_timepicker = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int material_minute_tv = 2131230956;
+			public const int material_timepicker_cancel_button = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int material_textinput_timepicker = 2131230957;
+			public const int material_timepicker_container = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int material_timepicker_cancel_button = 2131230958;
+			public const int material_timepicker_edit_text = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int material_timepicker_container = 2131230959;
+			public const int material_timepicker_mode_button = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int material_timepicker_edit_text = 2131230960;
+			public const int material_timepicker_ok_button = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int material_timepicker_mode_button = 2131230961;
+			public const int material_timepicker_view = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int material_timepicker_ok_button = 2131230962;
+			public const int material_value_index = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int material_timepicker_view = 2131230963;
+			public const int message = 2131230963;
+			
+			// aapt resource value: 0x7F080005
+			public const int META = 2131230725;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int material_value_index = 2131230964;
+			public const int middle = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int message = 2131230965;
-			
-			// aapt resource value: 0x7F080007
-			public const int META = 2131230727;
+			public const int mini = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int middle = 2131230966;
+			public const int mixed = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int mini = 2131230967;
+			public const int month_grid = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int mixed = 2131230968;
+			public const int month_navigation_bar = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int month_grid = 2131230969;
+			public const int month_navigation_fragment_toggle = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int month_navigation_bar = 2131230970;
+			public const int month_navigation_next = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int month_navigation_fragment_toggle = 2131230971;
+			public const int month_navigation_previous = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int month_navigation_next = 2131230972;
+			public const int month_title = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int month_navigation_previous = 2131230973;
+			public const int motion_base = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int month_title = 2131230974;
-			
-			// aapt resource value: 0x7F0800FF
-			public const int motion_base = 2131230975;
+			public const int mtrl_anchor_parent = 2131230974;
 			
 			// aapt resource value: 0x7F080100
-			public const int mtrl_anchor_parent = 2131230976;
+			public const int mtrl_calendar_days_of_week = 2131230976;
 			
-			// aapt resource value: 0x7F080102
-			public const int mtrl_calendar_days_of_week = 2131230978;
+			// aapt resource value: 0x7F0800FF
+			public const int mtrl_calendar_day_selector_frame = 2131230975;
 			
 			// aapt resource value: 0x7F080101
-			public const int mtrl_calendar_day_selector_frame = 2131230977;
+			public const int mtrl_calendar_frame = 2131230977;
+			
+			// aapt resource value: 0x7F080102
+			public const int mtrl_calendar_main_pane = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int mtrl_calendar_frame = 2131230979;
+			public const int mtrl_calendar_months = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int mtrl_calendar_main_pane = 2131230980;
+			public const int mtrl_calendar_selection_frame = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int mtrl_calendar_months = 2131230981;
+			public const int mtrl_calendar_text_input_frame = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int mtrl_calendar_selection_frame = 2131230982;
+			public const int mtrl_calendar_year_selector_frame = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int mtrl_calendar_text_input_frame = 2131230983;
+			public const int mtrl_card_checked_layer_id = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int mtrl_calendar_year_selector_frame = 2131230984;
+			public const int mtrl_child_content_container = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int mtrl_card_checked_layer_id = 2131230985;
+			public const int mtrl_internal_children_alpha_tag = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int mtrl_child_content_container = 2131230986;
+			public const int mtrl_motion_snapshot_view = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int mtrl_internal_children_alpha_tag = 2131230987;
+			public const int mtrl_picker_fullscreen = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int mtrl_motion_snapshot_view = 2131230988;
+			public const int mtrl_picker_header = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int mtrl_picker_fullscreen = 2131230989;
+			public const int mtrl_picker_header_selection_text = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int mtrl_picker_header = 2131230990;
+			public const int mtrl_picker_header_title_and_selection = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int mtrl_picker_header_selection_text = 2131230991;
+			public const int mtrl_picker_header_toggle = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int mtrl_picker_header_title_and_selection = 2131230992;
+			public const int mtrl_picker_text_input_date = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int mtrl_picker_header_toggle = 2131230993;
+			public const int mtrl_picker_text_input_range_end = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int mtrl_picker_text_input_date = 2131230994;
+			public const int mtrl_picker_text_input_range_start = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int mtrl_picker_text_input_range_end = 2131230995;
+			public const int mtrl_picker_title_text = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int mtrl_picker_text_input_range_start = 2131230996;
+			public const int mtrl_view_tag_bottom_padding = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int mtrl_picker_title_text = 2131230997;
+			public const int multiply = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int mtrl_view_tag_bottom_padding = 2131230998;
+			public const int navigation_header_container = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int multiply = 2131230999;
-			
-			// aapt resource value: 0x7F080118
-			public const int navigation_header_container = 2131231000;
+			public const int never = 2131230999;
 			
 			// aapt resource value: 0x7F080119
-			public const int never = 2131231001;
-			
-			// aapt resource value: 0x7F08011B
-			public const int none = 2131231003;
-			
-			// aapt resource value: 0x7F08011C
-			public const int normal = 2131231004;
+			public const int none = 2131231001;
 			
 			// aapt resource value: 0x7F08011A
-			public const int noScroll = 2131231002;
+			public const int normal = 2131231002;
+			
+			// aapt resource value: 0x7F080118
+			public const int noScroll = 2131231000;
+			
+			// aapt resource value: 0x7F08011B
+			public const int notification_background = 2131231003;
+			
+			// aapt resource value: 0x7F08011C
+			public const int notification_main_column = 2131231004;
 			
 			// aapt resource value: 0x7F08011D
-			public const int notification_background = 2131231005;
+			public const int notification_main_column_container = 2131231005;
+			
+			// aapt resource value: 0x7F080006
+			public const int NO_DEBUG = 2131230726;
 			
 			// aapt resource value: 0x7F08011E
-			public const int notification_main_column = 2131231006;
+			public const int off = 2131231006;
 			
 			// aapt resource value: 0x7F08011F
-			public const int notification_main_column_container = 2131231007;
-			
-			// aapt resource value: 0x7F080008
-			public const int NO_DEBUG = 2131230728;
+			public const int on = 2131231007;
 			
 			// aapt resource value: 0x7F080120
-			public const int off = 2131231008;
+			public const int outline = 2131231008;
 			
 			// aapt resource value: 0x7F080121
-			public const int on = 2131231009;
+			public const int outward = 2131231009;
 			
 			// aapt resource value: 0x7F080122
-			public const int outline = 2131231010;
+			public const int packed = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int outward = 2131231011;
+			public const int parallax = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int packed = 2131231012;
+			public const int parent = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int parallax = 2131231013;
+			public const int parentPanel = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int parent = 2131231014;
+			public const int parentRelative = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int parentPanel = 2131231015;
+			public const int parent_matrix = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int parentRelative = 2131231016;
+			public const int password_toggle = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int parent_matrix = 2131231017;
+			public const int path = 2131231017;
 			
 			// aapt resource value: 0x7F08012A
-			public const int password_toggle = 2131231018;
+			public const int pathRelative = 2131231018;
 			
 			// aapt resource value: 0x7F08012B
-			public const int path = 2131231019;
+			public const int peekHeight = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int pathRelative = 2131231020;
+			public const int percent = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int pb_item = 2131231021;
+			public const int performance = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int peekHeight = 2131231022;
+			public const int pin = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int percent = 2131231023;
+			public const int position = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int performance = 2131231024;
+			public const int postLayout = 2131231024;
 			
 			// aapt resource value: 0x7F080131
-			public const int pin = 2131231025;
+			public const int progress_circular = 2131231025;
 			
 			// aapt resource value: 0x7F080132
-			public const int position = 2131231026;
+			public const int progress_horizontal = 2131231026;
 			
 			// aapt resource value: 0x7F080133
-			public const int postLayout = 2131231027;
+			public const int radio = 2131231027;
 			
 			// aapt resource value: 0x7F080134
-			public const int progress_circular = 2131231028;
+			public const int ratio = 2131231028;
 			
 			// aapt resource value: 0x7F080135
-			public const int progress_horizontal = 2131231029;
+			public const int rectangles = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int radio = 2131231030;
+			public const int reverseSawtooth = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int ratio = 2131231031;
+			public const int right = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int rectangles = 2131231032;
+			public const int rightToLeft = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int reverseSawtooth = 2131231033;
+			public const int right_icon = 2131231033;
 			
 			// aapt resource value: 0x7F08013A
-			public const int right = 2131231034;
+			public const int right_side = 2131231034;
 			
 			// aapt resource value: 0x7F08013B
-			public const int rightToLeft = 2131231035;
+			public const int rounded = 2131231035;
 			
 			// aapt resource value: 0x7F08013C
-			public const int right_icon = 2131231036;
+			public const int row_index_key = 2131231036;
 			
 			// aapt resource value: 0x7F08013D
-			public const int right_side = 2131231037;
+			public const int rvRefresh = 2131231037;
 			
 			// aapt resource value: 0x7F08013E
-			public const int rounded = 2131231038;
+			public const int save_non_transition_alpha = 2131231038;
 			
 			// aapt resource value: 0x7F08013F
-			public const int row_index_key = 2131231039;
+			public const int save_overlay_view = 2131231039;
 			
 			// aapt resource value: 0x7F080140
-			public const int rvRefresh = 2131231040;
+			public const int sawtooth = 2131231040;
 			
 			// aapt resource value: 0x7F080141
-			public const int save_non_transition_alpha = 2131231041;
+			public const int scale = 2131231041;
 			
 			// aapt resource value: 0x7F080142
-			public const int save_overlay_view = 2131231042;
+			public const int screen = 2131231042;
 			
 			// aapt resource value: 0x7F080143
-			public const int sawtooth = 2131231043;
-			
-			// aapt resource value: 0x7F080144
-			public const int scale = 2131231044;
-			
-			// aapt resource value: 0x7F080145
-			public const int screen = 2131231045;
-			
-			// aapt resource value: 0x7F080146
-			public const int scroll = 2131231046;
-			
-			// aapt resource value: 0x7F08014A
-			public const int scrollable = 2131231050;
+			public const int scroll = 2131231043;
 			
 			// aapt resource value: 0x7F080147
-			public const int scrollIndicatorDown = 2131231047;
+			public const int scrollable = 2131231047;
+			
+			// aapt resource value: 0x7F080144
+			public const int scrollIndicatorDown = 2131231044;
+			
+			// aapt resource value: 0x7F080145
+			public const int scrollIndicatorUp = 2131231045;
+			
+			// aapt resource value: 0x7F080146
+			public const int scrollView = 2131231046;
 			
 			// aapt resource value: 0x7F080148
-			public const int scrollIndicatorUp = 2131231048;
+			public const int search_badge = 2131231048;
 			
 			// aapt resource value: 0x7F080149
-			public const int scrollView = 2131231049;
+			public const int search_bar = 2131231049;
+			
+			// aapt resource value: 0x7F08014A
+			public const int search_button = 2131231050;
 			
 			// aapt resource value: 0x7F08014B
-			public const int search_badge = 2131231051;
+			public const int search_close_btn = 2131231051;
 			
 			// aapt resource value: 0x7F08014C
-			public const int search_bar = 2131231052;
+			public const int search_edit_frame = 2131231052;
 			
 			// aapt resource value: 0x7F08014D
-			public const int search_button = 2131231053;
+			public const int search_go_btn = 2131231053;
 			
 			// aapt resource value: 0x7F08014E
-			public const int search_close_btn = 2131231054;
+			public const int search_mag_icon = 2131231054;
 			
 			// aapt resource value: 0x7F08014F
-			public const int search_edit_frame = 2131231055;
+			public const int search_plate = 2131231055;
 			
 			// aapt resource value: 0x7F080150
-			public const int search_go_btn = 2131231056;
+			public const int search_src_text = 2131231056;
 			
 			// aapt resource value: 0x7F080151
-			public const int search_mag_icon = 2131231057;
-			
-			// aapt resource value: 0x7F080152
-			public const int search_plate = 2131231058;
+			public const int search_voice_btn = 2131231057;
 			
 			// aapt resource value: 0x7F080153
-			public const int search_src_text = 2131231059;
+			public const int selected = 2131231059;
 			
 			// aapt resource value: 0x7F080154
-			public const int search_voice_btn = 2131231060;
+			public const int selection_type = 2131231060;
 			
-			// aapt resource value: 0x7F080156
-			public const int selected = 2131231062;
+			// aapt resource value: 0x7F080152
+			public const int select_dialog_listview = 2131231058;
 			
-			// aapt resource value: 0x7F080157
-			public const int selection_type = 2131231063;
+			// aapt resource value: 0x7F080007
+			public const int SHIFT = 2131230727;
 			
 			// aapt resource value: 0x7F080155
-			public const int select_dialog_listview = 2131231061;
+			public const int shortcut = 2131231061;
 			
-			// aapt resource value: 0x7F080009
-			public const int SHIFT = 2131230729;
+			// aapt resource value: 0x7F080156
+			public const int showCustom = 2131231062;
+			
+			// aapt resource value: 0x7F080157
+			public const int showHome = 2131231063;
 			
 			// aapt resource value: 0x7F080158
-			public const int shortcut = 2131231064;
+			public const int showTitle = 2131231064;
 			
-			// aapt resource value: 0x7F080159
-			public const int showCustom = 2131231065;
+			// aapt resource value: 0x7F080008
+			public const int SHOW_ALL = 2131230728;
 			
-			// aapt resource value: 0x7F08015A
-			public const int showHome = 2131231066;
-			
-			// aapt resource value: 0x7F08015B
-			public const int showTitle = 2131231067;
+			// aapt resource value: 0x7F080009
+			public const int SHOW_PATH = 2131230729;
 			
 			// aapt resource value: 0x7F08000A
-			public const int SHOW_ALL = 2131230730;
+			public const int SHOW_PROGRESS = 2131230730;
 			
-			// aapt resource value: 0x7F08000B
-			public const int SHOW_PATH = 2131230731;
+			// aapt resource value: 0x7F080159
+			public const int sin = 2131231065;
 			
-			// aapt resource value: 0x7F08000C
-			public const int SHOW_PROGRESS = 2131230732;
+			// aapt resource value: 0x7F08015A
+			public const int skipCollapsed = 2131231066;
+			
+			// aapt resource value: 0x7F08015B
+			public const int slide = 2131231067;
 			
 			// aapt resource value: 0x7F08015C
-			public const int sin = 2131231068;
+			public const int smallLabel = 2131231068;
 			
 			// aapt resource value: 0x7F08015D
-			public const int skipCollapsed = 2131231069;
+			public const int snackbar_action = 2131231069;
 			
 			// aapt resource value: 0x7F08015E
-			public const int slide = 2131231070;
+			public const int snackbar_text = 2131231070;
 			
 			// aapt resource value: 0x7F08015F
-			public const int smallLabel = 2131231071;
+			public const int snap = 2131231071;
 			
 			// aapt resource value: 0x7F080160
-			public const int snackbar_action = 2131231072;
+			public const int snapMargins = 2131231072;
 			
 			// aapt resource value: 0x7F080161
-			public const int snackbar_text = 2131231073;
+			public const int spacer = 2131231073;
 			
 			// aapt resource value: 0x7F080162
-			public const int snap = 2131231074;
+			public const int special_effects_controller_view_tag = 2131231074;
 			
 			// aapt resource value: 0x7F080163
-			public const int snapMargins = 2131231075;
+			public const int spline = 2131231075;
 			
 			// aapt resource value: 0x7F080164
-			public const int spacer = 2131231076;
+			public const int split_action_bar = 2131231076;
 			
 			// aapt resource value: 0x7F080165
-			public const int special_effects_controller_view_tag = 2131231077;
+			public const int spread = 2131231077;
 			
 			// aapt resource value: 0x7F080166
-			public const int spline = 2131231078;
+			public const int spread_inside = 2131231078;
 			
 			// aapt resource value: 0x7F080167
-			public const int split_action_bar = 2131231079;
+			public const int square = 2131231079;
 			
 			// aapt resource value: 0x7F080168
-			public const int spread = 2131231080;
+			public const int src_atop = 2131231080;
 			
 			// aapt resource value: 0x7F080169
-			public const int spread_inside = 2131231081;
+			public const int src_in = 2131231081;
 			
 			// aapt resource value: 0x7F08016A
-			public const int square = 2131231082;
+			public const int src_over = 2131231082;
 			
 			// aapt resource value: 0x7F08016B
-			public const int src_atop = 2131231083;
+			public const int srlRefresh = 2131231083;
 			
 			// aapt resource value: 0x7F08016C
-			public const int src_in = 2131231084;
+			public const int standard = 2131231084;
 			
 			// aapt resource value: 0x7F08016D
-			public const int src_over = 2131231085;
+			public const int start = 2131231085;
 			
 			// aapt resource value: 0x7F08016E
-			public const int srlRefresh = 2131231086;
+			public const int startHorizontal = 2131231086;
 			
 			// aapt resource value: 0x7F08016F
-			public const int standard = 2131231087;
+			public const int startToEnd = 2131231087;
 			
 			// aapt resource value: 0x7F080170
-			public const int start = 2131231088;
+			public const int startVertical = 2131231088;
 			
 			// aapt resource value: 0x7F080171
-			public const int startHorizontal = 2131231089;
+			public const int staticLayout = 2131231089;
 			
 			// aapt resource value: 0x7F080172
-			public const int startToEnd = 2131231090;
+			public const int staticPostLayout = 2131231090;
 			
 			// aapt resource value: 0x7F080173
-			public const int startVertical = 2131231091;
+			public const int stop = 2131231091;
 			
 			// aapt resource value: 0x7F080174
-			public const int staticLayout = 2131231092;
+			public const int stretch = 2131231092;
 			
 			// aapt resource value: 0x7F080175
-			public const int staticPostLayout = 2131231093;
+			public const int submenuarrow = 2131231093;
 			
 			// aapt resource value: 0x7F080176
-			public const int stop = 2131231094;
+			public const int submit_area = 2131231094;
+			
+			// aapt resource value: 0x7F08000B
+			public const int SYM = 2131230731;
 			
 			// aapt resource value: 0x7F080177
-			public const int stretch = 2131231095;
+			public const int tabMode = 2131231095;
 			
 			// aapt resource value: 0x7F080178
-			public const int submenuarrow = 2131231096;
+			public const int tag_accessibility_actions = 2131231096;
 			
 			// aapt resource value: 0x7F080179
-			public const int submit_area = 2131231097;
-			
-			// aapt resource value: 0x7F08000D
-			public const int SYM = 2131230733;
+			public const int tag_accessibility_clickable_spans = 2131231097;
 			
 			// aapt resource value: 0x7F08017A
-			public const int tabMode = 2131231098;
+			public const int tag_accessibility_heading = 2131231098;
 			
 			// aapt resource value: 0x7F08017B
-			public const int tag_accessibility_actions = 2131231099;
+			public const int tag_accessibility_pane_title = 2131231099;
 			
 			// aapt resource value: 0x7F08017C
-			public const int tag_accessibility_clickable_spans = 2131231100;
+			public const int tag_screen_reader_focusable = 2131231100;
 			
 			// aapt resource value: 0x7F08017D
-			public const int tag_accessibility_heading = 2131231101;
+			public const int tag_transition_group = 2131231101;
 			
 			// aapt resource value: 0x7F08017E
-			public const int tag_accessibility_pane_title = 2131231102;
+			public const int tag_unhandled_key_event_manager = 2131231102;
 			
 			// aapt resource value: 0x7F08017F
-			public const int tag_screen_reader_focusable = 2131231103;
+			public const int tag_unhandled_key_listeners = 2131231103;
 			
 			// aapt resource value: 0x7F080180
-			public const int tag_transition_group = 2131231104;
+			public const int test_checkbox_android_button_tint = 2131231104;
 			
 			// aapt resource value: 0x7F080181
-			public const int tag_unhandled_key_event_manager = 2131231105;
+			public const int test_checkbox_app_button_tint = 2131231105;
 			
 			// aapt resource value: 0x7F080182
-			public const int tag_unhandled_key_listeners = 2131231106;
+			public const int test_radiobutton_android_button_tint = 2131231106;
 			
 			// aapt resource value: 0x7F080183
-			public const int test_checkbox_android_button_tint = 2131231107;
+			public const int test_radiobutton_app_button_tint = 2131231107;
 			
 			// aapt resource value: 0x7F080184
-			public const int test_checkbox_app_button_tint = 2131231108;
+			public const int text = 2131231108;
 			
 			// aapt resource value: 0x7F080185
-			public const int test_radiobutton_android_button_tint = 2131231109;
+			public const int text2 = 2131231109;
 			
 			// aapt resource value: 0x7F080186
-			public const int test_radiobutton_app_button_tint = 2131231110;
-			
-			// aapt resource value: 0x7F080187
-			public const int text = 2131231111;
-			
-			// aapt resource value: 0x7F080188
-			public const int text2 = 2131231112;
-			
-			// aapt resource value: 0x7F080189
-			public const int textEnd = 2131231113;
-			
-			// aapt resource value: 0x7F080191
-			public const int textinput_counter = 2131231121;
-			
-			// aapt resource value: 0x7F080192
-			public const int textinput_error = 2131231122;
-			
-			// aapt resource value: 0x7F080193
-			public const int textinput_helper_text = 2131231123;
-			
-			// aapt resource value: 0x7F080194
-			public const int textinput_placeholder = 2131231124;
-			
-			// aapt resource value: 0x7F080195
-			public const int textinput_prefix_text = 2131231125;
-			
-			// aapt resource value: 0x7F080196
-			public const int textinput_suffix_text = 2131231126;
-			
-			// aapt resource value: 0x7F08018A
-			public const int textSpacerNoButtons = 2131231114;
-			
-			// aapt resource value: 0x7F08018B
-			public const int textSpacerNoTitle = 2131231115;
-			
-			// aapt resource value: 0x7F08018C
-			public const int textStart = 2131231116;
-			
-			// aapt resource value: 0x7F08018D
-			public const int textTop = 2131231117;
+			public const int textEnd = 2131231110;
 			
 			// aapt resource value: 0x7F08018E
-			public const int text_input_end_icon = 2131231118;
+			public const int textinput_counter = 2131231118;
 			
 			// aapt resource value: 0x7F08018F
-			public const int text_input_error_icon = 2131231119;
+			public const int textinput_error = 2131231119;
 			
 			// aapt resource value: 0x7F080190
-			public const int text_input_start_icon = 2131231120;
+			public const int textinput_helper_text = 2131231120;
+			
+			// aapt resource value: 0x7F080191
+			public const int textinput_placeholder = 2131231121;
+			
+			// aapt resource value: 0x7F080192
+			public const int textinput_prefix_text = 2131231122;
+			
+			// aapt resource value: 0x7F080193
+			public const int textinput_suffix_text = 2131231123;
+			
+			// aapt resource value: 0x7F080187
+			public const int textSpacerNoButtons = 2131231111;
+			
+			// aapt resource value: 0x7F080188
+			public const int textSpacerNoTitle = 2131231112;
+			
+			// aapt resource value: 0x7F080189
+			public const int textStart = 2131231113;
+			
+			// aapt resource value: 0x7F08018A
+			public const int textTop = 2131231114;
+			
+			// aapt resource value: 0x7F08018B
+			public const int text_input_end_icon = 2131231115;
+			
+			// aapt resource value: 0x7F08018C
+			public const int text_input_error_icon = 2131231116;
+			
+			// aapt resource value: 0x7F08018D
+			public const int text_input_start_icon = 2131231117;
+			
+			// aapt resource value: 0x7F080194
+			public const int time = 2131231124;
+			
+			// aapt resource value: 0x7F080195
+			public const int title = 2131231125;
+			
+			// aapt resource value: 0x7F080196
+			public const int titleDividerNoCustom = 2131231126;
 			
 			// aapt resource value: 0x7F080197
-			public const int time = 2131231127;
+			public const int title_template = 2131231127;
 			
 			// aapt resource value: 0x7F080198
-			public const int title = 2131231128;
+			public const int toggle = 2131231128;
 			
 			// aapt resource value: 0x7F080199
-			public const int titleDividerNoCustom = 2131231129;
+			public const int top = 2131231129;
 			
 			// aapt resource value: 0x7F08019A
-			public const int title_template = 2131231130;
+			public const int topPanel = 2131231130;
+			
+			// aapt resource value: 0x7F08000C
+			public const int TOP_END = 2131230732;
+			
+			// aapt resource value: 0x7F08000D
+			public const int TOP_START = 2131230733;
 			
 			// aapt resource value: 0x7F08019B
-			public const int toggle = 2131231131;
+			public const int touch_outside = 2131231131;
 			
 			// aapt resource value: 0x7F08019C
-			public const int top = 2131231132;
+			public const int transitionToEnd = 2131231132;
 			
 			// aapt resource value: 0x7F08019D
-			public const int topPanel = 2131231133;
-			
-			// aapt resource value: 0x7F08000E
-			public const int TOP_END = 2131230734;
-			
-			// aapt resource value: 0x7F08000F
-			public const int TOP_START = 2131230735;
+			public const int transitionToStart = 2131231133;
 			
 			// aapt resource value: 0x7F08019E
-			public const int touch_outside = 2131231134;
+			public const int transition_current_scene = 2131231134;
 			
 			// aapt resource value: 0x7F08019F
-			public const int transitionToEnd = 2131231135;
+			public const int transition_layout_save = 2131231135;
 			
 			// aapt resource value: 0x7F0801A0
-			public const int transitionToStart = 2131231136;
+			public const int transition_position = 2131231136;
 			
 			// aapt resource value: 0x7F0801A1
-			public const int transition_current_scene = 2131231137;
+			public const int transition_scene_layoutid_cache = 2131231137;
 			
 			// aapt resource value: 0x7F0801A2
-			public const int transition_layout_save = 2131231138;
+			public const int transition_transform = 2131231138;
 			
 			// aapt resource value: 0x7F0801A3
-			public const int transition_position = 2131231139;
+			public const int triangle = 2131231139;
 			
 			// aapt resource value: 0x7F0801A4
-			public const int transition_scene_layoutid_cache = 2131231140;
+			public const int tvInfo = 2131231140;
 			
 			// aapt resource value: 0x7F0801A5
-			public const int transition_transform = 2131231141;
+			public const int @unchecked = 2131231141;
 			
 			// aapt resource value: 0x7F0801A6
-			public const int triangle = 2131231142;
+			public const int uniform = 2131231142;
 			
 			// aapt resource value: 0x7F0801A7
-			public const int tvInfo = 2131231143;
+			public const int unlabeled = 2131231143;
 			
 			// aapt resource value: 0x7F0801A8
-			public const int tv_hint = 2131231144;
+			public const int up = 2131231144;
 			
 			// aapt resource value: 0x7F0801A9
-			public const int @unchecked = 2131231145;
-			
-			// aapt resource value: 0x7F0801AA
-			public const int uniform = 2131231146;
+			public const int useLogo = 2131231145;
 			
 			// aapt resource value: 0x7F0801AB
-			public const int unlabeled = 2131231147;
+			public const int video = 2131231147;
 			
 			// aapt resource value: 0x7F0801AC
-			public const int up = 2131231148;
+			public const int view_offset_helper = 2131231148;
 			
 			// aapt resource value: 0x7F0801AD
-			public const int useLogo = 2131231149;
-			
-			// aapt resource value: 0x7F0801AF
-			public const int video = 2131231151;
-			
-			// aapt resource value: 0x7F0801B0
-			public const int view_offset_helper = 2131231152;
-			
-			// aapt resource value: 0x7F0801B1
-			public const int view_tree_lifecycle_owner = 2131231153;
-			
-			// aapt resource value: 0x7F0801B2
-			public const int view_tree_saved_state_registry_owner = 2131231154;
-			
-			// aapt resource value: 0x7F0801B3
-			public const int view_tree_view_model_store_owner = 2131231155;
-			
-			// aapt resource value: 0x7F0801B4
-			public const int visible = 2131231156;
-			
-			// aapt resource value: 0x7F0801B5
-			public const int visible_removing_fragment_view_tag = 2131231157;
+			public const int view_tree_lifecycle_owner = 2131231149;
 			
 			// aapt resource value: 0x7F0801AE
-			public const int vItem = 2131231150;
+			public const int view_tree_saved_state_registry_owner = 2131231150;
 			
-			// aapt resource value: 0x7F0801B7
-			public const int withinBounds = 2131231159;
+			// aapt resource value: 0x7F0801AF
+			public const int view_tree_view_model_store_owner = 2131231151;
+			
+			// aapt resource value: 0x7F0801B0
+			public const int visible = 2131231152;
+			
+			// aapt resource value: 0x7F0801B1
+			public const int visible_removing_fragment_view_tag = 2131231153;
+			
+			// aapt resource value: 0x7F0801AA
+			public const int vItem = 2131231146;
+			
+			// aapt resource value: 0x7F0801B3
+			public const int withinBounds = 2131231155;
+			
+			// aapt resource value: 0x7F0801B2
+			public const int withText = 2131231154;
+			
+			// aapt resource value: 0x7F0801B4
+			public const int wrap = 2131231156;
+			
+			// aapt resource value: 0x7F0801B5
+			public const int wrap_content = 2131231157;
 			
 			// aapt resource value: 0x7F0801B6
-			public const int withText = 2131231158;
-			
-			// aapt resource value: 0x7F0801B8
-			public const int wrap = 2131231160;
-			
-			// aapt resource value: 0x7F0801B9
-			public const int wrap_content = 2131231161;
-			
-			// aapt resource value: 0x7F0801BA
-			public const int zero_corner_chip = 2131231162;
+			public const int zero_corner_chip = 2131231158;
 			
 			static Id()
 			{
@@ -11544,211 +7017,205 @@ namespace LibMaker.Droid
 			public const int Dialog_Input = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int Dialog_WaitProgress_Normal = 2131427377;
+			public const int ListItem_Refresh = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int Dialog_WaitProgress_Small = 2131427378;
-			
-			// aapt resource value: 0x7F0B0033
-			public const int ListItem_Refresh = 2131427379;
-			
-			// aapt resource value: 0x7F0B0034
-			public const int material_chip_input_combo = 2131427380;
-			
-			// aapt resource value: 0x7F0B0039
-			public const int material_clockface_textview = 2131427385;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int material_clockface_view = 2131427386;
-			
-			// aapt resource value: 0x7F0B0035
-			public const int material_clock_display = 2131427381;
-			
-			// aapt resource value: 0x7F0B0036
-			public const int material_clock_display_divider = 2131427382;
+			public const int material_chip_input_combo = 2131427378;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int material_clock_period_toggle = 2131427383;
+			public const int material_clockface_textview = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int material_clock_period_toggle_land = 2131427384;
+			public const int material_clockface_view = 2131427384;
 			
-			// aapt resource value: 0x7F0B003B
-			public const int material_radial_view_group = 2131427387;
+			// aapt resource value: 0x7F0B0033
+			public const int material_clock_display = 2131427379;
 			
-			// aapt resource value: 0x7F0B003C
-			public const int material_textinput_timepicker = 2131427388;
+			// aapt resource value: 0x7F0B0034
+			public const int material_clock_display_divider = 2131427380;
 			
-			// aapt resource value: 0x7F0B003F
-			public const int material_timepicker = 2131427391;
+			// aapt resource value: 0x7F0B0035
+			public const int material_clock_period_toggle = 2131427381;
 			
-			// aapt resource value: 0x7F0B0040
-			public const int material_timepicker_dialog = 2131427392;
+			// aapt resource value: 0x7F0B0036
+			public const int material_clock_period_toggle_land = 2131427382;
 			
-			// aapt resource value: 0x7F0B0041
-			public const int material_timepicker_textinput_display = 2131427393;
+			// aapt resource value: 0x7F0B0039
+			public const int material_radial_view_group = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int material_textinput_timepicker = 2131427386;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int material_time_chip = 2131427389;
+			public const int material_timepicker = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int material_time_input = 2131427390;
+			public const int material_timepicker_dialog = 2131427390;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int material_timepicker_textinput_display = 2131427391;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int material_time_chip = 2131427387;
+			
+			// aapt resource value: 0x7F0B003C
+			public const int material_time_input = 2131427388;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int mtrl_alert_dialog = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int mtrl_alert_dialog_actions = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int mtrl_alert_dialog = 2131427394;
+			public const int mtrl_alert_dialog_title = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int mtrl_alert_dialog_actions = 2131427395;
+			public const int mtrl_alert_select_dialog_item = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int mtrl_alert_dialog_title = 2131427396;
+			public const int mtrl_alert_select_dialog_multichoice = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int mtrl_alert_select_dialog_item = 2131427397;
+			public const int mtrl_alert_select_dialog_singlechoice = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int mtrl_alert_select_dialog_multichoice = 2131427398;
-			
-			// aapt resource value: 0x7F0B0047
-			public const int mtrl_alert_select_dialog_singlechoice = 2131427399;
+			public const int mtrl_calendar_day = 2131427398;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int mtrl_calendar_day = 2131427400;
+			public const int mtrl_calendar_days_of_week = 2131427400;
 			
-			// aapt resource value: 0x7F0B004A
-			public const int mtrl_calendar_days_of_week = 2131427402;
+			// aapt resource value: 0x7F0B0047
+			public const int mtrl_calendar_day_of_week = 2131427399;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int mtrl_calendar_day_of_week = 2131427401;
+			public const int mtrl_calendar_horizontal = 2131427401;
 			
-			// aapt resource value: 0x7F0B004B
-			public const int mtrl_calendar_horizontal = 2131427403;
-			
-			// aapt resource value: 0x7F0B004C
-			public const int mtrl_calendar_month = 2131427404;
-			
-			// aapt resource value: 0x7F0B004F
-			public const int mtrl_calendar_months = 2131427407;
+			// aapt resource value: 0x7F0B004A
+			public const int mtrl_calendar_month = 2131427402;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int mtrl_calendar_month_labeled = 2131427405;
+			public const int mtrl_calendar_months = 2131427405;
+			
+			// aapt resource value: 0x7F0B004B
+			public const int mtrl_calendar_month_labeled = 2131427403;
+			
+			// aapt resource value: 0x7F0B004C
+			public const int mtrl_calendar_month_navigation = 2131427404;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int mtrl_calendar_month_navigation = 2131427406;
+			public const int mtrl_calendar_vertical = 2131427406;
+			
+			// aapt resource value: 0x7F0B004F
+			public const int mtrl_calendar_year = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int mtrl_calendar_vertical = 2131427408;
+			public const int mtrl_layout_snackbar = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int mtrl_calendar_year = 2131427409;
+			public const int mtrl_layout_snackbar_include = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int mtrl_layout_snackbar = 2131427410;
+			public const int mtrl_picker_actions = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int mtrl_layout_snackbar_include = 2131427411;
+			public const int mtrl_picker_dialog = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int mtrl_picker_actions = 2131427412;
+			public const int mtrl_picker_fullscreen = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int mtrl_picker_dialog = 2131427413;
+			public const int mtrl_picker_header_dialog = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int mtrl_picker_fullscreen = 2131427414;
+			public const int mtrl_picker_header_fullscreen = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int mtrl_picker_header_dialog = 2131427415;
+			public const int mtrl_picker_header_selection_text = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int mtrl_picker_header_fullscreen = 2131427416;
+			public const int mtrl_picker_header_title_text = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int mtrl_picker_header_selection_text = 2131427417;
+			public const int mtrl_picker_header_toggle = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int mtrl_picker_header_title_text = 2131427418;
+			public const int mtrl_picker_text_input_date = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int mtrl_picker_header_toggle = 2131427419;
+			public const int mtrl_picker_text_input_date_range = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int mtrl_picker_text_input_date = 2131427420;
+			public const int notification_action = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int mtrl_picker_text_input_date_range = 2131427421;
+			public const int notification_action_tombstone = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int notification_action = 2131427422;
+			public const int notification_template_custom_big = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int notification_action_tombstone = 2131427423;
+			public const int notification_template_icon_group = 2131427423;
 			
 			// aapt resource value: 0x7F0B0060
-			public const int notification_template_custom_big = 2131427424;
+			public const int notification_template_part_chronometer = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int notification_template_icon_group = 2131427425;
+			public const int notification_template_part_time = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int notification_template_part_chronometer = 2131427426;
+			public const int select_dialog_item_material = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int notification_template_part_time = 2131427427;
+			public const int select_dialog_multichoice_material = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int select_dialog_item_material = 2131427428;
+			public const int select_dialog_singlechoice_material = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int select_dialog_multichoice_material = 2131427429;
+			public const int support_simple_spinner_dropdown_item = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int select_dialog_singlechoice_material = 2131427430;
+			public const int test_action_chip = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int support_simple_spinner_dropdown_item = 2131427431;
+			public const int test_chip_zero_corner_radius = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int test_action_chip = 2131427432;
+			public const int test_design_checkbox = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int test_chip_zero_corner_radius = 2131427433;
+			public const int test_design_radiobutton = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int test_design_checkbox = 2131427434;
+			public const int test_reflow_chipgroup = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int test_design_radiobutton = 2131427435;
+			public const int test_toolbar = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int test_reflow_chipgroup = 2131427436;
+			public const int test_toolbar_custom_background = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int test_toolbar = 2131427437;
+			public const int test_toolbar_elevation = 2131427437;
 			
 			// aapt resource value: 0x7F0B006E
-			public const int test_toolbar_custom_background = 2131427438;
-			
-			// aapt resource value: 0x7F0B006F
-			public const int test_toolbar_elevation = 2131427439;
-			
-			// aapt resource value: 0x7F0B0070
-			public const int test_toolbar_surface = 2131427440;
-			
-			// aapt resource value: 0x7F0B0075
-			public const int text_view_without_line_height = 2131427445;
-			
-			// aapt resource value: 0x7F0B0071
-			public const int text_view_with_line_height_from_appearance = 2131427441;
-			
-			// aapt resource value: 0x7F0B0072
-			public const int text_view_with_line_height_from_layout = 2131427442;
+			public const int test_toolbar_surface = 2131427438;
 			
 			// aapt resource value: 0x7F0B0073
-			public const int text_view_with_line_height_from_style = 2131427443;
+			public const int text_view_without_line_height = 2131427443;
 			
-			// aapt resource value: 0x7F0B0074
-			public const int text_view_with_theme_line_height = 2131427444;
+			// aapt resource value: 0x7F0B006F
+			public const int text_view_with_line_height_from_appearance = 2131427439;
+			
+			// aapt resource value: 0x7F0B0070
+			public const int text_view_with_line_height_from_layout = 2131427440;
+			
+			// aapt resource value: 0x7F0B0071
+			public const int text_view_with_line_height_from_style = 2131427441;
+			
+			// aapt resource value: 0x7F0B0072
+			public const int text_view_with_theme_line_height = 2131427442;
 			
 			static Layout()
 			{
@@ -14296,37 +9763,37 @@ namespace LibMaker.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F03003D,0x7F030044,0x7F030045,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F030100,0x7F030110,0x7F030111,0x7F03012A,0x7F03017E,0x7F030185,0x7F03018B,0x7F03018C,0x7F03018F,0x7F03019B,0x7F0301AD,0x7F03021B,0x7F03025C,0x7F030288,0x7F03028F,0x7F030290,0x7F0302DE,0x7F0302E1,0x7F03033C,0x7F030346 }
+			// aapt resource value: { 0x7F03003A,0x7F030041,0x7F030042,0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300FD,0x7F03010D,0x7F03010E,0x7F030127,0x7F03017B,0x7F030182,0x7F030188,0x7F030189,0x7F03018C,0x7F030198,0x7F0301AA,0x7F030218,0x7F030259,0x7F030285,0x7F03028C,0x7F03028D,0x7F0302DB,0x7F0302DE,0x7F030339,0x7F030343 }
 			public static int[] ActionBar = new int[] {
-					2130903101,
-					2130903108,
-					2130903109,
+					2130903098,
+					2130903105,
+					2130903106,
+					2130903250,
+					2130903251,
+					2130903252,
 					2130903253,
 					2130903254,
 					2130903255,
-					2130903256,
-					2130903257,
-					2130903258,
-					2130903296,
-					2130903312,
-					2130903313,
-					2130903338,
-					2130903422,
-					2130903429,
-					2130903435,
+					2130903293,
+					2130903309,
+					2130903310,
+					2130903335,
+					2130903419,
+					2130903426,
+					2130903432,
+					2130903433,
 					2130903436,
-					2130903439,
-					2130903451,
-					2130903469,
-					2130903579,
-					2130903644,
-					2130903688,
-					2130903695,
-					2130903696,
+					2130903448,
+					2130903466,
+					2130903576,
+					2130903641,
+					2130903685,
+					2130903692,
+					2130903693,
+					2130903771,
 					2130903774,
-					2130903777,
-					2130903868,
-					2130903878};
+					2130903865,
+					2130903875};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -14433,14 +9900,14 @@ namespace LibMaker.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F03003D,0x7F030044,0x7F0300AF,0x7F03017E,0x7F0302E1,0x7F030346 }
+			// aapt resource value: { 0x7F03003A,0x7F030041,0x7F0300AC,0x7F03017B,0x7F0302DE,0x7F030343 }
 			public static int[] ActionMode = new int[] {
-					2130903101,
-					2130903108,
-					2130903215,
-					2130903422,
-					2130903777,
-					2130903878};
+					2130903098,
+					2130903105,
+					2130903212,
+					2130903419,
+					2130903774,
+					2130903875};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -14460,10 +9927,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F03013D,0x7F0301A1 }
+			// aapt resource value: { 0x7F03013A,0x7F03019E }
 			public static int[] ActivityChooserView = new int[] {
-					2130903357,
-					2130903457};
+					2130903354,
+					2130903454};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -14471,16 +9938,16 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030073,0x7F030074,0x7F030210,0x7F030211,0x7F030258,0x7F0302BA,0x7F0302BC }
+			// aapt resource value: { 0x10100F2,0x7F030070,0x7F030071,0x7F03020D,0x7F03020E,0x7F030255,0x7F0302B7,0x7F0302B9 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903155,
-					2130903156,
-					2130903568,
-					2130903569,
-					2130903640,
-					2130903738,
-					2130903740};
+					2130903152,
+					2130903153,
+					2130903565,
+					2130903566,
+					2130903637,
+					2130903735,
+					2130903737};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -14563,23 +10030,23 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F03012A,0x7F03013E,0x7F030206,0x7F030207,0x7F0302D8 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030127,0x7F03013B,0x7F030203,0x7F030204,0x7F0302D5 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903338,
-					2130903358,
-					2130903558,
-					2130903559,
-					2130903768};
+					2130903335,
+					2130903355,
+					2130903555,
+					2130903556,
+					2130903765};
 			
-			// aapt resource value: { 0x7F0302D2,0x7F0302D3,0x7F0302D5,0x7F0302D6 }
+			// aapt resource value: { 0x7F0302CF,0x7F0302D0,0x7F0302D2,0x7F0302D3 }
 			public static int[] AppBarLayoutStates = new int[] {
+					2130903759,
+					2130903760,
 					2130903762,
-					2130903763,
-					2130903765,
-					2130903766};
+					2130903763};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -14608,10 +10075,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F030203,0x7F030204 }
+			// aapt resource value: { 0x7F030200,0x7F030201 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903555,
-					2130903556};
+					2130903552,
+					2130903553};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -14628,12 +10095,12 @@ namespace LibMaker.Droid
 			// aapt resource value: 7
 			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: { 0x1010119,0x7F0302C9,0x7F03033A,0x7F03033B }
+			// aapt resource value: { 0x1010119,0x7F0302C6,0x7F030337,0x7F030338 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903753,
-					2130903866,
-					2130903867};
+					2130903750,
+					2130903863,
+					2130903864};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -14647,12 +10114,12 @@ namespace LibMaker.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F030336,0x7F030337,0x7F030338 }
+			// aapt resource value: { 0x1010142,0x7F030333,0x7F030334,0x7F030335 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903862,
-					2130903863,
-					2130903864};
+					2130903859,
+					2130903860,
+					2130903861};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -14697,29 +10164,29 @@ namespace LibMaker.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F030037,0x7F030038,0x7F030039,0x7F03003A,0x7F03003B,0x7F030119,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030155,0x7F03016C,0x7F030174,0x7F0301C3,0x7F030209,0x7F03030A,0x7F030326 }
+			// aapt resource value: { 0x1010034,0x7F030034,0x7F030035,0x7F030036,0x7F030037,0x7F030038,0x7F030116,0x7F030117,0x7F030118,0x7F030119,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011E,0x7F030152,0x7F030169,0x7F030171,0x7F0301C0,0x7F030206,0x7F030307,0x7F030323 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
+					2130903092,
+					2130903093,
+					2130903094,
 					2130903095,
 					2130903096,
-					2130903097,
-					2130903098,
-					2130903099,
+					2130903318,
+					2130903319,
+					2130903320,
 					2130903321,
-					2130903322,
 					2130903323,
 					2130903324,
+					2130903325,
 					2130903326,
-					2130903327,
-					2130903328,
-					2130903329,
-					2130903381,
-					2130903404,
-					2130903412,
-					2130903491,
-					2130903561,
-					2130903818,
-					2130903846};
+					2130903378,
+					2130903401,
+					2130903409,
+					2130903488,
+					2130903558,
+					2130903815,
+					2130903843};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -14784,10 +10251,13 @@ namespace LibMaker.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030025,0x7F030026,0x7F030027,0x7F030028,0x7F030029,0x7F030036,0x7F03005B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030075,0x7F030076,0x7F030083,0x7F03008C,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300C4,0x7F0300C5,0x7F0300CB,0x7F0300E4,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030112,0x7F030114,0x7F030124,0x7F030125,0x7F030127,0x7F030128,0x7F030129,0x7F03018B,0x7F030198,0x7F03020C,0x7F03020D,0x7F03020E,0x7F03020F,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F030271,0x7F030272,0x7F030273,0x7F030287,0x7F030289,0x7F030293,0x7F030295,0x7F030296,0x7F030297,0x7F0302A8,0x7F0302A9,0x7F0302AA,0x7F0302AB,0x7F0302C6,0x7F0302C7,0x7F0302E9,0x7F030315,0x7F030317,0x7F030318,0x7F030319,0x7F03031B,0x7F03031C,0x7F03031D,0x7F03031E,0x7F030321,0x7F030322,0x7F030348,0x7F030349,0x7F03034A,0x7F03034B,0x7F030367,0x7F030370,0x7F030371,0x7F030372,0x7F030373,0x7F030374,0x7F030375,0x7F030376,0x7F030377,0x7F030378,0x7F030379 }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F030033,0x7F030058,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F030072,0x7F030073,0x7F030080,0x7F030089,0x7F0300B4,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300C1,0x7F0300C2,0x7F0300C8,0x7F0300E1,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010F,0x7F030111,0x7F030121,0x7F030122,0x7F030124,0x7F030125,0x7F030126,0x7F030188,0x7F030195,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F03026E,0x7F03026F,0x7F030270,0x7F030284,0x7F030286,0x7F030290,0x7F030292,0x7F030293,0x7F030294,0x7F0302A5,0x7F0302A6,0x7F0302A7,0x7F0302A8,0x7F0302C3,0x7F0302C4,0x7F0302E6,0x7F030312,0x7F030314,0x7F030315,0x7F030316,0x7F030318,0x7F030319,0x7F03031A,0x7F03031B,0x7F03031E,0x7F03031F,0x7F030345,0x7F030346,0x7F030347,0x7F030348,0x7F030364,0x7F03036D,0x7F03036E,0x7F03036F,0x7F030370,0x7F030371,0x7F030372,0x7F030373,0x7F030374,0x7F030375,0x7F030376 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
+					2130903040,
+					2130903041,
+					2130903042,
 					2130903043,
 					2130903044,
 					2130903045,
@@ -14798,9 +10268,9 @@ namespace LibMaker.Droid
 					2130903050,
 					2130903051,
 					2130903052,
-					2130903053,
 					2130903054,
 					2130903055,
+					2130903056,
 					2130903057,
 					2130903058,
 					2130903059,
@@ -14815,102 +10285,99 @@ namespace LibMaker.Droid
 					2130903068,
 					2130903069,
 					2130903070,
-					2130903071,
-					2130903072,
-					2130903073,
+					2130903074,
+					2130903075,
+					2130903076,
 					2130903077,
 					2130903078,
-					2130903079,
-					2130903080,
-					2130903081,
-					2130903094,
-					2130903131,
+					2130903091,
+					2130903128,
+					2130903145,
+					2130903146,
+					2130903147,
 					2130903148,
 					2130903149,
-					2130903150,
-					2130903151,
-					2130903152,
-					2130903157,
-					2130903158,
-					2130903171,
-					2130903180,
+					2130903154,
+					2130903155,
+					2130903168,
+					2130903177,
+					2130903220,
+					2130903221,
+					2130903222,
 					2130903223,
 					2130903224,
 					2130903225,
 					2130903226,
-					2130903227,
-					2130903228,
-					2130903229,
-					2130903236,
-					2130903237,
-					2130903243,
-					2130903268,
-					2130903309,
-					2130903310,
+					2130903233,
+					2130903234,
+					2130903240,
+					2130903265,
+					2130903306,
+					2130903307,
+					2130903308,
 					2130903311,
-					2130903314,
-					2130903316,
+					2130903313,
+					2130903329,
+					2130903330,
 					2130903332,
 					2130903333,
-					2130903335,
-					2130903336,
-					2130903337,
-					2130903435,
-					2130903448,
+					2130903334,
+					2130903432,
+					2130903445,
+					2130903561,
+					2130903562,
+					2130903563,
 					2130903564,
-					2130903565,
-					2130903566,
 					2130903567,
+					2130903568,
+					2130903569,
 					2130903570,
 					2130903571,
 					2130903572,
 					2130903573,
 					2130903574,
 					2130903575,
-					2130903576,
-					2130903577,
-					2130903578,
-					2130903665,
-					2130903666,
-					2130903667,
-					2130903687,
-					2130903689,
+					2130903662,
+					2130903663,
+					2130903664,
+					2130903684,
+					2130903686,
+					2130903696,
+					2130903698,
 					2130903699,
-					2130903701,
-					2130903702,
-					2130903703,
+					2130903700,
+					2130903717,
+					2130903718,
+					2130903719,
 					2130903720,
-					2130903721,
-					2130903722,
-					2130903723,
-					2130903750,
-					2130903751,
-					2130903785,
+					2130903747,
+					2130903748,
+					2130903782,
+					2130903826,
+					2130903828,
 					2130903829,
-					2130903831,
+					2130903830,
 					2130903832,
 					2130903833,
+					2130903834,
 					2130903835,
-					2130903836,
-					2130903837,
 					2130903838,
-					2130903841,
-					2130903842,
+					2130903839,
+					2130903877,
+					2130903878,
+					2130903879,
 					2130903880,
-					2130903881,
-					2130903882,
-					2130903883,
-					2130903911,
+					2130903908,
+					2130903917,
+					2130903918,
+					2130903919,
 					2130903920,
 					2130903921,
 					2130903922,
 					2130903923,
 					2130903924,
 					2130903925,
-					2130903926,
-					2130903927,
-					2130903928,
-					2130903929};
+					2130903926};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -15287,15 +10754,15 @@ namespace LibMaker.Droid
 			// aapt resource value: 124
 			public const int AppCompatTheme_windowNoTitle = 124;
 			
-			// aapt resource value: { 0x7F03003E,0x7F030048,0x7F03004A,0x7F03018D,0x7F03023C,0x7F030260,0x7F030366 }
+			// aapt resource value: { 0x7F03003B,0x7F030045,0x7F030047,0x7F03018A,0x7F030239,0x7F03025D,0x7F030363 }
 			public static int[] Badge = new int[] {
-					2130903102,
-					2130903112,
-					2130903114,
-					2130903437,
-					2130903612,
-					2130903648,
-					2130903910};
+					2130903099,
+					2130903109,
+					2130903111,
+					2130903434,
+					2130903609,
+					2130903645,
+					2130903907};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -15318,17 +10785,17 @@ namespace LibMaker.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x1010139,0x7F030183,0x7F03019C,0x7F030245,0x7F0302B3,0x7F0302B5,0x7F030352,0x7F030355,0x7F030357 }
+			// aapt resource value: { 0x1010139,0x7F030180,0x7F030199,0x7F030242,0x7F0302B0,0x7F0302B2,0x7F03034F,0x7F030352,0x7F030354 }
 			public static int[] BaseProgressIndicator = new int[] {
 					16843065,
-					2130903427,
-					2130903452,
-					2130903621,
-					2130903731,
-					2130903733,
+					2130903424,
+					2130903449,
+					2130903618,
+					2130903728,
+					2130903730,
+					2130903887,
 					2130903890,
-					2130903893,
-					2130903895};
+					2130903892};
 			
 			// aapt resource value: 0
 			public const int BaseProgressIndicator_android_indeterminate = 0;
@@ -15357,19 +10824,19 @@ namespace LibMaker.Droid
 			// aapt resource value: 8
 			public const int BaseProgressIndicator_trackThickness = 8;
 			
-			// aapt resource value: { 0x7F030046,0x7F03012A,0x7F030149,0x7F03014A,0x7F03014B,0x7F03014C,0x7F03014D,0x7F030186,0x7F03026B,0x7F03026D,0x7F03026E }
+			// aapt resource value: { 0x7F030043,0x7F030127,0x7F030146,0x7F030147,0x7F030148,0x7F030149,0x7F03014A,0x7F030183,0x7F030268,0x7F03026A,0x7F03026B }
 			public static int[] BottomAppBar = new int[] {
-					2130903110,
-					2130903338,
+					2130903107,
+					2130903335,
+					2130903366,
+					2130903367,
+					2130903368,
 					2130903369,
 					2130903370,
-					2130903371,
-					2130903372,
-					2130903373,
-					2130903430,
-					2130903659,
-					2130903661,
-					2130903662};
+					2130903427,
+					2130903656,
+					2130903658,
+					2130903659};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -15404,20 +10871,20 @@ namespace LibMaker.Droid
 			// aapt resource value: 10
 			public const int BottomAppBar_paddingRightSystemWindowInsets = 10;
 			
-			// aapt resource value: { 0x7F030046,0x7F03012A,0x7F0301A5,0x7F0301A8,0x7F0301AA,0x7F0301AB,0x7F0301AE,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301C2,0x7F030243 }
+			// aapt resource value: { 0x7F030043,0x7F030127,0x7F0301A2,0x7F0301A5,0x7F0301A7,0x7F0301A8,0x7F0301AB,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BF,0x7F030240 }
 			public static int[] BottomNavigationView = new int[] {
-					2130903110,
-					2130903338,
+					2130903107,
+					2130903335,
+					2130903458,
 					2130903461,
+					2130903463,
 					2130903464,
-					2130903466,
 					2130903467,
-					2130903470,
-					2130903482,
-					2130903483,
-					2130903484,
-					2130903490,
-					2130903619};
+					2130903479,
+					2130903480,
+					2130903481,
+					2130903487,
+					2130903616};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_backgroundTint = 0;
@@ -15455,21 +10922,21 @@ namespace LibMaker.Droid
 			// aapt resource value: 11
 			public const int BottomNavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010440,0x7F030046,0x7F030051,0x7F030052,0x7F030053,0x7F030054,0x7F030055,0x7F030057,0x7F030058,0x7F030059,0x7F030179,0x7F0302AE,0x7F0302B1 }
+			// aapt resource value: { 0x1010440,0x7F030043,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F030054,0x7F030055,0x7F030056,0x7F030176,0x7F0302AB,0x7F0302AE }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843840,
-					2130903110,
+					2130903107,
+					2130903118,
+					2130903119,
+					2130903120,
 					2130903121,
 					2130903122,
-					2130903123,
 					2130903124,
 					2130903125,
-					2130903127,
-					2130903128,
-					2130903129,
-					2130903417,
-					2130903726,
-					2130903729};
+					2130903126,
+					2130903414,
+					2130903723,
+					2130903726};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_android_elevation = 0;
@@ -15510,20 +10977,20 @@ namespace LibMaker.Droid
 			// aapt resource value: 12
 			public const int BottomSheetBehavior_Layout_shapeAppearanceOverlay = 12;
 			
-			// aapt resource value: { 0x7F03002A }
+			// aapt resource value: { 0x7F030027 }
 			public static int[] ButtonBarLayout = new int[] {
-					2130903082};
+					2130903079};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x7F030079,0x7F030156,0x7F030205,0x7F030280,0x7F0302A2 }
+			// aapt resource value: { 0x7F030076,0x7F030153,0x7F030202,0x7F03027D,0x7F03029F }
 			public static int[] CameraView = new int[] {
-					2130903161,
-					2130903382,
-					2130903557,
-					2130903680,
-					2130903714};
+					2130903158,
+					2130903379,
+					2130903554,
+					2130903677,
+					2130903711};
 			
 			// aapt resource value: 0
 			public const int CameraView_captureMode = 0;
@@ -15540,21 +11007,21 @@ namespace LibMaker.Droid
 			// aapt resource value: 4
 			public const int CameraView_scaleType = 4;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007E,0x7F03007F,0x7F030080,0x7F0300DB,0x7F0300DC,0x7F0300DE,0x7F0300DF,0x7F0300E1 }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030077,0x7F030078,0x7F030079,0x7F03007B,0x7F03007C,0x7F03007D,0x7F0300D8,0x7F0300D9,0x7F0300DB,0x7F0300DC,0x7F0300DE }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130903162,
+					2130903159,
+					2130903160,
+					2130903161,
 					2130903163,
 					2130903164,
-					2130903166,
-					2130903167,
-					2130903168,
+					2130903165,
+					2130903256,
+					2130903257,
 					2130903259,
 					2130903260,
-					2130903262,
-					2130903263,
-					2130903265};
+					2130903262};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -15595,7 +11062,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030086,0x7F030087,0x7F03008A,0x7F03008B,0x7F03008D,0x7F03008E,0x7F03008F,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F03009C,0x7F03009D,0x7F03009E,0x7F0300A0,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F030135,0x7F030184,0x7F030190,0x7F030194,0x7F03029E,0x7F0302AE,0x7F0302B1,0x7F0302B7,0x7F030323,0x7F030327 }
+			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030083,0x7F030084,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009D,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F030132,0x7F030181,0x7F03018D,0x7F030191,0x7F03029B,0x7F0302AB,0x7F0302AE,0x7F0302B4,0x7F030320,0x7F030324 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842901,
@@ -15604,51 +11071,51 @@ namespace LibMaker.Droid
 					16843039,
 					16843087,
 					16843237,
-					2130903174,
+					2130903171,
+					2130903172,
 					2130903175,
+					2130903176,
 					2130903178,
 					2130903179,
-					2130903181,
+					2130903180,
 					2130903182,
 					2130903183,
+					2130903184,
 					2130903185,
 					2130903186,
 					2130903187,
 					2130903188,
-					2130903189,
-					2130903190,
-					2130903191,
-					2130903196,
+					2130903193,
+					2130903194,
+					2130903195,
 					2130903197,
-					2130903198,
-					2130903200,
+					2130903205,
+					2130903206,
+					2130903207,
 					2130903208,
 					2130903209,
 					2130903210,
 					2130903211,
-					2130903212,
-					2130903213,
-					2130903214,
-					2130903349,
-					2130903428,
-					2130903440,
-					2130903444,
-					2130903710,
+					2130903346,
+					2130903425,
+					2130903437,
+					2130903441,
+					2130903707,
+					2130903723,
 					2130903726,
-					2130903729,
-					2130903735,
-					2130903843,
-					2130903847};
+					2130903732,
+					2130903840,
+					2130903844};
 			
-			// aapt resource value: { 0x7F030085,0x7F030098,0x7F030099,0x7F03009A,0x7F0302AC,0x7F0302BD,0x7F0302BE }
+			// aapt resource value: { 0x7F030082,0x7F030095,0x7F030096,0x7F030097,0x7F0302A9,0x7F0302BA,0x7F0302BB }
 			public static int[] ChipGroup = new int[] {
-					2130903173,
-					2130903192,
-					2130903193,
-					2130903194,
-					2130903724,
-					2130903741,
-					2130903742};
+					2130903170,
+					2130903189,
+					2130903190,
+					2130903191,
+					2130903721,
+					2130903738,
+					2130903739};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -15797,11 +11264,11 @@ namespace LibMaker.Droid
 			// aapt resource value: 41
 			public const int Chip_textStartPadding = 41;
 			
-			// aapt resource value: { 0x7F03019D,0x7F03019F,0x7F0301A0 }
+			// aapt resource value: { 0x7F03019A,0x7F03019C,0x7F03019D }
 			public static int[] CircularProgressIndicator = new int[] {
-					2130903453,
-					2130903455,
-					2130903456};
+					2130903450,
+					2130903452,
+					2130903453};
 			
 			// aapt resource value: 0
 			public const int CircularProgressIndicator_indicatorDirectionCircular = 0;
@@ -15812,10 +11279,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int CircularProgressIndicator_indicatorSize = 2;
 			
-			// aapt resource value: { 0x7F0300A4,0x7F0300A7 }
+			// aapt resource value: { 0x7F0300A1,0x7F0300A4 }
 			public static int[] ClockFaceView = new int[] {
-					2130903204,
-					2130903207};
+					2130903201,
+					2130903204};
 			
 			// aapt resource value: 0
 			public const int ClockFaceView_clockFaceBackgroundColor = 0;
@@ -15823,11 +11290,11 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int ClockFaceView_clockNumberTextColor = 1;
 			
-			// aapt resource value: { 0x7F0300A5,0x7F030234,0x7F0302AD }
+			// aapt resource value: { 0x7F0300A2,0x7F030231,0x7F0302AA }
 			public static int[] ClockHandView = new int[] {
-					2130903205,
-					2130903604,
-					2130903725};
+					2130903202,
+					2130903601,
+					2130903722};
 			
 			// aapt resource value: 0
 			public const int ClockHandView_clockHandColor = 0;
@@ -15838,25 +11305,25 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int ClockHandView_selectorSize = 2;
 			
-			// aapt resource value: { 0x7F0300B3,0x7F0300B4,0x7F0300E2,0x7F030140,0x7F030141,0x7F030142,0x7F030143,0x7F030144,0x7F030145,0x7F030146,0x7F03023F,0x7F0302A3,0x7F0302A5,0x7F0302D9,0x7F03033C,0x7F03033D,0x7F030347 }
+			// aapt resource value: { 0x7F0300B0,0x7F0300B1,0x7F0300DF,0x7F03013D,0x7F03013E,0x7F03013F,0x7F030140,0x7F030141,0x7F030142,0x7F030143,0x7F03023C,0x7F0302A0,0x7F0302A2,0x7F0302D6,0x7F030339,0x7F03033A,0x7F030344 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903219,
-					2130903220,
-					2130903266,
+					2130903216,
+					2130903217,
+					2130903263,
+					2130903357,
+					2130903358,
+					2130903359,
 					2130903360,
 					2130903361,
 					2130903362,
 					2130903363,
-					2130903364,
-					2130903365,
-					2130903366,
-					2130903615,
-					2130903715,
-					2130903717,
-					2130903769,
-					2130903868,
-					2130903869,
-					2130903879};
+					2130903612,
+					2130903712,
+					2130903714,
+					2130903766,
+					2130903865,
+					2130903866,
+					2130903876};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -15888,10 +11355,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F0301CB,0x7F0301CC }
+			// aapt resource value: { 0x7F0301C8,0x7F0301C9 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903499,
-					2130903500};
+					2130903496,
+					2130903497};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -15920,11 +11387,11 @@ namespace LibMaker.Droid
 			// aapt resource value: 16
 			public const int CollapsingToolbarLayout_toolbarId = 16;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F03002B }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F030028 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903083};
+					2130903080};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -15935,12 +11402,12 @@ namespace LibMaker.Droid
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F030071,0x7F030077,0x7F030078 }
+			// aapt resource value: { 0x1010107,0x7F03006E,0x7F030074,0x7F030075 }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903153,
-					2130903159,
-					2130903160};
+					2130903150,
+					2130903156,
+					2130903157};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -15954,7 +11421,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F030082,0x7F0300D0,0x7F0300D1,0x7F030118,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030252,0x7F030253,0x7F030279,0x7F030281,0x7F03035B,0x7F03035D,0x7F030368 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002B,0x7F030049,0x7F03004A,0x7F03004B,0x7F03007F,0x7F0300CD,0x7F0300CE,0x7F030115,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F03024F,0x7F030250,0x7F030276,0x7F03027E,0x7F030358,0x7F03035A,0x7F030365 }
 			public static int[] Constraint = new int[] {
 					16842948,
 					16842960,
@@ -15983,14 +11450,17 @@ namespace LibMaker.Droid
 					16843702,
 					16843770,
 					16843840,
-					2130903086,
-					2130903116,
-					2130903117,
-					2130903118,
-					2130903170,
-					2130903248,
-					2130903249,
-					2130903320,
+					2130903083,
+					2130903113,
+					2130903114,
+					2130903115,
+					2130903167,
+					2130903245,
+					2130903246,
+					2130903317,
+					2130903381,
+					2130903382,
+					2130903383,
 					2130903384,
 					2130903385,
 					2130903386,
@@ -16001,14 +11471,14 @@ namespace LibMaker.Droid
 					2130903391,
 					2130903392,
 					2130903393,
-					2130903394,
 					2130903395,
 					2130903396,
+					2130903397,
 					2130903398,
 					2130903399,
-					2130903400,
-					2130903401,
-					2130903402,
+					2130903498,
+					2130903499,
+					2130903500,
 					2130903501,
 					2130903502,
 					2130903503,
@@ -16048,26 +11518,23 @@ namespace LibMaker.Droid
 					2130903537,
 					2130903538,
 					2130903539,
-					2130903540,
 					2130903541,
 					2130903542,
+					2130903543,
 					2130903544,
 					2130903545,
 					2130903546,
 					2130903547,
 					2130903548,
-					2130903549,
-					2130903550,
-					2130903551,
-					2130903634,
-					2130903635,
-					2130903673,
-					2130903681,
-					2130903899,
-					2130903901,
-					2130903912};
+					2130903631,
+					2130903632,
+					2130903670,
+					2130903678,
+					2130903896,
+					2130903898,
+					2130903909};
 			
-			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x1010440,0x7F03004C,0x7F03004D,0x7F03004E,0x7F030082,0x7F0300CD,0x7F0300D0,0x7F0300D1,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F0301C5,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030202 }
+			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x1010440,0x7F030049,0x7F03004A,0x7F03004B,0x7F03007F,0x7F0300CA,0x7F0300CD,0x7F0300CE,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F0301C2,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FF }
 			public static int[] ConstraintLayout_Layout = new int[] {
 					16842948,
 					16842965,
@@ -16083,13 +11550,16 @@ namespace LibMaker.Droid
 					16843699,
 					16843700,
 					16843840,
-					2130903116,
-					2130903117,
-					2130903118,
-					2130903170,
+					2130903113,
+					2130903114,
+					2130903115,
+					2130903167,
+					2130903242,
 					2130903245,
-					2130903248,
-					2130903249,
+					2130903246,
+					2130903381,
+					2130903382,
+					2130903383,
 					2130903384,
 					2130903385,
 					2130903386,
@@ -16100,15 +11570,15 @@ namespace LibMaker.Droid
 					2130903391,
 					2130903392,
 					2130903393,
-					2130903394,
 					2130903395,
 					2130903396,
+					2130903397,
 					2130903398,
 					2130903399,
-					2130903400,
-					2130903401,
-					2130903402,
-					2130903493,
+					2130903490,
+					2130903498,
+					2130903499,
+					2130903500,
 					2130903501,
 					2130903502,
 					2130903503,
@@ -16148,18 +11618,15 @@ namespace LibMaker.Droid
 					2130903537,
 					2130903538,
 					2130903539,
-					2130903540,
 					2130903541,
 					2130903542,
+					2130903543,
 					2130903544,
 					2130903545,
 					2130903546,
 					2130903547,
 					2130903548,
-					2130903549,
-					2130903550,
-					2130903551,
-					2130903554};
+					2130903551};
 			
 			// aapt resource value: 13
 			public const int ConstraintLayout_Layout_android_elevation = 13;
@@ -16434,10 +11901,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 90
 			public const int ConstraintLayout_Layout_layout_optimizationLevel = 90;
 			
-			// aapt resource value: { 0x7F0300D3,0x7F030285 }
+			// aapt resource value: { 0x7F0300D0,0x7F030282 }
 			public static int[] ConstraintLayout_placeholder = new int[] {
-					2130903251,
-					2130903685};
+					2130903248,
+					2130903682};
 			
 			// aapt resource value: 0
 			public const int ConstraintLayout_placeholder_content = 0;
@@ -16445,7 +11912,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int ConstraintLayout_placeholder_placeholder_emptyVisibility = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F030082,0x7F0300D0,0x7F0300D1,0x7F03010C,0x7F030118,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030252,0x7F030253,0x7F030279,0x7F030281,0x7F03035B,0x7F03035D }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002B,0x7F030049,0x7F03004A,0x7F03004B,0x7F03007F,0x7F0300CD,0x7F0300CE,0x7F030109,0x7F030115,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F03024F,0x7F030250,0x7F030276,0x7F03027E,0x7F030358,0x7F03035A }
 			public static int[] ConstraintSet = new int[] {
 					16842948,
 					16842960,
@@ -16476,15 +11943,18 @@ namespace LibMaker.Droid
 					16843702,
 					16843770,
 					16843840,
-					2130903086,
-					2130903116,
-					2130903117,
-					2130903118,
-					2130903170,
-					2130903248,
-					2130903249,
-					2130903308,
-					2130903320,
+					2130903083,
+					2130903113,
+					2130903114,
+					2130903115,
+					2130903167,
+					2130903245,
+					2130903246,
+					2130903305,
+					2130903317,
+					2130903381,
+					2130903382,
+					2130903383,
 					2130903384,
 					2130903385,
 					2130903386,
@@ -16495,14 +11965,14 @@ namespace LibMaker.Droid
 					2130903391,
 					2130903392,
 					2130903393,
-					2130903394,
 					2130903395,
 					2130903396,
+					2130903397,
 					2130903398,
 					2130903399,
-					2130903400,
-					2130903401,
-					2130903402,
+					2130903498,
+					2130903499,
+					2130903500,
 					2130903501,
 					2130903502,
 					2130903503,
@@ -16542,23 +12012,20 @@ namespace LibMaker.Droid
 					2130903537,
 					2130903538,
 					2130903539,
-					2130903540,
 					2130903541,
 					2130903542,
+					2130903543,
 					2130903544,
 					2130903545,
 					2130903546,
 					2130903547,
 					2130903548,
-					2130903549,
-					2130903550,
-					2130903551,
-					2130903634,
-					2130903635,
-					2130903673,
-					2130903681,
-					2130903899,
-					2130903901};
+					2130903631,
+					2130903632,
+					2130903670,
+					2130903678,
+					2130903896,
+					2130903898};
 			
 			// aapt resource value: 15
 			public const int ConstraintSet_android_alpha = 15;
@@ -17226,23 +12693,23 @@ namespace LibMaker.Droid
 			// aapt resource value: 109
 			public const int Constraint_visibilityMode = 109;
 			
-			// aapt resource value: { 0x7F0301BF,0x7F0302D7 }
+			// aapt resource value: { 0x7F0301BC,0x7F0302D4 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903487,
-					2130903767};
+					2130903484,
+					2130903764};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301F7,0x7F030200,0x7F030201 }
+			// aapt resource value: { 0x10100B3,0x7F0301C5,0x7F0301C6,0x7F0301C7,0x7F0301F4,0x7F0301FD,0x7F0301FE }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903496,
-					2130903497,
-					2130903498,
-					2130903543,
-					2130903552,
-					2130903553};
+					2130903493,
+					2130903494,
+					2130903495,
+					2130903540,
+					2130903549,
+					2130903550};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -17268,17 +12735,17 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F030035,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030101,0x7F030102 }
+			// aapt resource value: { 0x7F030032,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FE,0x7F0300FF }
 			public static int[] CustomAttribute = new int[] {
-					2130903093,
+					2130903090,
+					2130903287,
+					2130903288,
+					2130903289,
 					2130903290,
 					2130903291,
 					2130903292,
-					2130903293,
 					2130903294,
-					2130903295,
-					2130903297,
-					2130903298};
+					2130903295};
 			
 			// aapt resource value: 0
 			public const int CustomAttribute_attributeName = 0;
@@ -17307,16 +12774,16 @@ namespace LibMaker.Droid
 			// aapt resource value: 8
 			public const int CustomAttribute_customStringValue = 8;
 			
-			// aapt resource value: { 0x7F030033,0x7F030034,0x7F03004B,0x7F0300B6,0x7F03011D,0x7F030178,0x7F0302C5,0x7F03032A }
+			// aapt resource value: { 0x7F030030,0x7F030031,0x7F030048,0x7F0300B3,0x7F03011A,0x7F030175,0x7F0302C2,0x7F030327 }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130903091,
-					2130903092,
-					2130903115,
-					2130903222,
-					2130903325,
-					2130903416,
-					2130903749,
-					2130903850};
+					2130903088,
+					2130903089,
+					2130903112,
+					2130903219,
+					2130903322,
+					2130903413,
+					2130903746,
+					2130903847};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -17342,26 +12809,26 @@ namespace LibMaker.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F03012A }
+			// aapt resource value: { 0x7F030127 }
 			public static int[] DrawerLayout = new int[] {
-					2130903338};
+					2130903335};
 			
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F0300B2,0x7F03012A,0x7F030147,0x7F030184,0x7F0302B7,0x7F0302BB }
+			// aapt resource value: { 0x7F0300AF,0x7F030127,0x7F030144,0x7F030181,0x7F0302B4,0x7F0302B8 }
 			public static int[] ExtendedFloatingActionButton = new int[] {
-					2130903218,
-					2130903338,
-					2130903367,
-					2130903428,
-					2130903735,
-					2130903739};
+					2130903215,
+					2130903335,
+					2130903364,
+					2130903425,
+					2130903732,
+					2130903736};
 			
-			// aapt resource value: { 0x7F03004F,0x7F030050 }
+			// aapt resource value: { 0x7F03004C,0x7F03004D }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
-					2130903119,
-					2130903120};
+					2130903116,
+					2130903117};
 			
 			// aapt resource value: 0
 			public const int ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -17387,25 +12854,25 @@ namespace LibMaker.Droid
 			// aapt resource value: 5
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 5;
 			
-			// aapt resource value: { 0x101000E,0x7F030046,0x7F030047,0x7F03005A,0x7F03012A,0x7F030135,0x7F03014E,0x7F03014F,0x7F030184,0x7F03018E,0x7F03023E,0x7F03028E,0x7F03029E,0x7F0302AE,0x7F0302B1,0x7F0302B7,0x7F030363 }
+			// aapt resource value: { 0x101000E,0x7F030043,0x7F030044,0x7F030057,0x7F030127,0x7F030132,0x7F03014B,0x7F03014C,0x7F030181,0x7F03018B,0x7F03023B,0x7F03028B,0x7F03029B,0x7F0302AB,0x7F0302AE,0x7F0302B4,0x7F030360 }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
-					2130903110,
-					2130903111,
-					2130903130,
-					2130903338,
-					2130903349,
-					2130903374,
-					2130903375,
-					2130903428,
-					2130903438,
-					2130903614,
-					2130903694,
-					2130903710,
+					2130903107,
+					2130903108,
+					2130903127,
+					2130903335,
+					2130903346,
+					2130903371,
+					2130903372,
+					2130903425,
+					2130903435,
+					2130903611,
+					2130903691,
+					2130903707,
+					2130903723,
 					2130903726,
-					2130903729,
-					2130903735,
-					2130903907};
+					2130903732,
+					2130903904};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -17416,9 +12883,9 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int FloatingActionButton_backgroundTintMode = 2;
 			
-			// aapt resource value: { 0x7F03004F }
+			// aapt resource value: { 0x7F03004C }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130903119};
+					2130903116};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -17465,10 +12932,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 16
 			public const int FloatingActionButton_useCompatPadding = 16;
 			
-			// aapt resource value: { 0x7F0301B6,0x7F03020A }
+			// aapt resource value: { 0x7F0301B3,0x7F030207 }
 			public static int[] FlowLayout = new int[] {
-					2130903478,
-					2130903562};
+					2130903475,
+					2130903559};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -17476,27 +12943,27 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172 }
+			// aapt resource value: { 0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F }
 			public static int[] FontFamily = new int[] {
+					2130903402,
+					2130903403,
+					2130903404,
 					2130903405,
 					2130903406,
-					2130903407,
-					2130903408,
-					2130903409,
-					2130903410};
+					2130903407};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03016B,0x7F030173,0x7F030174,0x7F030175,0x7F030362 }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F030168,0x7F030170,0x7F030171,0x7F030172,0x7F03035F }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903403,
-					2130903411,
-					2130903412,
-					2130903413,
-					2130903906};
+					2130903400,
+					2130903408,
+					2130903409,
+					2130903410,
+					2130903903};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -17546,11 +13013,11 @@ namespace LibMaker.Droid
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F030176 }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F030173 }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903414};
+					2130903411};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -17649,17 +13116,17 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F03002D,0x7F03006B,0x7F0300E3,0x7F0300F7,0x7F030269,0x7F03029F,0x7F0302A0,0x7F0302A1,0x7F03036A }
+			// aapt resource value: { 0x7F03002A,0x7F030068,0x7F0300E0,0x7F0300F4,0x7F030266,0x7F03029C,0x7F03029D,0x7F03029E,0x7F030367 }
 			public static int[] ImageFilterView = new int[] {
-					2130903085,
-					2130903147,
-					2130903267,
-					2130903287,
-					2130903657,
-					2130903711,
-					2130903712,
-					2130903713,
-					2130903914};
+					2130903082,
+					2130903144,
+					2130903264,
+					2130903284,
+					2130903654,
+					2130903708,
+					2130903709,
+					2130903710,
+					2130903911};
 			
 			// aapt resource value: 0
 			public const int ImageFilterView_altSrc = 0;
@@ -17688,11 +13155,11 @@ namespace LibMaker.Droid
 			// aapt resource value: 8
 			public const int ImageFilterView_warmth = 8;
 			
-			// aapt resource value: { 0x7F03026B,0x7F03026D,0x7F03026E }
+			// aapt resource value: { 0x7F030268,0x7F03026A,0x7F03026B }
 			public static int[] Insets = new int[] {
-					2130903659,
-					2130903661,
-					2130903662};
+					2130903656,
+					2130903658,
+					2130903659};
 			
 			// aapt resource value: 0
 			public const int Insets_paddingBottomSystemWindowInsets = 0;
@@ -17703,7 +13170,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int Insets_paddingRightSystemWindowInsets = 2;
 			
-			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F9,0x7F030177,0x7F030252,0x7F030254,0x7F03035B,0x7F03035D }
+			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F6,0x7F030174,0x7F03024F,0x7F030251,0x7F030358,0x7F03035A }
 			public static int[] KeyAttribute = new int[] {
 					16843551,
 					16843552,
@@ -17717,12 +13184,12 @@ namespace LibMaker.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903289,
-					2130903415,
-					2130903634,
-					2130903636,
-					2130903899,
-					2130903901};
+					2130903286,
+					2130903412,
+					2130903631,
+					2130903633,
+					2130903896,
+					2130903898};
 			
 			// aapt resource value: 0
 			public const int KeyAttribute_android_alpha = 0;
@@ -17778,7 +13245,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 17
 			public const int KeyAttribute_transitionPathRotate = 17;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F9,0x7F030177,0x7F030252,0x7F030254,0x7F03035B,0x7F03035D,0x7F03036C,0x7F03036D,0x7F03036E,0x7F03036F }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F6,0x7F030174,0x7F03024F,0x7F030251,0x7F030358,0x7F03035A,0x7F030369,0x7F03036A,0x7F03036B,0x7F03036C }
 			public static int[] KeyCycle = new int[] {
 					16843551,
 					16843554,
@@ -17790,16 +13257,16 @@ namespace LibMaker.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903289,
-					2130903415,
-					2130903634,
-					2130903636,
-					2130903899,
-					2130903901,
-					2130903916,
-					2130903917,
-					2130903918,
-					2130903919};
+					2130903286,
+					2130903412,
+					2130903631,
+					2130903633,
+					2130903896,
+					2130903898,
+					2130903913,
+					2130903914,
+					2130903915,
+					2130903916};
 			
 			// aapt resource value: 0
 			public const int KeyCycle_android_alpha = 0;
@@ -17873,20 +13340,20 @@ namespace LibMaker.Droid
 			public static int[] KeyFramesVelocity = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F0300F9,0x7F030118,0x7F030177,0x7F0301BD,0x7F030254,0x7F030279,0x7F03027B,0x7F03027C,0x7F03027D,0x7F03027E,0x7F0302BF,0x7F03035B }
+			// aapt resource value: { 0x7F0300F6,0x7F030115,0x7F030174,0x7F0301BA,0x7F030251,0x7F030276,0x7F030278,0x7F030279,0x7F03027A,0x7F03027B,0x7F0302BC,0x7F030358 }
 			public static int[] KeyPosition = new int[] {
-					2130903289,
-					2130903320,
-					2130903415,
-					2130903485,
-					2130903636,
+					2130903286,
+					2130903317,
+					2130903412,
+					2130903482,
+					2130903633,
+					2130903670,
+					2130903672,
 					2130903673,
+					2130903674,
 					2130903675,
-					2130903676,
-					2130903677,
-					2130903678,
-					2130903743,
-					2130903899};
+					2130903740,
+					2130903896};
 			
 			// aapt resource value: 0
 			public const int KeyPosition_curveFit = 0;
@@ -17924,7 +13391,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 11
 			public const int KeyPosition_transitionEasing = 11;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F9,0x7F030177,0x7F030252,0x7F030254,0x7F03035B,0x7F03035D,0x7F03036B,0x7F03036C,0x7F03036D,0x7F03036E }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F6,0x7F030174,0x7F03024F,0x7F030251,0x7F030358,0x7F03035A,0x7F030368,0x7F030369,0x7F03036A,0x7F03036B }
 			public static int[] KeyTimeCycle = new int[] {
 					16843551,
 					16843554,
@@ -17936,16 +13403,16 @@ namespace LibMaker.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903289,
-					2130903415,
-					2130903634,
-					2130903636,
-					2130903899,
-					2130903901,
-					2130903915,
-					2130903916,
-					2130903917,
-					2130903918};
+					2130903286,
+					2130903412,
+					2130903631,
+					2130903633,
+					2130903896,
+					2130903898,
+					2130903912,
+					2130903913,
+					2130903914,
+					2130903915};
 			
 			// aapt resource value: 0
 			public const int KeyTimeCycle_android_alpha = 0;
@@ -18007,18 +13474,18 @@ namespace LibMaker.Droid
 			// aapt resource value: 19
 			public const int KeyTimeCycle_waveShape = 19;
 			
-			// aapt resource value: { 0x7F030177,0x7F030254,0x7F030255,0x7F030256,0x7F030262,0x7F030264,0x7F030265,0x7F03035F,0x7F030360,0x7F030361 }
+			// aapt resource value: { 0x7F030174,0x7F030251,0x7F030252,0x7F030253,0x7F03025F,0x7F030261,0x7F030262,0x7F03035C,0x7F03035D,0x7F03035E }
 			public static int[] KeyTrigger = new int[] {
-					2130903415,
-					2130903636,
-					2130903637,
-					2130903638,
+					2130903412,
+					2130903633,
+					2130903634,
+					2130903635,
+					2130903647,
+					2130903649,
 					2130903650,
-					2130903652,
-					2130903653,
-					2130903903,
-					2130903904,
-					2130903905};
+					2130903900,
+					2130903901,
+					2130903902};
 			
 			// aapt resource value: 0
 			public const int KeyTrigger_framePosition = 0;
@@ -18050,7 +13517,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 9
 			public const int KeyTrigger_triggerSlack = 9;
 			
-			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F03004C,0x7F03004D,0x7F03004E,0x7F030082,0x7F0300D0,0x7F0300D1,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F03023D,0x7F030241,0x7F030244,0x7F030248 }
+			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F030049,0x7F03004A,0x7F03004B,0x7F03007F,0x7F0300CD,0x7F0300CE,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F03023A,0x7F03023E,0x7F030241,0x7F030245 }
 			public static int[] Layout = new int[] {
 					16842948,
 					16842996,
@@ -18061,12 +13528,15 @@ namespace LibMaker.Droid
 					16843002,
 					16843701,
 					16843702,
-					2130903116,
-					2130903117,
-					2130903118,
-					2130903170,
-					2130903248,
-					2130903249,
+					2130903113,
+					2130903114,
+					2130903115,
+					2130903167,
+					2130903245,
+					2130903246,
+					2130903498,
+					2130903499,
+					2130903500,
 					2130903501,
 					2130903502,
 					2130903503,
@@ -18095,9 +13565,9 @@ namespace LibMaker.Droid
 					2130903526,
 					2130903527,
 					2130903528,
-					2130903529,
 					2130903530,
 					2130903531,
+					2130903532,
 					2130903533,
 					2130903534,
 					2130903535,
@@ -18105,21 +13575,18 @@ namespace LibMaker.Droid
 					2130903537,
 					2130903538,
 					2130903539,
-					2130903540,
 					2130903541,
 					2130903542,
+					2130903543,
 					2130903544,
 					2130903545,
 					2130903546,
 					2130903547,
 					2130903548,
-					2130903549,
-					2130903550,
-					2130903551,
-					2130903613,
+					2130903610,
+					2130903614,
 					2130903617,
-					2130903620,
-					2130903624};
+					2130903621};
 			
 			// aapt resource value: 2
 			public const int Layout_android_layout_height = 2;
@@ -18325,17 +13792,17 @@ namespace LibMaker.Droid
 			// aapt resource value: 67
 			public const int Layout_minWidth = 67;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F030111,0x7F030113,0x7F030242,0x7F0302B6 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03010E,0x7F030110,0x7F03023F,0x7F0302B3 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903313,
-					2130903315,
-					2130903618,
-					2130903734};
+					2130903310,
+					2130903312,
+					2130903615,
+					2130903731};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -18383,10 +13850,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 8
 			public const int LinearLayoutCompat_showDividers = 8;
 			
-			// aapt resource value: { 0x7F03019A,0x7F03019E }
+			// aapt resource value: { 0x7F030197,0x7F03019B }
 			public static int[] LinearProgressIndicator = new int[] {
-					2130903450,
-					2130903454};
+					2130903447,
+					2130903451};
 			
 			// aapt resource value: 0
 			public const int LinearProgressIndicator_indeterminateAnimationType = 0;
@@ -18405,20 +13872,20 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x7F03003F,0x7F030040,0x7F030041,0x7F030042 }
+			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F03003E,0x7F03003F }
 			public static int[] MaterialAlertDialog = new int[] {
-					2130903103,
-					2130903104,
-					2130903105,
-					2130903106};
+					2130903100,
+					2130903101,
+					2130903102,
+					2130903103};
 			
-			// aapt resource value: { 0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221 }
+			// aapt resource value: { 0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E }
 			public static int[] MaterialAlertDialogTheme = new int[] {
+					2130903578,
+					2130903579,
+					2130903580,
 					2130903581,
-					2130903582,
-					2130903583,
-					2130903584,
-					2130903585};
+					2130903582};
 			
 			// aapt resource value: 0
 			public const int MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = 0;
@@ -18454,7 +13921,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030046,0x7F030047,0x7F0300EB,0x7F03012A,0x7F03018F,0x7F030191,0x7F030192,0x7F030193,0x7F030195,0x7F030196,0x7F03029E,0x7F0302AE,0x7F0302B1,0x7F0302DA,0x7F0302DB }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030043,0x7F030044,0x7F0300E8,0x7F030127,0x7F03018C,0x7F03018E,0x7F03018F,0x7F030190,0x7F030192,0x7F030193,0x7F03029B,0x7F0302AB,0x7F0302AE,0x7F0302D7,0x7F0302D8 }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -18462,27 +13929,27 @@ namespace LibMaker.Droid
 					16843193,
 					16843194,
 					16843237,
-					2130903110,
-					2130903111,
-					2130903275,
-					2130903338,
+					2130903107,
+					2130903108,
+					2130903272,
+					2130903335,
+					2130903436,
+					2130903438,
 					2130903439,
-					2130903441,
+					2130903440,
 					2130903442,
 					2130903443,
-					2130903445,
-					2130903446,
-					2130903710,
+					2130903707,
+					2130903723,
 					2130903726,
-					2130903729,
-					2130903770,
-					2130903771};
+					2130903767,
+					2130903768};
 			
-			// aapt resource value: { 0x7F030084,0x7F0302AC,0x7F0302BE }
+			// aapt resource value: { 0x7F030081,0x7F0302A9,0x7F0302BB }
 			public static int[] MaterialButtonToggleGroup = new int[] {
-					2130903172,
-					2130903724,
-					2130903742};
+					2130903169,
+					2130903721,
+					2130903739};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -18556,31 +14023,31 @@ namespace LibMaker.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F030103,0x7F030104,0x7F030105,0x7F030106,0x7F03025F,0x7F030294,0x7F03037A,0x7F03037B,0x7F03037C }
+			// aapt resource value: { 0x101020D,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F03025C,0x7F030291,0x7F030377,0x7F030378,0x7F030379 }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
+					2130903296,
+					2130903297,
+					2130903298,
 					2130903299,
-					2130903300,
-					2130903301,
-					2130903302,
-					2130903647,
-					2130903700,
-					2130903930,
-					2130903931,
-					2130903932};
+					2130903644,
+					2130903697,
+					2130903927,
+					2130903928,
+					2130903929};
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301A6,0x7F0301AF,0x7F0301B0,0x7F0301B7,0x7F0301B8,0x7F0301BC }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301A3,0x7F0301AC,0x7F0301AD,0x7F0301B4,0x7F0301B5,0x7F0301B9 }
 			public static int[] MaterialCalendarItem = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903462,
-					2130903471,
-					2130903472,
-					2130903479,
-					2130903480,
-					2130903484};
+					2130903459,
+					2130903468,
+					2130903469,
+					2130903476,
+					2130903477,
+					2130903481};
 			
 			// aapt resource value: 3
 			public const int MaterialCalendarItem_android_insetBottom = 3;
@@ -18642,20 +14109,20 @@ namespace LibMaker.Droid
 			// aapt resource value: 9
 			public const int MaterialCalendar_yearTodayStyle = 9;
 			
-			// aapt resource value: { 0x10101E5,0x7F03007D,0x7F030086,0x7F030088,0x7F030089,0x7F03008A,0x7F03029E,0x7F0302AE,0x7F0302B1,0x7F0302D4,0x7F0302DA,0x7F0302DB }
+			// aapt resource value: { 0x10101E5,0x7F03007A,0x7F030083,0x7F030085,0x7F030086,0x7F030087,0x7F03029B,0x7F0302AB,0x7F0302AE,0x7F0302D1,0x7F0302D7,0x7F0302D8 }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
-					2130903165,
+					2130903162,
+					2130903171,
+					2130903173,
 					2130903174,
-					2130903176,
-					2130903177,
-					2130903178,
-					2130903710,
+					2130903175,
+					2130903707,
+					2130903723,
 					2130903726,
-					2130903729,
-					2130903764,
-					2130903770,
-					2130903771};
+					2130903761,
+					2130903767,
+					2130903768};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -18693,10 +14160,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 11
 			public const int MaterialCardView_strokeWidth = 11;
 			
-			// aapt resource value: { 0x7F030077,0x7F030364 }
+			// aapt resource value: { 0x7F030074,0x7F030361 }
 			public static int[] MaterialCheckBox = new int[] {
-					2130903159,
-					2130903908};
+					2130903156,
+					2130903905};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -18704,10 +14171,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030077,0x7F030364 }
+			// aapt resource value: { 0x7F030074,0x7F030361 }
 			public static int[] MaterialRadioButton = new int[] {
-					2130903159,
-					2130903908};
+					2130903156,
+					2130903905};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -18715,10 +14182,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F0302AE,0x7F0302B1 }
+			// aapt resource value: { 0x7F0302AB,0x7F0302AE }
 			public static int[] MaterialShape = new int[] {
-					2130903726,
-					2130903729};
+					2130903723,
+					2130903726};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -18726,11 +14193,11 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int MaterialShape_shapeAppearanceOverlay = 1;
 			
-			// aapt resource value: { 0x10104B6,0x101057F,0x7F030209 }
+			// aapt resource value: { 0x10104B6,0x101057F,0x7F030206 }
 			public static int[] MaterialTextAppearance = new int[] {
 					16843958,
 					16844159,
-					2130903561};
+					2130903558};
 			
 			// aapt resource value: 0
 			public const int MaterialTextAppearance_android_letterSpacing = 0;
@@ -18741,11 +14208,11 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int MaterialTextAppearance_lineHeight = 2;
 			
-			// aapt resource value: { 0x1010034,0x101057F,0x7F030209 }
+			// aapt resource value: { 0x1010034,0x101057F,0x7F030206 }
 			public static int[] MaterialTextView = new int[] {
 					16842804,
 					16844159,
-					2130903561};
+					2130903558};
 			
 			// aapt resource value: 1
 			public const int MaterialTextView_android_lineHeight = 1;
@@ -18756,10 +14223,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int MaterialTextView_lineHeight = 2;
 			
-			// aapt resource value: { 0x7F0300A6,0x7F0301BE }
+			// aapt resource value: { 0x7F0300A3,0x7F0301BB }
 			public static int[] MaterialTimePicker = new int[] {
-					2130903206,
-					2130903486};
+					2130903203,
+					2130903483};
 			
 			// aapt resource value: 0
 			public const int MaterialTimePicker_clockIcon = 0;
@@ -18767,9 +14234,9 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int MaterialTimePicker_keyboardIcon = 1;
 			
-			// aapt resource value: { 0x7F03025B }
+			// aapt resource value: { 0x7F030258 }
 			public static int[] MaterialToolbar = new int[] {
-					2130903643};
+					2130903640};
 			
 			// aapt resource value: 0
 			public const int MaterialToolbar_navigationIconTint = 0;
@@ -18801,7 +14268,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030010,0x7F030022,0x7F030024,0x7F03002C,0x7F0300D4,0x7F030195,0x7F030196,0x7F030261,0x7F0302B4,0x7F03034D }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300D1,0x7F030192,0x7F030193,0x7F03025E,0x7F0302B1,0x7F03034A }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -18816,16 +14283,16 @@ namespace LibMaker.Droid
 					16843236,
 					16843237,
 					16843375,
-					2130903056,
-					2130903074,
-					2130903076,
-					2130903084,
-					2130903252,
-					2130903445,
-					2130903446,
-					2130903649,
-					2130903732,
-					2130903885};
+					2130903053,
+					2130903071,
+					2130903073,
+					2130903081,
+					2130903249,
+					2130903442,
+					2130903443,
+					2130903646,
+					2130903729,
+					2130903882};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -18896,7 +14363,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F03028D,0x7F0302DC }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F03028A,0x7F0302D9 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -18905,8 +14372,8 @@ namespace LibMaker.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903693,
-					2130903772};
+					2130903690,
+					2130903769};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -18935,14 +14402,14 @@ namespace LibMaker.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x7F030249,0x7F03024A,0x7F03024B,0x7F03024C,0x7F03024D,0x7F03024E }
+			// aapt resource value: { 0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024B }
 			public static int[] MockView = new int[] {
+					2130903622,
+					2130903623,
+					2130903624,
 					2130903625,
 					2130903626,
-					2130903627,
-					2130903628,
-					2130903629,
-					2130903630};
+					2130903627};
 			
 			// aapt resource value: 0
 			public const int MockView_mock_diagonalsColor = 0;
@@ -18962,19 +14429,19 @@ namespace LibMaker.Droid
 			// aapt resource value: 5
 			public const int MockView_mock_showLabel = 5;
 			
-			// aapt resource value: { 0x7F03002E,0x7F030118,0x7F030251,0x7F030253,0x7F030279,0x7F03035B }
+			// aapt resource value: { 0x7F03002B,0x7F030115,0x7F03024E,0x7F030250,0x7F030276,0x7F030358 }
 			public static int[] Motion = new int[] {
-					2130903086,
-					2130903320,
-					2130903633,
-					2130903635,
-					2130903673,
-					2130903899};
+					2130903083,
+					2130903317,
+					2130903630,
+					2130903632,
+					2130903670,
+					2130903896};
 			
-			// aapt resource value: { 0x7F030263,0x7F030266 }
+			// aapt resource value: { 0x7F030260,0x7F030263 }
 			public static int[] MotionHelper = new int[] {
-					2130903651,
-					2130903654};
+					2130903648,
+					2130903651};
 			
 			// aapt resource value: 0
 			public const int MotionHelper_onHide = 0;
@@ -18982,14 +14449,14 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int MotionHelper_onShow = 1;
 			
-			// aapt resource value: { 0x7F030031,0x7F0300F8,0x7F0301C5,0x7F03024F,0x7F030252,0x7F0302B8 }
+			// aapt resource value: { 0x7F03002E,0x7F0300F5,0x7F0301C2,0x7F03024C,0x7F03024F,0x7F0302B5 }
 			public static int[] MotionLayout = new int[] {
-					2130903089,
-					2130903288,
-					2130903493,
+					2130903086,
+					2130903285,
+					2130903490,
+					2130903628,
 					2130903631,
-					2130903634,
-					2130903736};
+					2130903733};
 			
 			// aapt resource value: 0
 			public const int MotionLayout_applyMotionScene = 0;
@@ -19009,10 +14476,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 5
 			public const int MotionLayout_showPaths = 5;
 			
-			// aapt resource value: { 0x7F030107,0x7F0301C6 }
+			// aapt resource value: { 0x7F030104,0x7F0301C3 }
 			public static int[] MotionScene = new int[] {
-					2130903303,
-					2130903494};
+					2130903300,
+					2130903491};
 			
 			// aapt resource value: 0
 			public const int MotionScene_defaultDuration = 0;
@@ -19020,11 +14487,11 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int MotionScene_layoutDuringTransition = 1;
 			
-			// aapt resource value: { 0x7F030307,0x7F030308,0x7F030309 }
+			// aapt resource value: { 0x7F030304,0x7F030305,0x7F030306 }
 			public static int[] MotionTelltales = new int[] {
-					2130903815,
-					2130903816,
-					2130903817};
+					2130903812,
+					2130903813,
+					2130903814};
 			
 			// aapt resource value: 0
 			public const int MotionTelltales_telltales_tailColor = 0;
@@ -19053,31 +14520,31 @@ namespace LibMaker.Droid
 			// aapt resource value: 5
 			public const int Motion_transitionEasing = 5;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F03012A,0x7F03017D,0x7F0301A5,0x7F0301A7,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AF,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301B9,0x7F0301BC,0x7F030243,0x7F0302AE,0x7F0302B1 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030127,0x7F03017A,0x7F0301A2,0x7F0301A4,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AC,0x7F0301AD,0x7F0301AE,0x7F0301AF,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B6,0x7F0301B9,0x7F030240,0x7F0302AB,0x7F0302AE }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903338,
-					2130903421,
-					2130903461,
+					2130903335,
+					2130903418,
+					2130903458,
+					2130903460,
+					2130903462,
 					2130903463,
+					2130903464,
 					2130903465,
-					2130903466,
-					2130903467,
 					2130903468,
+					2130903469,
+					2130903470,
 					2130903471,
 					2130903472,
 					2130903473,
 					2130903474,
-					2130903475,
-					2130903476,
-					2130903477,
+					2130903478,
 					2130903481,
-					2130903484,
-					2130903619,
-					2130903726,
-					2130903729};
+					2130903616,
+					2130903723,
+					2130903726};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -19148,10 +14615,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 22
 			public const int NavigationView_shapeAppearanceOverlay = 22;
 			
-			// aapt resource value: { 0x7F0300A3,0x7F030306 }
+			// aapt resource value: { 0x7F0300A0,0x7F030303 }
 			public static int[] OnClick = new int[] {
-					2130903203,
-					2130903814};
+					2130903200,
+					2130903811};
 			
 			// aapt resource value: 0
 			public const int OnClick_clickAction = 0;
@@ -19159,20 +14626,20 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int OnClick_targetId = 1;
 			
-			// aapt resource value: { 0x7F030115,0x7F030116,0x7F030117,0x7F030208,0x7F030239,0x7F030240,0x7F030257,0x7F03025E,0x7F030267,0x7F03034E,0x7F03034F,0x7F030350 }
+			// aapt resource value: { 0x7F030112,0x7F030113,0x7F030114,0x7F030205,0x7F030236,0x7F03023D,0x7F030254,0x7F03025B,0x7F030264,0x7F03034B,0x7F03034C,0x7F03034D }
 			public static int[] OnSwipe = new int[] {
-					2130903317,
-					2130903318,
-					2130903319,
-					2130903560,
-					2130903609,
-					2130903616,
-					2130903639,
-					2130903646,
-					2130903655,
-					2130903886,
-					2130903887,
-					2130903888};
+					2130903314,
+					2130903315,
+					2130903316,
+					2130903557,
+					2130903606,
+					2130903613,
+					2130903636,
+					2130903643,
+					2130903652,
+					2130903883,
+					2130903884,
+					2130903885};
 			
 			// aapt resource value: 0
 			public const int OnSwipe_dragDirection = 0;
@@ -19210,15 +14677,15 @@ namespace LibMaker.Droid
 			// aapt resource value: 11
 			public const int OnSwipe_touchRegionId = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030268 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F030265 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903656};
+					2130903653};
 			
-			// aapt resource value: { 0x7F0302D1 }
+			// aapt resource value: { 0x7F0302CE }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903761};
+					2130903758};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -19232,10 +14699,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030199,0x7F0302A2 }
+			// aapt resource value: { 0x7F030196,0x7F03029F }
 			public static int[] PreviewView = new int[] {
-					2130903449,
-					2130903714};
+					2130903446,
+					2130903711};
 			
 			// aapt resource value: 0
 			public const int PreviewView_implementationMode = 0;
@@ -19243,13 +14710,13 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int PreviewView_scaleType = 1;
 			
-			// aapt resource value: { 0x10100DC,0x101031F,0x7F0301EC,0x7F030252,0x7F030368 }
+			// aapt resource value: { 0x10100DC,0x101031F,0x7F0301E9,0x7F03024F,0x7F030365 }
 			public static int[] PropertySet = new int[] {
 					16842972,
 					16843551,
-					2130903532,
-					2130903634,
-					2130903912};
+					2130903529,
+					2130903631,
+					2130903909};
 			
 			// aapt resource value: 1
 			public const int PropertySet_android_alpha = 1;
@@ -19266,17 +14733,17 @@ namespace LibMaker.Droid
 			// aapt resource value: 4
 			public const int PropertySet_visibilityMode = 4;
 			
-			// aapt resource value: { 0x7F030234 }
+			// aapt resource value: { 0x7F030231 }
 			public static int[] RadialViewGroup = new int[] {
-					2130903604};
+					2130903601};
 			
 			// aapt resource value: 0
 			public const int RadialViewGroup_materialCircleRadius = 0;
 			
-			// aapt resource value: { 0x7F030246,0x7F030365 }
+			// aapt resource value: { 0x7F030243,0x7F030362 }
 			public static int[] RangeSlider = new int[] {
-					2130903622,
-					2130903909};
+					2130903619,
+					2130903906};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_minSeparation = 0;
@@ -19284,10 +14751,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int RangeSlider_values = 1;
 			
-			// aapt resource value: { 0x7F03026A,0x7F030270 }
+			// aapt resource value: { 0x7F030267,0x7F03026D }
 			public static int[] RecycleListView = new int[] {
-					2130903658,
-					2130903664};
+					2130903655,
+					2130903661};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -19295,20 +14762,20 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030150,0x7F030151,0x7F030152,0x7F030153,0x7F030154,0x7F0301C7,0x7F03029D,0x7F0302C4,0x7F0302CA }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F03014D,0x7F03014E,0x7F03014F,0x7F030150,0x7F030151,0x7F0301C4,0x7F03029A,0x7F0302C1,0x7F0302C7 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
 					16842993,
+					2130903373,
+					2130903374,
+					2130903375,
 					2130903376,
 					2130903377,
-					2130903378,
-					2130903379,
-					2130903380,
-					2130903495,
-					2130903709,
-					2130903748,
-					2130903754};
+					2130903492,
+					2130903706,
+					2130903745,
+					2130903751};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -19346,39 +14813,39 @@ namespace LibMaker.Droid
 			// aapt resource value: 11
 			public const int RecyclerView_stackFromEnd = 11;
 			
-			// aapt resource value: { 0x7F0301A2 }
+			// aapt resource value: { 0x7F03019F }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903458};
+					2130903455};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F030056 }
+			// aapt resource value: { 0x7F030053 }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130903126};
+					2130903123};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300A8,0x7F0300CC,0x7F030108,0x7F03017A,0x7F030197,0x7F0301C4,0x7F030291,0x7F030292,0x7F0302A6,0x7F0302A7,0x7F0302DD,0x7F0302E5,0x7F030369 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300A5,0x7F0300C9,0x7F030105,0x7F030177,0x7F030194,0x7F0301C1,0x7F03028E,0x7F03028F,0x7F0302A3,0x7F0302A4,0x7F0302DA,0x7F0302E2,0x7F030366 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903208,
-					2130903244,
-					2130903304,
-					2130903418,
-					2130903447,
-					2130903492,
-					2130903697,
-					2130903698,
-					2130903718,
-					2130903719,
-					2130903773,
-					2130903781,
-					2130903913};
+					2130903205,
+					2130903241,
+					2130903301,
+					2130903415,
+					2130903444,
+					2130903489,
+					2130903694,
+					2130903695,
+					2130903715,
+					2130903716,
+					2130903770,
+					2130903778,
+					2130903910};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -19431,19 +14898,19 @@ namespace LibMaker.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0302AE,0x7F0302B1,0x7F0302DA,0x7F0302DB }
+			// aapt resource value: { 0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0302AB,0x7F0302AE,0x7F0302D7,0x7F0302D8 }
 			public static int[] ShapeableImageView = new int[] {
+					2130903256,
+					2130903257,
+					2130903258,
 					2130903259,
 					2130903260,
 					2130903261,
 					2130903262,
-					2130903263,
-					2130903264,
-					2130903265,
+					2130903723,
 					2130903726,
-					2130903729,
-					2130903770,
-					2130903771};
+					2130903767,
+					2130903768};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_contentPadding = 0;
@@ -19478,18 +14945,18 @@ namespace LibMaker.Droid
 			// aapt resource value: 10
 			public const int ShapeableImageView_strokeWidth = 10;
 			
-			// aapt resource value: { 0x7F0300E6,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F0300EA,0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0 }
+			// aapt resource value: { 0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0300E6,0x7F0300E7,0x7F0300E9,0x7F0300EA,0x7F0300EB,0x7F0300EC,0x7F0300ED }
 			public static int[] ShapeAppearance = new int[] {
+					2130903267,
+					2130903268,
+					2130903269,
 					2130903270,
 					2130903271,
-					2130903272,
 					2130903273,
 					2130903274,
+					2130903275,
 					2130903276,
-					2130903277,
-					2130903278,
-					2130903279,
-					2130903280};
+					2130903277};
 			
 			// aapt resource value: 0
 			public const int ShapeAppearance_cornerFamily = 0;
@@ -19521,30 +14988,30 @@ namespace LibMaker.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F03017B,0x7F03017C,0x7F0301C0,0x7F0301C1,0x7F03032B,0x7F03032C,0x7F03032D,0x7F03032E,0x7F03032F,0x7F030333,0x7F030334,0x7F030335,0x7F030339,0x7F030352,0x7F030353,0x7F030354,0x7F030356 }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F030178,0x7F030179,0x7F0301BD,0x7F0301BE,0x7F030328,0x7F030329,0x7F03032A,0x7F03032B,0x7F03032C,0x7F030330,0x7F030331,0x7F030332,0x7F030336,0x7F03034F,0x7F030350,0x7F030351,0x7F030353 }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
 					16843078,
 					16843486,
 					16843487,
-					2130903419,
-					2130903420,
-					2130903488,
-					2130903489,
+					2130903416,
+					2130903417,
+					2130903485,
+					2130903486,
+					2130903848,
+					2130903849,
+					2130903850,
 					2130903851,
 					2130903852,
-					2130903853,
-					2130903854,
-					2130903855,
-					2130903859,
-					2130903860,
-					2130903861,
-					2130903865,
-					2130903890,
-					2130903891,
-					2130903892,
-					2130903894};
+					2130903856,
+					2130903857,
+					2130903858,
+					2130903862,
+					2130903887,
+					2130903888,
+					2130903889,
+					2130903891};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -19612,22 +15079,22 @@ namespace LibMaker.Droid
 			// aapt resource value: 21
 			public const int Slider_trackHeight = 21;
 			
-			// aapt resource value: { 0x7F0302C1,0x7F0302C2,0x7F0302C3 }
+			// aapt resource value: { 0x7F0302BE,0x7F0302BF,0x7F0302C0 }
 			public static int[] Snackbar = new int[] {
-					2130903745,
-					2130903746,
-					2130903747};
+					2130903742,
+					2130903743,
+					2130903744};
 			
-			// aapt resource value: { 0x101011F,0x7F030023,0x7F03002F,0x7F030043,0x7F030046,0x7F030047,0x7F03012A,0x7F03023A }
+			// aapt resource value: { 0x101011F,0x7F030020,0x7F03002C,0x7F030040,0x7F030043,0x7F030044,0x7F030127,0x7F030237 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903075,
-					2130903087,
+					2130903072,
+					2130903084,
+					2130903104,
 					2130903107,
-					2130903110,
-					2130903111,
-					2130903338,
-					2130903610};
+					2130903108,
+					2130903335,
+					2130903607};
 			
 			// aapt resource value: 1
 			public const int SnackbarLayout_actionTextColorAlpha = 1;
@@ -19662,13 +15129,13 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int Snackbar_snackbarTextViewStyle = 2;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030288 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030285 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903688};
+					2130903685};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -19685,10 +15152,10 @@ namespace LibMaker.Droid
 			// aapt resource value: 4
 			public const int Spinner_popupTheme = 4;
 			
-			// aapt resource value: { 0x10100D0,0x7F0300D2 }
+			// aapt resource value: { 0x10100D0,0x7F0300CF }
 			public static int[] State = new int[] {
 					16842960,
-					2130903250};
+					2130903247};
 			
 			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
 			public static int[] StateListDrawable = new int[] {
@@ -19724,9 +15191,9 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x7F030109 }
+			// aapt resource value: { 0x7F030106 }
 			public static int[] StateSet = new int[] {
-					2130903305};
+					2130903302};
 			
 			// aapt resource value: 0
 			public const int StateSet_defaultState = 0;
@@ -19737,29 +15204,29 @@ namespace LibMaker.Droid
 			// aapt resource value: 1
 			public const int State_constraints = 1;
 			
-			// aapt resource value: { 0x7F0302E6 }
+			// aapt resource value: { 0x7F0302E3 }
 			public static int[] SwipeRefreshLayout = new int[] {
-					2130903782};
+					2130903779};
 			
 			// aapt resource value: 0
 			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0302B9,0x7F0302C8,0x7F0302E7,0x7F0302E8,0x7F0302EA,0x7F030330,0x7F030331,0x7F030332,0x7F030351,0x7F030358,0x7F030359 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0302B6,0x7F0302C5,0x7F0302E4,0x7F0302E5,0x7F0302E7,0x7F03032D,0x7F03032E,0x7F03032F,0x7F03034E,0x7F030355,0x7F030356 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903737,
-					2130903752,
+					2130903734,
+					2130903749,
+					2130903780,
+					2130903781,
 					2130903783,
-					2130903784,
-					2130903786,
-					2130903856,
-					2130903857,
-					2130903858,
-					2130903889,
-					2130903896,
-					2130903897};
+					2130903853,
+					2130903854,
+					2130903855,
+					2130903886,
+					2130903893,
+					2130903894};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -19803,9 +15270,9 @@ namespace LibMaker.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F030364 }
+			// aapt resource value: { 0x7F030361 }
 			public static int[] SwitchMaterial = new int[] {
-					2130903908};
+					2130903905};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
@@ -19825,8 +15292,11 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F0302EB,0x7F0302EC,0x7F0302ED,0x7F0302EE,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F0302F2,0x7F0302F3,0x7F0302F4,0x7F0302F5,0x7F0302F6,0x7F0302F7,0x7F0302F8,0x7F0302F9,0x7F0302FA,0x7F0302FB,0x7F0302FC,0x7F0302FD,0x7F0302FE,0x7F0302FF,0x7F030300,0x7F030301,0x7F030303,0x7F030304,0x7F030305 }
+			// aapt resource value: { 0x7F0302E8,0x7F0302E9,0x7F0302EA,0x7F0302EB,0x7F0302EC,0x7F0302ED,0x7F0302EE,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F0302F2,0x7F0302F3,0x7F0302F4,0x7F0302F5,0x7F0302F6,0x7F0302F7,0x7F0302F8,0x7F0302F9,0x7F0302FA,0x7F0302FB,0x7F0302FC,0x7F0302FD,0x7F0302FE,0x7F030300,0x7F030301,0x7F030302 }
 			public static int[] TabLayout = new int[] {
+					2130903784,
+					2130903785,
+					2130903786,
 					2130903787,
 					2130903788,
 					2130903789,
@@ -19847,12 +15317,9 @@ namespace LibMaker.Droid
 					2130903804,
 					2130903805,
 					2130903806,
-					2130903807,
 					2130903808,
 					2130903809,
-					2130903811,
-					2130903812,
-					2130903813};
+					2130903810};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -19932,7 +15399,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 25
 			public const int TabLayout_tabUnboundedRipple = 25;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03016C,0x7F030174,0x7F03030A,0x7F030326 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F030169,0x7F030171,0x7F030307,0x7F030323 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -19946,10 +15413,10 @@ namespace LibMaker.Droid
 					16843108,
 					16843692,
 					16844165,
-					2130903404,
-					2130903412,
-					2130903818,
-					2130903846};
+					2130903401,
+					2130903409,
+					2130903815,
+					2130903843};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -19999,18 +15466,21 @@ namespace LibMaker.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x7F030324 }
+			// aapt resource value: { 0x7F030321 }
 			public static int[] TextInputEditText = new int[] {
-					2130903844};
+					2130903841};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F03006A,0x7F0300F1,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F03012D,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030136,0x7F030137,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013F,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F030274,0x7F030275,0x7F030276,0x7F030277,0x7F030278,0x7F030282,0x7F030283,0x7F030284,0x7F03028A,0x7F03028B,0x7F03028C,0x7F0302AE,0x7F0302B1,0x7F0302CC,0x7F0302CD,0x7F0302CE,0x7F0302CF,0x7F0302D0,0x7F0302E2,0x7F0302E3,0x7F0302E4 }
+			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F1,0x7F0300F2,0x7F0300F3,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012E,0x7F03012F,0x7F030133,0x7F030134,0x7F030135,0x7F030136,0x7F030137,0x7F030138,0x7F030139,0x7F03013C,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030271,0x7F030272,0x7F030273,0x7F030274,0x7F030275,0x7F03027F,0x7F030280,0x7F030281,0x7F030287,0x7F030288,0x7F030289,0x7F0302AB,0x7F0302AE,0x7F0302C9,0x7F0302CA,0x7F0302CB,0x7F0302CC,0x7F0302CD,0x7F0302DF,0x7F0302E0,0x7F0302E1 }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
 					16843088,
+					2130903133,
+					2130903134,
+					2130903135,
 					2130903136,
 					2130903137,
 					2130903138,
@@ -20019,58 +15489,55 @@ namespace LibMaker.Droid
 					2130903141,
 					2130903142,
 					2130903143,
-					2130903144,
-					2130903145,
-					2130903146,
+					2130903278,
+					2130903279,
+					2130903280,
 					2130903281,
 					2130903282,
 					2130903283,
-					2130903284,
-					2130903285,
-					2130903286,
+					2130903338,
+					2130903339,
+					2130903340,
 					2130903341,
 					2130903342,
 					2130903343,
-					2130903344,
-					2130903345,
-					2130903346,
+					2130903347,
+					2130903348,
+					2130903349,
 					2130903350,
 					2130903351,
 					2130903352,
 					2130903353,
-					2130903354,
-					2130903355,
 					2130903356,
-					2130903359,
+					2130903420,
+					2130903421,
+					2130903422,
 					2130903423,
-					2130903424,
-					2130903425,
-					2130903426,
+					2130903428,
+					2130903429,
+					2130903430,
 					2130903431,
-					2130903432,
-					2130903433,
-					2130903434,
+					2130903665,
+					2130903666,
+					2130903667,
 					2130903668,
 					2130903669,
-					2130903670,
-					2130903671,
-					2130903672,
-					2130903682,
-					2130903683,
-					2130903684,
-					2130903690,
-					2130903691,
-					2130903692,
+					2130903679,
+					2130903680,
+					2130903681,
+					2130903687,
+					2130903688,
+					2130903689,
+					2130903723,
 					2130903726,
-					2130903729,
+					2130903753,
+					2130903754,
+					2130903755,
 					2130903756,
 					2130903757,
-					2130903758,
-					2130903759,
-					2130903760,
-					2130903778,
-					2130903779,
-					2130903780};
+					2130903775,
+					2130903776,
+					2130903777};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -20261,11 +15728,11 @@ namespace LibMaker.Droid
 			// aapt resource value: 62
 			public const int TextInputLayout_suffixTextColor = 62;
 			
-			// aapt resource value: { 0x1010034,0x7F030133,0x7F030134 }
+			// aapt resource value: { 0x1010034,0x7F030130,0x7F030131 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903347,
-					2130903348};
+					2130903344,
+					2130903345};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -20276,38 +15743,38 @@ namespace LibMaker.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030072,0x7F0300B0,0x7F0300B1,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F03021B,0x7F03021C,0x7F03023B,0x7F030243,0x7F030259,0x7F03025A,0x7F030288,0x7F0302DE,0x7F0302DF,0x7F0302E0,0x7F03033C,0x7F03033E,0x7F03033F,0x7F030340,0x7F030341,0x7F030342,0x7F030343,0x7F030344,0x7F030345 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03006F,0x7F0300AD,0x7F0300AE,0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F030218,0x7F030219,0x7F030238,0x7F030240,0x7F030256,0x7F030257,0x7F030285,0x7F0302DB,0x7F0302DC,0x7F0302DD,0x7F030339,0x7F03033B,0x7F03033C,0x7F03033D,0x7F03033E,0x7F03033F,0x7F030340,0x7F030341,0x7F030342 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903154,
-					2130903216,
-					2130903217,
+					2130903151,
+					2130903213,
+					2130903214,
+					2130903250,
+					2130903251,
+					2130903252,
 					2130903253,
 					2130903254,
 					2130903255,
-					2130903256,
-					2130903257,
-					2130903258,
-					2130903579,
-					2130903580,
-					2130903611,
-					2130903619,
-					2130903641,
-					2130903642,
-					2130903688,
-					2130903774,
-					2130903775,
-					2130903776,
+					2130903576,
+					2130903577,
+					2130903608,
+					2130903616,
+					2130903638,
+					2130903639,
+					2130903685,
+					2130903771,
+					2130903772,
+					2130903773,
+					2130903865,
+					2130903867,
 					2130903868,
+					2130903869,
 					2130903870,
 					2130903871,
 					2130903872,
 					2130903873,
-					2130903874,
-					2130903875,
-					2130903876,
-					2130903877};
+					2130903874};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -20399,7 +15866,7 @@ namespace LibMaker.Droid
 			// aapt resource value: 29
 			public const int Toolbar_titleTextColor = 29;
 			
-			// aapt resource value: { 0x1010034,0x10100D5,0x10100F6,0x101013F,0x1010140,0x101014F,0x7F030046 }
+			// aapt resource value: { 0x1010034,0x10100D5,0x10100F6,0x101013F,0x1010140,0x101014F,0x7F030043 }
 			public static int[] Tooltip = new int[] {
 					16842804,
 					16842965,
@@ -20407,7 +15874,7 @@ namespace LibMaker.Droid
 					16843071,
 					16843072,
 					16843087,
-					2130903110};
+					2130903107};
 			
 			// aapt resource value: 2
 			public const int Tooltip_android_layout_margin = 2;
@@ -20477,19 +15944,19 @@ namespace LibMaker.Droid
 			// aapt resource value: 9
 			public const int Transform_android_translationZ = 9;
 			
-			// aapt resource value: { 0x10100D0,0x7F03003C,0x7F0300CE,0x7F0300CF,0x7F030126,0x7F0301C6,0x7F030250,0x7F030279,0x7F0302CB,0x7F03035A,0x7F03035C }
+			// aapt resource value: { 0x10100D0,0x7F030039,0x7F0300CB,0x7F0300CC,0x7F030123,0x7F0301C3,0x7F03024D,0x7F030276,0x7F0302C8,0x7F030357,0x7F030359 }
 			public static int[] Transition = new int[] {
 					16842960,
-					2130903100,
-					2130903246,
-					2130903247,
-					2130903334,
-					2130903494,
-					2130903632,
-					2130903673,
-					2130903755,
-					2130903898,
-					2130903900};
+					2130903097,
+					2130903243,
+					2130903244,
+					2130903331,
+					2130903491,
+					2130903629,
+					2130903670,
+					2130903752,
+					2130903895,
+					2130903897};
 			
 			// aapt resource value: 0
 			public const int Transition_android_id = 0;
@@ -20524,13 +15991,13 @@ namespace LibMaker.Droid
 			// aapt resource value: 10
 			public const int Transition_transitionFlags = 10;
 			
-			// aapt resource value: { 0x7F0300D2,0x7F030299,0x7F03029A,0x7F03029B,0x7F03029C }
+			// aapt resource value: { 0x7F0300CF,0x7F030296,0x7F030297,0x7F030298,0x7F030299 }
 			public static int[] Variant = new int[] {
-					2130903250,
-					2130903705,
-					2130903706,
-					2130903707,
-					2130903708};
+					2130903247,
+					2130903702,
+					2130903703,
+					2130903704,
+					2130903705};
 			
 			// aapt resource value: 0
 			public const int Variant_constraints = 0;
@@ -20547,19 +16014,19 @@ namespace LibMaker.Droid
 			// aapt resource value: 4
 			public const int Variant_region_widthMoreThan = 4;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F03026C,0x7F03026F,0x7F030328 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F030269,0x7F03026C,0x7F030325 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
+					2130903657,
 					2130903660,
-					2130903663,
-					2130903848};
+					2130903845};
 			
-			// aapt resource value: { 0x10100D4,0x7F030046,0x7F030047 }
+			// aapt resource value: { 0x10100D4,0x7F030043,0x7F030044 }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130903110,
-					2130903111};
+					2130903107,
+					2130903108};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;
@@ -20606,21 +16073,6 @@ namespace LibMaker.Droid
 			
 			// aapt resource value: 4
 			public const int View_theme = 4;
-			
-			// aapt resource value: { 0x7F030000,0x7F030001,0x7F030002 }
-			public static int[] YsCameraX = new int[] {
-					2130903040,
-					2130903041,
-					2130903042};
-			
-			// aapt resource value: 0
-			public const int YsCameraX_Camera_Facing = 0;
-			
-			// aapt resource value: 1
-			public const int YsCameraX_CapturePictureSize_Height = 1;
-			
-			// aapt resource value: 2
-			public const int YsCameraX_CapturePictureSize_Width = 2;
 			
 			static Styleable()
 			{

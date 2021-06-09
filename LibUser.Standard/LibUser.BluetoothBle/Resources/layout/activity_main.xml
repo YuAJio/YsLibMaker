@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/vListBg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shap_background_bluetooth_list"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.6"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintWidth_percent="0.3" />
+
+    <TextView
+        android:id="@+id/tvEpigraph"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/TextRes_BlueToothEpigraph"
+        android:textColor="@color/TextColor_BlueToothEpigraph"
+        android:textSize="@dimen/TextSize_BuleToothEpigraph"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/vListBg"
+        app:layout_constraintEnd_toEndOf="@id/vListBg"
+        app:layout_constraintStart_toStartOf="@id/vListBg"
+        app:layout_constraintTop_toTopOf="@id/vListBg"
+        app:layout_constraintVertical_bias="0.04"
+       />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBlueTooth"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/ViewMargin_BlutToothListToTitle"
+        app:layout_constraintBottom_toBottomOf="@id/vListBg"
+        app:layout_constraintEnd_toEndOf="@id/vListBg"
+        app:layout_constraintStart_toStartOf="@id/vListBg"
+        app:layout_constraintTop_toBottomOf="@id/tvEpigraph"
+      />
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shap_background_textblock"
+        android:gravity="start"
+        android:padding="@dimen/ViewPadding_BlueToothTextBlock"
+        android:textColor="@color/TextColor_BlueToothTextBlock"
+        android:textSize="@dimen/TextSize_BuleToothTextBlock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintWidth_percent="0.4"
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonText_DoIt"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/etInput"
+        app:layout_constraintTop_toBottomOf="@id/etInput"
+        app:layout_constraintVertical_bias="0.01"
+        />
+
+
+    <TextView
+        android:id="@+id/tvOutPut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shap_background_textblock"
+        android:gravity="start"
+        android:padding="@dimen/ViewPadding_BlueToothTextBlock"
+        android:textColor="@color/TextColor_BlueToothTextBlock"
+        android:textSize="@dimen/TextSize_BuleToothTextBlock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/etInput"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintStart_toStartOf="@id/etInput"
+        app:layout_constraintTop_toBottomOf="@id/etInput"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextRes_WriteArea"
+        android:textColor="@color/TextColor_BlueToothTextBlockHint"
+        android:textSize="@dimen/TextSize_BuleToothTextBlockHint"
+        app:layout_constraintBottom_toBottomOf="@id/etInput"
+        app:layout_constraintEnd_toEndOf="@id/etInput"
+        app:layout_constraintStart_toStartOf="@id/etInput"
+        app:layout_constraintTop_toTopOf="@id/etInput"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextRes_ReadArea"
+        android:textColor="@color/TextColor_BlueToothTextBlockHint"
+        android:textSize="@dimen/TextSize_BuleToothTextBlockHint"
+        app:layout_constraintBottom_toBottomOf="@id/tvOutPut"
+        app:layout_constraintEnd_toEndOf="@id/tvOutPut"
+        app:layout_constraintStart_toStartOf="@id/tvOutPut"
+        app:layout_constraintTop_toTopOf="@id/tvOutPut"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

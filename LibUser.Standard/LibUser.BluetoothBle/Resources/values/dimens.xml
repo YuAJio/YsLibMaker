@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!--View Height&Width-->
+  <dimen name="ViewHeight_GuideMenuButton">24dp</dimen>
+
+  <!--View Margin-->
+  <dimen name="ViewMargin_BlutToothListToTitle">16dp</dimen>
+
+  <!--View Padding-->
+  <dimen name="ViewPadding_GuideMenuTopAndBottom">12dp</dimen>
+  <dimen name="ViewPadding_BackArrowAround">10dp</dimen>
+  <dimen name="ViewPadding_BlueToothTextBlock">12dp</dimen>
+  <dimen name="ViewPadding_BlueToothItemName">16dp</dimen>
+  <dimen name="ViewPadding_BlueToothItemCode">12dp</dimen>
+
+  <!--TextSize-->
+  <dimen name="TextSize_GuideMenuMenuTitle">40sp</dimen>
+  <dimen name="TextSize_CameraXEventContext">58sp</dimen>
+  <dimen name="TextSize_BuleToothTextBlockHint">46sp</dimen>
+  <dimen name="TextSize_BuleToothTextBlock">20sp</dimen>
+  <dimen name="TextSize_BuleToothEpigraph">20sp</dimen>
+  <dimen name="TextSize_BuleToothItemName">22sp</dimen>
+  <dimen name="TextSize_BuleToothItemCode">18sp</dimen>
+
+
+</resources>

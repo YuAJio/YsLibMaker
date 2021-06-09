@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">LibUser.Droid</string>
+  <string name="action_settings">Settings</string>
+  <string name="TextRes_ReadArea">Read Area</string>
+  <string name="TextRes_WriteArea">Write Area</string>
+  <string name="ButtonText_DoIt">Do It!</string>
+  <string name="TextRes_BlueToothEpigraph">List of\nBlueTooth</string>
+</resources>

@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.Bluetooth.Droid", "YSLIB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ys.BluetoothBLE_API.Droid", "YSLIBS\Ys.BluetoothBLE_API.Droid\Ys.BluetoothBLE_API.Droid.csproj", "{E3C5FF3E-5863-424B-BA84-C1168623ADDF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibUser.Standard", "LibUser.Standard", "{3DB598DF-9398-4730-ADB0-9F0374BC82DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibUser.BluetoothBle", "LibUser.Standard\LibUser.BluetoothBle\LibUser.BluetoothBle.csproj", "{DE3CDBE0-CA3A-480D-B071-750B122D9D2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,12 @@ Global
 		{E3C5FF3E-5863-424B-BA84-C1168623ADDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3C5FF3E-5863-424B-BA84-C1168623ADDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3C5FF3E-5863-424B-BA84-C1168623ADDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3CDBE0-CA3A-480D-B071-750B122D9D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3CDBE0-CA3A-480D-B071-750B122D9D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3CDBE0-CA3A-480D-B071-750B122D9D2D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DE3CDBE0-CA3A-480D-B071-750B122D9D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3CDBE0-CA3A-480D-B071-750B122D9D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3CDBE0-CA3A-480D-B071-750B122D9D2D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +123,7 @@ Global
 		{6C01EFF1-6C9D-4030-B52B-6F87C3AA7502} = {7F40B761-7003-476B-B8A7-F94E7A149209}
 		{5714BEC3-8429-4A66-8244-DCDF5D719676} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
 		{E3C5FF3E-5863-424B-BA84-C1168623ADDF} = {7BBFE194-581F-40CD-A6DE-42B4ECC0A78C}
+		{DE3CDBE0-CA3A-480D-B071-750B122D9D2D} = {3DB598DF-9398-4730-ADB0-9F0374BC82DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BFCE389-1A0D-44B9-A474-62ED1F89531A}

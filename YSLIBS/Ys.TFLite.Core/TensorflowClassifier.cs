@@ -57,8 +57,8 @@ namespace Ys.TFLite.Core
                     tensor = interpreter.GetInputTensor(0);
 
                 var shape = tensor.Shape();
-                var width = shape[2];
-                var height = shape[3];
+                var width = shape[1];
+                var height = shape[2];
 
                 var byteBuffer = await GetByteBufferFromPhoto(bytes, width, height);
                 var outputLocations = new float[1][] { new float[List_Lables.Count] };
@@ -116,12 +116,12 @@ namespace Ys.TFLite.Core
                 {
                     var pixelVal = pixels[pixel++];
                     foreach (var item_m in new float[] {
-                      //pixelVal >> 16 & 0xFF,
-                      //pixelVal >> 8 & 0xFF,
-                      // pixelVal >> 0 & 0xFF})
-                      (( ( (pixelVal >> 16) & 0xFF)/255.0f )-TORCHVISION_NORM_MEAN_RGB[0])/TORCHVISION_NORM_STD_RGB[0],
-               (( ((pixelVal >> 8) & 0xFF)/255.0f)-TORCHVISION_NORM_MEAN_RGB[1])/TORCHVISION_NORM_STD_RGB[1],
-               ((((pixelVal >> 0) & 0xFF)/255.0f)-TORCHVISION_NORM_MEAN_RGB[2])/TORCHVISION_NORM_STD_RGB[2] })
+                      pixelVal >> 16 & 0xFF,
+                      pixelVal >> 8 & 0xFF,
+                       pixelVal >> 0 & 0xFF})
+               //         (( ( (pixelVal >> 16) & 0xFF)/255.0f )-TORCHVISION_NORM_MEAN_RGB[0])/TORCHVISION_NORM_STD_RGB[0],
+               //(( ((pixelVal >> 8) & 0xFF)/255.0f)-TORCHVISION_NORM_MEAN_RGB[1])/TORCHVISION_NORM_STD_RGB[1],
+               //((((pixelVal >> 0) & 0xFF)/255.0f)-TORCHVISION_NORM_MEAN_RGB[2])/TORCHVISION_NORM_STD_RGB[2] })
                     {
                         foreach (var item_s in BitConverter.GetBytes(item_m))
                         {
