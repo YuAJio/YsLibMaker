@@ -17,6 +17,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Ys.Bluetooth.Droid;
+using Ys.BluetoothBLE_API.Droid.Manager;
 
 namespace LibUser.BluetoothBle
 {
@@ -64,96 +65,21 @@ namespace LibUser.BluetoothBle
         }
 
         #region 蓝牙相关
-
         private List<BluetoothDevice> List_BDevices = new List<BluetoothDevice>();
-        private bool isConnecting = false;
-        private BleService mLeService;
-        private string ConnectedBluetoothDeviceMAC;
-
         private void InitBluetoothEngie()
         {
             _Receiver = new BluetoothDeviceReceiver();
             _Receiver.BleReceiveEvent += Receiver_BleReceiveEvent;
-            var servceConncection = new YsServiceConnection();
-            var bleCallBack = new YsBleCallBack();
-            servceConncection.Act_OnServiceDisconnected += delegate
-            {
-                mLeService = null;
-            };
-            servceConncection.Act_OnServiceConnected += delegate (ComponentName j, IBinder k)
-            {
-                mLeService = ((BleService.LocalBinder)k).GetService(bleCallBack);
-                mLeService.SetDecode(false);
-                mLeService.Initialize();
-            };
-            BindService(new Intent(this, typeof(BleService)), servceConncection, Bind.AutoCreate);
 
-            bleCallBack.OnConnectedEvent += BleCallBack_OnConnectedEvent;
-            bleCallBack.OnConnectTimeoutEvent += BleCallBack_OnConnectTimeoutEvent;
-            bleCallBack.OnConnectionErrorEvent += BleCallBack_OnConnectionErrorEvent;
-            bleCallBack.OnDisconnectedEvent += BleCallBack_OnDisconnectedEvent;
-            bleCallBack.OnServicesUndiscoveredEvent += BleCallBack_OnServicesUndiscoveredEvent;
-            bleCallBack.OnServicesDiscoveredEvent += BleCallBack_OnServicesDiscoveredEvent;
-            bleCallBack.OnCharacteristicChangedEvent += BleCallBack_OnCharacteristicChangedEvent;
+            YsBleManager.Instance.InitBleService(this);
         }
 
         private void ConnectToBluetooth(BluetoothDevice bluetooth)
         {
-            try
-            {
-                if (!isConnecting)
-                {
-                    isConnecting = true;
-                    if (bluetooth != null && mLeService != null)
-                    {
-                        if (!string.IsNullOrEmpty(ConnectedBluetoothDeviceMAC))
-                            mLeService.SetAutoConnect(ConnectedBluetoothDeviceMAC, false);
-
-                        mLeService.Connect(bluetooth.Address, true);
-                        ConnectedBluetoothDeviceMAC = bluetooth.Address;
-                        ConnectedBluetoothDeviceMAC = string.IsNullOrEmpty(ConnectedBluetoothDeviceMAC) ? "" : ConnectedBluetoothDeviceMAC;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-            }
+            YsBleManager.Instance.ConnectToBleDevice(bluetooth?.Address);
         }
 
-        #region BleCallBackEventHandler
 
-        private void BleCallBack_OnConnectedEvent(object sender, string e)
-        {
-            isConnecting = false;
-        }
-
-        private void BleCallBack_OnConnectTimeoutEvent(object sender, string e)
-        {
-            isConnecting = false;
-        }
-
-        private void BleCallBack_OnConnectionErrorEvent(object sender, YsBleCallBack.EventModel_SII e)
-        {
-            isConnecting = false;
-        }
-
-        private void BleCallBack_OnDisconnectedEvent(object sender, string e)
-        {
-        }
-
-        private void BleCallBack_OnServicesUndiscoveredEvent(object sender, YsBleCallBack.EventModel_SII e)
-        {
-        }
-
-        private void BleCallBack_OnServicesDiscoveredEvent(object sender, string e)
-        {
-        }
-
-        private void BleCallBack_OnCharacteristicChangedEvent(object sender, YsBleCallBack.EventModel_SBI e)
-        {
-        }
-
-        #endregion BleCallBackEventHandler
 
         #region 蓝牙广播接收器相关
 
