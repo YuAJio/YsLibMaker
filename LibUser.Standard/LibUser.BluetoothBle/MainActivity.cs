@@ -8,16 +8,16 @@ using Android.Widget;
 using AndroidX.AppCompat.App;
 using AndroidX.RecyclerView.Widget;
 
-using Com.Ble.Ble;
-
-using LibUser.BluetoothBle.JavaInterfaceImp;
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 using Ys.Bluetooth.Droid;
+using Ys.BluetoothBLE_API.Droid;
 using Ys.BluetoothBLE_API.Droid.Manager;
+
+using static Ys.BluetoothBLE_API.Droid.Enum_Republic;
 
 namespace LibUser.BluetoothBle
 {
@@ -25,6 +25,8 @@ namespace LibUser.BluetoothBle
     public class MainActivity : AppCompatActivity
     {
         private YsBluetoothListRecycerAd ysRecyclerViewAdapter;
+
+        private TextView tvOutput;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -34,11 +36,13 @@ namespace LibUser.BluetoothBle
             SetContentView(Resource.Layout.activity_main);
             InitView();
 
-            InitBluetoothEngie();
+            InitBluetoothReciver();
+            InitBLEAPI();
         }
 
         private void InitView()
         {
+            tvOutput = FindViewById<TextView>(Resource.Id.tvOutPut);
             var rv = FindViewById<RecyclerView>(Resource.Id.rvBlueTooth);
             rv.SetLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.Vertical, false));
             ysRecyclerViewAdapter = new YsBluetoothListRecycerAd(this);
@@ -56,6 +60,10 @@ namespace LibUser.BluetoothBle
                        _Receiver.BleAdapter.CancelDiscovery();
                })).Start();
            };
+            FindViewById<Button>(Resource.Id.btSendCmd).Click += delegate
+            {//发送指令
+                YsBleManager.Instance.SendDebugTestDataCmd(2);
+            };
         }
 
         private void YsAdapter_ItemClickEventArg(object sender, int e)
@@ -66,12 +74,10 @@ namespace LibUser.BluetoothBle
 
         #region 蓝牙相关
         private List<BluetoothDevice> List_BDevices = new List<BluetoothDevice>();
-        private void InitBluetoothEngie()
+        private void InitBluetoothReciver()
         {
             _Receiver = new BluetoothDeviceReceiver();
             _Receiver.BleReceiveEvent += Receiver_BleReceiveEvent;
-
-            YsBleManager.Instance.InitBleService(this);
         }
 
         private void ConnectToBluetooth(BluetoothDevice bluetooth)
@@ -123,6 +129,64 @@ namespace LibUser.BluetoothBle
         #endregion 蓝牙广播接收器相关
 
         #endregion 蓝牙相关
+
+        #region 框架蓝牙的调用
+        private void InitBLEAPI()
+        {
+            YsBleManager.Instance.Act_OnLeDeviceConnectChange -= OnLeDeviceConnectChangeInvoke;
+            YsBleManager.Instance.Act_OnLeDeviceConnectChange += OnLeDeviceConnectChangeInvoke;
+
+            YsBleManager.Instance.OnResponseEvent -= Instance_OnResponseEvent;
+            YsBleManager.Instance.OnResponseEvent += Instance_OnResponseEvent;
+
+            YsBleManager.Instance.InitBleService(this);
+        }
+
+        private void Instance_OnResponseEvent(object sender, Ys.BluetoothBLE_API.Droid.Models.ResponseArg e)
+        {
+            RunOnUiThread(() =>
+            {
+                tvOutput.Text = $"Cmd:{e.Cmd}\nMessage:{ Newtonsoft.Json.JsonConvert.SerializeObject(e.HexDatas)}";
+                if (e.Cmd == Constants_Republic.TEST_CMD)
+                {
+                    var success = Constants_Republic.RESULT_OK == e.HexDatas[0];
+                    if (!success)
+                        Toast.MakeText(this, "检测结果回调失败,调试一下吧 ", ToastLength.Long).Show();
+
+                    var result = YsBleManager.Instance.ProcessDetectResult(e.HexDatas, 1);
+                }
+            });
+        }
+
+        private void OnLeDeviceConnectChangeInvoke(BleConnectState state)
+        {
+            RunOnUiThread(() =>
+            {
+                switch (state)
+                {
+                    case BleConnectState.WaitForConnect:
+                        Toast.MakeText(this, "等待蓝牙设备的连接", ToastLength.Short).Show();
+                        break;
+                    case BleConnectState.Connecting:
+                        Toast.MakeText(this, "蓝牙设备连接中", ToastLength.Short).Show();
+                        break;
+                    case BleConnectState.ConnectionError:
+                        Toast.MakeText(this, "蓝牙设备连接失败", ToastLength.Short).Show();
+                        break;
+                    case BleConnectState.ConnectionTimeOut:
+                        Toast.MakeText(this, "蓝牙连接超时,请重试", ToastLength.Short).Show();
+                        break;
+                    case BleConnectState.Connected:
+                        Toast.MakeText(this, "蓝牙设备连接成功!!!!!我们胜利了!", ToastLength.Short).Show();
+                        break;
+                    case BleConnectState.DisConnect:
+                        Toast.MakeText(this, "蓝牙设备已经断开连接,大清亡了", ToastLength.Short).Show();
+                        break;
+                }
+            });
+        }
+
+        #endregion
 
         protected override void OnResume()
         {

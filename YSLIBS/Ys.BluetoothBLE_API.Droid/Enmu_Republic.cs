@@ -16,5 +16,20 @@ namespace Ys.BluetoothBLE_API.Droid
             DisConnect,
         }
 
+        public enum DetectResult
+        {
+            /// <summary>
+            /// 阴性
+            /// </summary>
+            Negative = 0,
+            /// <summary>
+            /// 弱阳性
+            /// </summary>
+            Weakly_reactive =1,
+            /// <summary>
+            /// 阳性
+            /// </summary>
+            Positive = 2,
+        }
     }
 }

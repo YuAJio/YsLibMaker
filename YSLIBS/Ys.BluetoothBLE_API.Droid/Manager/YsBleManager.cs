@@ -40,8 +40,8 @@ namespace Ys.BluetoothBLE_API.Droid.Manager
         /// <summary>
         /// LE蓝牙设备连接状态改变通知
         /// </summary>
-        private event Action<BleConnectState> Act_OnLeDeviceConnectChange;
-        private event EventHandler<ResponseArg> OnResponseEvent;
+        public event Action<BleConnectState> Act_OnLeDeviceConnectChange;
+        public event EventHandler<ResponseArg> OnResponseEvent;
         #endregion
 
         private BleService mLeService;
@@ -214,40 +214,119 @@ namespace Ys.BluetoothBLE_API.Droid.Manager
             }
         }
 
+
+        private List<ResultModel> resultItemList;
+        public string ProcessDetectResult(string[] hexData, int index)
+        {
+            if (resultItemList == null)
+                resultItemList = new List<ResultModel>();
+            else
+                resultItemList.Clear();
+            for (int i = 0; i < hexData.Length; i++)
+            {
+                var positionStr = hexData[i] + hexData[i + 1];
+                i = i + 2;
+
+                var heightStr = hexData[i] + hexData[i + 1];
+
+                i = i + 2;
+                var areaStr = hexData[i] + hexData[i + 1] + hexData[i + 2];
+
+                i = i + 2;
+                resultItemList.Add(new ResultModel
+                {
+                    Area = Java.Lang.Integer.ParseInt(areaStr, 16),
+                    Height = Java.Lang.Integer.ParseInt(heightStr, 16),
+                    Position = Java.Lang.Integer.ParseInt(positionStr, 16)
+                });
+            }
+
+            var dataStr = Newtonsoft.Json.JsonConvert.SerializeObject(resultItemList);
+
+            var ctResultItem = resultItemList[0];
+            resultItemList.RemoveAt(0);
+
+            DetectResult totalResult = DetectResult.Negative;
+            resultItemList.ForEach(testResultItem =>
+            {
+                var positiveVal = 1.1f;
+                var negativeVal = 0.7f;
+                var compareVal = testResultItem.Area * 1.0 / ctResultItem.Area;
+
+                testResultItem.Value = compareVal.ToString("N2");
+                testResultItem.AreaValue = compareVal.ToString();
+
+                var hasAnoymosVal = positiveVal != negativeVal;
+                DetectResult result;
+
+                if (compareVal > positiveVal)
+                    result = DetectResult.Positive;
+                else if (hasAnoymosVal && compareVal > negativeVal)
+                    result = DetectResult.Positive;
+                else
+                    result = DetectResult.Weakly_reactive;
+                testResultItem.Result = (DetectResult)result;
+                if ((int)totalResult < (int)result)
+                    totalResult = result;
+            });
+
+            return ProcessTestString(totalResult, ctResultItem);
+        }
+
+
+        private string ProcessTestString(DetectResult result,  ResultModel textItem)
+        {
+            var resultStr = "<文字占位符A>";
+
+            switch (result)
+            {
+                case DetectResult.Negative:
+                    resultStr += "<Negative>";
+                    break;
+                case DetectResult.Weakly_reactive:
+                    resultStr += "<Weakly_reactive>";
+                    break;
+                case DetectResult.Positive:
+                    resultStr += "<Positive>";
+                    break;
+            }
+            return resultStr;
+        }
+
         #region 实现接口命令
         public void UpdateFirmwareCmd(int fileLength)
         {
-            SendRequestToBLE(IYsBleServiceApi.FIRMWARE_CMD, fileLength);
+            SendRequestToBLE(Constants_Republic.FIRMWARE_CMD, fileLength);
         }
 
         public void UploadFirmwateData(byte[] datas)
         {
-            SendRequestToBLE(IYsBleServiceApi.FIRMWARE_UPLOAD, datas);
+            SendRequestToBLE(Constants_Republic.FIRMWARE_UPLOAD, datas);
         }
 
         public void SendTestCmd(byte itemCount)
         {
-            SendRequestToBLE(IYsBleServiceApi.TEST_CMD, itemCount);
+            SendRequestToBLE(Constants_Republic.TEST_CMD, itemCount);
         }
 
         public void SendDebugTestDataCmd(byte itemCount)
         {
-            SendRequestToBLE(IYsBleServiceApi.TEST_WITH_ALL_DATA, itemCount);
+            SendRequestToBLE(Constants_Republic.TEST_WITH_ALL_DATA, itemCount);
         }
 
         public void SendPowerTimeCmd(byte value)
         {
-            SendRequestToBLE(IYsBleServiceApi.POWER_CMD, value);
+            SendRequestToBLE(Constants_Republic.POWER_CMD, value);
         }
 
         public void SendLEDBrightnessCmd(byte value)
         {
-            SendRequestToBLE(IYsBleServiceApi.LED_CMD, value);
+            SendRequestToBLE(Constants_Republic.LED_CMD, value);
         }
 
         public void SendPowerStatusCmd()
         {
-            SendRequestToBLE(IYsBleServiceApi.POWER_STATUS_CMD, null);
+            SendRequestToBLE(Constants_Republic.POWER_STATUS_CMD, null);
         }
         #endregion
 
@@ -260,7 +339,7 @@ namespace Ys.BluetoothBLE_API.Droid.Manager
                 mLeService.Send(ConnectedBluetoothDeviceMAC, sendBytes, false);
             }
             else
-                SendPorcessResponse(cmd, IYsBleServiceApi.NOT_CONNECTED);
+                SendPorcessResponse(cmd, Constants_Republic.NOT_CONNECTED);
         }
 
         public void SendRequestToBLE(byte cmd, byte value)
@@ -271,7 +350,7 @@ namespace Ys.BluetoothBLE_API.Droid.Manager
                 mLeService.Send(ConnectedBluetoothDeviceMAC, sendBytes, false);
             }
             else
-                SendPorcessResponse(cmd, IYsBleServiceApi.NOT_CONNECTED);
+                SendPorcessResponse(cmd, Constants_Republic.NOT_CONNECTED);
         }
 
         public void SendRequestToBLE(byte cmd, byte[] value)
@@ -282,7 +361,7 @@ namespace Ys.BluetoothBLE_API.Droid.Manager
                 mLeService.Send(ConnectedBluetoothDeviceMAC, sendBytes, false);
             }
             else
-                SendPorcessResponse(cmd, IYsBleServiceApi.NOT_CONNECTED);
+                SendPorcessResponse(cmd, Constants_Republic.NOT_CONNECTED);
         }
         public void SendRequestToBLE(byte cmd)
         {
@@ -292,7 +371,7 @@ namespace Ys.BluetoothBLE_API.Droid.Manager
                 mLeService.Send(ConnectedBluetoothDeviceMAC, sendBytes, false);
             }
             else
-                SendPorcessResponse(cmd, IYsBleServiceApi.NOT_CONNECTED);
+                SendPorcessResponse(cmd, Constants_Republic.NOT_CONNECTED);
         }
         #endregion
 
