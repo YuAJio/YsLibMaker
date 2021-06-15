@@ -1,4 +1,4 @@
-﻿using Android.App.Roles;
+﻿using Android.App;
 using Android.Bluetooth;
 using Android.Content;
 using Android.OS;
@@ -9,9 +9,7 @@ using Com.Ble.Ble.Constants;
 using Com.Ble.Ble.Util;
 
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading;
 
 using Ys.BluetoothBLE_API.Droid.JavaInterfaceImp;
@@ -22,19 +20,9 @@ using static Ys.BluetoothBLE_API.Droid.Enum_Republic;
 
 namespace Ys.BluetoothBLE_API.Droid.Manager
 {
+    [Service]
     public class YsBleManager : IYsBleServiceApi
     {
-        #region 单例
-        private static readonly Lazy<YsBleManager> instance = new Lazy<YsBleManager>(() => new YsBleManager());
-        private YsBleManager() { }
-        public static YsBleManager Instance
-        {
-            get
-            {
-                return instance.Value;
-            }
-        }
-        #endregion
 
         #region 回调
         /// <summary>
@@ -45,6 +33,7 @@ namespace Ys.BluetoothBLE_API.Droid.Manager
         #endregion
 
         private BleService mLeService;
+        private YsServiceConnection servceConncection;
 
         private string ConnectedBluetoothDeviceMAC;
         /// <summary>
@@ -57,7 +46,8 @@ namespace Ys.BluetoothBLE_API.Droid.Manager
         public bool IsConnected { get; set; }
         public void InitBleService(Context context)
         {
-            var servceConncection = new YsServiceConnection();
+            IsConnecting = false;
+            servceConncection = new YsServiceConnection();
             var bleCallBack = new YsBleCallBack();
             servceConncection.Act_OnServiceDisconnected += delegate
             {
@@ -81,6 +71,10 @@ namespace Ys.BluetoothBLE_API.Droid.Manager
             bleCallBack.OnCharacteristicChangedEvent += BleCallBack_OnCharacteristicChangedEvent;
         }
 
+        public void RelaseBleService(Context context)
+        {
+            context.UnbindService(servceConncection);
+        }
 
         public void ConnectToBleDevice(string leMacAdress)
         {
@@ -214,85 +208,6 @@ namespace Ys.BluetoothBLE_API.Droid.Manager
             }
         }
 
-
-        private List<ResultModel> resultItemList;
-        public string ProcessDetectResult(string[] hexData, int index)
-        {
-            if (resultItemList == null)
-                resultItemList = new List<ResultModel>();
-            else
-                resultItemList.Clear();
-            for (int i = 0; i < hexData.Length; i++)
-            {
-                var positionStr = hexData[i] + hexData[i + 1];
-                i = i + 2;
-
-                var heightStr = hexData[i] + hexData[i + 1];
-
-                i = i + 2;
-                var areaStr = hexData[i] + hexData[i + 1] + hexData[i + 2];
-
-                i = i + 2;
-                resultItemList.Add(new ResultModel
-                {
-                    Area = Java.Lang.Integer.ParseInt(areaStr, 16),
-                    Height = Java.Lang.Integer.ParseInt(heightStr, 16),
-                    Position = Java.Lang.Integer.ParseInt(positionStr, 16)
-                });
-            }
-
-            var dataStr = Newtonsoft.Json.JsonConvert.SerializeObject(resultItemList);
-
-            var ctResultItem = resultItemList[0];
-            resultItemList.RemoveAt(0);
-
-            DetectResult totalResult = DetectResult.Negative;
-            resultItemList.ForEach(testResultItem =>
-            {
-                var positiveVal = 1.1f;
-                var negativeVal = 0.7f;
-                var compareVal = testResultItem.Area * 1.0 / ctResultItem.Area;
-
-                testResultItem.Value = compareVal.ToString("N2");
-                testResultItem.AreaValue = compareVal.ToString();
-
-                var hasAnoymosVal = positiveVal != negativeVal;
-                DetectResult result;
-
-                if (compareVal > positiveVal)
-                    result = DetectResult.Positive;
-                else if (hasAnoymosVal && compareVal > negativeVal)
-                    result = DetectResult.Positive;
-                else
-                    result = DetectResult.Weakly_reactive;
-                testResultItem.Result = (DetectResult)result;
-                if ((int)totalResult < (int)result)
-                    totalResult = result;
-            });
-
-            return ProcessTestString(totalResult, ctResultItem);
-        }
-
-
-        private string ProcessTestString(DetectResult result,  ResultModel textItem)
-        {
-            var resultStr = "<文字占位符A>";
-
-            switch (result)
-            {
-                case DetectResult.Negative:
-                    resultStr += "<Negative>";
-                    break;
-                case DetectResult.Weakly_reactive:
-                    resultStr += "<Weakly_reactive>";
-                    break;
-                case DetectResult.Positive:
-                    resultStr += "<Positive>";
-                    break;
-            }
-            return resultStr;
-        }
-
         #region 实现接口命令
         public void UpdateFirmwareCmd(int fileLength)
         {
@@ -404,6 +319,7 @@ namespace Ys.BluetoothBLE_API.Droid.Manager
                 HexDatas = data
             });
         }
+
         #endregion
 
     }

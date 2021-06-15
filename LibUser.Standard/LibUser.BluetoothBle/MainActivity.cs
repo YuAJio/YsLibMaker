@@ -8,6 +8,7 @@ using Android.Widget;
 using AndroidX.AppCompat.App;
 using AndroidX.RecyclerView.Widget;
 
+using Com.Ble.Ble;
 
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,7 @@ using System.Linq;
 using Ys.Bluetooth.Droid;
 using Ys.BluetoothBLE_API.Droid;
 using Ys.BluetoothBLE_API.Droid.Manager;
+using Ys.BluetoothBLE_API.Droid.Tools;
 
 using static Ys.BluetoothBLE_API.Droid.Enum_Republic;
 
@@ -38,6 +40,11 @@ namespace LibUser.BluetoothBle
 
             InitBluetoothReciver();
             InitBLEAPI();
+        }
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            RelaseBLEAPI();
         }
 
         private void InitView()
@@ -62,7 +69,7 @@ namespace LibUser.BluetoothBle
            };
             FindViewById<Button>(Resource.Id.btSendCmd).Click += delegate
             {//发送指令
-                YsBleManager.Instance.SendDebugTestDataCmd(2);
+                ysBleService.SendDebugTestDataCmd(2);
             };
         }
 
@@ -82,7 +89,7 @@ namespace LibUser.BluetoothBle
 
         private void ConnectToBluetooth(BluetoothDevice bluetooth)
         {
-            YsBleManager.Instance.ConnectToBleDevice(bluetooth?.Address);
+            ysBleService.ConnectToBleDevice(bluetooth?.Address);
         }
 
 
@@ -131,29 +138,35 @@ namespace LibUser.BluetoothBle
         #endregion 蓝牙相关
 
         #region 框架蓝牙的调用
+        private YsBleManager ysBleService;
         private void InitBLEAPI()
         {
-            YsBleManager.Instance.Act_OnLeDeviceConnectChange -= OnLeDeviceConnectChangeInvoke;
-            YsBleManager.Instance.Act_OnLeDeviceConnectChange += OnLeDeviceConnectChangeInvoke;
+            ysBleService = new YsBleManager();
+            ysBleService.Act_OnLeDeviceConnectChange -= OnLeDeviceConnectChangeInvoke;
+            ysBleService.Act_OnLeDeviceConnectChange += OnLeDeviceConnectChangeInvoke;
 
-            YsBleManager.Instance.OnResponseEvent -= Instance_OnResponseEvent;
-            YsBleManager.Instance.OnResponseEvent += Instance_OnResponseEvent;
-
-            YsBleManager.Instance.InitBleService(this);
+            ysBleService.OnResponseEvent -= Instance_OnResponseEvent;
+            ysBleService.OnResponseEvent += Instance_OnResponseEvent;
+            ysBleService.InitBleService(this);
+        }
+        private void RelaseBLEAPI()
+        {
+            ysBleService.RelaseBleService(this);
+            ysBleService = null;
         }
 
         private void Instance_OnResponseEvent(object sender, Ys.BluetoothBLE_API.Droid.Models.ResponseArg e)
         {
             RunOnUiThread(() =>
             {
-                tvOutput.Text = $"Cmd:{e.Cmd}\nMessage:{ Newtonsoft.Json.JsonConvert.SerializeObject(e.HexDatas)}";
+                var jk = $"Cmd:{e.Cmd}\nMessage:{ Newtonsoft.Json.JsonConvert.SerializeObject(e.HexDatas)}";
+                var result = DataProcess.ProcessDetectResult(e.HexDatas, 1);
+                tvOutput.Text = result;
                 if (e.Cmd == Constants_Republic.TEST_CMD)
                 {
                     var success = Constants_Republic.RESULT_OK == e.HexDatas[0];
                     if (!success)
                         Toast.MakeText(this, "检测结果回调失败,调试一下吧 ", ToastLength.Long).Show();
-
-                    var result = YsBleManager.Instance.ProcessDetectResult(e.HexDatas, 1);
                 }
             });
         }
