@@ -225,8 +225,8 @@ namespace LibMaker.Droid.Src.Activitys
 
         private IClassifier defaultClassifier;
         private const string LableName = "tfliteLable.txt";
-        private const string ModelName = "sss.tflite";
-        //private const string ModelName = "tf_lite_model_noupdata.tflite";
+        private const string ModelName = "tf_lite_model_int8.tflite";
+        //private const string ModelName = "tf_lite_model_int8_metadata.tflite";
 
         private void TFLiteClassifyPorcessStart(string picturePath)
         {

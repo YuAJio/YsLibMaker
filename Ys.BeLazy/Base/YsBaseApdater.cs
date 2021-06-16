@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace Ys.BeLazy
+namespace Ys.BeLazy.Base
 {
     /// <summary>
     /// 适配器的基类

@@ -11,6 +11,8 @@ using Android.Views;
 using Android.Widget;
 using AndroidX.Core.Content;
 using AndroidX.SlidingPaneLayout.Widget;
+
+using Ys.BeLazy.Base;
 using Ys.BeLazy.Views;
 
 namespace Ys.BeLazy.AdvanceWithTheTimes

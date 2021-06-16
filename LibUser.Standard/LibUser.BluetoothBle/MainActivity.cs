@@ -69,7 +69,8 @@ namespace LibUser.BluetoothBle
            };
             FindViewById<Button>(Resource.Id.btSendCmd).Click += delegate
             {//发送指令
-                ysBleService.SendDebugTestDataCmd(2);
+                Toast.MakeText(this, "设备检测中,请稍候...", ToastLength.Short).Show();
+                ysBleService.SendTestCmd(2);
             };
         }
 
@@ -159,8 +160,9 @@ namespace LibUser.BluetoothBle
         {
             RunOnUiThread(() =>
             {
+                Toast.MakeText(this, "检测结果已获取", ToastLength.Short).Show();
                 var jk = $"Cmd:{e.Cmd}\nMessage:{ Newtonsoft.Json.JsonConvert.SerializeObject(e.HexDatas)}";
-                var result = DataProcess.ProcessDetectResult(e.HexDatas, 1);
+                var result = DataProcess.ProcessTestDataFromCmd(e.HexDatas, int.Parse(e.Cmd.ToString()));
                 tvOutput.Text = result;
                 if (e.Cmd == Constants_Republic.TEST_CMD)
                 {
@@ -212,6 +214,7 @@ namespace LibUser.BluetoothBle
             base.OnStop();
             UnRegisterBluetoothReceiver();
         }
+
 
         #region 蓝牙列表适配器
 

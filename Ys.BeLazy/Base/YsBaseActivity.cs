@@ -15,7 +15,7 @@ using AndroidX.AppCompat.App;
 using AndroidX.Core.Content;
 using AndroidX.RecyclerView.Widget;
 
-namespace Ys.BeLazy
+namespace Ys.BeLazy.Base
 {
     /// <summary>
     /// Activity的基类
@@ -122,6 +122,22 @@ namespace Ys.BeLazy
         #endregion
 
         #region 等待框
+
+        #region 它类
+        private AndroidX.AppCompat.App.AlertDialog dialog_Show;
+        private AndroidX.AppCompat.App.AlertDialog.Builder dialog_ShowBuilder;
+        private void InitShowDialog()
+        {
+            dialog_ShowBuilder = new AndroidX.AppCompat.App.AlertDialog.Builder(this, Resource.Style.Theme_Dialog_FullScreen);
+            dialog_Show = dialog_ShowBuilder.Create();
+            dialog_Show.Show();
+            dialog_Show.Dismiss();
+        }
+        private void InitShowDialogBulider()
+        {
+            dialog_ShowBuilder = new AndroidX.AppCompat.App.AlertDialog.Builder(this, Resource.Style.Theme_Dialog_FullScreen);
+        }
+        #endregion
 
         protected void ShowWaitDialog_Samll(string msg, bool isCanCancel = false, bool isOutSideTouch = false)
         {
@@ -363,27 +379,5 @@ namespace Ys.BeLazy
         #endregion
 
         #endregion
-
-        protected override void OnResume()
-        {
-            base.OnResume();
-        }
-
-        #region 它类
-        private AndroidX.AppCompat.App.AlertDialog dialog_Show;
-        private AndroidX.AppCompat.App.AlertDialog.Builder dialog_ShowBuilder;
-        private void InitShowDialog()
-        {
-            dialog_ShowBuilder = new AndroidX.AppCompat.App.AlertDialog.Builder(this, Resource.Style.Theme_Dialog_FullScreen);
-            dialog_Show = dialog_ShowBuilder.Create();
-            dialog_Show.Show();
-            dialog_Show.Dismiss();
-        }
-        private void InitShowDialogBulider()
-        {
-            dialog_ShowBuilder = new AndroidX.AppCompat.App.AlertDialog.Builder(this, Resource.Style.Theme_Dialog_FullScreen);
-        }
-        #endregion
-
     }
 }

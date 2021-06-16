@@ -4,7 +4,7 @@ using Android.Content;
 using Android.Views;
 using AndroidX.RecyclerView.Widget;
 
-namespace Ys.BeLazy
+namespace Ys.BeLazy.Base
 {
     public abstract class YsBaseRvAdapter<Model> : RecyclerView.Adapter
     {

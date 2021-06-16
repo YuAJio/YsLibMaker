@@ -14,7 +14,7 @@ using Android.Widget;
 using AndroidX.Core.Content;
 using AndroidX.Fragment.App;
 
-namespace Ys.BeLazy
+namespace Ys.BeLazy.Base
 {
     /// <summary>
     /// FragmentActivity的基类

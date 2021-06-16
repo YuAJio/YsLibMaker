@@ -13,7 +13,7 @@ using Android.Views.InputMethods;
 using Android.Widget;
 using AndroidX.Core.Content;
 
-namespace Ys.BeLazy
+namespace Ys.BeLazy.Base
 {
     /// <summary>
     /// Fragment基类
