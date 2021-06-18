@@ -19,6 +19,7 @@ namespace Ys.BluetoothBLE_API.Droid.Models
         public int Position { get; set; }
         public int Height { get; set; }
         public int Area { get; set; }
+        public string Name { get; set; }
 
         public string Value { get; set; }
         public string AreaValue { get; set; }

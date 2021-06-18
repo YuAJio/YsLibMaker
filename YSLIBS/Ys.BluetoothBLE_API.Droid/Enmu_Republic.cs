@@ -21,15 +21,27 @@ namespace Ys.BluetoothBLE_API.Droid
             /// <summary>
             /// 阴性
             /// </summary>
-            Negative = 0,
+            DEFAULT = 0,
             /// <summary>
-            /// 弱阳性
+            ///  阴性
             /// </summary>
-            Weakly_reactive =1,
+            Negative = 1,
             /// <summary>
             /// 阳性
             /// </summary>
             Positive = 2,
+        }
+
+        public enum JudgeType
+        {
+            Area = 1,
+            Height = 2,
+        }
+
+        public enum CTDriection
+        {
+            Positive = 1,
+            Ngative = 2,
         }
     }
 }

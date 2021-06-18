@@ -17,6 +17,7 @@ using System.Linq;
 using Ys.Bluetooth.Droid;
 using Ys.BluetoothBLE_API.Droid;
 using Ys.BluetoothBLE_API.Droid.Manager;
+using Ys.BluetoothBLE_API.Droid.Models;
 using Ys.BluetoothBLE_API.Droid.Tools;
 
 using static Ys.BluetoothBLE_API.Droid.Enum_Republic;
@@ -70,7 +71,7 @@ namespace LibUser.BluetoothBle
             FindViewById<Button>(Resource.Id.btSendCmd).Click += delegate
             {//发送指令
                 Toast.MakeText(this, "设备检测中,请稍候...", ToastLength.Short).Show();
-                ysBleService.SendTestCmd(2);
+                ysBleService.SendDebugTestDataCmd(1);
             };
         }
 
@@ -119,6 +120,8 @@ namespace LibUser.BluetoothBle
                     {
                         if (List_BDevices.Any(x => x.Address == e.FounedDevice.Address))
                             return;
+                        if (string.IsNullOrEmpty(e.FounedDevice.Name) || !e.FounedDevice.Name.StartsWith("YR"))
+                            return;
                         List_BDevices.Add(e.FounedDevice);
 
                         ysRecyclerViewAdapter.DataList.Add(new Mod_BlueTooth
@@ -158,19 +161,33 @@ namespace LibUser.BluetoothBle
 
         private void Instance_OnResponseEvent(object sender, Ys.BluetoothBLE_API.Droid.Models.ResponseArg e)
         {
+            var result = DataProcess.ProcessTestDataFromCmd(e.HexDatas, int.Parse(e.Cmd.ToString()), GetChoseStrip());
             RunOnUiThread(() =>
             {
                 Toast.MakeText(this, "检测结果已获取", ToastLength.Short).Show();
-                var jk = $"Cmd:{e.Cmd}\nMessage:{ Newtonsoft.Json.JsonConvert.SerializeObject(e.HexDatas)}";
-                var result = DataProcess.ProcessTestDataFromCmd(e.HexDatas, int.Parse(e.Cmd.ToString()));
                 tvOutput.Text = result;
-                if (e.Cmd == Constants_Republic.TEST_CMD)
-                {
-                    var success = Constants_Republic.RESULT_OK == e.HexDatas[0];
-                    if (!success)
-                        Toast.MakeText(this, "检测结果回调失败,调试一下吧 ", ToastLength.Long).Show();
-                }
+                //if (e.Cmd == Constants_Republic.TEST_CMD)
+                //{
+                //    var success = Constants_Republic.RESULT_OK == e.HexDatas[0];
+                //    if (!success)
+                //        Toast.MakeText(this, "检测结果回调失败,调试一下吧 ", ToastLength.Long).Show();
+                //}
             });
+        }
+
+        private TestStrip GetChoseStrip()
+        {
+            var strip = new TestStrip
+            {
+                JudgeType = JudgeType.Height,
+                CTDriection = CTDriection.Ngative,
+                Name = "6-苄基腺嘌呤",
+                TestCount = 1,
+                NegativeValue = 1.1f,
+                PositiveValue = 0.9f,
+                StripItemList = new List<StripItemList> { new StripItemList { Name = "6-苄基腺嘌呤" } }
+            };
+            return strip;
         }
 
         private void OnLeDeviceConnectChangeInvoke(BleConnectState state)

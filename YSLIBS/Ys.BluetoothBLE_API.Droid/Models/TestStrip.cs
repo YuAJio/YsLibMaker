@@ -2,24 +2,26 @@
 using System.Collections.Generic;
 using System.Text;
 
+using static Ys.BluetoothBLE_API.Droid.Enum_Republic;
+
 namespace Ys.BluetoothBLE_API.Droid.Models
 {
     public class TestStrip
     {
-        public int Id { get; set; }
-
         public string Name { get; set; }
         public int TestCount { get; set; }
 
-        public int JudgeType { get; set; }
-        public int CtDirection { get; set; }
-        public int CategoryId { get; set; }
-        public int Idx { get; set; }
+        public JudgeType JudgeType { get; set; }
+        public CTDriection CTDriection { get; set; }
 
-        public  decimal PositiveValue { get; set; }
-        public decimal NegativeValue { get; set; }
+        public float PositiveValue { get; set; }
+        public float NegativeValue { get; set; }
+        public List<StripItemList> StripItemList { get; set; }
+    }
 
-        public List<int> ItemIdList { get; set; }
+    public class StripItemList
+    {
+        public string Name { get; set; }
     }
 
 }
