@@ -72,7 +72,7 @@ namespace LibMaker.Droid.Src.Activitys
 
         }
 
-        private class Adapter : Ys.BeLazy.YsBaseRvAdapter<Android.Graphics.Color>
+        private class Adapter : Ys.BeLazy.Base.YsBaseRvAdapter<Android.Graphics.Color>
         {
             public Adapter(Context context)
             {

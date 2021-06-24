@@ -1,12 +1,9 @@
 ﻿using Android.App;
-using Android.OS;
 using Android.Runtime;
 using Android.Widget;
-using Android.Net;
 using Android.Views;
 using System;
 using System.Threading.Tasks;
-using AndroidX.Camera.View;
 using Ys.Camera.Droid.Views;
 using System.Collections.Generic;
 using AndroidX.Camera.Core;
@@ -14,14 +11,12 @@ using Android.Content;
 using System.IO;
 using Ys.TFLite.Core;
 using System.Linq;
-using System.Threading;
 using Yukiho_Threads;
-using NumSharp;
 
 namespace LibMaker.Droid.Src.Activitys
 {
     [Activity(Label = "@string/app_name", MainLauncher = true)]
-    public class Acty_CameraX : Ys.BeLazy.YsBaseActivity
+    public class Acty_CameraX : Ys.BeLazy.Base.YsBaseActivity
     {
         private YsCameraX _CameraX;
         private TextView _Info;
@@ -166,7 +161,7 @@ namespace LibMaker.Droid.Src.Activitys
         #region 线程处理实时处理分类
         private bool isClassifyDone = true;
         private bool isAllow2Classify = false;
-        private bool isOpenClassify = false;
+        private bool isOpenClassify = true;
         private void StartCheckImageFrameThread()
         {
             SimpTimerPool.Instance.StartAndAddNewLoopTimer("Classify", 0, 2 * 1000, delegate
@@ -225,17 +220,17 @@ namespace LibMaker.Droid.Src.Activitys
 
         private IClassifier defaultClassifier;
         private const string LableName = "tfliteLable.txt";
-        private const string ModelName = "tf_lite_model_int8.tflite";
+        //private const string ModelName = "tf_lite_model_int8.tflite";
         //private const string ModelName = "tf_lite_model_int8_metadata.tflite";
+        private string ModelName = "mobilenet-pb-model_295_0623_80e.tflite";
 
         private void TFLiteClassifyPorcessStart(string picturePath)
         {
             var streamByte = File2Byte(picturePath);
+            var lableStream = File.OpenRead(Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Lable", LableName));
             if (defaultClassifier == null)
-            {
-                var stockPath = Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName);
-                defaultClassifier = new TensorflowClassifier(stockPath, Application.Context.Assets.Open(LableName));
-            }
+                defaultClassifier = new TensorflowClassifier(lableStream);
+            defaultClassifier.SetTFLiteModelPath(Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName));
             defaultClassifier.ClassificationCompleted -= DefaultClassifier_ClassificationCompleted;
             defaultClassifier.ClassificationCompleted += DefaultClassifier_ClassificationCompleted;
             Task.Run(async () =>
@@ -247,10 +242,8 @@ namespace LibMaker.Droid.Src.Activitys
         private async Task TFLiteClassifyPorcessStart(byte[] streamByte)
         {
             if (defaultClassifier == null)
-            {
-                var stockPath = Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName);
-                defaultClassifier = new TensorflowClassifier(stockPath, Application.Context.Assets.Open(LableName));
-            }
+                defaultClassifier = new TensorflowClassifier(Application.Context.Assets.Open(LableName));
+            defaultClassifier.SetTFLiteModelPath(Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName));
             defaultClassifier.ClassificationCompleted -= DefaultClassifier_ClassificationCompleted;
             defaultClassifier.ClassificationCompleted += DefaultClassifier_ClassificationCompleted;
             await defaultClassifier.Classify(streamByte);
@@ -263,7 +256,14 @@ namespace LibMaker.Droid.Src.Activitys
             string result = "";
             if (e.Predictions != null && e.Predictions.Any())
             {
-                var classifyResult = from j in e.Predictions join k in ListMat2Lable on j.TagName equals k.MatCode select new { j.Probability, k.MatName };
+                var classifyResult = from j in e.Predictions
+                                     join k in ListMat2Lable on j.TagName equals k.MatCode
+                                     select new
+                                     {
+                                         j.Probability,
+                                         k.MatName,
+                                         j.TagName
+                                     };
 
                 var orderResult = classifyResult.OrderByDescending(x => x.Probability).Take(10).ToList();
                 //var orderResult =
@@ -271,8 +271,10 @@ namespace LibMaker.Droid.Src.Activitys
                 //    .OrderByDescending(x => x.Probability)
                 //    .ToList();
                 result = $"" +
-                $"识别结果前三为:<{orderResult[0]?.MatName}/{orderResult[1]?.MatName}/{orderResult[2]?.MatName}>" +
-                $"\n识别精度分别为:<{orderResult[0]?.Probability:N2}/{orderResult[1]?.Probability:N2}/{orderResult[2]?.Probability:N2}>";
+                $"识别结果前三为:\n" +
+                $"{orderResult[0]?.MatName}({orderResult[0]?.TagName})<{orderResult[0]?.Probability:N2}>\n" +
+                $"{orderResult[1]?.MatName}({orderResult[1]?.TagName})<{orderResult[1]?.Probability:N2}>\n" +
+                $"{orderResult[2]?.MatName}({orderResult[2]?.TagName})<{orderResult[2]?.Probability:N2}>";
             }
             RunOnUiThread(() =>
             {
@@ -322,7 +324,17 @@ namespace LibMaker.Droid.Src.Activitys
                 if (requestCode == 0x123)
                 {//选择图片归来
                     var jk = Uri2PathUtil.GetRealPathFromUri(this, data.Data);
-                    TFLiteClassifyPorcessStart(jk);
+
+                    var stockPath = Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model");
+                    var root = new DirectoryInfo(stockPath);
+                    var filesName = root.GetFiles().Select(x => x.Name).ToArray();
+
+                    ShowSingleChoseDialog(filesName, (j) =>
+                    {
+                        ModelName = filesName[j];
+                        TFLiteClassifyPorcessStart(jk);
+                    });
+
                 }
 
             }

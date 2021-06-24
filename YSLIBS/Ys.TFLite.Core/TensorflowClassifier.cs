@@ -17,6 +17,7 @@ namespace Ys.TFLite.Core
         event EventHandler<ClassificationEventArgs> ClassificationCompleted;
         Task Classify(byte[] bytes);
         string GetTFLiteModelPath();
+        void SetTFLiteModelPath(string modelPath);
     }
     public class ClassificationEventArgs : EventArgs
     {
@@ -33,15 +34,14 @@ namespace Ys.TFLite.Core
         public const int FloatSize = 4;
         public const int PixelSize = 3;
 
-        private readonly string ModelPath;
+        private string ModelPath;
 
         private Interpreter interpreter;
         private Tensor tensor;
         private List<string> List_Lables;
 
-        public TensorflowClassifier(string modelPath, Stream lableStream)
+        public TensorflowClassifier(Stream lableStream)
         {
-            ModelPath = modelPath;
             List_Lables = new StreamReader(lableStream).ReadToEnd().Split('\n').Select(s => s.Trim()).Where(s => !string.IsNullOrEmpty(s)).ToList(); ;
         }
 
@@ -53,14 +53,14 @@ namespace Ys.TFLite.Core
             {
                 if (!System.IO.File.Exists(ModelPath))
                     return;
-                if (interpreter == null)
-                    interpreter = new Interpreter(new Java.IO.File(ModelPath));
+                //if (interpreter == null)
+                interpreter = new Interpreter(new Java.IO.File(ModelPath));
                 if (tensor == null)
                     tensor = interpreter.GetInputTensor(0);
 
                 var shape = tensor.Shape();
-                var width = shape[2];
-                var height = shape[3];
+                var width = shape[1];
+                var height = shape[2];
 
                 var byteBuffer = await GetByteBufferFromPhoto(bytes, width, height);
                 var outputLocations = new float[1][] { new float[List_Lables.Count] };
@@ -85,15 +85,10 @@ namespace Ys.TFLite.Core
         {
             return ModelPath;
         }
-
-        public static float[] TORCHVISION_NORM_MEAN_RGB = new float[] { 0.485f, 0.456f, 0.406f };
-        public static float[] TORCHVISION_NORM_STD_RGB = new float[] { 0.229f, 0.224f, 0.225f };
-        /**
-         *    (( ( (pixelVal >> 16) & 0xFF)/255.0f )-TORCHVISION_NORM_MEAN_RGB[0])/TORCHVISION_NORM_STD_RGB[0],
-               (( ((pixelVal >> 8) & 0xFF)/255.0f)-TORCHVISION_NORM_MEAN_RGB[1])/TORCHVISION_NORM_STD_RGB[1],
-               ((((pixelVal >> 0) & 0xFF)/255.0f)-TORCHVISION_NORM_MEAN_RGB[2])/TORCHVISION_NORM_STD_RGB[2] })
-         * */
-
+        public void SetTFLiteModelPath(string modelPath)
+        {
+            this.ModelPath = modelPath;
+        }
 
         private async Task<Java.Nio.ByteBuffer> GetByteBufferFromPhoto(byte[] bytes, int width, int height)
         {
@@ -121,11 +116,9 @@ namespace Ys.TFLite.Core
                       pixelVal >> 16 & 0xFF,
                       pixelVal >> 8 & 0xFF,
                        pixelVal >> 0 & 0xFF})
-                    //         (( ( (pixelVal >> 16) & 0xFF)/255.0f )-TORCHVISION_NORM_MEAN_RGB[0])/TORCHVISION_NORM_STD_RGB[0],
-                    //(( ((pixelVal >> 8) & 0xFF)/255.0f)-TORCHVISION_NORM_MEAN_RGB[1])/TORCHVISION_NORM_STD_RGB[1],
-                    //((((pixelVal >> 0) & 0xFF)/255.0f)-TORCHVISION_NORM_MEAN_RGB[2])/TORCHVISION_NORM_STD_RGB[2] })
                     {
-                        foreach (var item_s in BitConverter.GetBytes(item_m))
+                        var item_procs = ((item_m / 255f) - 0.5f) * 2.0f;
+                        foreach (var item_s in BitConverter.GetBytes(item_procs))
                         {
                             jkBytre[jkpixel] = item_s;
                             jkpixel++;
@@ -134,63 +127,11 @@ namespace Ys.TFLite.Core
                 }
             }
 
-            //var js = np.array(jkBytre).astype(NPTypeCode.Float);
-            //js /= 255f;
-            //js -= new float[] { 0.485f, 0.456f, 0.406f };
-            //js /= new float[] { 0.229f, 0.224f, 0.225f };
-            //js = np.expand_dims(js, 0);
-            //jkBytre = js.ToByteArray();
-
             byteBuffer.Put(jkBytre, 0, jkBytre.Length);
 
             bitmap.Recycle();
             return byteBuffer;
         }
-
-        private async Task<Java.Nio.FloatBuffer> GetFloatBufferFromPhoto(byte[] bytes, int width, int height)
-        {
-            var modelInputSize = FloatSize * height * width * PixelSize;
-
-            var bitmap = await Android.Graphics.BitmapFactory.DecodeByteArrayAsync(bytes, 0, bytes.Length);
-            var resizedBitmap = Android.Graphics.Bitmap.CreateScaledBitmap(bitmap, width, height, true);
-
-            var byteBuffer = Java.Nio.FloatBuffer.Allocate(modelInputSize);
-            byteBuffer.Order();
-
-            var pixels = new int[width * height];
-            resizedBitmap.GetPixels(pixels, 0, resizedBitmap.Width, 0, 0, resizedBitmap.Width, resizedBitmap.Height);
-
-            var pixel = 0;
-            var jkBytre = new float[width * height * 3 * 4];
-            var jkpixel = 0;
-
-            for (var i = 0; i < width; i++)
-            {
-                for (var j = 0; j < height; j++)
-                {
-                    var pixelVal = pixels[pixel++];
-                    foreach (var item_m in new float[] {
-                      (( ( (pixelVal >> 16) & 0xFF)/255.0f )-TORCHVISION_NORM_MEAN_RGB[0])/TORCHVISION_NORM_STD_RGB[0],
-                       (( ((pixelVal >> 8) & 0xFF)/255.0f)-TORCHVISION_NORM_MEAN_RGB[1])/TORCHVISION_NORM_STD_RGB[1],
-                        ((((pixelVal >> 0) & 0xFF)/255.0f)-TORCHVISION_NORM_MEAN_RGB[2])/TORCHVISION_NORM_STD_RGB[2] })
-                    {
-                        jkBytre[jkpixel] = item_m;
-                        jkpixel++;
-                        //foreach (var item_s in item_m)
-                        //{
-                        //    jkBytre[jkpixel] = item_s;
-                        //    jkpixel++;
-                        //}
-                    }
-                }
-            }
-
-            byteBuffer.Put(jkBytre, 0, jkBytre.Length);
-
-            bitmap.Recycle();
-            return byteBuffer;
-        }
-
 
     }
 

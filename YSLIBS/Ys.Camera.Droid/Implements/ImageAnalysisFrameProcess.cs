@@ -4,8 +4,10 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+
 using AndroidX.Camera.Core;
 using AndroidX.Camera.Core.Internal.Utils;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,19 +22,19 @@ namespace Ys.Camera.Droid.Implements
         public event EventHandler<ImageFrame2Nv21ByteArgs> ImageFrame2NV21ByteCaptured;
 
         public bool IsOpenFrameCapture { get { return isOpenFrameCapture; } set { isOpenFrameCapture = value; } }
-        private bool isOpenFrameCapture = false;
+        private bool isOpenFrameCapture = true;
 
         public void Analyze(IImageProxy image)
         {
-            if (!IsOpenFrameCapture)
-                return;
             try
             {
-                ImageFrameCaptured?.Invoke(this, new ImageFrameArgs(image));
-
-                var byteData = ImageUtil.ImageToJpegByteArray(image);
-                var jk = new ImageFrame2Nv21ByteArgs(byteData);
-                ImageFrame2NV21ByteCaptured?.Invoke(this, jk);
+                if (IsOpenFrameCapture)
+                {
+                    ImageFrameCaptured?.Invoke(this, new ImageFrameArgs(image));
+                    var byteData = ImageUtil.ImageToJpegByteArray(image);
+                    var jk = new ImageFrame2Nv21ByteArgs(byteData);
+                    ImageFrame2NV21ByteCaptured?.Invoke(this, jk);
+                }
             }
             catch (Exception ex)
             {
