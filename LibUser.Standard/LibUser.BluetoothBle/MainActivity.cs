@@ -14,10 +14,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using Ys.Bluetooth.Droid;
 using Ys.BluetoothBLE_API.Droid;
 using Ys.BluetoothBLE_API.Droid.Manager;
 using Ys.BluetoothBLE_API.Droid.Models;
+using Ys.BluetoothBLE_API.Droid.Receivers;
 using Ys.BluetoothBLE_API.Droid.Tools;
 
 using static Ys.BluetoothBLE_API.Droid.Enum_Republic;
@@ -165,7 +165,7 @@ namespace LibUser.BluetoothBle
             RunOnUiThread(() =>
             {
                 Toast.MakeText(this, "检测结果已获取", ToastLength.Short).Show();
-                tvOutput.Text = result;
+                tvOutput.Text = Newtonsoft.Json.JsonConvert.SerializeObject(result);
                 //if (e.Cmd == Constants_Republic.TEST_CMD)
                 //{
                 //    var success = Constants_Republic.RESULT_OK == e.HexDatas[0];

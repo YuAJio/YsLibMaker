@@ -15,7 +15,7 @@
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
@@ -50,8 +50,10 @@
     <Compile Include="Manager\IYsBleServiceApi.cs" />
     <Compile Include="Models\ResponseArg.cs" />
     <Compile Include="Models\ResultModel.cs" />
+    <Compile Include="Models\TestResultUI.cs" />
     <Compile Include="Models\TestStrip.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receivers\BluetoothDeviceReceiver.cs" />
     <Compile Include="Tools\DataProcess.cs" />
     <Compile Include="Tools\LeSocketPackageWriter.cs" />
     <Compile Include="Constants_Republic.cs" />

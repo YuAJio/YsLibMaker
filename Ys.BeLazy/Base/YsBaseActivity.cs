@@ -11,6 +11,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Views.InputMethods;
 using Android.Widget;
+
 using AndroidX.AppCompat.App;
 using AndroidX.Core.Content;
 using AndroidX.RecyclerView.Widget;
@@ -111,13 +112,15 @@ namespace Ys.BeLazy.Base
         /// <param name="cancelText">取消文字</param>
         protected void ShowAndroidPromptBox(string title, string msg, Action onSureClick, Action onCancelClick, bool isCancelable = false, string sureText = "确定", string cancelText = "取消")
         {
-            new AndroidX.AppCompat.App.AlertDialog.Builder(this)
-                .SetTitle(title)
-                .SetMessage(msg)
-                .SetCancelable(isCancelable)
-                .SetPositiveButton(sureText, (object sender, DialogClickEventArgs eve) => { onSureClick?.Invoke(); })
-                .SetNegativeButton(cancelText, (object sender, DialogClickEventArgs eve) => { onCancelClick?.Invoke(); })
-                .Show();
+            AndroidX.AppCompat.App.AlertDialog jk = null;
+            jk =
+           new AndroidX.AppCompat.App.AlertDialog.Builder(this)
+               .SetTitle(title)
+               .SetMessage(msg)
+               .SetCancelable(isCancelable)
+               .SetPositiveButton(sureText, (object sender, DialogClickEventArgs eve) => { jk.Dismiss(); jk = null; onSureClick?.Invoke(); })
+               .SetNegativeButton(cancelText, (object sender, DialogClickEventArgs eve) => { jk.Dismiss(); jk = null; onCancelClick?.Invoke(); })
+               .Show();
         }
         #endregion
 

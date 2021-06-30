@@ -17,7 +17,7 @@ namespace Ys.BluetoothBLE_API.Droid.Tools
 {
     public static class DataProcess
     {
-        public static string ProcessDetectResult(string[] hexData, int index, TestStrip testStrip)
+        public static TestResultUI ProcessDetectResult(string[] hexData, int index, TestStrip testStrip)
         {
             var resultItemList = new List<ResultModel>();
             for (int i = index; i < hexData.Length; i++)
@@ -91,26 +91,40 @@ namespace Ys.BluetoothBLE_API.Droid.Tools
             return ProcessTestString(totalResult, ctResultItem, resultItemList);
         }
 
-        public static string ProcessTestString(DetectResult result, ResultModel textItem, List<ResultModel> resultModels)
+        public static TestResultUI ProcessTestString(DetectResult result, ResultModel textItem, List<ResultModel> resultModels)
         {
-            var resultStr = "<文字占位符A>";
-            resultStr += GetResultFromEnum(result);
-            resultStr += $"{textItem.Name}T/C:\t";
+            var returnData = new TestResultUI
+            {
+                IsTestSucces = true
+            };
+            returnData.IsNegative = result == DetectResult.Negative;
+            returnData.Name = textItem.Name;
             if (resultModels.Count == 1)
             {
                 var firstData = resultModels.FirstOrDefault();
-                resultStr += $"{firstData.Value}\t{GetResultFromEnum(firstData.Result)}";
+                returnData.TestItems = new List<TestResultUIItem>
+                {
+                  new TestResultUIItem{  Name = firstData.Name, Value= firstData.Value, IsNegative = firstData.Result== DetectResult.Negative  }
+                };
             }
             else
             {
                 var tIndex = 1;
+                var testItems = new List<TestResultUIItem>();
                 resultModels.ForEach(x =>
                 {
-                    resultStr += $"T{tIndex}\t{x.Value}\t{GetResultFromEnum(x.Result)}";
-                    resultStr += "\n";
+                    testItems.Add(new TestResultUIItem
+                    {
+                        Index = tIndex,
+                        Name = x.Name,
+                        Value = x.Value,
+                        IsNegative = x.Result == DetectResult.Negative
+                    });
+                    tIndex++;
                 });
+                returnData.TestItems = testItems;
             }
-            return resultStr;
+            return returnData;
         }
 
         public static string GetResultFromEnum(DetectResult detectResult)
@@ -131,13 +145,13 @@ namespace Ys.BluetoothBLE_API.Droid.Tools
             return resultStr;
         }
 
-        public static string ProcessTestDataFromCmd(string[] hexData, int cmd, TestStrip testStrip)
+        public static TestResultUI ProcessTestDataFromCmd(string[] hexData, int cmd, TestStrip testStrip)
         {
             if (cmd == Constants_Republic.TEST_CMD)
             {
                 var success = Constants_Republic.RESULT_OK == hexData[0];
                 if (!success)
-                    return "Test Failed";
+                    return new TestResultUI { IsTestSucces = false, TestFailedReson = "Test Failed" };
                 return ProcessDetectResult(hexData, 1, testStrip);
             }
 
@@ -145,7 +159,7 @@ namespace Ys.BluetoothBLE_API.Droid.Tools
             {
                 var success = Constants_Republic.RESULT_OK == hexData[0];
                 if (!success)
-                    return " Debug Test Failed";
+                    return new TestResultUI { IsTestSucces = false, TestFailedReson = "Debug Test Failed" };
 
                 var quXiandataList = new List<int>();
                 int i;
@@ -159,7 +173,7 @@ namespace Ys.BluetoothBLE_API.Droid.Tools
                 }
                 return ProcessDetectResult(hexData, i + 1, testStrip);
             }
-            return "Not Process Yeat";
+            return new TestResultUI { IsTestSucces = false, TestFailedReson = "Not Process Data" };
         }
 
     }

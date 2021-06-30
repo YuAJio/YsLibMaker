@@ -12,6 +12,7 @@ using System.IO;
 using Ys.TFLite.Core;
 using System.Linq;
 using Yukiho_Threads;
+using LibMaker.Droid.Src.Manager;
 
 namespace LibMaker.Droid.Src.Activitys
 {
@@ -88,20 +89,6 @@ namespace LibMaker.Droid.Src.Activitys
 
         }
 
-        private List<Mat2Lable> listMat2Lable;
-        private List<Mat2Lable> ListMat2Lable
-        {
-            get
-            {
-                if (listMat2Lable == null)
-                {
-                    var jsonContent = ReadAssetsInfoForString(this, "Lable2Mat.json");
-                    listMat2Lable = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Mat2Lable>>(jsonContent);
-                }
-                return listMat2Lable;
-            }
-        }
-
         /// <summary>
         /// 获取Assets文件中文本文件中数据
         /// </summary>
@@ -144,10 +131,10 @@ namespace LibMaker.Droid.Src.Activitys
 
         private void TakePicutreResultHandler_Succsses(ImageCapture.OutputFileResults outputFileResults)
         {
-            RunOnUiThread(() =>
-            {
-                TFLiteClassifyPorcessStart(SavePicturePath);
-            });
+            //RunOnUiThread(() =>
+            //{
+            //    TFLiteClassifyPorcessStart(SavePicturePath);
+            //});
         }
 
         private void TakePicutreResultHandler_Error(ImageCaptureException imageCaptureException)
@@ -199,90 +186,62 @@ namespace LibMaker.Droid.Src.Activitys
             else
                 FlameSkipCount = 0;
             if (isClassifyDone && isAllow2Classify && isOpenClassify)
-            {
-                Task.Run(async () =>
-                {
-                    isClassifyDone = false;
-                    await TFLiteClassifyPorcessStart(e.imgaeNv21Bytes);
-                }).ContinueWith(x =>
-                {
-                    if (x.Exception != null)
-                    {
-                        isClassifyDone = true;
-                    }
-                }/*, TaskScheduler.FromCurrentSynchronizationContext()*/);
-            }
+                ysTFLiteMag?.Classify(e.imgaeNv21Bytes);
             else
                 return;
         }
 
         #endregion
 
-        private IClassifier defaultClassifier;
+        private const string ModelName = "model.tflite";
         private const string LableName = "tfliteLable.txt";
-        //private const string ModelName = "tf_lite_model_int8.tflite";
-        //private const string ModelName = "tf_lite_model_int8_metadata.tflite";
-        private string ModelName = "mobilenet-pb-model_295_0623_80e.tflite";
-
-        private void TFLiteClassifyPorcessStart(string picturePath)
+        private YsMatClassify_TFLiteMag ysTFLiteMag;
+        private void InitTFLiteManager()
         {
-            var streamByte = File2Byte(picturePath);
-            var lableStream = File.OpenRead(Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Lable", LableName));
-            if (defaultClassifier == null)
-                defaultClassifier = new TensorflowClassifier(lableStream);
-            defaultClassifier.SetTFLiteModelPath(Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName));
-            defaultClassifier.ClassificationCompleted -= DefaultClassifier_ClassificationCompleted;
-            defaultClassifier.ClassificationCompleted += DefaultClassifier_ClassificationCompleted;
-            Task.Run(async () =>
+            if (ysTFLiteMag == null)
             {
-                await defaultClassifier.Classify(streamByte);
-            });
-        }
-
-        private async Task TFLiteClassifyPorcessStart(byte[] streamByte)
-        {
-            if (defaultClassifier == null)
-                defaultClassifier = new TensorflowClassifier(Application.Context.Assets.Open(LableName));
-            defaultClassifier.SetTFLiteModelPath(Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName));
-            defaultClassifier.ClassificationCompleted -= DefaultClassifier_ClassificationCompleted;
-            defaultClassifier.ClassificationCompleted += DefaultClassifier_ClassificationCompleted;
-            await defaultClassifier.Classify(streamByte);
-        }
-
-
-        private void DefaultClassifier_ClassificationCompleted(object sender, ClassificationEventArgs e)
-        {
-            isClassifyDone = true;
-            string result = "";
-            if (e.Predictions != null && e.Predictions.Any())
-            {
-                var classifyResult = from j in e.Predictions
-                                     join k in ListMat2Lable on j.TagName equals k.MatCode
-                                     select new
-                                     {
-                                         j.Probability,
-                                         k.MatName,
-                                         j.TagName
-                                     };
-
-                var orderResult = classifyResult.OrderByDescending(x => x.Probability).Take(10).ToList();
-                //var orderResult =
-                //    e.Predictions.Select(x => new { x.Probability, MatName = x.TagName })
-                //    .OrderByDescending(x => x.Probability)
-                //    .ToList();
-                result = $"" +
-                $"识别结果前三为:\n" +
-                $"{orderResult[0]?.MatName}({orderResult[0]?.TagName})<{orderResult[0]?.Probability:N2}>\n" +
-                $"{orderResult[1]?.MatName}({orderResult[1]?.TagName})<{orderResult[1]?.Probability:N2}>\n" +
-                $"{orderResult[2]?.MatName}({orderResult[2]?.TagName})<{orderResult[2]?.Probability:N2}>";
+                var lablePath = System.IO.Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Lable", LableName);
+                var modelPath = System.IO.Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName);
+                var lableNameJson = ReadAssetsInfoForString(this, "Lable2Mat.json");
+                ysTFLiteMag = new YsMatClassify_TFLiteMag(lablePath, modelPath);
+                ysTFLiteMag.TFliteClassifyInit();
+                ysTFLiteMag.ErrorCallBack += YsTFLiteMag_ErrorCallBack;
+                ysTFLiteMag.ClassifyCompleteEvent += YsTFLiteMag_ClassifyCompleteEvent;
+                ysTFLiteMag.SetLableCode(lableNameJson);
             }
+        }
+
+        private void YsTFLiteMag_ClassifyCompleteEvent(object sender, List<YsMatClassify_TFLiteMag.ResultObj> e)
+        {
+            if (e.Any())
+            {
+                var txt = "";
+                if (e.Count >= 3)
+                    txt = $"{e[0].Name}:{e[0].Probability:N2}\t{e[1].Name}:{e[1].Probability:N2}\t{e[2].Name}:{e[2].Probability:N2}";
+                else if (e.Count >= 2)
+                    txt = $"{e[0].Name}:{e[0].Probability:N2}\t{e[1].Name}:{e[1].Probability:N2}";
+                else if (e.Count >= 1)
+                    txt = $"{e[0].Name}:{e[0].Probability:N2}";
+
+                RunOnUiThread(() =>
+                {
+                    _Info.Visibility = ViewStates.Visible;
+                    _Info.Text = txt;
+                });
+            }
+        }
+
+        private void YsTFLiteMag_ErrorCallBack(string arg1, Exception ex)
+        {
             RunOnUiThread(() =>
             {
-                _Info.Visibility = string.IsNullOrEmpty(result) ? ViewStates.Gone : ViewStates.Visible;
-                _Info.Text = result;
+                new AlertDialog.Builder(this).SetMessage(ex.Message).Show();
             });
 
+            isAllow2Classify = false;
+            SimpTimerPool.Instance.StopTimer("Classify", 0);
         }
+
 
         private byte[] File2Byte(string filePath)
         {
@@ -308,6 +267,7 @@ namespace LibMaker.Droid.Src.Activitys
         {
             base.OnResume();
             StartCheckImageFrameThread();
+            InitTFLiteManager();
         }
 
         protected override void OnStop()
@@ -329,11 +289,11 @@ namespace LibMaker.Droid.Src.Activitys
                     var root = new DirectoryInfo(stockPath);
                     var filesName = root.GetFiles().Select(x => x.Name).ToArray();
 
-                    ShowSingleChoseDialog(filesName, (j) =>
-                    {
-                        ModelName = filesName[j];
-                        TFLiteClassifyPorcessStart(jk);
-                    });
+                    //ShowSingleChoseDialog(filesName, (j) =>
+                    //{
+                    //    //ModelName = filesName[j];
+                    //    //TFLiteClassifyPorcessStart(jk);
+                    //});
 
                 }
 
