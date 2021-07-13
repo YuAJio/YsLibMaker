@@ -1,4 +1,6 @@
-﻿using NumSharp;
+﻿using NETCore.Encrypt;
+
+using NumSharp;
 
 using System;
 using System.Collections.Generic;
@@ -53,8 +55,15 @@ namespace Ys.TFLite.Core
             {
                 if (!System.IO.File.Exists(ModelPath))
                     return;
-                //if (interpreter == null)
-                interpreter = new Interpreter(new Java.IO.File(ModelPath));
+                var deModelPath = GetDecryPtModelFile(ModelPath);
+                if (!File.Exists(deModelPath))
+                    return;
+                if (interpreter == null)
+                {
+                    interpreter = new Interpreter(new Java.IO.File(ModelPath));
+                    File.Delete(deModelPath);
+                }
+
                 if (tensor == null)
                     tensor = interpreter.GetInputTensor(0);
 
@@ -132,6 +141,20 @@ namespace Ys.TFLite.Core
             bitmap.Recycle();
             return byteBuffer;
         }
+
+        #region 模型文件解密
+        private string GetDecryPtModelFile(string filePath)
+        {
+            var aseKey = EncryptProvider.CreateAesKey();
+            aseKey.Key = "SAGjstcSTC79dx2SwsYfS23xeUHKBgLq";
+            aseKey.IV = "0SyzJl5yaZqwIWj5";
+            var b2 = File.ReadAllBytes(filePath);
+            var dBytes = EncryptProvider.AESDecrypt(b2, aseKey.Key, aseKey.IV);
+            var deFilePath = filePath + "_DE";
+            File.WriteAllBytesAsync(deFilePath, dBytes).GetAwaiter().GetResult();
+            return deFilePath;
+        }
+        #endregion
 
     }
 

@@ -10,8 +10,15 @@ namespace Ys.BluetoothBLE_API.Droid.Receivers
     {
         public event EventHandler<BleEventArg> BleReceiveEvent;
         public BluetoothAdapter BleAdapter => BluetoothAdapter.DefaultAdapter;
+
         public override void OnReceive(Context context, Intent intent)
         {
+            if (BleAdapter == null)
+            {
+                BleReceiveEvent?.Invoke(this, new BleEventArg { EventCode = BleEventCode.BluetoothNotSupport });
+                return;
+            }
+
             var action = intent.Action;
 
             switch (action)
@@ -48,6 +55,8 @@ namespace Ys.BluetoothBLE_API.Droid.Receivers
             FoundNew,
             DiscoveryStart,
             DiscoveryFinished,
+            NotOpenBluetooth,
+            BluetoothNotSupport,
         }
     }
 }

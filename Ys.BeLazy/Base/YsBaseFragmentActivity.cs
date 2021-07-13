@@ -96,34 +96,62 @@ namespace Ys.BeLazy.Base
         /// <param name="onCancelClick">取消事件</param>
         /// <param name="sureText">确定文字</param>
         /// <param name="cancelText">取消文字</param>
-        public void ShowAndroidPromptBox(string title, string msg, Action onSureClick, Action onCancelClick, string sureText = "确定", string cancelText = "取消")
+        public void ShowAndroidPromptBox(string title, string msg, Action onSureClick, Action onCancelClick, bool isCancelable = false, string sureText = "确定", string cancelText = "取消")
         {
+            AndroidX.AppCompat.App.AlertDialog jk = null;
+            jk =
+           new AndroidX.AppCompat.App.AlertDialog.Builder(this)
+               .SetTitle(title)
+               .SetMessage(msg)
+               .SetCancelable(isCancelable)
+               .SetPositiveButton(sureText, (object sender, DialogClickEventArgs eve) => { jk.Dismiss(); jk = null; onSureClick?.Invoke(); })
+               .SetNegativeButton(cancelText, (object sender, DialogClickEventArgs eve) => { jk.Dismiss(); jk = null; onCancelClick?.Invoke(); })
+               .Show();
         }
-
-        /// <summary>
-        /// 显示IOS提示框
-        /// </summary>
-        /// <param name="title">标题</param>
-        /// <param name="msg">内容消息</param>
-        /// <param name="onSureClick">确定事件</param>
-        /// <param name="onCancelClick">取消事件</param>
-        /// <param name="sureText">确定文字</param>
-        /// <param name="cancelText">取消文字</param>
-        public void ShowIOSAndroidPromptBos(string title, string msg, Action onSureClick, Action onCancelClick, string sureText = "确定", string cancelText = "取消")
-        {
-        }
-
         #endregion
 
         #region 等待框
-        /// <summary>
-        /// 显示小小等待框
-        /// </summary>
-        /// <param name="msg">等待信息</param>
-        /// <param name="isCanCancel">是否可取消</param>
-        /// <param name="isOutSideTouch">是否可外部点击取消</param>
-        public void ShowWaitDialog_Samll(string msg, bool isCanCancel = false, bool isOutSideTouch = false, bool isretry = true)
+        private AndroidX.AppCompat.App.AlertDialog dialog_Show;
+        private AndroidX.AppCompat.App.AlertDialog.Builder dialog_ShowBuilder;
+        private void InitShowDialog()
         {
+            dialog_ShowBuilder = new AndroidX.AppCompat.App.AlertDialog.Builder(this, Resource.Style.Theme_Dialog_FullScreen);
+            dialog_Show = dialog_ShowBuilder.Create();
+            dialog_Show.Show();
+            dialog_Show.Dismiss();
+        }
+        private void InitShowDialogBulider()
+        {
+            dialog_ShowBuilder = new AndroidX.AppCompat.App.AlertDialog.Builder(this, Resource.Style.Theme_Dialog_FullScreen);
+        }
+
+        public void ShowWaitDialog_Samll(string msg, bool isCanCancel = false, bool isOutSideTouch = false)
+        {
+            if (dialog_Show == null)
+                InitShowDialog();
+            if (dialog_Show.IsShowing)
+                dialog_Show.FindViewById<TextView>(Resource.Id.tv_hint).Text = msg;
+            else
+            {
+                var v = LayoutInflater.From(this).Inflate(Resource.Layout.Dialog_WaitProgress_Small, null);
+                v.FindViewById<TextView>(Resource.Id.tv_hint).Text = msg;
+                dialog_Show.SetContentView(v);
+            }
+            dialog_Show.SetCancelable(isCanCancel);
+            dialog_Show.SetCanceledOnTouchOutside(isOutSideTouch);
+            var window = dialog_Show.Window;
+            if (window != null)
+            {
+                var attr = window.Attributes;
+                if (attr != null)
+                {
+                    attr.Height = 160;
+                    attr.Width = 160;
+                    attr.Gravity = GravityFlags.Center;
+                    window.Attributes = (attr);
+                }
+            }
+            dialog_Show.Show();
         }
 
         /// <summary>
@@ -135,9 +163,36 @@ namespace Ys.BeLazy.Base
         /// <param name="isOutSideTouch">是否可外部点击取消</param>
         public void ShowWaitDialog_Normal(string msg, int colorRes = -1, bool isCanCancel = false, bool isOutSideTouch = false)
         {
+            if (dialog_Show == null)
+                InitShowDialog();
+            if (dialog_Show.IsShowing)
+                dialog_Show.FindViewById<TextView>(Resource.Id.tv_hint).Text = msg;
+            else
+            {
+                var v = LayoutInflater.From(this).Inflate(Resource.Layout.Dialog_WaitProgress_Normal, null);
+                v.FindViewById<TextView>(Resource.Id.tv_hint).Text = msg;
+                dialog_Show.SetContentView(v);
+            }
+            dialog_Show.SetCancelable(isCanCancel);
+            dialog_Show.SetCanceledOnTouchOutside(isOutSideTouch);
+            var window = dialog_Show.Window;
+            if (window != null)
+            {
+                var attr = window.Attributes;
+                if (attr != null)
+                {
+                    attr.Height = 80;
+                    attr.Width = 500;
+                    attr.Gravity = GravityFlags.Center;
+                    window.Attributes = (attr);
+                }
+            }
+            dialog_Show.Show();
         }
+
         public void HideWaitDiaLog()
         {
+            dialog_Show?.Dismiss();
         }
         #endregion
 

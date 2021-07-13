@@ -9,6 +9,8 @@ namespace Ys.BluetoothBLE_API.Droid.Models
     public class TestStrip
     {
         public string Name { get; set; }
+        public string NamePinYin { get; set; }
+        public string NamePinYinFirst { get; set; }
         public int TestCount { get; set; }
 
         public JudgeType JudgeType { get; set; }
