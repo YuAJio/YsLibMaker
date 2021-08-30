@@ -5,16 +5,21 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+
 using AndroidX.Camera.Core;
 using AndroidX.Camera.Lifecycle;
 using AndroidX.Camera.View;
 using AndroidX.Lifecycle;
+
 using Java.Util.Concurrent;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+
 using Ys.Camera.Droid.Implements;
+
 using static Ys.Camera.Droid.Enums;
 
 namespace Ys.Camera.Droid.Views
@@ -54,8 +59,6 @@ namespace Ys.Camera.Droid.Views
         }
         #endregion
 
-        public Action CameraInitFinish;
-
         /// <summary>
         /// 初始化添加CameraView进布局
         /// </summary>
@@ -92,7 +95,7 @@ namespace Ys.Camera.Droid.Views
         /// 初始化并绑定摄像头
         /// </summary>
         /// <param name="lifecycleOwner"></param>
-        public void InitAndStartCamera(ILifecycleOwner lifecycleOwner)
+        public void InitAndStartCamera(ILifecycleOwner lifecycleOwner, Action<bool, string> InitCallBack)
         {
             var cameraProviderFuture = ProcessCameraProvider.GetInstance(this.Context);
             cameraExecutor = Executors.NewSingleThreadExecutor();
@@ -138,7 +141,10 @@ namespace Ys.Camera.Droid.Views
                             if (cameraProvider.HasCamera(CameraSelector.DefaultFrontCamera) == true)
                                 cameraSelector = CameraSelector.DefaultFrontCamera;
                             else
-                                throw new Exception("Not found any camera device");
+                            {
+                                InitCallBack?.Invoke(false, "Not found any camera device");
+                                return;
+                            }
                         }
                         break;
                     case CameraFacing.Front:
@@ -150,7 +156,10 @@ namespace Ys.Camera.Droid.Views
                                 if (cameraProvider.HasCamera(CameraSelector.DefaultBackCamera) == true)
                                     cameraSelector = CameraSelector.DefaultBackCamera;
                                 else
-                                    throw new Exception("Not found any camera device");
+                                {
+                                    InitCallBack?.Invoke(false, "Not found any camera device");
+                                    return;
+                                }
                             }
                         }
                         break;
@@ -164,7 +173,7 @@ namespace Ys.Camera.Droid.Views
                     var camera = cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, preview, _ImageCapture, imageAnalyzer);
                     _CameraController = camera.CameraControl;
                     _CameraInfo = camera.CameraInfo;
-                    CameraInitFinish?.Invoke();
+                    InitCallBack?.Invoke(true, "");
                 }
                 catch (Exception exc)
                 {
@@ -178,10 +187,10 @@ namespace Ys.Camera.Droid.Views
         /// <summary>
         /// 切换摄像头的位置
         /// </summary>
-        public void SwitchFacing(ILifecycleOwner lifecycleOwner)
+        public void SwitchFacing(ILifecycleOwner lifecycleOwner, Action<bool, string> switchCallBack)
         {
             CameraFacing = CameraFacing == CameraFacing.Back ? CameraFacing.Front : CameraFacing.Back;
-            InitAndStartCamera(lifecycleOwner);
+            InitAndStartCamera(lifecycleOwner, switchCallBack);
         }
 
 

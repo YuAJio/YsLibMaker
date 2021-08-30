@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
 using Xamarin.TensorFlow.Lite;
@@ -40,11 +41,11 @@ namespace Ys.TFLite.Core
 
         private Interpreter interpreter;
         private Tensor tensor;
-        private List<string> List_Lables;
+        private List<string> List_Labels;
 
-        public TensorflowClassifier(Stream lableStream)
+        public TensorflowClassifier(Stream LabelStream)
         {
-            List_Lables = new StreamReader(lableStream).ReadToEnd().Split('\n').Select(s => s.Trim()).Where(s => !string.IsNullOrEmpty(s)).ToList(); ;
+            List_Labels = new StreamReader(LabelStream).ReadToEnd().Split('\n').Select(s => s.Trim()).Where(s => !string.IsNullOrEmpty(s)).ToList();
         }
 
         public event EventHandler<ClassificationEventArgs> ClassificationCompleted;
@@ -60,8 +61,12 @@ namespace Ys.TFLite.Core
                     return;
                 if (interpreter == null)
                 {
-                    interpreter = new Interpreter(new Java.IO.File(ModelPath));
-                    File.Delete(deModelPath);
+                    interpreter = new Interpreter(new Java.IO.File(deModelPath));
+                    new Thread(new ThreadStart(() =>
+                    {
+                        Thread.Sleep(500);
+                        File.Delete(deModelPath);
+                    })).Start();
                 }
 
                 if (tensor == null)
@@ -72,14 +77,14 @@ namespace Ys.TFLite.Core
                 var height = shape[2];
 
                 var byteBuffer = await GetByteBufferFromPhoto(bytes, width, height);
-                var outputLocations = new float[1][] { new float[List_Lables.Count] };
+                var outputLocations = new float[1][] { new float[List_Labels.Count] };
                 var outputs = Java.Lang.Object.FromArray(outputLocations);
                 interpreter.Run(byteBuffer, outputs);
                 var classificationResult = outputs.ToArray<float[]>();
                 var result = new List<Classification>();
-                for (var i = 0; i < List_Lables.Count; i++)
+                for (var i = 0; i < List_Labels.Count; i++)
                 {
-                    var label = List_Lables[i];
+                    var label = List_Labels[i];
                     result.Add(new Classification { TagName = label, Probability = classificationResult[0][i] });
                 }
                 ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(result));

@@ -42,11 +42,11 @@ namespace LibMaker.Droid.Src.Activitys
             _CameraX = FindViewById<YsCameraX>(Resource.Id.cxCameraX);
             _Info = FindViewById<TextView>(Resource.Id.tvInfo);
 
-            _CameraX.InitAndStartCamera(this);
-            _CameraX.CameraInitFinish += delegate
-            {
-                StartCheckImageFrameThread();
-            };
+            _CameraX.InitAndStartCamera(this,null);
+            //_CameraX.CameraInitFinish += delegate
+            //{
+            //    StartCheckImageFrameThread();
+            //};
 
             FindViewById<Button>(Resource.Id.bt_event).Click += delegate (object sender, EventArgs e)
             {

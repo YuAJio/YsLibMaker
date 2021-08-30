@@ -59,12 +59,12 @@ namespace LibUser.Droid.Src.Activitys.MenuContent
         private void InitAndStartCameraX()
         {
             var cameraX = FindViewById<YsCameraX>(Resource.Id.cxCameraX);
-            cameraX.InitAndStartCamera(this);
-            cameraX.CameraInitFinish += delegate
-            {
-                cameraX.OpenFrameCapture();
-                cameraX.ImageAnalysisFrameProcess.ImageFrame2NV21ByteCaptured += ImageAnalysisFrameProcess_ImageFrame2NV21ByteCaptured;
-            };
+            cameraX.InitAndStartCamera(this, null);
+            //cameraX.CameraInitFinish += delegate
+            //{
+            //    cameraX.OpenFrameCapture();
+            //    cameraX.ImageAnalysisFrameProcess.ImageFrame2NV21ByteCaptured += ImageAnalysisFrameProcess_ImageFrame2NV21ByteCaptured;
+            //};
         }
 
         private int FlameSkipCount = 0;
@@ -92,7 +92,7 @@ namespace LibUser.Droid.Src.Activitys.MenuContent
             if (defaultClassifier == null)
             {
                 var stockPath = System.IO.Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName);
-                defaultClassifier = new TensorflowClassifier(stockPath, Application.Context.Assets.Open(LableName));
+                defaultClassifier = new TensorflowClassifier(Application.Context.Assets.Open(LableName));
                 defaultClassifier.ClassificationCompleted += DefaultClassifier_ClassificationCompleted; ;
             }
             //处理帧数和选择照片的区别
