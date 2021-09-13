@@ -1,18 +1,21 @@
 ﻿using Android.App;
-using Android.Runtime;
-using Android.Widget;
-using Android.Views;
-using System;
-using System.Threading.Tasks;
-using Ys.Camera.Droid.Views;
-using System.Collections.Generic;
-using AndroidX.Camera.Core;
 using Android.Content;
-using System.IO;
-using Ys.TFLite.Core;
-using System.Linq;
-using Yukiho_Threads;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+
+using AndroidX.Camera.Core;
+
 using LibMaker.Droid.Src.Manager;
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
+using Ys.Camera.Droid.Views;
+
+using Yukiho_Threads;
 
 namespace LibMaker.Droid.Src.Activitys
 {
@@ -42,7 +45,7 @@ namespace LibMaker.Droid.Src.Activitys
             _CameraX = FindViewById<YsCameraX>(Resource.Id.cxCameraX);
             _Info = FindViewById<TextView>(Resource.Id.tvInfo);
 
-            _CameraX.InitAndStartCamera(this,null);
+            _CameraX.InitAndStartCamera(this, null);
             //_CameraX.CameraInitFinish += delegate
             //{
             //    StartCheckImageFrameThread();
@@ -178,17 +181,17 @@ namespace LibMaker.Droid.Src.Activitys
         private int FlameSkipCount_MAX = 15;
         private void ImageAnalysisFrameProcess_ImageFrame2NV21ByteCaptured(object sender, Ys.Camera.Droid.Implements.ImageFrame2Nv21ByteArgs e)
         {
-            if (FlameSkipCount < FlameSkipCount_MAX)
-            {
-                FlameSkipCount++;
-                return;
-            }
-            else
-                FlameSkipCount = 0;
-            if (isClassifyDone && isAllow2Classify && isOpenClassify)
-                ysTFLiteMag?.Classify(e.imgaeNv21Bytes);
-            else
-                return;
+            //if (FlameSkipCount < FlameSkipCount_MAX)
+            //{
+            //    FlameSkipCount++;
+            //    return;
+            //}
+            //else
+            //    FlameSkipCount = 0;
+            //if (isClassifyDone && isAllow2Classify && isOpenClassify)
+            //    ysTFLiteMag?.Classify(e.imgaeNv21Bytes);
+            //else
+            //    return;
         }
 
         #endregion
@@ -289,6 +292,7 @@ namespace LibMaker.Droid.Src.Activitys
                     var root = new DirectoryInfo(stockPath);
                     var filesName = root.GetFiles().Select(x => x.Name).ToArray();
 
+                    ysTFLiteMag.Classify(File2Byte(jk));
                     //ShowSingleChoseDialog(filesName, (j) =>
                     //{
                     //    //ModelName = filesName[j];

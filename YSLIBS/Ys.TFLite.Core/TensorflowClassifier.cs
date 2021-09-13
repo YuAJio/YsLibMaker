@@ -52,47 +52,50 @@ namespace Ys.TFLite.Core
 
         public async Task Classify(byte[] bytes)
         {
-            try
+            if (!System.IO.File.Exists(ModelPath))
+                return;
+            var deModelPath = GetDecryPtModelFile(ModelPath);
+            if (!File.Exists(deModelPath))
+                return;
+            if (interpreter == null)
             {
-                if (!System.IO.File.Exists(ModelPath))
-                    return;
-                var deModelPath = GetDecryPtModelFile(ModelPath);
-                if (!File.Exists(deModelPath))
-                    return;
-                if (interpreter == null)
+                interpreter = new Interpreter(new Java.IO.File(deModelPath));
+                new Thread(new ThreadStart(() =>
                 {
-                    interpreter = new Interpreter(new Java.IO.File(deModelPath));
-                    new Thread(new ThreadStart(() =>
-                    {
-                        Thread.Sleep(500);
-                        File.Delete(deModelPath);
-                    })).Start();
-                }
-
-                if (tensor == null)
-                    tensor = interpreter.GetInputTensor(0);
-
-                var shape = tensor.Shape();
-                var width = shape[1];
-                var height = shape[2];
-
-                var byteBuffer = await GetByteBufferFromPhoto(bytes, width, height);
-                var outputLocations = new float[1][] { new float[List_Labels.Count] };
-                var outputs = Java.Lang.Object.FromArray(outputLocations);
-                interpreter.Run(byteBuffer, outputs);
-                var classificationResult = outputs.ToArray<float[]>();
-                var result = new List<Classification>();
-                for (var i = 0; i < List_Labels.Count; i++)
-                {
-                    var label = List_Labels[i];
-                    result.Add(new Classification { TagName = label, Probability = classificationResult[0][i] });
-                }
-                ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(result));
+                    Thread.Sleep(500);
+                    File.Delete(deModelPath);
+                })).Start();
             }
-            catch (Exception ex)
+
+            if (tensor == null)
+                tensor = interpreter.GetInputTensor(0);
+
+            var shape = tensor.Shape();
+            var width = shape[1];
+            var height = shape[2];
+
+            var byteBuffer = await GetByteBufferFromPhoto(bytes, width, height);
+            if (byteBuffer == null)
             {
-                throw ex;
+                ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(new List<Classification>()));
+                return;
             }
+            if (List_Labels == null)
+            {
+                ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(new List<Classification>()));
+                return;
+            }
+            var outputLocations = new float[1][] { new float[List_Labels.Count] };
+            var outputs = Java.Lang.Object.FromArray(outputLocations);
+            interpreter.Run(byteBuffer, outputs);
+            var classificationResult = outputs.ToArray<float[]>();
+            var result = new List<Classification>();
+            for (var i = 0; i < List_Labels.Count; i++)
+            {
+                var label = List_Labels[i];
+                result.Add(new Classification { TagName = label, Probability = classificationResult[0][i] });
+            }
+            ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(result));
         }
 
         public string GetTFLiteModelPath()
@@ -109,7 +112,11 @@ namespace Ys.TFLite.Core
             var modelInputSize = FloatSize * height * width * PixelSize;
 
             var bitmap = await Android.Graphics.BitmapFactory.DecodeByteArrayAsync(bytes, 0, bytes.Length);
+            if (bitmap == null)
+                return null;
             var resizedBitmap = Android.Graphics.Bitmap.CreateScaledBitmap(bitmap, width, height, true);
+            if (resizedBitmap == null)
+                return null;
 
             var byteBuffer = Java.Nio.ByteBuffer.AllocateDirect(modelInputSize);
             byteBuffer.Order(Java.Nio.ByteOrder.NativeOrder());
