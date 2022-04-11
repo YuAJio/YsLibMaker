@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
@@ -12,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading;
 
 using Ys.Camera.Droid.Views;
 
@@ -45,7 +47,14 @@ namespace LibMaker.Droid.Src.Activitys
             _CameraX = FindViewById<YsCameraX>(Resource.Id.cxCameraX);
             _Info = FindViewById<TextView>(Resource.Id.tvInfo);
 
-            _CameraX.InitAndStartCamera(this, null);
+            _CameraX.InitAndStartCamera(this, (bo, str) =>
+            {
+                if (bo)
+                {
+                    StartCheckImageFrameThread();
+                    InitTFLiteManager();
+                }
+            });
             //_CameraX.CameraInitFinish += delegate
             //{
             //    StartCheckImageFrameThread();
@@ -53,19 +62,36 @@ namespace LibMaker.Droid.Src.Activitys
 
             FindViewById<Button>(Resource.Id.bt_event).Click += delegate (object sender, EventArgs e)
             {
-                if (isOpenClassify)
+                ShowWaitDialog_Samll("少女祈祷中");
+                new Thread(new ThreadStart(() =>
                 {
-                    SimpTimerPool.Instance.StopTimer("Classify", 0);
-                    isOpenClassify = false;
-                }
-                else
-                {
-                    SimpTimerPool.Instance.StartTimer("Classify", 0);
-                    isOpenClassify = true;
-                }
+                    Thread.Sleep(2 * 1000);
+                    RunOnUiThread(() =>
+                    {
+                        StartActivity(new Intent(this, typeof(Acty_RefreshListView)));
+                        this.Finish();
+                    });
+                    Thread.Sleep(2 * 1000);
+                    RunOnUiThread(() =>
+                    {
+                        HideWaitDiaLog();
+                    });
+                })).Start();
+                //if (isOpenClassify)
+                //{
+                //    SimpTimerPool.Instance.StopTimer("Classify", 0);
+                //    isOpenClassify = false;
+                //}
+                //else
+                //{
+                //    SimpTimerPool.Instance.StartTimer("Classify", 0);
+                //    isOpenClassify = true;
+                //}
                 //_CameraX.TakePicture(SavePicturePath, TakePicutreResultHandler_Error, TakePicutreResultHandler_Succsses);
             };
 
+
+            return;
             FindViewById<Button>(Resource.Id.bt_event).LongClick += delegate (object sender, View.LongClickEventArgs ex)
             {
                 //StartActivity(new Intent(this, typeof(Acty_RefreshListView)));
@@ -84,7 +110,6 @@ namespace LibMaker.Droid.Src.Activitys
 
         public override void E_InitData()
         {
-
         }
 
         public override void F_OnClickListener(View v, EventArgs e)
@@ -181,17 +206,14 @@ namespace LibMaker.Droid.Src.Activitys
         private int FlameSkipCount_MAX = 15;
         private void ImageAnalysisFrameProcess_ImageFrame2NV21ByteCaptured(object sender, Ys.Camera.Droid.Implements.ImageFrame2Nv21ByteArgs e)
         {
-            //if (FlameSkipCount < FlameSkipCount_MAX)
-            //{
-            //    FlameSkipCount++;
-            //    return;
-            //}
-            //else
-            //    FlameSkipCount = 0;
-            //if (isClassifyDone && isAllow2Classify && isOpenClassify)
-            //    ysTFLiteMag?.Classify(e.imgaeNv21Bytes);
-            //else
-            //    return;
+            if (FlameSkipCount < FlameSkipCount_MAX)
+            {
+                FlameSkipCount++;
+                return;
+            }
+            FlameSkipCount = 0;
+
+            ysTFLiteMag?.Classify(e.imgaeNv21Bytes);
         }
 
         #endregion
@@ -203,13 +225,19 @@ namespace LibMaker.Droid.Src.Activitys
         {
             if (ysTFLiteMag == null)
             {
-                var lablePath = System.IO.Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Lable", LableName);
-                var modelPath = System.IO.Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TFLite", "Model", ModelName);
+                string rootPath;
+                if (Build.VERSION.SdkInt < BuildVersionCodes.Q)
+                    rootPath = Android.OS.Environment.ExternalStorageDirectory.AbsolutePath;
+                else
+                    rootPath = Android.App.Application.Context.GetExternalFilesDir("").AbsolutePath;
+
+                var lablePath = System.IO.Path.Combine(rootPath, "TFLite", "Lable", LableName);
+                var modelPath = System.IO.Path.Combine(rootPath, "TFLite", "Model", ModelName);
                 var lableNameJson = ReadAssetsInfoForString(this, "Lable2Mat.json");
                 ysTFLiteMag = new YsMatClassify_TFLiteMag(lablePath, modelPath);
-                ysTFLiteMag.TFliteClassifyInit();
                 ysTFLiteMag.ErrorCallBack += YsTFLiteMag_ErrorCallBack;
                 ysTFLiteMag.ClassifyCompleteEvent += YsTFLiteMag_ClassifyCompleteEvent;
+                ysTFLiteMag.TFliteClassifyInit();
                 ysTFLiteMag.SetLableCode(lableNameJson);
             }
         }
@@ -269,8 +297,7 @@ namespace LibMaker.Droid.Src.Activitys
         protected override void OnResume()
         {
             base.OnResume();
-            StartCheckImageFrameThread();
-            InitTFLiteManager();
+
         }
 
         protected override void OnStop()

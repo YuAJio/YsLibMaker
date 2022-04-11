@@ -46,7 +46,7 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="YS_PublicMilf_Lite">
-      <HintPath>..\..\Z_THIRD_DLL\YS_PublicMilf_Lite.dll</HintPath>
+      <HintPath>..\..\..\..\Library\CSharpDLL\YS_PublicMilf_Lite.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

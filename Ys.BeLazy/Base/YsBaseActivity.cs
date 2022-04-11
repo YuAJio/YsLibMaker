@@ -55,6 +55,11 @@ namespace Ys.BeLazy.Base
             D_BindEvent();
             E_InitData();
         }
+        protected override void OnDestroy()
+        {
+            HideWaitDiaLog();
+            base.OnDestroy();
+        }
 
         #region 抽象方法
         /// <summary>
@@ -209,7 +214,16 @@ namespace Ys.BeLazy.Base
 
         protected void HideWaitDiaLog()
         {
-            dialog_Show?.Dismiss();
+            try
+            {
+                if (dialog_Show != null)
+                    if (dialog_Show.IsShowing)
+                        dialog_Show?.Dismiss();
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
         #endregion
 

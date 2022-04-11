@@ -33,9 +33,9 @@ namespace LibMaker.Droid.Src.Activitys
 
             rvRefresh.SetLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.Vertical, false));
 
-            SimListData();
+            //SimListData();
 
-            SetRefreshEvent();
+            //SetRefreshEvent();
         }
 
         private void SimListData()

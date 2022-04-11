@@ -34,6 +34,7 @@ namespace Ys.Camera.Droid.Implements
                     var byteData = ImageUtil.ImageToJpegByteArray(image);
                     var jk = new ImageFrame2Nv21ByteArgs(byteData);
                     ImageFrame2NV21ByteCaptured?.Invoke(this, jk);
+                    image.Close();
                 }
             }
             catch (Exception ex)

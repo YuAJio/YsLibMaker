@@ -61,8 +61,6 @@ namespace Ys.GaoDeMap_Droid
                 _LocaltionClient.StartLocation();
             }
 
-
-
         }
         private void DestoryLocationClient() => _LocaltionClient?.OnDestroy();
 

@@ -57,18 +57,18 @@ namespace LibMaker.Droid.Src.Manager
             if (!isClassifyDone)
                 return;
             isClassifyDone = false;
-            new System.Threading.Thread(async () =>
+            //new System.Threading.Thread(async () =>
+            //{
+            try
             {
-                try
-                {
-                    await defaultClassifier?.Classify(nv21Stream);
-                }
-                catch (Exception e)
-                {
-                    isClassifyDone = true;
-                    ErrorCallBack?.Invoke("分类流程出现异常", e);
-                }
-            }).Start();
+                defaultClassifier?.Classify(nv21Stream);
+            }
+            catch (Exception e)
+            {
+                isClassifyDone = true;
+                ErrorCallBack?.Invoke("分类流程出现异常", e);
+            }
+            //}).Start();
         }
 
         private void DefaultClassifier_ClassificationCompleted(object sender, ClassificationEventArgs e)

@@ -18,7 +18,7 @@ namespace Ys.TFLite.Core
     public interface IClassifier
     {
         event EventHandler<ClassificationEventArgs> ClassificationCompleted;
-        Task Classify(byte[] bytes);
+        void Classify(byte[] bytes);
         string GetTFLiteModelPath();
         void SetTFLiteModelPath(string modelPath);
     }
@@ -42,6 +42,8 @@ namespace Ys.TFLite.Core
         private Interpreter interpreter;
         private Tensor tensor;
         private List<string> List_Labels;
+        private bool isClassifying = false;
+        private bool isInitingModel = false;
 
         public TensorflowClassifier(Stream LabelStream)
         {
@@ -50,8 +52,9 @@ namespace Ys.TFLite.Core
 
         public event EventHandler<ClassificationEventArgs> ClassificationCompleted;
 
-        public async Task Classify(byte[] bytes)
+        public void InitModel()
         {
+            isInitingModel = true;
             if (!System.IO.File.Exists(ModelPath))
                 return;
             var deModelPath = GetDecryPtModelFile(ModelPath);
@@ -62,7 +65,7 @@ namespace Ys.TFLite.Core
                 interpreter = new Interpreter(new Java.IO.File(deModelPath));
                 new Thread(new ThreadStart(() =>
                 {
-                    Thread.Sleep(500);
+                    Thread.Sleep(200);
                     File.Delete(deModelPath);
                 })).Start();
             }
@@ -70,32 +73,47 @@ namespace Ys.TFLite.Core
             if (tensor == null)
                 tensor = interpreter.GetInputTensor(0);
 
-            var shape = tensor.Shape();
-            var width = shape[1];
-            var height = shape[2];
+            isInitingModel = false;
+        }
+        public void Classify(byte[] bytes)
+        {
+            if ((interpreter == null || tensor == null) && !isInitingModel)
+                InitModel();
+            else
+                return;
+            if (isClassifying)
+                return;
+            isClassifying = true;
+            new Thread(new ThreadStart(async () =>
+           {
+               var shape = tensor.Shape();
+               var width = shape[1];
+               var height = shape[2];
 
-            var byteBuffer = await GetByteBufferFromPhoto(bytes, width, height);
-            if (byteBuffer == null)
-            {
-                ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(new List<Classification>()));
-                return;
-            }
-            if (List_Labels == null)
-            {
-                ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(new List<Classification>()));
-                return;
-            }
-            var outputLocations = new float[1][] { new float[List_Labels.Count] };
-            var outputs = Java.Lang.Object.FromArray(outputLocations);
-            interpreter.Run(byteBuffer, outputs);
-            var classificationResult = outputs.ToArray<float[]>();
-            var result = new List<Classification>();
-            for (var i = 0; i < List_Labels.Count; i++)
-            {
-                var label = List_Labels[i];
-                result.Add(new Classification { TagName = label, Probability = classificationResult[0][i] });
-            }
-            ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(result));
+               var byteBuffer = await GetByteBufferFromPhoto(bytes, width, height);
+               if (byteBuffer == null)
+               {
+                   ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(new List<Classification>()));
+                   return;
+               }
+               if (List_Labels == null)
+               {
+                   ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(new List<Classification>()));
+                   return;
+               }
+               var outputLocations = new float[1][] { new float[List_Labels.Count] };
+               var outputs = Java.Lang.Object.FromArray(outputLocations);
+               interpreter.Run(byteBuffer, outputs);
+               var classificationResult = outputs.ToArray<float[]>();
+               var result = new List<Classification>();
+               for (var i = 0; i < List_Labels.Count; i++)
+               {
+                   var label = List_Labels[i];
+                   result.Add(new Classification { TagName = label, Probability = classificationResult[0][i] });
+               }
+               ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(result));
+               isClassifying = false;
+           })).Start();
         }
 
         public string GetTFLiteModelPath()

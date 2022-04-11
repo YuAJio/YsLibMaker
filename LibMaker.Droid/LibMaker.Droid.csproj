@@ -61,10 +61,10 @@
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
     <Reference Include="Ys.GaoDeMap_Droid">
-      <HintPath>..\..\Z_THIRD_DLL\Ys.GaoDeMap_Droid.dll</HintPath>
+      <HintPath>..\..\..\..\Library\CSharpDLL\Ys.GaoDeMap_Droid.dll</HintPath>
     </Reference>
     <Reference Include="Yukiho_Threads">
-      <HintPath>..\..\Z_THIRD_DLL\YukihoDLL\.NetStandard\Yukiho_Threads.dll</HintPath>
+      <HintPath>..\..\..\..\Library\CSharpDLL\YukihoDLL\.NetStandard\Yukiho_Threads.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
