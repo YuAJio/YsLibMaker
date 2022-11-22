@@ -17,7 +17,7 @@
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
     <AndroidUseAapt2>true</AndroidUseAapt2>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -62,19 +62,19 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.Camera.Camera2">
-      <Version>1.0.0.5</Version>
+      <Version>1.1.0-beta02</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Camera.Core">
-      <Version>1.0.0.5</Version>
+      <Version>1.1.0-beta02</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Camera.Lifecycle">
-      <Version>1.0.0.5</Version>
+      <Version>1.1.0-beta02</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Camera.View">
-      <Version>1.0.0.5-alpha20</Version>
+      <Version>1.1.0-beta02</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Core">
-      <Version>1.5.0</Version>
+      <Version>1.7.0.2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

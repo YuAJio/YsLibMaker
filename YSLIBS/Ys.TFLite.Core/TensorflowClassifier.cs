@@ -40,7 +40,7 @@ namespace Ys.TFLite.Core
         private string ModelPath;
 
         private Interpreter interpreter;
-        private Tensor tensor;
+        private ITensor tensor;
         private List<string> List_Labels;
         private bool isClassifying = false;
         private bool isInitingModel = false;
@@ -54,33 +54,24 @@ namespace Ys.TFLite.Core
 
         public void InitModel()
         {
+            if (isInitingModel)
+                return;
             isInitingModel = true;
             if (!System.IO.File.Exists(ModelPath))
                 return;
-            var deModelPath = GetDecryPtModelFile(ModelPath);
-            if (!File.Exists(deModelPath))
-                return;
-            if (interpreter == null)
-            {
-                interpreter = new Interpreter(new Java.IO.File(deModelPath));
-                new Thread(new ThreadStart(() =>
-                {
-                    Thread.Sleep(200);
-                    File.Delete(deModelPath);
-                })).Start();
-            }
+            interpreter = new Interpreter(new Java.IO.File(ModelPath));
 
-            if (tensor == null)
-                tensor = interpreter.GetInputTensor(0);
+            tensor ??= interpreter.GetInputTensor(0);
 
             isInitingModel = false;
         }
         public void Classify(byte[] bytes)
         {
-            if ((interpreter == null || tensor == null) && !isInitingModel)
+            if (interpreter == null || tensor == null)
+            {
                 InitModel();
-            else
                 return;
+            }
             if (isClassifying)
                 return;
             isClassifying = true;
@@ -111,8 +102,8 @@ namespace Ys.TFLite.Core
                    var label = List_Labels[i];
                    result.Add(new Classification { TagName = label, Probability = classificationResult[0][i] });
                }
-               ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(result));
                isClassifying = false;
+               ClassificationCompleted?.Invoke(this, new ClassificationEventArgs(result));
            })).Start();
         }
 

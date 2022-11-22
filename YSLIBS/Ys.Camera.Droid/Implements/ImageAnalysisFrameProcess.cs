@@ -31,7 +31,7 @@ namespace Ys.Camera.Droid.Implements
                 if (IsOpenFrameCapture)
                 {
                     ImageFrameCaptured?.Invoke(this, new ImageFrameArgs(image));
-                    var byteData = ImageUtil.ImageToJpegByteArray(image);
+                    var byteData = ImageUtil.YuvImageToJpegByteArray(image, null, 80);
                     var jk = new ImageFrame2Nv21ByteArgs(byteData);
                     ImageFrame2NV21ByteCaptured?.Invoke(this, jk);
                     image.Close();

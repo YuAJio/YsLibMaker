@@ -98,7 +98,7 @@ namespace Ys.Camera.Droid.Views
         public void InitAndStartCamera(ILifecycleOwner lifecycleOwner, Action<bool, string> InitCallBack)
         {
             var cameraProviderFuture = ProcessCameraProvider.GetInstance(this.Context);
-            cameraExecutor = Executors.NewSingleThreadExecutor();
+            //cameraExecutor = Executors.NewSingleThreadExecutor();
 
             cameraProviderFuture.AddListener(new Java.Lang.Runnable(() =>
             {
@@ -116,12 +116,12 @@ namespace Ys.Camera.Droid.Views
                 .Build();
 
                 // Frame by frame analyze(Not Use Now)
-                var imageAnalyzer = new ImageAnalysis.Builder().Build();
-                imageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
-                imageAnalyzer.SetAnalyzer(cameraExecutor, imageAnalysisFrameProcess);
-                //imageAnalyzer.SetAnalyzer(cameraExecutor, new LuminosityAnalyzer(luma =>
-                //    Log.Debug("", $"Average luminosity: {luma}")
-                //    ));
+                //var imageAnalyzer = new ImageAnalysis.Builder().Build();
+                //imageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
+                //imageAnalyzer.SetAnalyzer(cameraExecutor, imageAnalysisFrameProcess);
+                ////imageAnalyzer.SetAnalyzer(cameraExecutor, new LuminosityAnalyzer(luma =>
+                ////    Log.Debug("", $"Average luminosity: {luma}")
+                ////    ));
 
                 #region Select back camera as a default, or front camera otherwise
                 CameraSelector cameraSelector = null;
@@ -170,7 +170,7 @@ namespace Ys.Camera.Droid.Views
                     // Unbind use cases before rebinding
                     cameraProvider.UnbindAll();
                     // Bind use cases to camera
-                    var camera = cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, preview, _ImageCapture, imageAnalyzer);
+                    var camera = cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, preview, _ImageCapture/*, imageAnalyzer*/);
                     _CameraController = camera.CameraControl;
                     _CameraInfo = camera.CameraInfo;
                     InitCallBack?.Invoke(true, "");
@@ -196,21 +196,21 @@ namespace Ys.Camera.Droid.Views
 
 
         #region 捕获实时帧相关
-        private IExecutorService cameraExecutor;
-        private ImageAnalysisFrameProcess imageAnalysisFrameProcess;
-        public ImageAnalysisFrameProcess ImageAnalysisFrameProcess { get { return imageAnalysisFrameProcess; } private set { imageAnalysisFrameProcess = value; } }
+        //private IExecutorService cameraExecutor;
+        //private ImageAnalysisFrameProcess imageAnalysisFrameProcess;
+        //public ImageAnalysisFrameProcess ImageAnalysisFrameProcess { get { return imageAnalysisFrameProcess; } private set { imageAnalysisFrameProcess = value; } }
 
-        public void OpenFrameCapture()
-        {
-            if (ImageAnalysisFrameProcess == null) return;
-            ImageAnalysisFrameProcess.IsOpenFrameCapture = true;
-        }
+        //public void OpenFrameCapture()
+        //{
+        //    if (ImageAnalysisFrameProcess == null) return;
+        //    ImageAnalysisFrameProcess.IsOpenFrameCapture = true;
+        //}
 
-        public void CloseFrameCapture()
-        {
-            if (ImageAnalysisFrameProcess == null) return;
-            ImageAnalysisFrameProcess.IsOpenFrameCapture = false;
-        }
+        //public void CloseFrameCapture()
+        //{
+        //    if (ImageAnalysisFrameProcess == null) return;
+        //    ImageAnalysisFrameProcess.IsOpenFrameCapture = false;
+        //}
 
         #endregion
 
