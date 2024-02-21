@@ -186,20 +186,20 @@ namespace LibMaker.Droid.Src.Activitys
                 else
                     isAllow2Classify = false;
             });
-            if (_CameraX != null && _CameraX.ImageAnalysisFrameProcess != null)
-            {
-                _CameraX.OpenFrameCapture();
-                _CameraX.ImageAnalysisFrameProcess.ImageFrame2NV21ByteCaptured += ImageAnalysisFrameProcess_ImageFrame2NV21ByteCaptured;
-            }
+            //if (_CameraX != null && _CameraX.ImageAnalysisFrameProcess != null)
+            //{
+            //    _CameraX.OpenFrameCapture();
+            //    _CameraX.ImageAnalysisFrameProcess.ImageFrame2NV21ByteCaptured += ImageAnalysisFrameProcess_ImageFrame2NV21ByteCaptured;
+            //}
         }
 
         private void StopCheckImageFrameThread()
         {
-            if (_CameraX != null && _CameraX.ImageAnalysisFrameProcess != null)
-            {
-                _CameraX.CloseFrameCapture();
-                _CameraX.ImageAnalysisFrameProcess.ImageFrame2NV21ByteCaptured -= ImageAnalysisFrameProcess_ImageFrame2NV21ByteCaptured;
-            }
+            //if (_CameraX != null && _CameraX.ImageAnalysisFrameProcess != null)
+            //{
+            //    _CameraX.CloseFrameCapture();
+            //    _CameraX.ImageAnalysisFrameProcess.ImageFrame2NV21ByteCaptured -= ImageAnalysisFrameProcess_ImageFrame2NV21ByteCaptured;
+            //}
         }
 
         private int FlameSkipCount = 0;

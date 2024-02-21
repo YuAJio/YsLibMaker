@@ -28,6 +28,7 @@ namespace Ys.Camera.Droid.Implements
         {
             try
             {
+                //Console.WriteLine($"Yurishi Test, analyzeWidth:{image.Width}, analyzeHeight:{image.Height}");
                 if (IsOpenFrameCapture)
                 {
                     ImageFrameCaptured?.Invoke(this, new ImageFrameArgs(image));

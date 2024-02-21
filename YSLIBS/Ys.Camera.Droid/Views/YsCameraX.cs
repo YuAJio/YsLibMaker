@@ -16,7 +16,9 @@ using Java.Util.Concurrent;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
+using System.Timers;
 
 using Ys.Camera.Droid.Implements;
 
@@ -66,8 +68,9 @@ namespace Ys.Camera.Droid.Views
         {
             _CameraPreView = new PreviewView(this.Context)
             {
-                LayoutParameters = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent)
+                LayoutParameters = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent),
             };
+            _CameraPreView.SetForegroundGravity(GravityFlags.FillHorizontal);
             this.AddView(_CameraPreView, 0);
         }
 
@@ -88,7 +91,7 @@ namespace Ys.Camera.Droid.Views
         #endregion
 
         private PreviewView _CameraPreView;
-        private ImageCapture _ImageCapture;
+        private UseCaseGroup _CameraUseCases;
         private ICameraControl _CameraController;
         private ICameraInfo _CameraInfo;
         /// <summary>
@@ -98,30 +101,21 @@ namespace Ys.Camera.Droid.Views
         public void InitAndStartCamera(ILifecycleOwner lifecycleOwner, Action<bool, string> InitCallBack)
         {
             var cameraProviderFuture = ProcessCameraProvider.GetInstance(this.Context);
-            //cameraExecutor = Executors.NewSingleThreadExecutor();
-
+            cameraExecutor = Executors.NewSingleThreadExecutor();
             cameraProviderFuture.AddListener(new Java.Lang.Runnable(() =>
             {
                 // Used to bind the lifecycle of cameras to the lifecycle owner
                 var cameraProvider = (ProcessCameraProvider)cameraProviderFuture.Get();
 
-                // Preview
-                var preview = new Preview.Builder()
-                .Build();
-                preview.SetSurfaceProvider(_CameraPreView.SurfaceProvider);
-
                 // Take Photo
-                this._ImageCapture = new ImageCapture.Builder()
+                var imageCapture = new ImageCapture.Builder()
                 .SetTargetResolution(new Size(CaptureImageSize_Width, CaptureImageSize_Height))
                 .Build();
 
                 // Frame by frame analyze(Not Use Now)
-                //var imageAnalyzer = new ImageAnalysis.Builder().Build();
-                //imageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
-                //imageAnalyzer.SetAnalyzer(cameraExecutor, imageAnalysisFrameProcess);
-                ////imageAnalyzer.SetAnalyzer(cameraExecutor, new LuminosityAnalyzer(luma =>
-                ////    Log.Debug("", $"Average luminosity: {luma}")
-                ////    ));
+                var imageAnalyzer = new ImageAnalysis.Builder().Build();
+                imageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
+                imageAnalyzer.SetAnalyzer(cameraExecutor, imageAnalysisFrameProcess);
 
                 #region Select back camera as a default, or front camera otherwise
                 CameraSelector cameraSelector = null;
@@ -165,12 +159,24 @@ namespace Ys.Camera.Droid.Views
                         break;
                 }
                 #endregion
+
+                // Preview
+                var preview = new Preview.Builder()
+                //.SetTargetResolution(new Size(640, 480))
+                //.SetTargetAspectRatio(AspectRatio.Ratio43)
+                .Build();
+                preview.SetSurfaceProvider(_CameraPreView.SurfaceProvider);
+                //_CameraPreView.SetScaleType(PreviewView.ScaleType.FillCenter);
                 try
                 {
                     // Unbind use cases before rebinding
                     cameraProvider.UnbindAll();
                     // Bind use cases to camera
-                    var camera = cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, preview, _ImageCapture/*, imageAnalyzer*/);
+                    _CameraUseCases = new UseCaseGroup.Builder()
+                    .AddUseCase(preview)
+                    .AddUseCase(imageCapture)
+                    .AddUseCase(imageAnalyzer).Build();
+                    var camera = cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, _CameraUseCases);
                     _CameraController = camera.CameraControl;
                     _CameraInfo = camera.CameraInfo;
                     InitCallBack?.Invoke(true, "");
@@ -180,8 +186,6 @@ namespace Ys.Camera.Droid.Views
                     Toast.MakeText(this.Context, $"Use case binding failed: {exc.Message}", ToastLength.Short).Show();
                 }
             }), AndroidX.Core.Content.ContextCompat.GetMainExecutor(this.Context));
-
-
         }
 
         /// <summary>
@@ -196,21 +200,21 @@ namespace Ys.Camera.Droid.Views
 
 
         #region 捕获实时帧相关
-        //private IExecutorService cameraExecutor;
-        //private ImageAnalysisFrameProcess imageAnalysisFrameProcess;
-        //public ImageAnalysisFrameProcess ImageAnalysisFrameProcess { get { return imageAnalysisFrameProcess; } private set { imageAnalysisFrameProcess = value; } }
+        private IExecutorService cameraExecutor;
+        private ImageAnalysisFrameProcess imageAnalysisFrameProcess;
+        public ImageAnalysisFrameProcess ImageAnalysisFrameProcess { get { return imageAnalysisFrameProcess; } private set { imageAnalysisFrameProcess = value; } }
 
-        //public void OpenFrameCapture()
-        //{
-        //    if (ImageAnalysisFrameProcess == null) return;
-        //    ImageAnalysisFrameProcess.IsOpenFrameCapture = true;
-        //}
+        public void OpenFrameCapture()
+        {
+            if (ImageAnalysisFrameProcess == null) return;
+            ImageAnalysisFrameProcess.IsOpenFrameCapture = true;
+        }
 
-        //public void CloseFrameCapture()
-        //{
-        //    if (ImageAnalysisFrameProcess == null) return;
-        //    ImageAnalysisFrameProcess.IsOpenFrameCapture = false;
-        //}
+        public void CloseFrameCapture()
+        {
+            if (ImageAnalysisFrameProcess == null) return;
+            ImageAnalysisFrameProcess.IsOpenFrameCapture = false;
+        }
 
         #endregion
 
@@ -280,7 +284,8 @@ namespace Ys.Camera.Droid.Views
             if (fileInfo == null || !fileInfo.Directory.Exists)
                 onError?.Invoke(new ImageCaptureException(0x123, "File dir is not exist", null));
             var outputOptions = new ImageCapture.OutputFileOptions.Builder(new Java.IO.File(ImageCapture_ImagePath)).Build();
-            _ImageCapture?.TakePicture(
+            var imgCapture = (ImageCapture)_CameraUseCases.UseCases[1];
+            imgCapture?.TakePicture(
                 outputOptions,
                 AndroidX.Core.Content.ContextCompat.GetMainExecutor(this.Context),
                 new Implements.ImageCaptureSave(onError, onSaved));

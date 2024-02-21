@@ -72,18 +72,18 @@ namespace Ys.TFLite.Core
             var content = new List<ResultObj>();
             if (e.Predictions != null && e.Predictions.Any())
             {
-                var classifyResult = from j in e.Predictions
-                                     join k in ListMat2Lable on j.TagName equals k.MatCode
-                                     select new
-                                     {
-                                         j.Probability,
-                                         k.MatName,
-                                     };
+                var classifyResult = (from j in e.Predictions
+                                      join k in ListMat2Lable on j.TagName equals k.MatCode
+                                      select new
+                                      {
+                                          Probability = (float)Math.Round(j.Probability, 2),
+                                          k.MatName,
+                                      }).ToList();
                 var orderResult =
                    classifyResult.OrderByDescending(x => x.Probability)
                     .Take(3)
                     .Select(x => new ResultObj { Name = x.MatName, Probability = x.Probability * 100 })
-                    .Where(x => x.Probability >= 45);
+                    .Where(x => x.Probability >= 25);
                 content.AddRange(orderResult);
             }
             ClassifyCompleteEvent?.Invoke(this, content);

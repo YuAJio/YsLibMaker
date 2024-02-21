@@ -164,17 +164,17 @@ namespace Ys.TFLite.Core
         }
 
         #region 模型文件解密
-        private string GetDecryPtModelFile(string filePath)
-        {
-            var aseKey = EncryptProvider.CreateAesKey();
-            aseKey.Key = "SAGjstcSTC79dx2SwsYfS23xeUHKBgLq";
-            aseKey.IV = "0SyzJl5yaZqwIWj5";
-            var b2 = File.ReadAllBytes(filePath);
-            var dBytes = EncryptProvider.AESDecrypt(b2, aseKey.Key, aseKey.IV);
-            var deFilePath = filePath + "_DE";
-            File.WriteAllBytesAsync(deFilePath, dBytes).GetAwaiter().GetResult();
-            return deFilePath;
-        }
+        //private string GetDecryPtModelFile(string filePath)
+        //{
+        //    var aseKey = EncryptProvider.CreateAesKey();
+        //    aseKey.Key = "SAGjstcSTC79dx2SwsYfS23xeUHKBgLq";
+        //    aseKey.IV = "0SyzJl5yaZqwIWj5";
+        //    var b2 = File.ReadAllBytes(filePath);
+        //    var dBytes = EncryptProvider.AESDecrypt(b2, aseKey.Key, aseKey.IV);
+        //    var deFilePath = filePath + "_DE";
+        //    File.WriteAllBytesAsync(deFilePath, dBytes).GetAwaiter().GetResult();
+        //    return deFilePath;
+        //}
         #endregion
 
     }
