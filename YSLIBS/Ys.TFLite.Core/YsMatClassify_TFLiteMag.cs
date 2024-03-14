@@ -22,12 +22,12 @@ namespace Ys.TFLite.Core
     /// </summary>
     public class YsMatClassify_TFLiteMag
     {
-        private string LableFilePaht;
-        private string ModelFilePath;
-        public YsMatClassify_TFLiteMag(string lableFilePath, string modelFilePath)
+        private string labelFilePath;
+        private string modelFilePath;
+        public YsMatClassify_TFLiteMag(string labelFilePath, string modelFilePath)
         {
-            this.LableFilePaht = lableFilePath;
-            this.ModelFilePath = modelFilePath;
+            this.labelFilePath = labelFilePath;
+            this.modelFilePath = modelFilePath;
         }
         #region 事件申明
         public event Action<string, Exception> ErrorCallBack;
@@ -42,13 +42,13 @@ namespace Ys.TFLite.Core
         {
             if (defaultClassifier == null)
             {
-                if (!File.Exists(LableFilePaht) || !File.Exists(ModelFilePath))
+                if (!File.Exists(labelFilePath) || !File.Exists(modelFilePath))
                 {
-                    ErrorCallBack?.Invoke($"{(!File.Exists(ModelFilePath) ? "模型" : "标签")}文件未找到,打开分类引擎失败", new ArgumentException());
+                    ErrorCallBack?.Invoke($"{(!File.Exists(modelFilePath) ? "模型" : "标签")}文件未找到,打开分类引擎失败", new ArgumentException());
                     return;
                 }
-                defaultClassifier = new TensorflowClassifier(File.OpenRead(LableFilePaht));
-                defaultClassifier.SetTFLiteModelPath(ModelFilePath);
+                defaultClassifier = new TensorflowClassifier(File.OpenRead(labelFilePath));
+                defaultClassifier.SetTFLiteModelPath(modelFilePath);
                 defaultClassifier.ClassificationCompleted -= DefaultClassifier_ClassificationCompleted;
                 defaultClassifier.ClassificationCompleted += DefaultClassifier_ClassificationCompleted;
             }
@@ -73,7 +73,7 @@ namespace Ys.TFLite.Core
             if (e.Predictions != null && e.Predictions.Any())
             {
                 var classifyResult = (from j in e.Predictions
-                                      join k in ListMat2Lable on j.TagName equals k.MatCode
+                                      join k in ListMat2Label on j.TagName equals k.MatCode
                                       select new
                                       {
                                           Probability = (float)Math.Round(j.Probability, 2),
@@ -89,12 +89,12 @@ namespace Ys.TFLite.Core
             ClassifyCompleteEvent?.Invoke(this, content);
         }
 
-        private List<Code2Name> ListMat2Lable;
-        public void SetLableCode(string jsonData)
+        private List<Code2Name> ListMat2Label;
+        public void SetLabelCode(string jsonData)
         {
-            ListMat2Lable = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Code2Name>>(jsonData);
+            ListMat2Label = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Code2Name>>(jsonData);
         }
-        public bool IsClassifing()
+        public bool IsInClassifyProcess()
         {
             return !isClassifyDone;
         }

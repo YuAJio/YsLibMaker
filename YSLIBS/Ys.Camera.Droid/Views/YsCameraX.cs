@@ -1,20 +1,26 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Graphics;
+using Android.Media;
 using Android.OS;
 using Android.Runtime;
+using Android.Telephony;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
 
 using AndroidX.Camera.Core;
+using AndroidX.Camera.Core.Internal.Utils;
 using AndroidX.Camera.Lifecycle;
 using AndroidX.Camera.View;
 using AndroidX.Lifecycle;
 
+using Java.Nio;
 using Java.Util.Concurrent;
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -60,6 +66,8 @@ namespace Ys.Camera.Droid.Views
             AddCameraView();
         }
         #endregion
+
+        public event Action<bool, string> PhotoTakeEvent;
 
         /// <summary>
         /// 初始化添加CameraView进布局
@@ -107,14 +115,16 @@ namespace Ys.Camera.Droid.Views
                 // Used to bind the lifecycle of cameras to the lifecycle owner
                 var cameraProvider = (ProcessCameraProvider)cameraProviderFuture.Get();
 
-                // Take Photo
-                var imageCapture = new ImageCapture.Builder()
-                .SetTargetResolution(new Size(CaptureImageSize_Width, CaptureImageSize_Height))
-                .Build();
+                //// Take Photo
+                //var imageCapture = new ImageCapture.Builder()
+                //.SetTargetResolution(new Size(CaptureImageSize_Width, CaptureImageSize_Height))
+                //.Build();
 
                 // Frame by frame analyze(Not Use Now)
                 var imageAnalyzer = new ImageAnalysis.Builder().Build();
                 imageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
+                imageAnalysisFrameProcess.ImageFrameCaptured -= ImageAnalysisFrameProcess_ImageFrameCaptured;
+                imageAnalysisFrameProcess.ImageFrameCaptured += ImageAnalysisFrameProcess_ImageFrameCaptured;
                 imageAnalyzer.SetAnalyzer(cameraExecutor, imageAnalysisFrameProcess);
 
                 #region Select back camera as a default, or front camera otherwise
@@ -174,7 +184,7 @@ namespace Ys.Camera.Droid.Views
                     // Bind use cases to camera
                     _CameraUseCases = new UseCaseGroup.Builder()
                     .AddUseCase(preview)
-                    .AddUseCase(imageCapture)
+                    //.AddUseCase(imageCapture)
                     .AddUseCase(imageAnalyzer).Build();
                     var camera = cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, _CameraUseCases);
                     _CameraController = camera.CameraControl;
@@ -187,6 +197,27 @@ namespace Ys.Camera.Droid.Views
                 }
             }), AndroidX.Core.Content.ContextCompat.GetMainExecutor(this.Context));
         }
+
+        private void ImageAnalysisFrameProcess_ImageFrameCaptured(object sender, ImageFrameArgs e)
+        {
+            if (imageCaptureStep == 1)
+            {
+                imageCaptureStep = 2;
+                var bitmap = ToBitmap2(e.imageProxy.Image);
+                if (bitmap != null)
+                {
+                    if (File.Exists(ImageCapture_ImagePath))
+                        File.Delete(ImageCapture_ImagePath);
+                    using var stream = new FileStream(ImageCapture_ImagePath, FileMode.Create);
+                    bitmap.Compress(Bitmap.CompressFormat.Png, 80, stream); // 以PNG格式保存Bitmap
+                    PhotoTakeEvent?.Invoke(true, ImageCapture_ImagePath);
+                }
+                else
+                    PhotoTakeEvent?.Invoke(false, "拍照失败,请重试");
+                imageCaptureStep = 0;
+            }
+        }
+
 
         /// <summary>
         /// 切换摄像头的位置
@@ -267,11 +298,40 @@ namespace Ys.Camera.Droid.Views
         }
         #endregion
 
-        #region 拍照相关
+        #region 使用照片帧截取拍照相关
         /// <summary>
         /// 拍摄的图片的路径
         /// </summary>
         private string ImageCapture_ImagePath = "";
+        /// <summary>
+        /// 拍照步骤
+        /// 0:待机中
+        /// 1:开启拍摄
+        /// 2:拍摄中
+        /// </summary>
+        private int imageCaptureStep = 0;
+
+        /// <summary>
+        /// 开始照片拍摄
+        /// </summary>
+        public void StartPhotoTaking(string savePath)
+        {
+            if (imageCaptureStep != 0)
+            {
+                PhotoTakeEvent?.Invoke(false, "照片拍摄中..请稍等");
+                return;
+            }
+            SetCapturePicturePath(savePath);
+            imageCaptureStep = 1;
+        }
+
+        #endregion
+
+        #region 拍照相关
+        ///// <summary>
+        ///// 拍摄的图片的路径
+        ///// </summary>
+        //private string ImageCapture_ImagePath = "";
 
         /// <summary>
         /// 拍照
@@ -316,6 +376,58 @@ namespace Ys.Camera.Droid.Views
         }
         #endregion
 
+        private Bitmap ToBitmap2(Image image)
+        {
+            // 假设planes是Image.GetPlanes()获取的Image.Plane数组
+            ByteBuffer yBuffer = image.GetPlanes()[0].Buffer; // Y
+            ByteBuffer vuBuffer = image.GetPlanes()[2].Buffer; // VU
 
+            int ySize = yBuffer.Remaining();
+            int vuSize = vuBuffer.Remaining();
+
+            byte[] nv21 = new byte[ySize + vuSize];
+
+            yBuffer.Get(nv21, 0, ySize);
+            vuBuffer.Get(nv21, ySize, vuSize);
+
+            YuvImage yuvImage = new YuvImage(nv21, ImageFormatType.Nv21, image.Width, image.Height, null);
+            using (MemoryStream outStream = new MemoryStream())
+            {
+                yuvImage.CompressToJpeg(new Rect(0, 0, yuvImage.Width, yuvImage.Height), 50, outStream);
+                byte[] imageBytes = outStream.ToArray();
+                return BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
+            }
+        }
+
+        private Bitmap ToBitmap(Image image)
+        {
+            // 获取YUV数据的三个平面
+            ByteBuffer yBuffer = image.GetPlanes()[0].Buffer;
+            ByteBuffer uBuffer = image.GetPlanes()[1].Buffer;
+            ByteBuffer vBuffer = image.GetPlanes()[2].Buffer;
+
+            // 获取每个平面的剩余元素数量，即数据大小
+            int ySize = yBuffer.Remaining();
+            int uSize = uBuffer.Remaining();
+            int vSize = vBuffer.Remaining();
+
+            // 创建一个数组来存储YUV数据
+            byte[] nv21 = new byte[ySize + uSize + vSize];
+
+            // 将YUV数据复制到数组中
+            yBuffer.Get(nv21, 0, ySize);
+            uBuffer.Get(nv21, ySize, uSize);
+            vBuffer.Get(nv21, ySize + uSize, vSize);
+
+            // 创建一个YuvImage对象
+            YuvImage yuvImage = new YuvImage(nv21, ImageFormatType.Nv21, image.Width, image.Height, null);
+
+            // 将YuvImage转换为JPEG格式，并保存到内存流中
+            using var stream = new MemoryStream();
+            yuvImage.CompressToJpeg(new Rect(0, 0, image.Width, image.Height), 100, stream);
+            byte[] imageBytes = stream.ToArray();
+            // 使用BitmapFactory从JPEG数据创建Bitmap
+            return BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
+        }
     }
 }
