@@ -203,7 +203,7 @@ namespace Ys.Camera.Droid.Views
             if (imageCaptureStep == 1)
             {
                 imageCaptureStep = 2;
-                var bitmap = ToBitmap2(e.imageProxy.Image);
+                var bitmap = ToBitmap(e.imageProxy.Image);
                 if (bitmap != null)
                 {
                     if (File.Exists(ImageCapture_ImagePath))
@@ -376,7 +376,7 @@ namespace Ys.Camera.Droid.Views
         }
         #endregion
 
-        private Bitmap ToBitmap2(Image image)
+        private Bitmap ToBitmap(Image image)
         {
             // 假设planes是Image.GetPlanes()获取的Image.Plane数组
             ByteBuffer yBuffer = image.GetPlanes()[0].Buffer; // Y
@@ -397,37 +397,6 @@ namespace Ys.Camera.Droid.Views
                 byte[] imageBytes = outStream.ToArray();
                 return BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
             }
-        }
-
-        private Bitmap ToBitmap(Image image)
-        {
-            // 获取YUV数据的三个平面
-            ByteBuffer yBuffer = image.GetPlanes()[0].Buffer;
-            ByteBuffer uBuffer = image.GetPlanes()[1].Buffer;
-            ByteBuffer vBuffer = image.GetPlanes()[2].Buffer;
-
-            // 获取每个平面的剩余元素数量，即数据大小
-            int ySize = yBuffer.Remaining();
-            int uSize = uBuffer.Remaining();
-            int vSize = vBuffer.Remaining();
-
-            // 创建一个数组来存储YUV数据
-            byte[] nv21 = new byte[ySize + uSize + vSize];
-
-            // 将YUV数据复制到数组中
-            yBuffer.Get(nv21, 0, ySize);
-            uBuffer.Get(nv21, ySize, uSize);
-            vBuffer.Get(nv21, ySize + uSize, vSize);
-
-            // 创建一个YuvImage对象
-            YuvImage yuvImage = new YuvImage(nv21, ImageFormatType.Nv21, image.Width, image.Height, null);
-
-            // 将YuvImage转换为JPEG格式，并保存到内存流中
-            using var stream = new MemoryStream();
-            yuvImage.CompressToJpeg(new Rect(0, 0, image.Width, image.Height), 100, stream);
-            byte[] imageBytes = stream.ToArray();
-            // 使用BitmapFactory从JPEG数据创建Bitmap
-            return BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
         }
     }
 }
