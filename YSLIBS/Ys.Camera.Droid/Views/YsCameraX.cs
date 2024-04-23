@@ -24,6 +24,7 @@ using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks.Sources;
 using System.Timers;
 
 using Ys.Camera.Droid.Implements;
@@ -206,10 +207,15 @@ namespace Ys.Camera.Droid.Views
                 var bitmap = ToBitmap(e.imageProxy.Image);
                 if (bitmap != null)
                 {
+                    #region 处理图片翻转
+                    var matrix = new Matrix();
+                    matrix.PostScale(-1f, -1f);
+                    var newBitMap = Bitmap.CreateBitmap(bitmap, 0, 0, bitmap.Width, bitmap.Height, matrix, false);
+                    #endregion
                     if (File.Exists(ImageCapture_ImagePath))
                         File.Delete(ImageCapture_ImagePath);
                     using var stream = new FileStream(ImageCapture_ImagePath, FileMode.Create);
-                    bitmap.Compress(Bitmap.CompressFormat.Png, 80, stream); // 以PNG格式保存Bitmap
+                    newBitMap.Compress(Bitmap.CompressFormat.Png, 80, stream); // 以PNG格式保存Bitmap
                     PhotoTakeEvent?.Invoke(true, ImageCapture_ImagePath);
                 }
                 else
