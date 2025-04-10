@@ -1,16 +1,12 @@
-﻿using Android.App;
-using Android.Content;
+﻿using Android.Content;
 using Android.Graphics;
 using Android.Media;
-using Android.OS;
 using Android.Runtime;
-using Android.Telephony;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
 
 using AndroidX.Camera.Core;
-using AndroidX.Camera.Core.Internal.Utils;
 using AndroidX.Camera.Lifecycle;
 using AndroidX.Camera.View;
 using AndroidX.Lifecycle;
@@ -19,17 +15,9 @@ using Java.Nio;
 using Java.Util.Concurrent;
 
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks.Sources;
-using System.Timers;
 
 using Ys.Camera.Droid.Implements;
-
-using static Ys.Camera.Droid.Enums;
 
 namespace Ys.Camera.Droid.Views
 {
@@ -41,32 +29,50 @@ namespace Ys.Camera.Droid.Views
         #region 构造方法
         public YsCameraX(Context context) : base(context)
         {
+            InitInfo();
             AddCameraView();
         }
 
         public YsCameraX(Context context, IAttributeSet attrs) : base(context, attrs)
         {
+            InitInfo();
             SetDiyParams(context, attrs);
             AddCameraView();
         }
 
         public YsCameraX(Context context, IAttributeSet attrs, int defStyleAttr) : base(context, attrs, defStyleAttr)
         {
+            InitInfo();
             SetDiyParams(context, attrs);
             AddCameraView();
         }
 
         public YsCameraX(Context context, IAttributeSet attrs, int defStyleAttr, int defStyleRes) : base(context, attrs, defStyleAttr, defStyleRes)
         {
+            InitInfo();
             SetDiyParams(context, attrs);
             AddCameraView();
         }
 
         protected YsCameraX(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
         {
+            InitInfo();
             AddCameraView();
         }
         #endregion
+
+        private void InitInfo()
+        {
+            var boardInfo = Android.OS.Build.Device;
+            if (boardInfo == "rk3568_r")//如果是这个,则代表是25年初梁工的板子,需要设置默认摄像头方向是1
+                boardVersion = 1;
+            else
+                boardVersion = 0;//反转了,都是1
+
+            //通过主板型号配置默认摄像头坐标
+            //if (boardVersion == 1)//如果是这个,则代表是25年初梁工的板子,需要设置默认摄像头方向是1
+            CameraIndex = 1;//好像都是1诶
+        }
 
         public event Action<bool, string> PhotoTakeEvent;
 
@@ -77,23 +83,31 @@ namespace Ys.Camera.Droid.Views
         {
             _CameraPreView = new PreviewView(this.Context)
             {
-                LayoutParameters = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent),
+                LayoutParameters = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent) { Gravity = GravityFlags.Start }
             };
-            _CameraPreView.SetForegroundGravity(GravityFlags.FillHorizontal);
+            _CameraPreView.SetImplementationMode(PreviewView.ImplementationMode.Compatible);
+            _CameraPreView.SetScaleType(PreviewView.ScaleType.FillEnd);
+
             this.AddView(_CameraPreView, 0);
         }
 
         #region 定义的自定义属性 
         private int CaptureImageSize_Width = 1280;
         private int CaptureImageSize_Height = 720;
-        public CameraFacing CameraFacing = CameraFacing.Back;
+        /// <summary>
+        /// 主板版本
+        /// 0:万创和其他
+        /// 1:梁工
+        /// </summary>
+        private int boardVersion = 0;
+        public int CameraIndex { get; private set; }
 
         private void SetDiyParams(Context context, IAttributeSet attrs)
         {
             var a = context.ObtainStyledAttributes(attrs, Resource.Styleable.YsCameraX);
             CaptureImageSize_Width = a.GetInt(Resource.Styleable.YsCameraX_CapturePictureSize_Width, 1280);
             CaptureImageSize_Height = a.GetInt(Resource.Styleable.YsCameraX_CapturePictureSize_Height, 720);
-            CameraFacing = (CameraFacing)a.GetInt(Resource.Styleable.YsCameraX_Camera_Facing, 0);
+            CameraIndex = a.GetInt(Resource.Styleable.YsCameraX_Camera_Facing, CameraIndex);
             a.Recycle();
         }
 
@@ -116,59 +130,53 @@ namespace Ys.Camera.Droid.Views
                 // Used to bind the lifecycle of cameras to the lifecycle owner
                 var cameraProvider = (ProcessCameraProvider)cameraProviderFuture.Get();
 
-                //// Take Photo
-                //var imageCapture = new ImageCapture.Builder()
-                //.SetTargetResolution(new Size(CaptureImageSize_Width, CaptureImageSize_Height))
-                //.Build();
-
-                // Frame by frame analyze(Not Use Now)
                 var imageAnalyzer = new ImageAnalysis.Builder().Build();
                 imageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
                 imageAnalysisFrameProcess.ImageFrameCaptured -= ImageAnalysisFrameProcess_ImageFrameCaptured;
                 imageAnalysisFrameProcess.ImageFrameCaptured += ImageAnalysisFrameProcess_ImageFrameCaptured;
                 imageAnalyzer.SetAnalyzer(cameraExecutor, imageAnalysisFrameProcess);
 
-                #region Select back camera as a default, or front camera otherwise
                 CameraSelector cameraSelector = null;
-                //if (cameraProvider.HasCamera(CameraSelector.DefaultBackCamera) == true)
-                //    cameraSelector = CameraSelector.DefaultBackCamera;
-                //else if (cameraProvider.HasCamera(CameraSelector.DefaultFrontCamera) == true)
-                //    cameraSelector = CameraSelector.DefaultFrontCamera;
-                //else
-                //    throw new System.Exception("Camera not found");
-                switch (CameraFacing)
-                {
-                    case CameraFacing.Back:
-                        if (cameraProvider.HasCamera(CameraSelector.DefaultBackCamera) == true)
-                            cameraSelector = CameraSelector.DefaultBackCamera;
-                        else
-                        {
-                            if (cameraProvider.HasCamera(CameraSelector.DefaultFrontCamera) == true)
-                                cameraSelector = CameraSelector.DefaultFrontCamera;
-                            else
-                            {
-                                InitCallBack?.Invoke(false, "Not found any camera device");
-                                return;
-                            }
-                        }
-                        break;
-                    case CameraFacing.Front:
-                        {
-                            if (cameraProvider.HasCamera(CameraSelector.DefaultFrontCamera) == true)
-                                cameraSelector = CameraSelector.DefaultFrontCamera;
-                            else
-                            {
-                                if (cameraProvider.HasCamera(CameraSelector.DefaultBackCamera) == true)
-                                    cameraSelector = CameraSelector.DefaultBackCamera;
-                                else
-                                {
-                                    InitCallBack?.Invoke(false, "Not found any camera device");
-                                    return;
-                                }
-                            }
-                        }
-                        break;
-                }
+                #region Select back camera as a default, or front camera otherwise
+                //switch (CameraFacing)
+                //{
+                //    case CameraFacing.Back:
+                //        if (cameraProvider.HasCamera(CameraSelector.DefaultBackCamera) == true)
+                //            cameraSelector = CameraSelector.DefaultBackCamera;
+                //        else
+                //        {
+                //            if (cameraProvider.HasCamera(CameraSelector.DefaultFrontCamera) == true)
+                //                cameraSelector = CameraSelector.DefaultFrontCamera;
+                //            else
+                //            {
+                //                InitCallBack?.Invoke(false, "Not found any camera device");
+                //                return;
+                //            }
+                //        }
+                //        break;
+                //    case CameraFacing.Front:
+                //        {
+                //            if (cameraProvider.HasCamera(CameraSelector.DefaultFrontCamera) == true)
+                //                cameraSelector = CameraSelector.DefaultFrontCamera;
+                //            else
+                //            {
+                //                if (cameraProvider.HasCamera(CameraSelector.DefaultBackCamera) == true)
+                //                    cameraSelector = CameraSelector.DefaultBackCamera;
+                //                else
+                //                {
+                //                    InitCallBack?.Invoke(false, "Not found any camera device");
+                //                    return;
+                //                }
+                //            }
+                //        }
+                //        break;
+                //}
+                #endregion
+
+                #region 新摄像头坐标选择方案
+                cameraSelector = new CameraSelector.Builder()
+                .AddCameraFilter(new YsCameraFilter(CameraIndex))
+                .Build();
                 #endregion
 
                 // Preview
@@ -183,11 +191,16 @@ namespace Ys.Camera.Droid.Views
                     // Unbind use cases before rebinding
                     cameraProvider.UnbindAll();
                     // Bind use cases to camera
-                    _CameraUseCases = new UseCaseGroup.Builder()
-                    .AddUseCase(preview)
+                    //_CameraUseCases = new UseCaseGroup.Builder()
+                    //.AddUseCase(preview)
                     //.AddUseCase(imageCapture)
-                    .AddUseCase(imageAnalyzer).Build();
-                    var camera = cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, _CameraUseCases);
+                    //.AddUseCase(imageAnalyzer).Build();
+                    //var camera = cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, _CameraUseCases);
+                    var camera = cameraProvider.BindToLifecycle(
+                        lifecycleOwner,
+                        cameraSelector,
+                        preview,
+                        imageAnalyzer);
                     _CameraController = camera.CameraControl;
                     _CameraInfo = camera.CameraInfo;
                     InitCallBack?.Invoke(true, "");
@@ -207,15 +220,18 @@ namespace Ys.Camera.Droid.Views
                 var bitmap = ToBitmap(e.imageProxy.Image);
                 if (bitmap != null)
                 {
-                    #region 处理图片翻转
-                    var matrix = new Matrix();
-                    matrix.PostScale(-1f, -1f);
-                    var newBitMap = Bitmap.CreateBitmap(bitmap, 0, 0, bitmap.Width, bitmap.Height, matrix, false);
-                    #endregion
+                    if (boardVersion == 0)//如果是老版本则需要镜像一下拍摄画面,新版本不需要
+                    {
+                        #region 处理图片翻转
+                        var matrix = new Matrix();
+                        matrix.PostScale(-1f, -1f);
+                        var newBitMap = Bitmap.CreateBitmap(bitmap, 0, 0, bitmap.Width, bitmap.Height, matrix, false);
+                        #endregion
+                    }
                     if (File.Exists(ImageCapture_ImagePath))
                         File.Delete(ImageCapture_ImagePath);
                     using var stream = new FileStream(ImageCapture_ImagePath, FileMode.Create);
-                    newBitMap.Compress(Bitmap.CompressFormat.Png, 80, stream); // 以PNG格式保存Bitmap
+                    bitmap.Compress(Bitmap.CompressFormat.Png, 80, stream); // 以PNG格式保存Bitmap
                     PhotoTakeEvent?.Invoke(true, ImageCapture_ImagePath);
                 }
                 else
@@ -230,7 +246,7 @@ namespace Ys.Camera.Droid.Views
         /// </summary>
         public void SwitchFacing(ILifecycleOwner lifecycleOwner, Action<bool, string> switchCallBack)
         {
-            CameraFacing = CameraFacing == CameraFacing.Back ? CameraFacing.Front : CameraFacing.Back;
+            CameraIndex = CameraIndex == 0 ? 1 : 0;
             InitAndStartCamera(lifecycleOwner, switchCallBack);
         }
 
@@ -404,5 +420,6 @@ namespace Ys.Camera.Droid.Views
                 return BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
             }
         }
+
     }
 }
