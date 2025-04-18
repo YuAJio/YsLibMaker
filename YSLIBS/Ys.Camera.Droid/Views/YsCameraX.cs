@@ -16,7 +16,7 @@ using Java.Util.Concurrent;
 
 using System;
 using System.IO;
-
+using System.Linq;
 using Ys.Camera.Droid.Implements;
 
 namespace Ys.Camera.Droid.Views
@@ -72,6 +72,9 @@ namespace Ys.Camera.Droid.Views
             //通过主板型号配置默认摄像头坐标
             //if (boardVersion == 1)//如果是这个,则代表是25年初梁工的板子,需要设置默认摄像头方向是1
             CameraIndex = 1;//好像都是1诶
+                            // 初始化缩放范围
+            zoomRange[0] = 1.0f;  // 默认最小值
+            zoomRange[1] = 8.0f;  // 默认最大值
         }
 
         public event Action<bool, string> PhotoTakeEvent;
@@ -87,7 +90,7 @@ namespace Ys.Camera.Droid.Views
             };
             _CameraPreView.SetImplementationMode(PreviewView.ImplementationMode.Compatible);
             _CameraPreView.SetScaleType(PreviewView.ScaleType.FillEnd);
-
+            _CameraPreView.SetLayerType(LayerType.Hardware, null);
             this.AddView(_CameraPreView, 0);
         }
 
@@ -111,6 +114,14 @@ namespace Ys.Camera.Droid.Views
             a.Recycle();
         }
 
+        #endregion
+
+        #region 缩进控制
+
+        public float GetCurrentZoom()
+        {
+            return currentZoomRatio;
+        }
         #endregion
 
         private PreviewView _CameraPreView;
@@ -137,41 +148,6 @@ namespace Ys.Camera.Droid.Views
                 imageAnalyzer.SetAnalyzer(cameraExecutor, imageAnalysisFrameProcess);
 
                 CameraSelector cameraSelector = null;
-                #region Select back camera as a default, or front camera otherwise
-                //switch (CameraFacing)
-                //{
-                //    case CameraFacing.Back:
-                //        if (cameraProvider.HasCamera(CameraSelector.DefaultBackCamera) == true)
-                //            cameraSelector = CameraSelector.DefaultBackCamera;
-                //        else
-                //        {
-                //            if (cameraProvider.HasCamera(CameraSelector.DefaultFrontCamera) == true)
-                //                cameraSelector = CameraSelector.DefaultFrontCamera;
-                //            else
-                //            {
-                //                InitCallBack?.Invoke(false, "Not found any camera device");
-                //                return;
-                //            }
-                //        }
-                //        break;
-                //    case CameraFacing.Front:
-                //        {
-                //            if (cameraProvider.HasCamera(CameraSelector.DefaultFrontCamera) == true)
-                //                cameraSelector = CameraSelector.DefaultFrontCamera;
-                //            else
-                //            {
-                //                if (cameraProvider.HasCamera(CameraSelector.DefaultBackCamera) == true)
-                //                    cameraSelector = CameraSelector.DefaultBackCamera;
-                //                else
-                //                {
-                //                    InitCallBack?.Invoke(false, "Not found any camera device");
-                //                    return;
-                //                }
-                //            }
-                //        }
-                //        break;
-                //}
-                #endregion
 
                 #region 新摄像头坐标选择方案
                 cameraSelector = new CameraSelector.Builder()
@@ -181,7 +157,6 @@ namespace Ys.Camera.Droid.Views
 
                 // Preview
                 var preview = new Preview.Builder()
-                //.SetTargetResolution(new Size(640, 480))
                 //.SetTargetAspectRatio(AspectRatio.Ratio43)
                 .Build();
                 preview.SetSurfaceProvider(_CameraPreView.SurfaceProvider);
@@ -203,11 +178,13 @@ namespace Ys.Camera.Droid.Views
                         imageAnalyzer);
                     _CameraController = camera.CameraControl;
                     _CameraInfo = camera.CameraInfo;
+                    SetZoomValue((IZoomState)camera.CameraInfo.ZoomState.Value);
                     InitCallBack?.Invoke(true, "");
                 }
                 catch (Exception exc)
                 {
                     Toast.MakeText(this.Context, $"Use case binding failed: {exc.Message}", ToastLength.Short).Show();
+                    InitCallBack?.Invoke(false, exc.Message);
                 }
             }), AndroidX.Core.Content.ContextCompat.GetMainExecutor(this.Context));
         }
@@ -272,6 +249,9 @@ namespace Ys.Camera.Droid.Views
         #endregion
 
         #region Zoom缩放相关
+        //缩放控制
+        private float currentZoomRatio = 1.0f;
+        private readonly float[] zoomRange = new float[2];
         /// <summary>
         /// 设置缩放
         /// </summary>
@@ -282,42 +262,73 @@ namespace Ys.Camera.Droid.Views
             {
                 if (_CameraController != null)
                 {
-                    if (zoomPercent > ZoomState_Max)
-                        _CameraController.SetZoomRatio(ZoomState_Max);
-                    else if (zoomPercent < ZoomState_Min)
-                        _CameraController.SetZoomRatio(ZoomState_Min);
-                    else
-                        _CameraController.SetZoomRatio(zoomPercent);
+                    // 限制缩放范围
+                    zoomPercent = Math.Max(zoomRange[0], Math.Min(zoomPercent, zoomRange[1]));
+                    currentZoomRatio = zoomPercent;
+
+                    _CameraController.SetZoomRatio(zoomPercent);
                 }
             }
             catch (Exception ex)
             {
+                // 错误处理...
             }
+            //try
+            //{
+            //    if (_CameraController != null)
+            //    {
+            //        if (zoomPercent > ZoomState_Max)
+            //            _CameraController.SetZoomRatio(ZoomState_Max);
+            //        else if (zoomPercent < ZoomState_Min)
+            //            _CameraController.SetZoomRatio(ZoomState_Min);
+            //        else
+            //            _CameraController.SetZoomRatio(zoomPercent);
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //}
         }
-        public float ZoomState_Max
+        public float GetMaxZoomValue()
         {
-            get
-            {
-                if (_CameraInfo == null)
-                    return 0;
-                var zoomState = (IZoomState)_CameraInfo.ZoomState.Value;
-                if (zoomState == null)
-                    return 0;
-                return zoomState.MaxZoomRatio;
-            }
+            return zoomRange.Last();
         }
-        public float ZoomState_Min
+        public float GetMinZoomValue()
         {
-            get
-            {
-                if (_CameraInfo == null)
-                    return 0;
-                var zoomState = (IZoomState)_CameraInfo.ZoomState.Value;
-                if (zoomState == null)
-                    return 0;
-                return zoomState.MinZoomRatio;
-            }
+            return zoomRange.First();
         }
+
+        private void SetZoomValue(IZoomState zoomState)
+        {
+            // 获取实际缩放范围
+            zoomRange[0] = zoomState.MinZoomRatio;
+            zoomRange[1] = zoomState.MaxZoomRatio;
+            currentZoomRatio = zoomState.ZoomRatio;
+        }
+        //public float ZoomState_Max
+        //{
+        //    get
+        //    {
+        //        if (_CameraInfo == null)
+        //            return 0;
+        //        var zoomState = (IZoomState)_CameraInfo.ZoomState.Value;
+        //        if (zoomState == null)
+        //            return 0;
+        //        return zoomState.MaxZoomRatio;
+        //    }
+        //}
+        //public float ZoomState_Min
+        //{
+        //    get
+        //    {
+        //        if (_CameraInfo == null)
+        //            return 0;
+        //        var zoomState = (IZoomState)_CameraInfo.ZoomState.Value;
+        //        if (zoomState == null)
+        //            return 0;
+        //        return zoomState.MinZoomRatio;
+        //    }
+        //}
         #endregion
 
         #region 使用照片帧截取拍照相关
