@@ -74,7 +74,7 @@ namespace Ys.Camera.Droid.Views
             CameraIndex = 1;//好像都是1诶
                             // 初始化缩放范围
             zoomRange[0] = 1.0f;  // 默认最小值
-            zoomRange[1] = 8.0f;  // 默认最大值
+            zoomRange[1] = 1.0f;  // 默认最大值
         }
 
         public event Action<bool, string> PhotoTakeEvent;
@@ -89,8 +89,12 @@ namespace Ys.Camera.Droid.Views
                 LayoutParameters = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent) { Gravity = GravityFlags.Start }
             };
             _CameraPreView.SetImplementationMode(PreviewView.ImplementationMode.Compatible);
-            _CameraPreView.SetScaleType(PreviewView.ScaleType.FillEnd);
-            _CameraPreView.SetLayerType(LayerType.Hardware, null);
+            if (boardVersion == 1)//兼容处理U称主板和万创主板
+                _CameraPreView.SetScaleType(PreviewView.ScaleType.FillStart);
+            else
+                _CameraPreView.SetScaleType(PreviewView.ScaleType.FillEnd);
+
+            //_CameraPreView.SetLayerType(LayerType.Hardware, null);
             this.AddView(_CameraPreView, 0);
         }
 
@@ -132,7 +136,7 @@ namespace Ys.Camera.Droid.Views
         /// 初始化并绑定摄像头
         /// </summary>
         /// <param name="lifecycleOwner"></param>
-        public void InitAndStartCamera(ILifecycleOwner lifecycleOwner, Action<bool, string> InitCallBack)
+        public void InitAndStartCamera(ILifecycleOwner lifecycleOwner, Action<bool, Exception> InitCallBack)
         {
             var cameraProviderFuture = ProcessCameraProvider.GetInstance(this.Context);
             cameraExecutor = Executors.NewSingleThreadExecutor();
@@ -178,13 +182,16 @@ namespace Ys.Camera.Droid.Views
                         imageAnalyzer);
                     _CameraController = camera.CameraControl;
                     _CameraInfo = camera.CameraInfo;
-                    SetZoomValue((IZoomState)camera.CameraInfo.ZoomState.Value);
-                    InitCallBack?.Invoke(true, "");
+
+                    var zoomValue = camera?.CameraInfo?.ZoomState?.Value;
+                    if (zoomValue != null && zoomValue is IZoomState)//如果不支持缩进 这里就先排除掉转换问题
+                        SetZoomValue((IZoomState)camera.CameraInfo.ZoomState.Value);
+                    InitCallBack?.Invoke(true, null);
                 }
                 catch (Exception exc)
                 {
-                    Toast.MakeText(this.Context, $"Use case binding failed: {exc.Message}", ToastLength.Short).Show();
-                    InitCallBack?.Invoke(false, exc.Message);
+                    Console.WriteLine("Camera Init Error : " + exc.Message);
+                    InitCallBack?.Invoke(false, exc);
                 }
             }), AndroidX.Core.Content.ContextCompat.GetMainExecutor(this.Context));
         }
@@ -221,7 +228,7 @@ namespace Ys.Camera.Droid.Views
         /// <summary>
         /// 切换摄像头的位置
         /// </summary>
-        public void SwitchFacing(ILifecycleOwner lifecycleOwner, Action<bool, string> switchCallBack)
+        public void SwitchFacing(ILifecycleOwner lifecycleOwner, Action<bool, Exception> switchCallBack)
         {
             CameraIndex = CameraIndex == 0 ? 1 : 0;
             InitAndStartCamera(lifecycleOwner, switchCallBack);
@@ -289,13 +296,26 @@ namespace Ys.Camera.Droid.Views
             //{
             //}
         }
-        public float GetMaxZoomValue()
+        /// <summary>
+        /// 获取相机是否支持缩进
+        /// </summary>
+        /// <returns>first : 是否支持  second : 缩进的最大值</returns>
+        public (bool, float) GetZoomEnable()
         {
-            return zoomRange.Last();
-        }
-        public float GetMinZoomValue()
-        {
-            return zoomRange.First();
+            if (zoomRange.Any())
+            {
+                if (zoomRange.Count() > 1)
+                {
+                    if (zoomRange.First() == zoomRange.Last())//如果获取的
+                        return (false, 0);//如果获取的缩进最大值和最小值都是一个值,那也不支持缩进
+                    else
+                        return (true, zoomRange.Last());//支持缩进
+                }
+                else
+                    return (false, 0);///如果只获取到一个值,也不支持缩进
+            }
+            else
+                return (false, 0);
         }
 
         private void SetZoomValue(IZoomState zoomState)
