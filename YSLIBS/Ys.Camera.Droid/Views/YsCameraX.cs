@@ -253,6 +253,16 @@ namespace Ys.Camera.Droid.Views
             ImageAnalysisFrameProcess.IsOpenFrameCapture = false;
         }
 
+        public void EnableAIClassify()
+        {
+            if (ImageAnalysisFrameProcess == null) return;
+            ImageAnalysisFrameProcess.EnableAIDetect = true;
+        }
+        public void DisableAIClassify()
+        {
+            if (ImageAnalysisFrameProcess == null) return;
+            ImageAnalysisFrameProcess.EnableAIDetect = false;
+        }
         #endregion
 
         #region Zoom缩放相关

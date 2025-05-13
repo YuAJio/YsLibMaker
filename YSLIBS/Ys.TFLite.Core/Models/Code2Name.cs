@@ -16,5 +16,7 @@ namespace Ys.TFLite.Droid.Models
     {
         public string MatCode { get; set; }
         public string MatName { get; set; }
+        //public string Code { get; set; }
+        //public string Name { get; set; }
     }
 }

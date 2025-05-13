@@ -1,17 +1,7 @@
-﻿using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-
-using Newtonsoft.Json;
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 
 using Ys.TFLite.Droid.Models;
 
@@ -33,8 +23,6 @@ namespace Ys.TFLite.Core
         public event Action<string, Exception> ErrorCallBack;
         public event EventHandler<List<ResultObj>> ClassifyCompleteEvent;
         #endregion
-
-
         private IClassifier defaultClassifier;
         private bool isClassifyDone = true;
 
@@ -79,6 +67,7 @@ namespace Ys.TFLite.Core
                                           Probability = (float)Math.Round(j.Probability, 2),
                                           k.MatName,
                                       }).ToList();
+                var jk = e.Predictions.OrderByDescending(x => x.Probability).ToList();
                 var orderResult =
                    classifyResult.OrderByDescending(x => x.Probability)
                     .Take(3)
