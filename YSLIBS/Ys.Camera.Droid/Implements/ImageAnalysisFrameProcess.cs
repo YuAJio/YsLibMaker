@@ -41,6 +41,12 @@ namespace Ys.Camera.Droid.Implements
             //}
         }
 
+        public void StopAnalyzer()
+        {
+            isOpenFrameCapture = false;
+            enableAIDetect = false;
+        }
+
         public void Analyze(IImageProxy image)
         {
             try

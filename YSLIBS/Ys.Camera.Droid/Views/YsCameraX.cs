@@ -71,7 +71,7 @@ namespace Ys.Camera.Droid.Views
 
             //通过主板型号配置默认摄像头坐标
             //if (boardVersion == 1)//如果是这个,则代表是25年初梁工的板子,需要设置默认摄像头方向是1
-            CameraIndex = 1;//好像都是1诶
+            CameraIndex = 0;//好像都是1诶
                             // 初始化缩放范围
             zoomRange[0] = 1.0f;  // 默认最小值
             zoomRange[1] = 1.0f;  // 默认最大值
@@ -130,6 +130,7 @@ namespace Ys.Camera.Droid.Views
 
         private PreviewView _CameraPreView;
         private UseCaseGroup _CameraUseCases;
+        private ProcessCameraProvider _cameraProvider;
         private ICameraControl _CameraController;
         private ICameraInfo _CameraInfo;
         /// <summary>
@@ -142,40 +143,40 @@ namespace Ys.Camera.Droid.Views
             cameraExecutor = Executors.NewSingleThreadExecutor();
             cameraProviderFuture.AddListener(new Java.Lang.Runnable(() =>
             {
-                // Used to bind the lifecycle of cameras to the lifecycle owner
-                var cameraProvider = (ProcessCameraProvider)cameraProviderFuture.Get();
-
-                var imageAnalyzer = new ImageAnalysis.Builder().Build();
-                imageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
-                imageAnalysisFrameProcess.ImageFrameCaptured -= ImageAnalysisFrameProcess_ImageFrameCaptured;
-                imageAnalysisFrameProcess.ImageFrameCaptured += ImageAnalysisFrameProcess_ImageFrameCaptured;
-                imageAnalyzer.SetAnalyzer(cameraExecutor, imageAnalysisFrameProcess);
-
-                CameraSelector cameraSelector = null;
-
-                #region 新摄像头坐标选择方案
-                cameraSelector = new CameraSelector.Builder()
-                .AddCameraFilter(new YsCameraFilter(CameraIndex))
-                .Build();
-                #endregion
-
-                // Preview
-                var preview = new Preview.Builder()
-                //.SetTargetAspectRatio(AspectRatio.Ratio43)
-                .Build();
-                preview.SetSurfaceProvider(_CameraPreView.SurfaceProvider);
-                //_CameraPreView.SetScaleType(PreviewView.ScaleType.FillCenter);
                 try
                 {
+                    // Used to bind the lifecycle of cameras to the lifecycle owner
+                    _cameraProvider = (ProcessCameraProvider)cameraProviderFuture.Get();
+
+                    var imageAnalyzer = new ImageAnalysis.Builder().Build();
+                    imageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
+                    imageAnalysisFrameProcess.ImageFrameCaptured -= ImageAnalysisFrameProcess_ImageFrameCaptured;
+                    imageAnalysisFrameProcess.ImageFrameCaptured += ImageAnalysisFrameProcess_ImageFrameCaptured;
+                    imageAnalyzer.SetAnalyzer(cameraExecutor, imageAnalysisFrameProcess);
+
+                    CameraSelector cameraSelector = null;
+
+                    #region 新摄像头坐标选择方案
+                    cameraSelector = new CameraSelector.Builder()
+                    .AddCameraFilter(new YsCameraFilter(CameraIndex))
+                    .Build();
+                    #endregion
+
+                    // Preview
+                    var preview = new Preview.Builder()
+                    //.SetTargetAspectRatio(AspectRatio.Ratio43)
+                    .Build();
+                    preview.SetSurfaceProvider(_CameraPreView.SurfaceProvider);
+                    //_CameraPreView.SetScaleType(PreviewView.ScaleType.FillCenter);
                     // Unbind use cases before rebinding
-                    cameraProvider.UnbindAll();
+                    _cameraProvider?.UnbindAll();
                     // Bind use cases to camera
                     //_CameraUseCases = new UseCaseGroup.Builder()
                     //.AddUseCase(preview)
                     //.AddUseCase(imageCapture)
                     //.AddUseCase(imageAnalyzer).Build();
                     //var camera = cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, _CameraUseCases);
-                    var camera = cameraProvider.BindToLifecycle(
+                    var camera = _cameraProvider?.BindToLifecycle(
                         lifecycleOwner,
                         cameraSelector,
                         preview,
@@ -196,10 +197,34 @@ namespace Ys.Camera.Droid.Views
             }), AndroidX.Core.Content.ContextCompat.GetMainExecutor(this.Context));
         }
 
+        // 新增：解绑相机方法
+        public void UnbindCamera()
+        {
+            if (_CameraUseCases != null)
+            {
+                // 假设你有ProcessCameraProvider实例（可全局化或传入）
+                _cameraProvider?.UnbindAll();  // 解绑所有用例
+            }
+            if (cameraExecutor != null)
+            {
+                cameraExecutor.Shutdown();  // 关闭执行器
+            }
+            ImageAnalysisFrameProcess?.Dispose();  // 如果有Dispose
+        }
+
+        //设置指定的Index
+        public void SetCustomCameraIndex(int index)
+        {
+            this.CameraIndex = index;
+        }
+
         private void ImageAnalysisFrameProcess_ImageFrameCaptured(object sender, ImageFrameArgs e)
         {
             if (imageCaptureStep == 1)
             {
+                // 添加：检查Context是否有效
+                if (Context == null) return;
+
                 imageCaptureStep = 2;
                 var bitmap = ToBitmap(e.imageProxy.Image);
                 if (bitmap != null)
