@@ -71,7 +71,7 @@ namespace Ys.Camera.Droid.Views
 
             //通过主板型号配置默认摄像头坐标
             //if (boardVersion == 1)//如果是这个,则代表是25年初梁工的板子,需要设置默认摄像头方向是1
-            CameraIndex = 0;//好像都是1诶
+            CameraIndex = 1;//好像都是1诶
                             // 初始化缩放范围
             zoomRange[0] = 1.0f;  // 默认最小值
             zoomRange[1] = 1.0f;  // 默认最大值
@@ -304,10 +304,7 @@ namespace Ys.Camera.Droid.Views
             {
                 if (_CameraController != null)
                 {
-                    // 限制缩放范围
                     zoomPercent = Math.Max(zoomRange[0], Math.Min(zoomPercent, zoomRange[1]));
-                    currentZoomRatio = zoomPercent;
-
                     _CameraController.SetZoomRatio(zoomPercent);
                 }
             }
@@ -315,21 +312,6 @@ namespace Ys.Camera.Droid.Views
             {
                 // 错误处理...
             }
-            //try
-            //{
-            //    if (_CameraController != null)
-            //    {
-            //        if (zoomPercent > ZoomState_Max)
-            //            _CameraController.SetZoomRatio(ZoomState_Max);
-            //        else if (zoomPercent < ZoomState_Min)
-            //            _CameraController.SetZoomRatio(ZoomState_Min);
-            //        else
-            //            _CameraController.SetZoomRatio(zoomPercent);
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //}
         }
         /// <summary>
         /// 获取相机是否支持缩进
