@@ -1,6 +1,7 @@
 ﻿using Android.Content;
 using Android.Graphics;
 using Android.Media;
+using Android.Provider;
 using Android.Runtime;
 using Android.Util;
 using Android.Views;
@@ -17,6 +18,7 @@ using Java.Util.Concurrent;
 using System;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using Ys.Camera.Droid.Implements;
 
 namespace Ys.Camera.Droid.Views
@@ -60,6 +62,7 @@ namespace Ys.Camera.Droid.Views
             AddCameraView();
         }
         #endregion
+
 
         private void InitInfo()
         {
@@ -133,6 +136,7 @@ namespace Ys.Camera.Droid.Views
         private ProcessCameraProvider _cameraProvider;
         private ICameraControl _CameraController;
         private ICameraInfo _CameraInfo;
+        private ImageCapture imageCapture;
         /// <summary>
         /// 初始化并绑定摄像头
         /// </summary>
@@ -150,8 +154,8 @@ namespace Ys.Camera.Droid.Views
 
                     var imageAnalyzer = new ImageAnalysis.Builder().Build();
                     imageAnalysisFrameProcess = new ImageAnalysisFrameProcess();
-                    imageAnalysisFrameProcess.ImageFrameCaptured -= ImageAnalysisFrameProcess_ImageFrameCaptured;
-                    imageAnalysisFrameProcess.ImageFrameCaptured += ImageAnalysisFrameProcess_ImageFrameCaptured;
+                    //imageAnalysisFrameProcess.ImageFrameCaptured -= ImageAnalysisFrameProcess_ImageFrameCaptured;
+                    //imageAnalysisFrameProcess.ImageFrameCaptured += ImageAnalysisFrameProcess_ImageFrameCaptured;
                     imageAnalyzer.SetAnalyzer(cameraExecutor, imageAnalysisFrameProcess);
 
                     CameraSelector cameraSelector = null;
@@ -167,7 +171,14 @@ namespace Ys.Camera.Droid.Views
                     //.SetTargetAspectRatio(AspectRatio.Ratio43)
                     .Build();
                     preview.SetSurfaceProvider(_CameraPreView.SurfaceProvider);
-                    //_CameraPreView.SetScaleType(PreviewView.ScaleType.FillCenter);
+
+                    // 在 BindToLifecycle 之前构建 ImageCapture
+                    imageCapture = new ImageCapture.Builder()
+                        .SetTargetResolution(new Android.Util.Size(CaptureImageSize_Width, CaptureImageSize_Height))
+                        .SetIoExecutor(cameraExecutor)  // 关键：用单线程避免 IO 竞争
+                        .SetJpegQuality(85)
+                        .Build();
+
                     // Unbind use cases before rebinding
                     _cameraProvider?.UnbindAll();
                     // Bind use cases to camera
@@ -180,6 +191,7 @@ namespace Ys.Camera.Droid.Views
                         lifecycleOwner,
                         cameraSelector,
                         preview,
+                        imageCapture,
                         imageAnalyzer);
                     _CameraController = camera.CameraControl;
                     _CameraInfo = camera.CameraInfo;
@@ -220,33 +232,33 @@ namespace Ys.Camera.Droid.Views
 
         private void ImageAnalysisFrameProcess_ImageFrameCaptured(object sender, ImageFrameArgs e)
         {
-            if (imageCaptureStep == 1)
-            {
-                // 添加：检查Context是否有效
-                if (Context == null) return;
+            //if (imageCaptureStep == 1)
+            //{
+            //    // 添加：检查Context是否有效
+            //    if (Context == null) return;
 
-                imageCaptureStep = 2;
-                var bitmap = ToBitmap(e.imageProxy.Image);
-                if (bitmap != null)
-                {
-                    if (boardVersion == 0)//如果是老版本则需要镜像一下拍摄画面,新版本不需要
-                    {
-                        #region 处理图片翻转
-                        var matrix = new Matrix();
-                        matrix.PostScale(-1f, -1f);
-                        var newBitMap = Bitmap.CreateBitmap(bitmap, 0, 0, bitmap.Width, bitmap.Height, matrix, false);
-                        #endregion
-                    }
-                    if (File.Exists(ImageCapture_ImagePath))
-                        File.Delete(ImageCapture_ImagePath);
-                    using var stream = new FileStream(ImageCapture_ImagePath, FileMode.Create);
-                    bitmap.Compress(Bitmap.CompressFormat.Png, 80, stream); // 以PNG格式保存Bitmap
-                    PhotoTakeEvent?.Invoke(true, ImageCapture_ImagePath);
-                }
-                else
-                    PhotoTakeEvent?.Invoke(false, "拍照失败,请重试");
-                imageCaptureStep = 0;
-            }
+            //    imageCaptureStep = 2;
+            //    var bitmap = ToBitmap(e.imageProxy.Image);
+            //    if (bitmap != null)
+            //    {
+            //        if (boardVersion == 0)//如果是老版本则需要镜像一下拍摄画面,新版本不需要
+            //        {
+            //            #region 处理图片翻转
+            //            var matrix = new Matrix();
+            //            matrix.PostScale(-1f, -1f);
+            //            var newBitMap = Bitmap.CreateBitmap(bitmap, 0, 0, bitmap.Width, bitmap.Height, matrix, false);
+            //            #endregion
+            //        }
+            //        if (File.Exists(ImageCapture_ImagePath))
+            //            File.Delete(ImageCapture_ImagePath);
+            //        using var stream = new FileStream(ImageCapture_ImagePath, FileMode.Create);
+            //        bitmap.Compress(Bitmap.CompressFormat.Png, 80, stream); // 以PNG格式保存Bitmap
+            //        PhotoTakeEvent?.Invoke(true, ImageCapture_ImagePath);
+            //    }
+            //    else
+            //        PhotoTakeEvent?.Invoke(false, "拍照失败,请重试");
+            //    imageCaptureStep = 0;
+            //}
         }
 
 
@@ -266,16 +278,18 @@ namespace Ys.Camera.Droid.Views
         private ImageAnalysisFrameProcess imageAnalysisFrameProcess;
         public ImageAnalysisFrameProcess ImageAnalysisFrameProcess { get { return imageAnalysisFrameProcess; } private set { imageAnalysisFrameProcess = value; } }
 
+        [Obsolete]
         public void OpenFrameCapture()
         {
-            if (ImageAnalysisFrameProcess == null) return;
-            ImageAnalysisFrameProcess.IsOpenFrameCapture = true;
+            //if (ImageAnalysisFrameProcess == null) return;
+            //ImageAnalysisFrameProcess.IsOpenFrameCapture = true;
         }
 
+        [Obsolete]
         public void CloseFrameCapture()
         {
-            if (ImageAnalysisFrameProcess == null) return;
-            ImageAnalysisFrameProcess.IsOpenFrameCapture = false;
+            //if (ImageAnalysisFrameProcess == null) return;
+            //ImageAnalysisFrameProcess.IsOpenFrameCapture = false;
         }
 
         public void EnableAIClassify()
@@ -342,30 +356,6 @@ namespace Ys.Camera.Droid.Views
             zoomRange[1] = zoomState.MaxZoomRatio;
             currentZoomRatio = zoomState.ZoomRatio;
         }
-        //public float ZoomState_Max
-        //{
-        //    get
-        //    {
-        //        if (_CameraInfo == null)
-        //            return 0;
-        //        var zoomState = (IZoomState)_CameraInfo.ZoomState.Value;
-        //        if (zoomState == null)
-        //            return 0;
-        //        return zoomState.MaxZoomRatio;
-        //    }
-        //}
-        //public float ZoomState_Min
-        //{
-        //    get
-        //    {
-        //        if (_CameraInfo == null)
-        //            return 0;
-        //        var zoomState = (IZoomState)_CameraInfo.ZoomState.Value;
-        //        if (zoomState == null)
-        //            return 0;
-        //        return zoomState.MinZoomRatio;
-        //    }
-        //}
         #endregion
 
         #region 使用照片帧截取拍照相关
@@ -381,93 +371,151 @@ namespace Ys.Camera.Droid.Views
         /// </summary>
         private int imageCaptureStep = 0;
 
-        /// <summary>
-        /// 开始照片拍摄
-        /// </summary>
+        ///// <summary>
+        ///// 开始照片拍摄
+        ///// </summary>
+        //public void StartPhotoTaking(string savePath)
+        //{
+        //    if (imageCaptureStep != 0)
+        //    {
+        //        PhotoTakeEvent?.Invoke(false, "照片拍摄中..请稍等");
+        //        return;
+        //    }
+        //    SetCapturePicturePath(savePath);
+        //    imageCaptureStep = 1;
+        //}
         public void StartPhotoTaking(string savePath)
         {
-            if (imageCaptureStep != 0)
+            if (imageCapture == null || imageCaptureStep != 0)
             {
-                PhotoTakeEvent?.Invoke(false, "照片拍摄中..请稍等");
+                PhotoTakeEvent?.Invoke(false, "相机忙碌中");
                 return;
             }
-            SetCapturePicturePath(savePath);
-            imageCaptureStep = 1;
-        }
 
+            imageCaptureStep = 1;
+
+            // 强制用 cache 目录
+            var fileName = System.IO.Path.GetFileName(savePath);
+            var cachePath = System.IO.Path.Combine(Context.CacheDir.Path, "camx_" + fileName);
+            ImageCapture_ImagePath = cachePath;
+
+            var file = new Java.IO.File(cachePath);
+            var outputOptions = new ImageCapture.OutputFileOptions.Builder(file).Build();
+
+            imageCapture.TakePicture(outputOptions, cameraExecutor, new ImageSavedCallback(this, savePath));
+        }
         #endregion
 
-        #region 拍照相关
-        ///// <summary>
-        ///// 拍摄的图片的路径
-        ///// </summary>
-        //private string ImageCapture_ImagePath = "";
-
-        /// <summary>
-        /// 拍照
-        /// </summary>
-        /// <param name="onError">失败回调</param>
-        /// <param name="onSaved">成功回调</param>
-        public void TakePicture(Action<ImageCaptureException> onError, Action<ImageCapture.OutputFileResults> onSaved)
-        {
-            var fileInfo = new System.IO.FileInfo(ImageCapture_ImagePath);
-            if (fileInfo == null || !fileInfo.Directory.Exists)
-                onError?.Invoke(new ImageCaptureException(0x123, "File dir is not exist", null));
-            var outputOptions = new ImageCapture.OutputFileOptions.Builder(new Java.IO.File(ImageCapture_ImagePath)).Build();
-            var imgCapture = (ImageCapture)_CameraUseCases.UseCases[1];
-            imgCapture?.TakePicture(
-                outputOptions,
-                AndroidX.Core.Content.ContextCompat.GetMainExecutor(this.Context),
-                new Implements.ImageCaptureSave(onError, onSaved));
-        }
         /// <summary>
         /// 配置保存的照片路径
         /// </summary>
         /// <param name="path"></param>
         public void SetCapturePicturePath(string path)
         {
-            ImageCapture_ImagePath = path;
-            var fileInfo = new System.IO.FileInfo(path);
-            if (path == null)
-                return;
-            if (!fileInfo.Directory.Exists)
-                fileInfo.Directory.Create();
+            //ImageCapture_ImagePath = path;
+            //var fileInfo = new System.IO.FileInfo(path);
+            //if (path == null)
+            //    return;
+            //if (!fileInfo.Directory.Exists)
+            //    fileInfo.Directory.Create();
+            var cacheDir = Context.CacheDir.Path;
+            var fileName = System.IO.Path.GetFileName(path);
+            ImageCapture_ImagePath = System.IO.Path.Combine(cacheDir, "camx_" + fileName);
         }
-        /// <summary>
-        /// 拍照并配置保存照片的位置
-        /// </summary>
-        /// <param name="savePath"></param>
-        /// <param name="onError"></param>
-        /// <param name="onSaved"></param>
-        public void TakePicture(string savePath, Action<ImageCaptureException> onError, Action<ImageCapture.OutputFileResults> onSaved)
+        private void MoveToFinalPath(string cachePath, string finalPath)
         {
-            SetCapturePicturePath(savePath);
-            this.TakePicture(onError, onSaved);
-        }
-        #endregion
-
-        private Bitmap ToBitmap(Image image)
-        {
-            // 假设planes是Image.GetPlanes()获取的Image.Plane数组
-            ByteBuffer yBuffer = image.GetPlanes()[0].Buffer; // Y
-            ByteBuffer vuBuffer = image.GetPlanes()[2].Buffer; // VU
-
-            int ySize = yBuffer.Remaining();
-            int vuSize = vuBuffer.Remaining();
-
-            byte[] nv21 = new byte[ySize + vuSize];
-
-            yBuffer.Get(nv21, 0, ySize);
-            vuBuffer.Get(nv21, ySize, vuSize);
-
-            YuvImage yuvImage = new YuvImage(nv21, ImageFormatType.Nv21, image.Width, image.Height, null);
-            using (MemoryStream outStream = new MemoryStream())
+            Task.Run(() =>
             {
-                yuvImage.CompressToJpeg(new Rect(0, 0, yuvImage.Width, yuvImage.Height), 50, outStream);
-                byte[] imageBytes = outStream.ToArray();
-                return BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
+                try
+                {
+                    System.IO.File.Copy(cachePath, finalPath);
+
+                    //var src = new Java.IO.File(cachePath);
+                    //var dst = new Java.IO.File(finalPath);
+                    //if (!dst.ParentFile.Exists()) dst.ParentFile.Mkdirs();
+
+
+                    //CopyFile(src, dst);
+                    //InsertToMediaStore(finalPath);  // 关键！
+                    File.Delete(cachePath);
+                    //src.Delete();
+
+                    PhotoTakeEvent?.Invoke(true, finalPath);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            });
+        }
+        private void CopyFile(Java.IO.File src, Java.IO.File dst)
+        {
+            using var input = new Java.IO.FileInputStream(src);
+            using var output = new Java.IO.FileOutputStream(dst);
+            input.Channel.TransferTo(0, input.Channel.Size(), output.Channel);
+        }
+
+        private void InsertToMediaStore(string filePath)
+        {
+            MediaScannerConnection.ScanFile(
+                  Context,
+                  new[] { filePath },
+                  new[] { "image/jpeg" },
+                  null
+              );
+        }
+
+        //private Bitmap ToBitmap(Image image)
+        //{
+        //    // 假设planes是Image.GetPlanes()获取的Image.Plane数组
+        //    ByteBuffer yBuffer = image.GetPlanes()[0].Buffer; // Y
+        //    ByteBuffer vuBuffer = image.GetPlanes()[2].Buffer; // VU
+
+        //    int ySize = yBuffer.Remaining();
+        //    int vuSize = vuBuffer.Remaining();
+
+        //    byte[] nv21 = new byte[ySize + vuSize];
+
+        //    yBuffer.Get(nv21, 0, ySize);
+        //    vuBuffer.Get(nv21, ySize, vuSize);
+
+        //    YuvImage yuvImage = new YuvImage(nv21, ImageFormatType.Nv21, image.Width, image.Height, null);
+        //    using (MemoryStream outStream = new MemoryStream())
+        //    {
+        //        yuvImage.CompressToJpeg(new Rect(0, 0, yuvImage.Width, yuvImage.Height), 50, outStream);
+        //        byte[] imageBytes = outStream.ToArray();
+        //        return BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
+        //    }
+        //}
+
+        private class ImageSavedCallback : Java.Lang.Object, ImageCapture.IOnImageSavedCallback
+        {
+            private readonly WeakReference<YsCameraX> _parent;
+            private readonly string _finalPath;
+
+            public ImageSavedCallback(YsCameraX parent, string finalPath)
+            {
+                _parent = new WeakReference<YsCameraX>(parent);
+                _finalPath = finalPath;
+            }
+
+            public void OnImageSaved(ImageCapture.OutputFileResults results)
+            {
+                if (_parent.TryGetTarget(out var p))
+                {
+                    p.imageCaptureStep = 0;
+                    p.MoveToFinalPath(p.ImageCapture_ImagePath, _finalPath);
+                }
+            }
+
+            public void OnError(ImageCaptureException e)
+            {
+                if (_parent.TryGetTarget(out var p))
+                {
+                    p.imageCaptureStep = 0;
+                    p.PhotoTakeEvent?.Invoke(false, e.Message);
+                }
             }
         }
-
     }
 }

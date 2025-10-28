@@ -10,11 +10,11 @@ namespace Ys.Camera.Droid.Implements
 {
     public class ImageAnalysisFrameProcess : Java.Lang.Object, ImageAnalysis.IAnalyzer
     {
-        public event EventHandler<ImageFrameArgs> ImageFrameCaptured;
+        //public event EventHandler<ImageFrameArgs> ImageFrameCaptured;
         public event EventHandler<ImageFrame2RgbBytesArgs> RgbBytesCali;
 
-        public bool IsOpenFrameCapture { get { return isOpenFrameCapture; } set { isOpenFrameCapture = value; } }
-        private bool isOpenFrameCapture = true;
+        //public bool IsOpenFrameCapture { get { return isOpenFrameCapture; } set { isOpenFrameCapture = value; } }
+        //private bool isOpenFrameCapture = true;
 
         public bool EnableAIDetect { get { return enableAIDetect; } set { enableAIDetect = value; } }
         private bool enableAIDetect = false;
@@ -43,7 +43,7 @@ namespace Ys.Camera.Droid.Implements
 
         public void StopAnalyzer()
         {
-            isOpenFrameCapture = false;
+            //isOpenFrameCapture = false;
             enableAIDetect = false;
         }
 
@@ -51,8 +51,8 @@ namespace Ys.Camera.Droid.Implements
         {
             try
             {
-                if (IsOpenFrameCapture)
-                    ImageFrameCaptured?.Invoke(this, new ImageFrameArgs(image));
+                //if (IsOpenFrameCapture)
+                //    ImageFrameCaptured?.Invoke(this, new ImageFrameArgs(image));
 
                 if (EnableAIDetect)
                 {
