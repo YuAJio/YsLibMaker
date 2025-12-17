@@ -166,6 +166,16 @@ namespace Ys.Camera.Droid.Views
                     .Build();
                     #endregion
 
+                    //// 在 BindToLifecycle 之前，创建 ViewPort
+                    //var rotation = _CameraPreView.Display?.Rotation ?? SurfaceOrientation.Rotation0;
+
+                    //// 根据你的需求选择 ScaleType，这里用 FILL_START 来对齐顶部
+                    //var viewPort = new ViewPort.Builder(
+                    //    new Android.Util.Rational(_CameraPreView.Width, _CameraPreView.Height),
+                    //    (int)rotation)
+                    //    .SetScaleType(ViewPort.FillStart)  // 关键：这里设置 FILL_START，让裁剪从顶部开始
+                    //    .Build();
+
                     // Preview
                     var preview = new Preview.Builder()
                     //.SetTargetAspectRatio(AspectRatio.Ratio43)
@@ -174,25 +184,23 @@ namespace Ys.Camera.Droid.Views
 
                     // 在 BindToLifecycle 之前构建 ImageCapture
                     imageCapture = new ImageCapture.Builder()
-                        .SetTargetResolution(new Android.Util.Size(CaptureImageSize_Width, CaptureImageSize_Height))
+                    .SetTargetAspectRatio(AspectRatio.Ratio43)
+                        //.SetTargetResolution(new Android.Util.Size(CaptureImageSize_Width, CaptureImageSize_Height))
                         .SetIoExecutor(cameraExecutor)  // 关键：用单线程避免 IO 竞争
                         .SetJpegQuality(85)
                         .Build();
 
-                    // Unbind use cases before rebinding
                     _cameraProvider?.UnbindAll();
-                    // Bind use cases to camera
-                    //_CameraUseCases = new UseCaseGroup.Builder()
-                    //.AddUseCase(preview)
-                    //.AddUseCase(imageCapture)
-                    //.AddUseCase(imageAnalyzer).Build();
-                    //var camera = cameraProvider.BindToLifecycle(lifecycleOwner, cameraSelector, _CameraUseCases);
+                    _CameraUseCases = new UseCaseGroup.Builder()
+                    .AddUseCase(preview)
+                    .AddUseCase(imageCapture)
+                    .AddUseCase(imageAnalyzer)
+                    .Build();
                     var camera = _cameraProvider?.BindToLifecycle(
                         lifecycleOwner,
                         cameraSelector,
-                        preview,
-                        imageCapture,
-                        imageAnalyzer);
+                    _CameraUseCases);
+
                     _CameraController = camera.CameraControl;
                     _CameraInfo = camera.CameraInfo;
 
