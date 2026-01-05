@@ -68,7 +68,10 @@ namespace Ys.Camera.Droid.Views
         {
             var boardInfo = Android.OS.Build.Device;
             if (boardInfo == "rk3568_r")//如果是这个,则代表是25年初梁工的板子,需要设置默认摄像头方向是1
-                boardVersion = 1;
+                if (Android.OS.Build.Display.Contains("SHLY"))
+                    boardVersion = 2;
+                else
+                    boardVersion = 1;
             else
                 boardVersion = 0;//反转了,都是1
 
